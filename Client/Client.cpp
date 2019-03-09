@@ -10,6 +10,7 @@
 #include <string.h>
 #include <string>
 #include <thread>
+#include <pthread.h>
 using namespace std;
 Client::Client()
 {
@@ -20,7 +21,8 @@ void Client::start()
 {
     int attempts=1;
     cout << "Trying to connect to server,please standby..." << endl;
-    while(running) {
+    while(running)
+    {
         while (running && !connected) {
             sock = socket(AF_INET, SOCK_STREAM, 0);
             if (sock == -1) {
@@ -28,7 +30,7 @@ void Client::start()
             }
 
             int port = 54000;
-            string ipAdress = "192.168.100.93";
+            string ipAdress = "192.168.100.65";
 
 
             sockaddr_in hint;
@@ -41,8 +43,8 @@ void Client::start()
             } else {
                 connected = true;
                 cout<<"Connected!"<<endl;
-                this->sendMessage("get");
-                this->receiveMessage();
+                //sendMessage("getList");
+                //receiveMessage();
             }
             cout << "Atempts to connect: " << attempts++ << endl;
 
@@ -60,8 +62,9 @@ string Client::receiveMessage()
     }
     catch(exception& e){
         receivedMessage="";
+        cout<<"No hay mensajes entrantes"<<endl;
     }
-    cout<<receivedMessage<<endl;
+    cout<<"Mensaje recibido: "<<receivedMessage<<endl;
     return receivedMessage;
 }
 void Client::sendMessage(string message)
@@ -72,8 +75,20 @@ void Client::sendMessage(string message)
     {
         cout<<"Couldn't send the message: "<<message<<endl;
     }
+    cout<<"Mensaje enviado: "<<sendMes<<endl;
 }
 void Client::run()
 {
-    thread thread1(start);
+    clientT= thread(&Client::start,this);
+
+    clientT.detach();
+
+}
+void Client::stop()
+{
+    clientT.join();
+}
+bool Client::isConnected()
+{
+    return this->connected;
 }

@@ -4,7 +4,18 @@
 int main() {
     Client c= Client();
     c.run();
-    c.sendMessage("get");
-    c.receiveMessage();
+    while(true)
+    {
+        if(c.isConnected())
+        {
+            string mensaje;
+            getline(cin,mensaje);
+            c.sendMessage(mensaje);
+            c.receiveMessage();
+
+        }
+
+    }
+
     return 0;
 }
