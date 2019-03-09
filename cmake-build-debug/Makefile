@@ -150,6 +150,33 @@ Client/Client.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.s
 .PHONY : Client/Client.cpp.s
 
+Interface_Logic/Manager.o: Interface_Logic/Manager.cpp.o
+
+.PHONY : Interface_Logic/Manager.o
+
+# target to build an object file
+Interface_Logic/Manager.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.o
+.PHONY : Interface_Logic/Manager.cpp.o
+
+Interface_Logic/Manager.i: Interface_Logic/Manager.cpp.i
+
+.PHONY : Interface_Logic/Manager.i
+
+# target to preprocess a source file
+Interface_Logic/Manager.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.i
+.PHONY : Interface_Logic/Manager.cpp.i
+
+Interface_Logic/Manager.s: Interface_Logic/Manager.cpp.s
+
+.PHONY : Interface_Logic/Manager.s
+
+# target to generate assembly for a file
+Interface_Logic/Manager.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.s
+.PHONY : Interface_Logic/Manager.cpp.s
+
 Main/main.o: Main/main.cpp.o
 
 .PHONY : Main/main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... Client/Client.o"
 	@echo "... Client/Client.i"
 	@echo "... Client/Client.s"
+	@echo "... Interface_Logic/Manager.o"
+	@echo "... Interface_Logic/Manager.i"
+	@echo "... Interface_Logic/Manager.s"
 	@echo "... Main/main.o"
 	@echo "... Main/main.i"
 	@echo "... Main/main.s"

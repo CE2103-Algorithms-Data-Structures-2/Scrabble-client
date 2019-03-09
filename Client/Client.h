@@ -18,6 +18,7 @@ class Client{
     public:
         Client();
         void run();
+        void start();
         void sendMessage(string message);
         string receiveMessage();
 };

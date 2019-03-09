@@ -9,13 +9,14 @@
 #include<arpa/inet.h>
 #include <string.h>
 #include <string>
+#include <thread>
 using namespace std;
 Client::Client()
 {
     this->connected=false;
     this->running=true;
 }
-void Client::run()
+void Client::start()
 {
     int attempts=1;
     cout << "Trying to connect to server,please standby..." << endl;
@@ -71,4 +72,8 @@ void Client::sendMessage(string message)
     {
         cout<<"Couldn't send the message: "<<message<<endl;
     }
+}
+void Client::run()
+{
+    thread thread1(start);
 }
