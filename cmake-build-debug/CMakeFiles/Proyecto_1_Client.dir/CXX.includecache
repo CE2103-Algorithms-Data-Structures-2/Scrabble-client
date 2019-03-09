@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dcamachog1501/Desktop/Proyecto#1_Client/Client/Client.cpp
+Client.h
+/home/dcamachog1501/Desktop/Proyecto#1_Client/Client/Client.h
+iostream
+-
+sys/types.h
+-
+unistd.h
+-
+arpa/inet.h
+-
+string.h
+-
+string
+-
+
+/home/dcamachog1501/Desktop/Proyecto#1_Client/Client/Client.h
+iostream
+-
+

@@ -57,30 +57,45 @@ include CMakeFiles/Proyecto_1_Client.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Proyecto_1_Client.dir/flags.make
 
-CMakeFiles/Proyecto_1_Client.dir/main.cpp.o: CMakeFiles/Proyecto_1_Client.dir/flags.make
-CMakeFiles/Proyecto_1_Client.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/dcamachog1501/Desktop/Proyecto#1_Client/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyecto_1_Client.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto_1_Client.dir/main.cpp.o -c "/home/dcamachog1501/Desktop/Proyecto#1_Client/main.cpp"
+CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o: CMakeFiles/Proyecto_1_Client.dir/flags.make
+CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o: ../Main/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/dcamachog1501/Desktop/Proyecto#1_Client/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o -c "/home/dcamachog1501/Desktop/Proyecto#1_Client/Main/main.cpp"
 
-CMakeFiles/Proyecto_1_Client.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Client.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/dcamachog1501/Desktop/Proyecto#1_Client/main.cpp" > CMakeFiles/Proyecto_1_Client.dir/main.cpp.i
+CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/dcamachog1501/Desktop/Proyecto#1_Client/Main/main.cpp" > CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.i
 
-CMakeFiles/Proyecto_1_Client.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Client.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/dcamachog1501/Desktop/Proyecto#1_Client/main.cpp" -o CMakeFiles/Proyecto_1_Client.dir/main.cpp.s
+CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/dcamachog1501/Desktop/Proyecto#1_Client/Main/main.cpp" -o CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.s
+
+CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.o: CMakeFiles/Proyecto_1_Client.dir/flags.make
+CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.o: ../Client/Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/dcamachog1501/Desktop/Proyecto#1_Client/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.o -c "/home/dcamachog1501/Desktop/Proyecto#1_Client/Client/Client.cpp"
+
+CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/dcamachog1501/Desktop/Proyecto#1_Client/Client/Client.cpp" > CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.i
+
+CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/dcamachog1501/Desktop/Proyecto#1_Client/Client/Client.cpp" -o CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.s
 
 # Object files for target Proyecto_1_Client
 Proyecto_1_Client_OBJECTS = \
-"CMakeFiles/Proyecto_1_Client.dir/main.cpp.o"
+"CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o" \
+"CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.o"
 
 # External object files for target Proyecto_1_Client
 Proyecto_1_Client_EXTERNAL_OBJECTS =
 
-Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/main.cpp.o
+Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o
+Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.o
 Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/build.make
 Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/dcamachog1501/Desktop/Proyecto#1_Client/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Proyecto_1_Client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/dcamachog1501/Desktop/Proyecto#1_Client/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Proyecto_1_Client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proyecto_1_Client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
