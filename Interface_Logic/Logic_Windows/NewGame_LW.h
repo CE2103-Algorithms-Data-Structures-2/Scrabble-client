@@ -7,14 +7,18 @@
 
 #include "../../Client/Client.h"
 #include "../JSON_Logic/JSONManager.h"
+#include "LogicWindow.h"
 
-class NewGame_W
-        {
-        private:
-            Client* cliente;
-            JSONManager* Jmanager;
+class NewGame_LW:public LogicWindow
+{
         public:
-            NewGame_W(Client* c,JSONManager* j);
+            NewGame_LW(Client* c,JSONManager* j):LogicWindow(c, j)
+            {
+
+                    cliente=c;
+                    Jmanager=j;
+
+            }
             void newGame();
             string getInfo();
 };

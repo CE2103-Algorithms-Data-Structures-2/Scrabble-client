@@ -2,12 +2,9 @@
 // Created by dcamachog1501 on 10/03/19.
 //
 
-#include "NewGame_W.h"
-NewGame_W::NewGame_W(Client* c,JSONManager* j) {
-    cliente=c;
-    Jmanager=j;
-}
-void NewGame_W::newGame()
+#include "NewGame_LW.h"
+
+void NewGame_LW::newGame()
 {
     cliente->sendMessage("newGame");
     string resp =cliente->receiveMessage();
@@ -17,7 +14,7 @@ void NewGame_W::newGame()
         cliente->sendMessage(this->getInfo());
     }
 }
-string NewGame_W::getInfo()
+string NewGame_LW::getInfo()
 {
     string out="";
     string temp;

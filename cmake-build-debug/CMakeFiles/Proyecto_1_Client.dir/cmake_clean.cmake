@@ -3,7 +3,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.o"
   "CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o"
   "CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o"
-  "CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.o"
+  "CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o"
+  "CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o"
+  "CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o"
   "Proyecto_1_Client.pdb"
   "Proyecto_1_Client"
 )

@@ -109,18 +109,44 @@ CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.s: c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.cpp -o CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.s
 
-CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.o: CMakeFiles/Proyecto_1_Client.dir/flags.make
-CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.o: ../Interface_Logic/Logic_Windows/NewGame_W.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.o -c /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_W.cpp
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o: CMakeFiles/Proyecto_1_Client.dir/flags.make
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o: ../Interface_Logic/Logic_Windows/NewGame_LW.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o -c /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_LW.cpp
 
-CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_W.cpp > CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.i
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_LW.cpp > CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.i
 
-CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_W.cpp -o CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.s
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_LW.cpp -o CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.s
+
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o: CMakeFiles/Proyecto_1_Client.dir/flags.make
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o: ../Interface_Logic/Logic_Windows/JoinGame_LW.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o -c /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/JoinGame_LW.cpp
+
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/JoinGame_LW.cpp > CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.i
+
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/JoinGame_LW.cpp -o CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.s
+
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o: CMakeFiles/Proyecto_1_Client.dir/flags.make
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o: ../Interface_Logic/Logic_Windows/LogicWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o -c /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/LogicWindow.cpp
+
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/LogicWindow.cpp > CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.i
+
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/LogicWindow.cpp -o CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.s
 
 # Object files for target Proyecto_1_Client
 Proyecto_1_Client_OBJECTS = \
@@ -128,7 +154,9 @@ Proyecto_1_Client_OBJECTS = \
 "CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.o" \
 "CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o" \
 "CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o" \
-"CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.o"
+"CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o" \
+"CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o" \
+"CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o"
 
 # External object files for target Proyecto_1_Client
 Proyecto_1_Client_EXTERNAL_OBJECTS =
@@ -137,10 +165,12 @@ Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o
 Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.o
 Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o
 Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o
-Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.o
+Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o
+Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o
+Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o
 Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/build.make
 Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Proyecto_1_Client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Proyecto_1_Client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proyecto_1_Client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

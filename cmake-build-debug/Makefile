@@ -177,32 +177,86 @@ Interface_Logic/JSON_Logic/JSONManager.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.s
 .PHONY : Interface_Logic/JSON_Logic/JSONManager.cpp.s
 
-Interface_Logic/Logic_Windows/NewGame_W.o: Interface_Logic/Logic_Windows/NewGame_W.cpp.o
+Interface_Logic/Logic_Windows/JoinGame_LW.o: Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o
 
-.PHONY : Interface_Logic/Logic_Windows/NewGame_W.o
+.PHONY : Interface_Logic/Logic_Windows/JoinGame_LW.o
 
 # target to build an object file
-Interface_Logic/Logic_Windows/NewGame_W.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.o
-.PHONY : Interface_Logic/Logic_Windows/NewGame_W.cpp.o
+Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o
+.PHONY : Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o
 
-Interface_Logic/Logic_Windows/NewGame_W.i: Interface_Logic/Logic_Windows/NewGame_W.cpp.i
+Interface_Logic/Logic_Windows/JoinGame_LW.i: Interface_Logic/Logic_Windows/JoinGame_LW.cpp.i
 
-.PHONY : Interface_Logic/Logic_Windows/NewGame_W.i
+.PHONY : Interface_Logic/Logic_Windows/JoinGame_LW.i
 
 # target to preprocess a source file
-Interface_Logic/Logic_Windows/NewGame_W.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.i
-.PHONY : Interface_Logic/Logic_Windows/NewGame_W.cpp.i
+Interface_Logic/Logic_Windows/JoinGame_LW.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.i
+.PHONY : Interface_Logic/Logic_Windows/JoinGame_LW.cpp.i
 
-Interface_Logic/Logic_Windows/NewGame_W.s: Interface_Logic/Logic_Windows/NewGame_W.cpp.s
+Interface_Logic/Logic_Windows/JoinGame_LW.s: Interface_Logic/Logic_Windows/JoinGame_LW.cpp.s
 
-.PHONY : Interface_Logic/Logic_Windows/NewGame_W.s
+.PHONY : Interface_Logic/Logic_Windows/JoinGame_LW.s
 
 # target to generate assembly for a file
-Interface_Logic/Logic_Windows/NewGame_W.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.s
-.PHONY : Interface_Logic/Logic_Windows/NewGame_W.cpp.s
+Interface_Logic/Logic_Windows/JoinGame_LW.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.s
+.PHONY : Interface_Logic/Logic_Windows/JoinGame_LW.cpp.s
+
+Interface_Logic/Logic_Windows/LogicWindow.o: Interface_Logic/Logic_Windows/LogicWindow.cpp.o
+
+.PHONY : Interface_Logic/Logic_Windows/LogicWindow.o
+
+# target to build an object file
+Interface_Logic/Logic_Windows/LogicWindow.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o
+.PHONY : Interface_Logic/Logic_Windows/LogicWindow.cpp.o
+
+Interface_Logic/Logic_Windows/LogicWindow.i: Interface_Logic/Logic_Windows/LogicWindow.cpp.i
+
+.PHONY : Interface_Logic/Logic_Windows/LogicWindow.i
+
+# target to preprocess a source file
+Interface_Logic/Logic_Windows/LogicWindow.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.i
+.PHONY : Interface_Logic/Logic_Windows/LogicWindow.cpp.i
+
+Interface_Logic/Logic_Windows/LogicWindow.s: Interface_Logic/Logic_Windows/LogicWindow.cpp.s
+
+.PHONY : Interface_Logic/Logic_Windows/LogicWindow.s
+
+# target to generate assembly for a file
+Interface_Logic/Logic_Windows/LogicWindow.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.s
+.PHONY : Interface_Logic/Logic_Windows/LogicWindow.cpp.s
+
+Interface_Logic/Logic_Windows/NewGame_LW.o: Interface_Logic/Logic_Windows/NewGame_LW.cpp.o
+
+.PHONY : Interface_Logic/Logic_Windows/NewGame_LW.o
+
+# target to build an object file
+Interface_Logic/Logic_Windows/NewGame_LW.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o
+.PHONY : Interface_Logic/Logic_Windows/NewGame_LW.cpp.o
+
+Interface_Logic/Logic_Windows/NewGame_LW.i: Interface_Logic/Logic_Windows/NewGame_LW.cpp.i
+
+.PHONY : Interface_Logic/Logic_Windows/NewGame_LW.i
+
+# target to preprocess a source file
+Interface_Logic/Logic_Windows/NewGame_LW.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.i
+.PHONY : Interface_Logic/Logic_Windows/NewGame_LW.cpp.i
+
+Interface_Logic/Logic_Windows/NewGame_LW.s: Interface_Logic/Logic_Windows/NewGame_LW.cpp.s
+
+.PHONY : Interface_Logic/Logic_Windows/NewGame_LW.s
+
+# target to generate assembly for a file
+Interface_Logic/Logic_Windows/NewGame_LW.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.s
+.PHONY : Interface_Logic/Logic_Windows/NewGame_LW.cpp.s
 
 Interface_Logic/Manager/Manager.o: Interface_Logic/Manager/Manager.cpp.o
 
@@ -273,9 +327,15 @@ help:
 	@echo "... Interface_Logic/JSON_Logic/JSONManager.o"
 	@echo "... Interface_Logic/JSON_Logic/JSONManager.i"
 	@echo "... Interface_Logic/JSON_Logic/JSONManager.s"
-	@echo "... Interface_Logic/Logic_Windows/NewGame_W.o"
-	@echo "... Interface_Logic/Logic_Windows/NewGame_W.i"
-	@echo "... Interface_Logic/Logic_Windows/NewGame_W.s"
+	@echo "... Interface_Logic/Logic_Windows/JoinGame_LW.o"
+	@echo "... Interface_Logic/Logic_Windows/JoinGame_LW.i"
+	@echo "... Interface_Logic/Logic_Windows/JoinGame_LW.s"
+	@echo "... Interface_Logic/Logic_Windows/LogicWindow.o"
+	@echo "... Interface_Logic/Logic_Windows/LogicWindow.i"
+	@echo "... Interface_Logic/Logic_Windows/LogicWindow.s"
+	@echo "... Interface_Logic/Logic_Windows/NewGame_LW.o"
+	@echo "... Interface_Logic/Logic_Windows/NewGame_LW.i"
+	@echo "... Interface_Logic/Logic_Windows/NewGame_LW.s"
 	@echo "... Interface_Logic/Manager/Manager.o"
 	@echo "... Interface_Logic/Manager/Manager.i"
 	@echo "... Interface_Logic/Manager/Manager.s"

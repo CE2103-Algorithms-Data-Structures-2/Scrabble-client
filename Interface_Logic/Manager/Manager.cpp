@@ -12,7 +12,8 @@ Manager::Manager()
     cliente=new Client();
     running=new bool(true);
     Jmanager=new JSONManager();
-    NewG_W=new NewGame_W(cliente,Jmanager);
+    NewG_LW=new NewGame_LW(cliente,Jmanager);
+    JoinG_LW=new JoinGame_LW(cliente,Jmanager);
 
     Init();
 
@@ -29,7 +30,8 @@ void Manager::Init()
 
             if(tr)
             {
-                this->NewG_W->newGame();
+                this->NewG_LW->newGame();
+                this->JoinG_LW->join();
                 tr=false;
             }
 

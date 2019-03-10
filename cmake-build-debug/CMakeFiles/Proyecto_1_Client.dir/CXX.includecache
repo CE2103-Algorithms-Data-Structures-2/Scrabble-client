@@ -18,11 +18,31 @@ string.h
 iostream
 -
 
-/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_W.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/JoinGame_LW.h
 ../../Client/Client.h
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h
 ../JSON_Logic/JSONManager.h
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.h
+LogicWindow.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/LogicWindow.h
+
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/LogicWindow.h
+../JSON_Logic/JSONManager.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.h
+../../Client/Client.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h
+
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_LW.cpp
+NewGame_LW.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_LW.h
+
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_LW.h
+../../Client/Client.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h
+../JSON_Logic/JSONManager.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.h
+LogicWindow.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/LogicWindow.h
 
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager/Manager.cpp
 ../../Client/Client.h
@@ -39,6 +59,18 @@ thread
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h
 ../JSON_Logic/JSONManager.h
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.h
-../Logic_Windows/NewGame_W.h
-/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_W.h
+../Logic_Windows/NewGame_LW.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_LW.h
+../Logic_Windows/JoinGame_LW.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/JoinGame_LW.h
+
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Main/main.cpp
+iostream
+-
+../Client/Client.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h
+../Interface_Logic/Manager/Manager.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager/Manager.h
+../Interface_Logic/JSON_Logic/JSONManager.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.h
 
