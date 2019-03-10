@@ -11,6 +11,7 @@
 class Manager{
 private:
     Client cliente;
+    bool running;
 public:
     Manager();
     void Init();

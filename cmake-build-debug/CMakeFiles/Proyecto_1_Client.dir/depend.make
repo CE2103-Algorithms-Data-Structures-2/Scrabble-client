@@ -9,5 +9,6 @@ CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.o: ../Interface_Log
 CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.o: ../Interface_Logic/Manager.h
 
 CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o: ../Client/Client.h
+CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o: ../Interface_Logic/Manager.h
 CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o: ../Main/main.cpp
 

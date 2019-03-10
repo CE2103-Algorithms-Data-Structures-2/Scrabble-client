@@ -9,9 +9,23 @@ using namespace std;
 Manager::Manager()
 {
     this->cliente=Client();
-    this->Init();
+    this->running=true;
+    Init();
+    //thread managerT=thread(&Manager::Init,this);
+    //managerT.join();
+
 };
 void Manager::Init()
 {
     cliente.run();
+    while(running)
+    {
+        if(cliente.isConnected())
+        {
+            string message;
+            getline(cin,message);
+            cliente.sendMessage(message);
+            cliente.receiveMessage();
+        }
+    }
 }

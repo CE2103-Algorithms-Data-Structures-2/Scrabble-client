@@ -12,9 +12,15 @@ iostream
 thread
 -
 
-/home/dcamachog1501/Desktop/Proyecto_1_Client/Main/main.cpp
-iostream
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager.cpp
+../Client/Client.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h
+Manager.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager.h
+thread
 -
+
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager.h
 ../Client/Client.h
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h
 
