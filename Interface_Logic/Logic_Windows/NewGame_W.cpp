@@ -3,19 +3,18 @@
 //
 
 #include "NewGame_W.h"
-
-NewGame_W::NewGame_W( Manager* m)
-{
-    man=m;
+NewGame_W::NewGame_W(Client* c,JSONManager* j) {
+    cliente=c;
+    Jmanager=j;
 }
 void NewGame_W::newGame()
 {
-    man->sendtoServer("newGame");
-    string resp =man->getfromServer();
+    cliente->sendMessage("newGame");
+    string resp =cliente->receiveMessage();
     int i=resp.compare("send")-1;
     if(i==0)
     {
-        man->sendtoServer(this->getInfo());
+        cliente->sendMessage(this->getInfo());
     }
 }
 string NewGame_W::getInfo()
@@ -31,6 +30,6 @@ string NewGame_W::getInfo()
     cout<<"No. jugadores : "<<endl;
     getline(cin,temp);
     out+="No_jugadores@"+temp;
-    out=man->getJmanager().toJSON(out);
+    out=Jmanager->toJSON(out);
     return out;
 }

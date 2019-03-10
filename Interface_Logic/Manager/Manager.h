@@ -1,7 +1,7 @@
 //
 // Created by dcamachog1501 on 09/03/19.
 //
-
+#pragma "once"
 #ifndef PROYECTO_1_CLIENT_MANAGER_H
 #define PROYECTO_1_CLIENT_MANAGER_H
 
@@ -13,17 +13,13 @@
 
 class Manager{
 private:
-    Client cliente;
-    bool running;
-    JSONManager Jmanager;
-    NewGame_W NewG_W;
+    Client* cliente;
+    JSONManager* Jmanager;
+    NewGame_W* NewG_W;
+    bool* running;
 public:
     Manager();
     void Init();
-    void sendtoServer(string s);
-    string getfromServer();
-    JSONManager getJmanager();
-
 };
 
 

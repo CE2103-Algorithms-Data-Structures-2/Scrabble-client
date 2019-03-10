@@ -9,41 +9,30 @@ using namespace std;
 
 Manager::Manager()
 {
-    this->Jmanager=JSONManager();
-    this->cliente=Client();
-    this->running=true;
-    this->NewG_W=NewGame_W(this);
+    cliente=new Client();
+    running=new bool(true);
+    Jmanager=new JSONManager();
+    NewG_W=new NewGame_W(cliente,Jmanager);
+
     Init();
 
 
 };
 void Manager::Init()
 {
-    cliente.run();
+    cliente->run();
     bool tr= true;
     while(running)
     {
-        if(cliente.isConnected())
+        if(cliente->isConnected())
         {
 
             if(tr)
             {
-                this->NewG_W.newGame();
+                this->NewG_W->newGame();
                 tr=false;
             }
 
         }
     }
-}
-void Manager::sendtoServer(string s)
-{
-    this->cliente.sendMessage(s);
-}
-string Manager::getfromServer()
-{
-    return cliente.receiveMessage();
-}
-JSONManager Manager::getJmanager()
-{
-    return this->Jmanager;
 }

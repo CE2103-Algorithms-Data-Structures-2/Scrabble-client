@@ -5,15 +5,16 @@
 #ifndef PROYECTO_1_CLIENT_NEWGAME_W_H
 #define PROYECTO_1_CLIENT_NEWGAME_W_H
 
-
-#include "../Manager/Manager.h"
+#include "../../Client/Client.h"
+#include "../JSON_Logic/JSONManager.h"
 
 class NewGame_W
         {
         private:
-            Manager* man;
+            Client* cliente;
+            JSONManager* Jmanager;
         public:
-            NewGame_W(Manager* m);
+            NewGame_W(Client* c,JSONManager* j);
             void newGame();
             string getInfo();
 };

@@ -11,7 +11,6 @@ CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.o: 
 CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.o: ../Interface_Logic/JSON_Logic/JSONManager.h
 CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.o: ../Interface_Logic/Logic_Windows/NewGame_W.cpp
 CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.o: ../Interface_Logic/Logic_Windows/NewGame_W.h
-CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.o: ../Interface_Logic/Manager/Manager.h
 
 CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o: ../Client/Client.h
 CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o: ../Interface_Logic/JSON_Logic/JSONManager.h
