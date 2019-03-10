@@ -150,59 +150,86 @@ Client/Client.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.s
 .PHONY : Client/Client.cpp.s
 
-Interface_Logic/JSONManager.o: Interface_Logic/JSONManager.cpp.o
+Interface_Logic/JSON_Logic/JSONManager.o: Interface_Logic/JSON_Logic/JSONManager.cpp.o
 
-.PHONY : Interface_Logic/JSONManager.o
-
-# target to build an object file
-Interface_Logic/JSONManager.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSONManager.cpp.o
-.PHONY : Interface_Logic/JSONManager.cpp.o
-
-Interface_Logic/JSONManager.i: Interface_Logic/JSONManager.cpp.i
-
-.PHONY : Interface_Logic/JSONManager.i
-
-# target to preprocess a source file
-Interface_Logic/JSONManager.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSONManager.cpp.i
-.PHONY : Interface_Logic/JSONManager.cpp.i
-
-Interface_Logic/JSONManager.s: Interface_Logic/JSONManager.cpp.s
-
-.PHONY : Interface_Logic/JSONManager.s
-
-# target to generate assembly for a file
-Interface_Logic/JSONManager.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSONManager.cpp.s
-.PHONY : Interface_Logic/JSONManager.cpp.s
-
-Interface_Logic/Manager.o: Interface_Logic/Manager.cpp.o
-
-.PHONY : Interface_Logic/Manager.o
+.PHONY : Interface_Logic/JSON_Logic/JSONManager.o
 
 # target to build an object file
-Interface_Logic/Manager.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.o
-.PHONY : Interface_Logic/Manager.cpp.o
+Interface_Logic/JSON_Logic/JSONManager.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o
+.PHONY : Interface_Logic/JSON_Logic/JSONManager.cpp.o
 
-Interface_Logic/Manager.i: Interface_Logic/Manager.cpp.i
+Interface_Logic/JSON_Logic/JSONManager.i: Interface_Logic/JSON_Logic/JSONManager.cpp.i
 
-.PHONY : Interface_Logic/Manager.i
+.PHONY : Interface_Logic/JSON_Logic/JSONManager.i
 
 # target to preprocess a source file
-Interface_Logic/Manager.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.i
-.PHONY : Interface_Logic/Manager.cpp.i
+Interface_Logic/JSON_Logic/JSONManager.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.i
+.PHONY : Interface_Logic/JSON_Logic/JSONManager.cpp.i
 
-Interface_Logic/Manager.s: Interface_Logic/Manager.cpp.s
+Interface_Logic/JSON_Logic/JSONManager.s: Interface_Logic/JSON_Logic/JSONManager.cpp.s
 
-.PHONY : Interface_Logic/Manager.s
+.PHONY : Interface_Logic/JSON_Logic/JSONManager.s
 
 # target to generate assembly for a file
-Interface_Logic/Manager.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.s
-.PHONY : Interface_Logic/Manager.cpp.s
+Interface_Logic/JSON_Logic/JSONManager.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.s
+.PHONY : Interface_Logic/JSON_Logic/JSONManager.cpp.s
+
+Interface_Logic/Logic_Windows/NewGame_W.o: Interface_Logic/Logic_Windows/NewGame_W.cpp.o
+
+.PHONY : Interface_Logic/Logic_Windows/NewGame_W.o
+
+# target to build an object file
+Interface_Logic/Logic_Windows/NewGame_W.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.o
+.PHONY : Interface_Logic/Logic_Windows/NewGame_W.cpp.o
+
+Interface_Logic/Logic_Windows/NewGame_W.i: Interface_Logic/Logic_Windows/NewGame_W.cpp.i
+
+.PHONY : Interface_Logic/Logic_Windows/NewGame_W.i
+
+# target to preprocess a source file
+Interface_Logic/Logic_Windows/NewGame_W.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.i
+.PHONY : Interface_Logic/Logic_Windows/NewGame_W.cpp.i
+
+Interface_Logic/Logic_Windows/NewGame_W.s: Interface_Logic/Logic_Windows/NewGame_W.cpp.s
+
+.PHONY : Interface_Logic/Logic_Windows/NewGame_W.s
+
+# target to generate assembly for a file
+Interface_Logic/Logic_Windows/NewGame_W.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.s
+.PHONY : Interface_Logic/Logic_Windows/NewGame_W.cpp.s
+
+Interface_Logic/Manager/Manager.o: Interface_Logic/Manager/Manager.cpp.o
+
+.PHONY : Interface_Logic/Manager/Manager.o
+
+# target to build an object file
+Interface_Logic/Manager/Manager.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o
+.PHONY : Interface_Logic/Manager/Manager.cpp.o
+
+Interface_Logic/Manager/Manager.i: Interface_Logic/Manager/Manager.cpp.i
+
+.PHONY : Interface_Logic/Manager/Manager.i
+
+# target to preprocess a source file
+Interface_Logic/Manager/Manager.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.i
+.PHONY : Interface_Logic/Manager/Manager.cpp.i
+
+Interface_Logic/Manager/Manager.s: Interface_Logic/Manager/Manager.cpp.s
+
+.PHONY : Interface_Logic/Manager/Manager.s
+
+# target to generate assembly for a file
+Interface_Logic/Manager/Manager.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.s
+.PHONY : Interface_Logic/Manager/Manager.cpp.s
 
 Main/main.o: Main/main.cpp.o
 
@@ -243,12 +270,15 @@ help:
 	@echo "... Client/Client.o"
 	@echo "... Client/Client.i"
 	@echo "... Client/Client.s"
-	@echo "... Interface_Logic/JSONManager.o"
-	@echo "... Interface_Logic/JSONManager.i"
-	@echo "... Interface_Logic/JSONManager.s"
-	@echo "... Interface_Logic/Manager.o"
-	@echo "... Interface_Logic/Manager.i"
-	@echo "... Interface_Logic/Manager.s"
+	@echo "... Interface_Logic/JSON_Logic/JSONManager.o"
+	@echo "... Interface_Logic/JSON_Logic/JSONManager.i"
+	@echo "... Interface_Logic/JSON_Logic/JSONManager.s"
+	@echo "... Interface_Logic/Logic_Windows/NewGame_W.o"
+	@echo "... Interface_Logic/Logic_Windows/NewGame_W.i"
+	@echo "... Interface_Logic/Logic_Windows/NewGame_W.s"
+	@echo "... Interface_Logic/Manager/Manager.o"
+	@echo "... Interface_Logic/Manager/Manager.i"
+	@echo "... Interface_Logic/Manager/Manager.s"
 	@echo "... Main/main.o"
 	@echo "... Main/main.i"
 	@echo "... Main/main.s"

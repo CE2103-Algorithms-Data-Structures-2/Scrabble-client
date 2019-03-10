@@ -5,8 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.o"
-  "/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSONManager.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSONManager.cpp.o"
-  "/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.o"
+  "/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o"
+  "/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_W.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.o"
+  "/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager/Manager.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o"
   "/home/dcamachog1501/Desktop/Proyecto_1_Client/Main/main.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

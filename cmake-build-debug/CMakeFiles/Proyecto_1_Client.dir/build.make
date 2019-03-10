@@ -83,49 +83,64 @@ CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.cpp -o CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.s
 
-CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.o: CMakeFiles/Proyecto_1_Client.dir/flags.make
-CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.o: ../Interface_Logic/Manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.o -c /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager.cpp
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o: CMakeFiles/Proyecto_1_Client.dir/flags.make
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o: ../Interface_Logic/Manager/Manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o -c /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager/Manager.cpp
 
-CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager.cpp > CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.i
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager/Manager.cpp > CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.i
 
-CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager.cpp -o CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.s
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager/Manager.cpp -o CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.s
 
-CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSONManager.cpp.o: CMakeFiles/Proyecto_1_Client.dir/flags.make
-CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSONManager.cpp.o: ../Interface_Logic/JSONManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSONManager.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSONManager.cpp.o -c /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSONManager.cpp
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o: CMakeFiles/Proyecto_1_Client.dir/flags.make
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o: ../Interface_Logic/JSON_Logic/JSONManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o -c /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.cpp
 
-CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSONManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSONManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSONManager.cpp > CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSONManager.cpp.i
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.cpp > CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.i
 
-CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSONManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSONManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSONManager.cpp -o CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSONManager.cpp.s
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.cpp -o CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.s
+
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.o: CMakeFiles/Proyecto_1_Client.dir/flags.make
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.o: ../Interface_Logic/Logic_Windows/NewGame_W.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.o -c /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_W.cpp
+
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_W.cpp > CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.i
+
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_W.cpp -o CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.s
 
 # Object files for target Proyecto_1_Client
 Proyecto_1_Client_OBJECTS = \
 "CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o" \
 "CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.o" \
-"CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.o" \
-"CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSONManager.cpp.o"
+"CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o" \
+"CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o" \
+"CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.o"
 
 # External object files for target Proyecto_1_Client
 Proyecto_1_Client_EXTERNAL_OBJECTS =
 
 Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o
 Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.o
-Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.o
-Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSONManager.cpp.o
+Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o
+Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o
+Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_W.cpp.o
 Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/build.make
 Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Proyecto_1_Client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Proyecto_1_Client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proyecto_1_Client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

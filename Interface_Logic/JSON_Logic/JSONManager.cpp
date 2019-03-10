@@ -3,12 +3,15 @@
 //
 
 #include "JSONManager.h"
+#include <algorithm>
 #include <boost/property_tree/ptree.hpp>
 #include <boost/property_tree/json_parser.hpp>
 #include <vector>
 #include <boost/algorithm/string.hpp>
+#include <string>
 
 using namespace std;
+
 using boost::property_tree::ptree;
 
 JSONManager::JSONManager()
@@ -26,15 +29,14 @@ string JSONManager::toJSON(string entrada)
     {
         vector<string> toAdd;
         boost::split(toAdd, elementos[i], boost::is_any_of("@"));
-        ptree element;
-        element.put(toAdd[0],toAdd[1]);
-        data.push_back(make_pair("",element));
+        output.put(toAdd[0],toAdd[1]);
+        //data.push_back(make_pair("",element));
     }
-    output.add_child("Data",data);
+    //output.add_child("Data",data);
 
-    stringstream ss;
-    boost::property_tree::json_parser::write_json(ss, output);
-
-    cout<<ss.str()<<endl;
-
+    std::ostringstream buf;
+    write_json (buf, output, false);
+    std::string json = buf.str();
+    cout<<json;
+    return json;
 }

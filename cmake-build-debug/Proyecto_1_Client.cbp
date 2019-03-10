@@ -90,16 +90,22 @@
 		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSONManager.cpp">
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSONManager.h">
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.h">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager.cpp">
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_W.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager.h">
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_W.h">
+			<Option target="Proyecto_1_Client"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager/Manager.cpp">
+			<Option target="Proyecto_1_Client"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager/Manager.h">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
 		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Main/main.cpp">
