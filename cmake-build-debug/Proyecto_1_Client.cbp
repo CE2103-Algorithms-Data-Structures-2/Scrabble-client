@@ -84,7 +84,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/main.cpp">
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.cpp">
+			<Option target="Proyecto_1_Client"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h">
+			<Option target="Proyecto_1_Client"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSONManager.cpp">
+			<Option target="Proyecto_1_Client"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSONManager.h">
+			<Option target="Proyecto_1_Client"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager.cpp">
+			<Option target="Proyecto_1_Client"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager.h">
+			<Option target="Proyecto_1_Client"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Main/main.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
 		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/CMakeLists.txt">

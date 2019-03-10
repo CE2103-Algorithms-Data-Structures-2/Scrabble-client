@@ -3,4 +3,12 @@ project(Proyecto_1_Client)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Proyecto_1_Client main.cpp)
+add_executable(Proyecto_1_Client Main/main.cpp Client/Client.cpp Client/Client.h Interface_Logic/Manager.cpp Interface_Logic/Manager.h Interface_Logic/JSONManager.cpp Interface_Logic/JSONManager.h)
+
+set(THREADS_PREFER_PTHREAD_FLAG ON)
+find_package(Threads REQUIRED)
+target_link_libraries(Proyecto_1_Client Threads::Threads)
+
+set(THREADS_PREFER_PTHREAD_FLAG ON)
+
+find_package(Boost)

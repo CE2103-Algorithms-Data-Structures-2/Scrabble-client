@@ -123,32 +123,113 @@ Proyecto_1_Client/fast:
 	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/build
 .PHONY : Proyecto_1_Client/fast
 
-main.o: main.cpp.o
+Client/Client.o: Client/Client.cpp.o
 
-.PHONY : main.o
+.PHONY : Client/Client.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/main.cpp.o
-.PHONY : main.cpp.o
+Client/Client.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.o
+.PHONY : Client/Client.cpp.o
 
-main.i: main.cpp.i
+Client/Client.i: Client/Client.cpp.i
 
-.PHONY : main.i
+.PHONY : Client/Client.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/main.cpp.i
-.PHONY : main.cpp.i
+Client/Client.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.i
+.PHONY : Client/Client.cpp.i
 
-main.s: main.cpp.s
+Client/Client.s: Client/Client.cpp.s
 
-.PHONY : main.s
+.PHONY : Client/Client.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/main.cpp.s
-.PHONY : main.cpp.s
+Client/Client.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.s
+.PHONY : Client/Client.cpp.s
+
+Interface_Logic/JSONManager.o: Interface_Logic/JSONManager.cpp.o
+
+.PHONY : Interface_Logic/JSONManager.o
+
+# target to build an object file
+Interface_Logic/JSONManager.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSONManager.cpp.o
+.PHONY : Interface_Logic/JSONManager.cpp.o
+
+Interface_Logic/JSONManager.i: Interface_Logic/JSONManager.cpp.i
+
+.PHONY : Interface_Logic/JSONManager.i
+
+# target to preprocess a source file
+Interface_Logic/JSONManager.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSONManager.cpp.i
+.PHONY : Interface_Logic/JSONManager.cpp.i
+
+Interface_Logic/JSONManager.s: Interface_Logic/JSONManager.cpp.s
+
+.PHONY : Interface_Logic/JSONManager.s
+
+# target to generate assembly for a file
+Interface_Logic/JSONManager.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSONManager.cpp.s
+.PHONY : Interface_Logic/JSONManager.cpp.s
+
+Interface_Logic/Manager.o: Interface_Logic/Manager.cpp.o
+
+.PHONY : Interface_Logic/Manager.o
+
+# target to build an object file
+Interface_Logic/Manager.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.o
+.PHONY : Interface_Logic/Manager.cpp.o
+
+Interface_Logic/Manager.i: Interface_Logic/Manager.cpp.i
+
+.PHONY : Interface_Logic/Manager.i
+
+# target to preprocess a source file
+Interface_Logic/Manager.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.i
+.PHONY : Interface_Logic/Manager.cpp.i
+
+Interface_Logic/Manager.s: Interface_Logic/Manager.cpp.s
+
+.PHONY : Interface_Logic/Manager.s
+
+# target to generate assembly for a file
+Interface_Logic/Manager.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager.cpp.s
+.PHONY : Interface_Logic/Manager.cpp.s
+
+Main/main.o: Main/main.cpp.o
+
+.PHONY : Main/main.o
+
+# target to build an object file
+Main/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o
+.PHONY : Main/main.cpp.o
+
+Main/main.i: Main/main.cpp.i
+
+.PHONY : Main/main.i
+
+# target to preprocess a source file
+Main/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.i
+.PHONY : Main/main.cpp.i
+
+Main/main.s: Main/main.cpp.s
+
+.PHONY : Main/main.s
+
+# target to generate assembly for a file
+Main/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.s
+.PHONY : Main/main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Proyecto_1_Client"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Client/Client.o"
+	@echo "... Client/Client.i"
+	@echo "... Client/Client.s"
+	@echo "... Interface_Logic/JSONManager.o"
+	@echo "... Interface_Logic/JSONManager.i"
+	@echo "... Interface_Logic/JSONManager.s"
+	@echo "... Interface_Logic/Manager.o"
+	@echo "... Interface_Logic/Manager.i"
+	@echo "... Interface_Logic/Manager.s"
+	@echo "... Main/main.o"
+	@echo "... Main/main.i"
+	@echo "... Main/main.s"
 .PHONY : help
 
 

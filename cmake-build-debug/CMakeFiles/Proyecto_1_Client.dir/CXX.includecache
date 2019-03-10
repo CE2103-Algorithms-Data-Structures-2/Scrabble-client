@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h
+iostream
+-
+thread
+-
+
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSONManager.h
+string.h
+-
+iostream
+-
+
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager.h
+../Client/Client.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h
+
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Main/main.cpp
+iostream
+-
+../Client/Client.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h
+../Interface_Logic/Manager.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager.h
+../Interface_Logic/JSONManager.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSONManager.h
+
