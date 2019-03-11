@@ -285,6 +285,33 @@ Interface_Logic/Manager/Manager.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.s
 .PHONY : Interface_Logic/Manager/Manager.cpp.s
 
+Interface_Logic/Player/Player.o: Interface_Logic/Player/Player.cpp.o
+
+.PHONY : Interface_Logic/Player/Player.o
+
+# target to build an object file
+Interface_Logic/Player/Player.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Player/Player.cpp.o
+.PHONY : Interface_Logic/Player/Player.cpp.o
+
+Interface_Logic/Player/Player.i: Interface_Logic/Player/Player.cpp.i
+
+.PHONY : Interface_Logic/Player/Player.i
+
+# target to preprocess a source file
+Interface_Logic/Player/Player.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Player/Player.cpp.i
+.PHONY : Interface_Logic/Player/Player.cpp.i
+
+Interface_Logic/Player/Player.s: Interface_Logic/Player/Player.cpp.s
+
+.PHONY : Interface_Logic/Player/Player.s
+
+# target to generate assembly for a file
+Interface_Logic/Player/Player.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Player/Player.cpp.s
+.PHONY : Interface_Logic/Player/Player.cpp.s
+
 Main/main.o: Main/main.cpp.o
 
 .PHONY : Main/main.o
@@ -311,6 +338,60 @@ Main/main.s: Main/main.cpp.s
 Main/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.s
 .PHONY : Main/main.cpp.s
+
+Structures/LinkedList.o: Structures/LinkedList.cpp.o
+
+.PHONY : Structures/LinkedList.o
+
+# target to build an object file
+Structures/LinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/LinkedList.cpp.o
+.PHONY : Structures/LinkedList.cpp.o
+
+Structures/LinkedList.i: Structures/LinkedList.cpp.i
+
+.PHONY : Structures/LinkedList.i
+
+# target to preprocess a source file
+Structures/LinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/LinkedList.cpp.i
+.PHONY : Structures/LinkedList.cpp.i
+
+Structures/LinkedList.s: Structures/LinkedList.cpp.s
+
+.PHONY : Structures/LinkedList.s
+
+# target to generate assembly for a file
+Structures/LinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/LinkedList.cpp.s
+.PHONY : Structures/LinkedList.cpp.s
+
+Structures/Node.o: Structures/Node.cpp.o
+
+.PHONY : Structures/Node.o
+
+# target to build an object file
+Structures/Node.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/Node.cpp.o
+.PHONY : Structures/Node.cpp.o
+
+Structures/Node.i: Structures/Node.cpp.i
+
+.PHONY : Structures/Node.i
+
+# target to preprocess a source file
+Structures/Node.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/Node.cpp.i
+.PHONY : Structures/Node.cpp.i
+
+Structures/Node.s: Structures/Node.cpp.s
+
+.PHONY : Structures/Node.s
+
+# target to generate assembly for a file
+Structures/Node.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/Node.cpp.s
+.PHONY : Structures/Node.cpp.s
 
 # Help Target
 help:
@@ -339,9 +420,18 @@ help:
 	@echo "... Interface_Logic/Manager/Manager.o"
 	@echo "... Interface_Logic/Manager/Manager.i"
 	@echo "... Interface_Logic/Manager/Manager.s"
+	@echo "... Interface_Logic/Player/Player.o"
+	@echo "... Interface_Logic/Player/Player.i"
+	@echo "... Interface_Logic/Player/Player.s"
 	@echo "... Main/main.o"
 	@echo "... Main/main.i"
 	@echo "... Main/main.s"
+	@echo "... Structures/LinkedList.o"
+	@echo "... Structures/LinkedList.i"
+	@echo "... Structures/LinkedList.s"
+	@echo "... Structures/Node.o"
+	@echo "... Structures/Node.i"
+	@echo "... Structures/Node.s"
 .PHONY : help
 
 

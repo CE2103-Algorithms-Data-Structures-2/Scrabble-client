@@ -10,7 +10,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/LogicWindow.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o"
   "/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_LW.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o"
   "/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager/Manager.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o"
+  "/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Player/Player.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Player/Player.cpp.o"
   "/home/dcamachog1501/Desktop/Proyecto_1_Client/Main/main.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o"
+  "/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/LinkedList.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/LinkedList.cpp.o"
+  "/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/Node.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/Node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

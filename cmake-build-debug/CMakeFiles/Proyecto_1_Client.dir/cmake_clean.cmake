@@ -6,6 +6,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o"
   "CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o"
   "CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o"
+  "CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Player/Player.cpp.o"
+  "CMakeFiles/Proyecto_1_Client.dir/Structures/LinkedList.cpp.o"
+  "CMakeFiles/Proyecto_1_Client.dir/Structures/Node.cpp.o"
   "Proyecto_1_Client.pdb"
   "Proyecto_1_Client"
 )
