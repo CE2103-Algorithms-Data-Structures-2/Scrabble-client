@@ -7,15 +7,15 @@
 
 #include <string>
 using namespace std;
-class Node {
+class NodeW {
     private:
-        Node* next;
+        NodeW* next;
         string value;
     public:
-        Node(string s);
+        NodeW(string s);
         string getValue();
-        Node* getNext();
-        void setNext(Node* n);
+        NodeW* getNext();
+        void setNext(NodeW* n);
         void setValue(string s);
 };
 

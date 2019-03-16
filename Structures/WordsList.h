@@ -7,18 +7,18 @@
 
 #include <string.h>
 #include <iostream>
-#include "Node.h"
+#include "NodeW.h"
 
 using namespace std;
 
 
-class LinkedList {
+class WordsList {
     private:
-        Node* head;
-        int lenght;
+        NodeW* head;
+        int length;
     public:
-        LinkedList();
-        int getLenght();
+        WordsList();
+        int getLength();
         string get(string s);
         void add(string s);
         void del(string s);

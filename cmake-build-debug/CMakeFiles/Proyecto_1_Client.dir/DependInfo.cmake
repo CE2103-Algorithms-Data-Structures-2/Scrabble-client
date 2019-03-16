@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.o"
+  "/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Board_Logic/Box.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.o"
   "/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o"
   "/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/JoinGame_LW.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o"
   "/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/LogicWindow.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o"
@@ -12,8 +13,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager/Manager.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o"
   "/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Player/Player.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Player/Player.cpp.o"
   "/home/dcamachog1501/Desktop/Proyecto_1_Client/Main/main.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o"
-  "/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/LinkedList.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/LinkedList.cpp.o"
-  "/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/Node.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/Node.cpp.o"
+  "/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/NodeP.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.o"
+  "/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/NodeW.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/NodeW.cpp.o"
+  "/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/PlayerList.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/PlayerList.cpp.o"
+  "/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/WordsList.cpp" "/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/WordsList.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

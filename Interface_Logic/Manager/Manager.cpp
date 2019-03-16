@@ -31,7 +31,7 @@ void Manager::Init()
             if(tr)
             {
                 this->NewG_LW->newGame();
-                this->JoinG_LW->join();
+                //this->JoinG_LW->join();
                 tr=false;
             }
 

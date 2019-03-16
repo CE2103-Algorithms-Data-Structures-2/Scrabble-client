@@ -2,53 +2,53 @@
 // Created by dcamachog1501 on 10/03/19.
 //
 
-#include "LinkedList.h"
-LinkedList::LinkedList()
+#include "WordsList.h"
+WordsList::WordsList()
 {
     this->head=nullptr;
-    this->lenght=0;
+    this->length=0;
 }
-int LinkedList::getLenght()
+int WordsList::getLength()
 {
-    return this->lenght;
+    return this->length;
 }
-void LinkedList::add(string s)
+void WordsList::add(string s)
 {
-    Node* n= new Node(s);
-    Node* temp= this->head;
+    NodeW* n= new NodeW(s);
+    NodeW* temp= this->head;
     while(temp->getNext()!=nullptr)
     {
         temp=temp->getNext();
     }
     temp->setNext(n);
 }
-void LinkedList::del(string s)
+void WordsList::del(string s)
 {
-    if(lenght!=0) {
+    if(length!=0) {
         if (head->getValue() == s) {
-            Node *temp = head;
+            NodeW *temp = head;
             head = temp->getNext();
             delete temp;
 
         }
         else {
-            Node *temp = this->head;
+            NodeW *temp = this->head;
             while (temp->getNext()->getValue() != s && temp->getNext() != nullptr) {
                 temp = temp->getNext();
             }
             if (temp->getNext() != nullptr) {
-                Node *temp2 = temp->getNext();
+                NodeW *temp2 = temp->getNext();
                 temp->setNext(temp->getNext()->getNext());
                 temp2->setNext(nullptr);
                 delete temp2;
             }
         }
-        lenght--;
+        length--;
     }
 }
-string LinkedList::get(string s)
+string WordsList::get(string s)
 {
-    Node* temp=head;
+    NodeW* temp=head;
     while(temp->getValue()!=s)
     {
         temp=temp->getNext();
@@ -56,9 +56,9 @@ string LinkedList::get(string s)
     cout<<temp->getValue()<<endl;
     return temp->getValue();
 }
-string LinkedList::print()
+string WordsList::print()
 {
-    Node* temp=this->head;
+    NodeW* temp=this->head;
     if(this->head== nullptr)
     {
         return "[]";

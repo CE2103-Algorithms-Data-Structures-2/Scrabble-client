@@ -2,26 +2,26 @@
 // Created by dcamachog1501 on 10/03/19.
 //
 
-#include "Node.h"
+#include "NodeW.h"
 
-Node::Node(string s)
+NodeW::NodeW(string s)
 {
     this->next= nullptr;
     this->value=s;
 }
-void Node::setValue(string s)
+void NodeW::setValue(string s)
 {
     this->value=s;
 }
-void Node::setNext(Node* n)
+void NodeW::setNext(NodeW* n)
 {
     this->next=n;
 }
-string Node::getValue()
+string NodeW::getValue()
 {
     return this->value;
 }
-Node* Node::getNext()
+NodeW* NodeW::getNext()
 {
     return this->next;
 }

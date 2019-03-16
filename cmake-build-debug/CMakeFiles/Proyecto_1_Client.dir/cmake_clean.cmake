@@ -7,8 +7,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o"
   "CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o"
   "CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Player/Player.cpp.o"
-  "CMakeFiles/Proyecto_1_Client.dir/Structures/LinkedList.cpp.o"
-  "CMakeFiles/Proyecto_1_Client.dir/Structures/Node.cpp.o"
+  "CMakeFiles/Proyecto_1_Client.dir/Structures/WordsList.cpp.o"
+  "CMakeFiles/Proyecto_1_Client.dir/Structures/NodeW.cpp.o"
+  "CMakeFiles/Proyecto_1_Client.dir/Structures/PlayerList.cpp.o"
+  "CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.o"
+  "CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.o"
   "Proyecto_1_Client.pdb"
   "Proyecto_1_Client"
 )

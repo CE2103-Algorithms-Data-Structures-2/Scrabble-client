@@ -90,6 +90,12 @@
 		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Board_Logic/Box.cpp">
+			<Option target="Proyecto_1_Client"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Board_Logic/Box.h">
+			<Option target="Proyecto_1_Client"/>
+		</Unit>
 		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
@@ -129,16 +135,28 @@
 		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Main/main.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/LinkedList.cpp">
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/NodeP.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/LinkedList.h">
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/NodeP.h">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/Node.cpp">
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/NodeW.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/Node.h">
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/NodeW.h">
+			<Option target="Proyecto_1_Client"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/PlayerList.cpp">
+			<Option target="Proyecto_1_Client"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/PlayerList.h">
+			<Option target="Proyecto_1_Client"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/WordsList.cpp">
+			<Option target="Proyecto_1_Client"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/WordsList.h">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
 		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/CMakeLists.txt">

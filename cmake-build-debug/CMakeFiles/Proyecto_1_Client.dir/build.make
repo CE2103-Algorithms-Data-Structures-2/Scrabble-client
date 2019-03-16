@@ -161,31 +161,70 @@ CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Player/Player.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Player/Player.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Player/Player.cpp -o CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Player/Player.cpp.s
 
-CMakeFiles/Proyecto_1_Client.dir/Structures/LinkedList.cpp.o: CMakeFiles/Proyecto_1_Client.dir/flags.make
-CMakeFiles/Proyecto_1_Client.dir/Structures/LinkedList.cpp.o: ../Structures/LinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Proyecto_1_Client.dir/Structures/LinkedList.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto_1_Client.dir/Structures/LinkedList.cpp.o -c /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/LinkedList.cpp
+CMakeFiles/Proyecto_1_Client.dir/Structures/WordsList.cpp.o: CMakeFiles/Proyecto_1_Client.dir/flags.make
+CMakeFiles/Proyecto_1_Client.dir/Structures/WordsList.cpp.o: ../Structures/WordsList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Proyecto_1_Client.dir/Structures/WordsList.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto_1_Client.dir/Structures/WordsList.cpp.o -c /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/WordsList.cpp
 
-CMakeFiles/Proyecto_1_Client.dir/Structures/LinkedList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Client.dir/Structures/LinkedList.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/LinkedList.cpp > CMakeFiles/Proyecto_1_Client.dir/Structures/LinkedList.cpp.i
+CMakeFiles/Proyecto_1_Client.dir/Structures/WordsList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Client.dir/Structures/WordsList.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/WordsList.cpp > CMakeFiles/Proyecto_1_Client.dir/Structures/WordsList.cpp.i
 
-CMakeFiles/Proyecto_1_Client.dir/Structures/LinkedList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Client.dir/Structures/LinkedList.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/LinkedList.cpp -o CMakeFiles/Proyecto_1_Client.dir/Structures/LinkedList.cpp.s
+CMakeFiles/Proyecto_1_Client.dir/Structures/WordsList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Client.dir/Structures/WordsList.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/WordsList.cpp -o CMakeFiles/Proyecto_1_Client.dir/Structures/WordsList.cpp.s
 
-CMakeFiles/Proyecto_1_Client.dir/Structures/Node.cpp.o: CMakeFiles/Proyecto_1_Client.dir/flags.make
-CMakeFiles/Proyecto_1_Client.dir/Structures/Node.cpp.o: ../Structures/Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Proyecto_1_Client.dir/Structures/Node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto_1_Client.dir/Structures/Node.cpp.o -c /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/Node.cpp
+CMakeFiles/Proyecto_1_Client.dir/Structures/NodeW.cpp.o: CMakeFiles/Proyecto_1_Client.dir/flags.make
+CMakeFiles/Proyecto_1_Client.dir/Structures/NodeW.cpp.o: ../Structures/NodeW.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Proyecto_1_Client.dir/Structures/NodeW.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto_1_Client.dir/Structures/NodeW.cpp.o -c /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/NodeW.cpp
 
-CMakeFiles/Proyecto_1_Client.dir/Structures/Node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Client.dir/Structures/Node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/Node.cpp > CMakeFiles/Proyecto_1_Client.dir/Structures/Node.cpp.i
+CMakeFiles/Proyecto_1_Client.dir/Structures/NodeW.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Client.dir/Structures/NodeW.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/NodeW.cpp > CMakeFiles/Proyecto_1_Client.dir/Structures/NodeW.cpp.i
 
-CMakeFiles/Proyecto_1_Client.dir/Structures/Node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Client.dir/Structures/Node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/Node.cpp -o CMakeFiles/Proyecto_1_Client.dir/Structures/Node.cpp.s
+CMakeFiles/Proyecto_1_Client.dir/Structures/NodeW.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Client.dir/Structures/NodeW.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/NodeW.cpp -o CMakeFiles/Proyecto_1_Client.dir/Structures/NodeW.cpp.s
+
+CMakeFiles/Proyecto_1_Client.dir/Structures/PlayerList.cpp.o: CMakeFiles/Proyecto_1_Client.dir/flags.make
+CMakeFiles/Proyecto_1_Client.dir/Structures/PlayerList.cpp.o: ../Structures/PlayerList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Proyecto_1_Client.dir/Structures/PlayerList.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto_1_Client.dir/Structures/PlayerList.cpp.o -c /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/PlayerList.cpp
+
+CMakeFiles/Proyecto_1_Client.dir/Structures/PlayerList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Client.dir/Structures/PlayerList.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/PlayerList.cpp > CMakeFiles/Proyecto_1_Client.dir/Structures/PlayerList.cpp.i
+
+CMakeFiles/Proyecto_1_Client.dir/Structures/PlayerList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Client.dir/Structures/PlayerList.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/PlayerList.cpp -o CMakeFiles/Proyecto_1_Client.dir/Structures/PlayerList.cpp.s
+
+CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.o: CMakeFiles/Proyecto_1_Client.dir/flags.make
+CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.o: ../Structures/NodeP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.o -c /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/NodeP.cpp
+
+CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/NodeP.cpp > CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.i
+
+CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/NodeP.cpp -o CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.s
+
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.o: CMakeFiles/Proyecto_1_Client.dir/flags.make
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.o: ../Interface_Logic/Board_Logic/Box.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.o -c /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Board_Logic/Box.cpp
+
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Board_Logic/Box.cpp > CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.i
+
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Board_Logic/Box.cpp -o CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.s
 
 # Object files for target Proyecto_1_Client
 Proyecto_1_Client_OBJECTS = \
@@ -197,8 +236,11 @@ Proyecto_1_Client_OBJECTS = \
 "CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o" \
 "CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o" \
 "CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Player/Player.cpp.o" \
-"CMakeFiles/Proyecto_1_Client.dir/Structures/LinkedList.cpp.o" \
-"CMakeFiles/Proyecto_1_Client.dir/Structures/Node.cpp.o"
+"CMakeFiles/Proyecto_1_Client.dir/Structures/WordsList.cpp.o" \
+"CMakeFiles/Proyecto_1_Client.dir/Structures/NodeW.cpp.o" \
+"CMakeFiles/Proyecto_1_Client.dir/Structures/PlayerList.cpp.o" \
+"CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.o" \
+"CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.o"
 
 # External object files for target Proyecto_1_Client
 Proyecto_1_Client_EXTERNAL_OBJECTS =
@@ -211,11 +253,14 @@ Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Window
 Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o
 Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o
 Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Player/Player.cpp.o
-Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Structures/LinkedList.cpp.o
-Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Structures/Node.cpp.o
+Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Structures/WordsList.cpp.o
+Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Structures/NodeW.cpp.o
+Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Structures/PlayerList.cpp.o
+Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.o
+Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.o
 Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/build.make
 Proyecto_1_Client: CMakeFiles/Proyecto_1_Client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Proyecto_1_Client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable Proyecto_1_Client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proyecto_1_Client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

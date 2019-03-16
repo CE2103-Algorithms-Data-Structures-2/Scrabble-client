@@ -150,6 +150,33 @@ Client/Client.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.s
 .PHONY : Client/Client.cpp.s
 
+Interface_Logic/Board_Logic/Box.o: Interface_Logic/Board_Logic/Box.cpp.o
+
+.PHONY : Interface_Logic/Board_Logic/Box.o
+
+# target to build an object file
+Interface_Logic/Board_Logic/Box.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.o
+.PHONY : Interface_Logic/Board_Logic/Box.cpp.o
+
+Interface_Logic/Board_Logic/Box.i: Interface_Logic/Board_Logic/Box.cpp.i
+
+.PHONY : Interface_Logic/Board_Logic/Box.i
+
+# target to preprocess a source file
+Interface_Logic/Board_Logic/Box.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.i
+.PHONY : Interface_Logic/Board_Logic/Box.cpp.i
+
+Interface_Logic/Board_Logic/Box.s: Interface_Logic/Board_Logic/Box.cpp.s
+
+.PHONY : Interface_Logic/Board_Logic/Box.s
+
+# target to generate assembly for a file
+Interface_Logic/Board_Logic/Box.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.s
+.PHONY : Interface_Logic/Board_Logic/Box.cpp.s
+
 Interface_Logic/JSON_Logic/JSONManager.o: Interface_Logic/JSON_Logic/JSONManager.cpp.o
 
 .PHONY : Interface_Logic/JSON_Logic/JSONManager.o
@@ -339,59 +366,113 @@ Main/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.s
 .PHONY : Main/main.cpp.s
 
-Structures/LinkedList.o: Structures/LinkedList.cpp.o
+Structures/NodeP.o: Structures/NodeP.cpp.o
 
-.PHONY : Structures/LinkedList.o
-
-# target to build an object file
-Structures/LinkedList.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/LinkedList.cpp.o
-.PHONY : Structures/LinkedList.cpp.o
-
-Structures/LinkedList.i: Structures/LinkedList.cpp.i
-
-.PHONY : Structures/LinkedList.i
-
-# target to preprocess a source file
-Structures/LinkedList.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/LinkedList.cpp.i
-.PHONY : Structures/LinkedList.cpp.i
-
-Structures/LinkedList.s: Structures/LinkedList.cpp.s
-
-.PHONY : Structures/LinkedList.s
-
-# target to generate assembly for a file
-Structures/LinkedList.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/LinkedList.cpp.s
-.PHONY : Structures/LinkedList.cpp.s
-
-Structures/Node.o: Structures/Node.cpp.o
-
-.PHONY : Structures/Node.o
+.PHONY : Structures/NodeP.o
 
 # target to build an object file
-Structures/Node.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/Node.cpp.o
-.PHONY : Structures/Node.cpp.o
+Structures/NodeP.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.o
+.PHONY : Structures/NodeP.cpp.o
 
-Structures/Node.i: Structures/Node.cpp.i
+Structures/NodeP.i: Structures/NodeP.cpp.i
 
-.PHONY : Structures/Node.i
+.PHONY : Structures/NodeP.i
 
 # target to preprocess a source file
-Structures/Node.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/Node.cpp.i
-.PHONY : Structures/Node.cpp.i
+Structures/NodeP.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.i
+.PHONY : Structures/NodeP.cpp.i
 
-Structures/Node.s: Structures/Node.cpp.s
+Structures/NodeP.s: Structures/NodeP.cpp.s
 
-.PHONY : Structures/Node.s
+.PHONY : Structures/NodeP.s
 
 # target to generate assembly for a file
-Structures/Node.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/Node.cpp.s
-.PHONY : Structures/Node.cpp.s
+Structures/NodeP.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.s
+.PHONY : Structures/NodeP.cpp.s
+
+Structures/NodeW.o: Structures/NodeW.cpp.o
+
+.PHONY : Structures/NodeW.o
+
+# target to build an object file
+Structures/NodeW.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/NodeW.cpp.o
+.PHONY : Structures/NodeW.cpp.o
+
+Structures/NodeW.i: Structures/NodeW.cpp.i
+
+.PHONY : Structures/NodeW.i
+
+# target to preprocess a source file
+Structures/NodeW.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/NodeW.cpp.i
+.PHONY : Structures/NodeW.cpp.i
+
+Structures/NodeW.s: Structures/NodeW.cpp.s
+
+.PHONY : Structures/NodeW.s
+
+# target to generate assembly for a file
+Structures/NodeW.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/NodeW.cpp.s
+.PHONY : Structures/NodeW.cpp.s
+
+Structures/PlayerList.o: Structures/PlayerList.cpp.o
+
+.PHONY : Structures/PlayerList.o
+
+# target to build an object file
+Structures/PlayerList.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/PlayerList.cpp.o
+.PHONY : Structures/PlayerList.cpp.o
+
+Structures/PlayerList.i: Structures/PlayerList.cpp.i
+
+.PHONY : Structures/PlayerList.i
+
+# target to preprocess a source file
+Structures/PlayerList.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/PlayerList.cpp.i
+.PHONY : Structures/PlayerList.cpp.i
+
+Structures/PlayerList.s: Structures/PlayerList.cpp.s
+
+.PHONY : Structures/PlayerList.s
+
+# target to generate assembly for a file
+Structures/PlayerList.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/PlayerList.cpp.s
+.PHONY : Structures/PlayerList.cpp.s
+
+Structures/WordsList.o: Structures/WordsList.cpp.o
+
+.PHONY : Structures/WordsList.o
+
+# target to build an object file
+Structures/WordsList.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/WordsList.cpp.o
+.PHONY : Structures/WordsList.cpp.o
+
+Structures/WordsList.i: Structures/WordsList.cpp.i
+
+.PHONY : Structures/WordsList.i
+
+# target to preprocess a source file
+Structures/WordsList.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/WordsList.cpp.i
+.PHONY : Structures/WordsList.cpp.i
+
+Structures/WordsList.s: Structures/WordsList.cpp.s
+
+.PHONY : Structures/WordsList.s
+
+# target to generate assembly for a file
+Structures/WordsList.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/WordsList.cpp.s
+.PHONY : Structures/WordsList.cpp.s
 
 # Help Target
 help:
@@ -405,6 +486,9 @@ help:
 	@echo "... Client/Client.o"
 	@echo "... Client/Client.i"
 	@echo "... Client/Client.s"
+	@echo "... Interface_Logic/Board_Logic/Box.o"
+	@echo "... Interface_Logic/Board_Logic/Box.i"
+	@echo "... Interface_Logic/Board_Logic/Box.s"
 	@echo "... Interface_Logic/JSON_Logic/JSONManager.o"
 	@echo "... Interface_Logic/JSON_Logic/JSONManager.i"
 	@echo "... Interface_Logic/JSON_Logic/JSONManager.s"
@@ -426,12 +510,18 @@ help:
 	@echo "... Main/main.o"
 	@echo "... Main/main.i"
 	@echo "... Main/main.s"
-	@echo "... Structures/LinkedList.o"
-	@echo "... Structures/LinkedList.i"
-	@echo "... Structures/LinkedList.s"
-	@echo "... Structures/Node.o"
-	@echo "... Structures/Node.i"
-	@echo "... Structures/Node.s"
+	@echo "... Structures/NodeP.o"
+	@echo "... Structures/NodeP.i"
+	@echo "... Structures/NodeP.s"
+	@echo "... Structures/NodeW.o"
+	@echo "... Structures/NodeW.i"
+	@echo "... Structures/NodeW.s"
+	@echo "... Structures/PlayerList.o"
+	@echo "... Structures/PlayerList.i"
+	@echo "... Structures/PlayerList.s"
+	@echo "... Structures/WordsList.o"
+	@echo "... Structures/WordsList.i"
+	@echo "... Structures/WordsList.s"
 .PHONY : help
 
 
