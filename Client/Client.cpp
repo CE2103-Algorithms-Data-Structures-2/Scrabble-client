@@ -101,3 +101,7 @@ bool Client::isConnected()
 {
     return this->connected;
 }
+
+void Client::disconnect() {
+    this->running=false;
+}

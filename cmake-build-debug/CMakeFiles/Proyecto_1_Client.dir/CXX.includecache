@@ -6,6 +6,26 @@
 
 #IncludeRegexTransform: 
 
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.cpp
+Client.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h
+iostream
+-
+sys/types.h
+-
+unistd.h
+-
+arpa/inet.h
+-
+string.h
+-
+string
+-
+thread
+-
+pthread.h
+-
+
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h
 iostream
 -
@@ -30,6 +50,10 @@ boost/property_tree/ptree.hpp
 iostream
 -
 
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/JoinGame_LW.cpp
+JoinGame_LW.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/JoinGame_LW.h
+
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/JoinGame_LW.h
 ../../Client/Client.h
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h
@@ -38,11 +62,21 @@ iostream
 LogicWindow.h
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/LogicWindow.h
 
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/LogicWindow.cpp
+LogicWindow.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/LogicWindow.h
+
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/LogicWindow.h
 ../JSON_Logic/JSONManager.h
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.h
 ../../Client/Client.h
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h
+
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_LW.cpp
+NewGame_LW.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_LW.h
+../Manager/Manager.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager/Manager.h
 
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_LW.h
 ../../Client/Client.h
@@ -85,6 +119,16 @@ thread
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Player/Player.h
 ../../Structures/WordsList.h
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/WordsList.h
+
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Main/main.cpp
+iostream
+-
+../Client/Client.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h
+../Interface_Logic/Manager/Manager.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager/Manager.h
+../Interface_Logic/JSON_Logic/JSONManager.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.h
 
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/NodeP.h
 ../Interface_Logic/Player/Player.h

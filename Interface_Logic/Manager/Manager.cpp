@@ -41,7 +41,11 @@ void Manager::Init()
                 localP->print();
                 this->setCode(cliente->receiveMessage());
                 ask();
-                //this->JoinG_LW->join();
+                /*bool accepted=this->JoinG_LW->join();
+                if(!accepted)
+                {
+                    cliente->disconnect();
+                }*/
                 tr=false;
             }
 
@@ -64,9 +68,18 @@ void Manager::ask() {
     {
         cliente->sendMessage("numP");
         string m=cliente->receiveMessage();
-        cout<<"Numero de jugadores en el server: "<<m<<endl;
-        if(stoi(m)>counter)
+        int n=0;
+        try
         {
+            n=stoi(m);
+        }
+        catch(int e)
+        {
+            n=0;
+        }
+        if(n>counter)
+        {
+            cout<<"Numero de jugadores en el server: "<<m<<endl;
             cliente->sendMessage("askFor");
             if((cliente->receiveMessage().compare("send"))==0)
             {

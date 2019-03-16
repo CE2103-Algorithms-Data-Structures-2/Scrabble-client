@@ -16,7 +16,7 @@ string JoinGame_LW::getInfo()
     out=Jmanager->toJSON(out);
     return out;
 }
-void JoinGame_LW::join()
+bool JoinGame_LW::join()
 {
     cliente->sendMessage("join");
     string resp =cliente->receiveMessage();
@@ -24,5 +24,14 @@ void JoinGame_LW::join()
     if(i==0)
     {
         cliente->sendMessage(this->getInfo());
+    }
+    string m=cliente->receiveMessage();
+    if(m.compare("accepted")==0)
+    {
+        return true;
+    }
+    else if((m.compare("denied")==0))
+    {
+        return false;
     }
 }

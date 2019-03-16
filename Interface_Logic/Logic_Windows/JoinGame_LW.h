@@ -19,7 +19,7 @@ class JoinGame_LW: public LogicWindow
                 Jmanager=j;
         }
         string getInfo();
-        void join();
+        bool join();
 
 
 };
