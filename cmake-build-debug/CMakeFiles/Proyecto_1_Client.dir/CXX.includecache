@@ -66,6 +66,16 @@ thread
 ../../Structures/WordsList.h
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/WordsList.h
 
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Main/main.cpp
+iostream
+-
+../Client/Client.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h
+../Interface_Logic/Manager/Manager.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager/Manager.h
+../Interface_Logic/JSON_Logic/JSONManager.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.h
+
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/NodeP.h
 ../Interface_Logic/Player/Player.h
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Player/Player.h

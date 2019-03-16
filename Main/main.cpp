@@ -5,8 +5,7 @@
 
 int main() {
     Manager man= Manager();
-    //JSONManager m= JSONManager();
-    //m.toJSON("Jugador@Daniel$Nombre_partida@Returt$No_jugadores@4");
+
 
     return 0;
 }

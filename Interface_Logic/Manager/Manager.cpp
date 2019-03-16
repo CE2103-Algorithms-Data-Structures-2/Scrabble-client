@@ -35,7 +35,7 @@ void Manager::Init()
             {
                 this->NewG_LW->newGame();
                 this->setCode(cliente->receiveMessage());
-                this->JoinG_LW->join();
+                //this->JoinG_LW->join();
                 tr=false;
             }
 
