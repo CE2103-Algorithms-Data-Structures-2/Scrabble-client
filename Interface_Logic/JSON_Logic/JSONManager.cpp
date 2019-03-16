@@ -50,5 +50,6 @@ ptree JSONManager::toPtree(string s) {
 string JSONManager::askFor(string s,string l)
 {
     ptree p= toPtree(s);
-    return p.get_value<string>(l);
+    string v=p.get<string>(l);
+    return v;
 }

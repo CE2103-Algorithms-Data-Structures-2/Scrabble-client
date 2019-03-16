@@ -3,20 +3,24 @@
 //
 
 #include "Player.h"
+#include <string>
+#include <iostream>
+using namespace std;
+
 Player::Player()
 {
     turn= new bool(false);
-    this->name= new string("");
+    this->name=" ";
     this->points=new int(0);
     this->chips= new WordsList();
-    this->ID= new int(0);
+    this->ID= " ";
 }
 Player::Player(string n) {
     this->chips= new WordsList();
-    this->name=new string(n);
+    this->name=" ";
     this->points=new int(0);
     this->turn=new bool(false);
-    this->ID=new int(0);
+    this->ID=" ";
 
 }
 WordsList* Player::getChips()
@@ -27,7 +31,7 @@ int* Player::getPoints()
 {
     return this->points;
 }
-string* Player::getName()
+string Player::getName()
 {
     return this->name;
 }
@@ -36,22 +40,22 @@ void Player::setTurn()
     *turn=!*turn;
 }
 
-void Player::setID(int i)
+void Player::setID(string i)
 {
-    *ID=i;
+    ID=i;
 
 }
-int* Player::getID()
+string Player::getID()
 {
     return this->ID;
 }
 void Player::print()
 {
-    cout<<"Nombre: "<<*name<<endl;
-    cout<<"ID: "<<*ID<<endl;
+    cout<<"Nombre: "<<name<<endl;
+    cout<<"ID: "<<ID<<endl;
 }
 
 void Player::setName(string n)
 {
-    *name=n;
+    name=n;
 }

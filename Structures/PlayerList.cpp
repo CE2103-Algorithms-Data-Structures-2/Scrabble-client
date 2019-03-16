@@ -34,11 +34,11 @@ bool PlayerList::add(Player* p)
             }
             temp->setNext(n);
         }
-        length++;
         adding=true;
     }
     if(adding)
     {
+        *length=*length+1;
         cout<<"Adicion de jugador exitosa!"<<endl;
     }
     else
@@ -58,7 +58,7 @@ int PlayerList::getLimit() {
 void PlayerList::del(int i)
 {
     if(length!=0) {
-        if (*head->getValue()->getID() == i) {
+        if (head->getValue()->getID() == to_string(i)) {
             NodeP*temp = head;
             head = temp->getNext();
             delete temp;
@@ -66,7 +66,7 @@ void PlayerList::del(int i)
         }
         else {
             NodeP *temp = this->head;
-            while (*temp->getNext()->getValue()->getID()!= i && temp->getNext() != nullptr) {
+            while (temp->getNext()->getValue()->getID()!= to_string(i) && temp->getNext() != nullptr) {
                 temp = temp->getNext();
             }
             if (temp->getNext() != nullptr) {
@@ -82,7 +82,7 @@ void PlayerList::del(int i)
 Player* PlayerList::get(int i)
 {
     NodeP* temp=head;
-    while(*temp->getValue()->getID()!=i)
+    while(temp->getValue()->getID()!=to_string(i))
     {
         temp=temp->getNext();
     }

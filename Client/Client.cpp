@@ -51,6 +51,8 @@ void Client::start()
         }
 
     }
+    cout<<"Disconnecting..."<<endl;
+    exit(0);
 }
 string Client::receiveMessage()
 {

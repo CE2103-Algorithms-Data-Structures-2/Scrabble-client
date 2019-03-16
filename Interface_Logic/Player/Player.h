@@ -7,11 +7,14 @@
 
 
 #include "../../Structures/WordsList.h"
+#include <string>
+
+using namespace std;
 
 class Player {
     private:
-        string* name;
-        int* ID;
+        string name;
+        string ID;
         int* points;
         WordsList* chips;
         bool* turn;
@@ -36,7 +39,7 @@ class Player {
          * Metodo para obtener el nombre del jugador.
          * @return Nombre de tipo string.
          */
-        string* getName();
+        string getName();
         /**
          * Metodo para cambiar el estado del turno dl jugador.
          */
@@ -45,7 +48,7 @@ class Player {
          * Metodo para establecer el ID del jugador.
          * @param i ID de tipo entero.
          */
-        void setID(int i);
+        void setID(string i);
         /**
          * Metodo para establecer el nombre del jugador.
          * @param n Nombre dde tipo string.
@@ -53,9 +56,9 @@ class Player {
         void setName(string n);
         /**
          * Metodo para obtener el ID del jugador.
-         * @return ID de tipo entero.
+         * @return ID de tipo string.
          */
-        int* getID();
+        string getID();
         /**
          * Metodo para imprimir en consola los datos del jugador.
          */

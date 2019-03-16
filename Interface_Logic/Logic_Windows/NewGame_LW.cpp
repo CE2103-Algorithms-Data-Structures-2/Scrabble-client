@@ -24,7 +24,7 @@ string NewGame_LW::getInfo()
     getline(cin,temp);
     Manager::players->add(Manager::localP);
     Manager::localP->setName(temp);
-    Manager::localP->setID(0);
+    Manager::localP->setID("0");
     out+="Jugador@"+temp+"$";
     cout<<"Nombre de la partida: "<<endl;
     getline(cin,temp);

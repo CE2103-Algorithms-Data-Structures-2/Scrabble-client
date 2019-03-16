@@ -87,12 +87,13 @@ void Manager::ask() {
                 string entrante=cliente->receiveMessage();
                 Player* p= new Player();
                 p->setName(Jmanager->askFor(entrante,string("name")));
-                p->setID(stoi(Jmanager->askFor(entrante,string("ID"))));
+                p->setID(Jmanager->askFor(entrante,string("ID")));
                 players->add(p);
                 counter++;
 
             }
         }
+        usleep(5000000);
     }
 
 }
