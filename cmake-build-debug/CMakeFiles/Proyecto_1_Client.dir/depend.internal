@@ -24,9 +24,16 @@ CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o
 CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o
  /home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h
  /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.h
+ /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/JoinGame_LW.h
  /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/LogicWindow.h
  /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_LW.cpp
  /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_LW.h
+ /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager/Manager.h
+ /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Player/Player.h
+ /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/NodeP.h
+ /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/NodeW.h
+ /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/PlayerList.h
+ /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/WordsList.h
 CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o
  /home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h
  /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.h

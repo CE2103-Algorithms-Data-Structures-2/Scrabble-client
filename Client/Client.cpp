@@ -30,7 +30,7 @@ void Client::start()
             }
 
             int port = 54000;
-            string ipAdress = "192.168.100.14";
+            string ipAdress = "192.168.100.101";
 
 
             sockaddr_in hint;
@@ -58,12 +58,21 @@ string Client::receiveMessage()
     try {
         memset(buff, 0, 4096);
         int bytesReceived = recv(sock, buff, 4096, 0);
-        receivedMessage = string(buff, bytesReceived);
+        if(bytesReceived==-1)
+        {
+            cout<<"ERROR:Mensaje corrupto"<<endl;
+        }
+        else
+        {
+            receivedMessage = string(buff, bytesReceived);
+        }
+
     }
     catch(exception& e){
         receivedMessage="";
         cout<<"No hay mensajes entrantes"<<endl;
     }
+    receivedMessage=receivedMessage.substr(0,receivedMessage.size()-1);
     cout<<"Mensaje recibido: "<<receivedMessage<<endl;
     return receivedMessage;
 }

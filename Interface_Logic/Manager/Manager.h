@@ -17,7 +17,6 @@ private:
     bool* assigned;
     string* code;
     Client* cliente;
-    PlayerList* players;
     JSONManager* Jmanager;
     NewGame_LW* NewG_LW;
     JoinGame_LW* JoinG_LW;
@@ -39,6 +38,12 @@ public:
      * Metodo para asignar el codigo de la partida al manager.
      */
     void setCode(string);
+    /**
+     * Metodo para preguntar al servidor si hay jugadores nuevos.
+     */
+    void ask();
+    static Player* localP;
+    static PlayerList* players;
 
 };
 

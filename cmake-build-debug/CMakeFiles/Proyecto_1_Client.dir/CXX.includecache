@@ -13,7 +13,19 @@ thread
 -
 
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.h
-string.h
+JSONManager.h
+/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.h
+algorithm
+-
+boost/property_tree/json_parser.hpp
+-
+vector
+-
+boost/algorithm/string.hpp
+-
+string
+-
+boost/property_tree/ptree.hpp
 -
 iostream
 -
@@ -47,6 +59,14 @@ Manager.h
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager/Manager.h
 ../JSON_Logic/JSONManager.h
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.h
+boost/property_tree/ptree.hpp
+-
+boost/property_tree/json_parser.hpp
+-
+boost/algorithm/string.hpp
+-
+algorithm
+-
 thread
 -
 
@@ -65,16 +85,6 @@ thread
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Player/Player.h
 ../../Structures/WordsList.h
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/WordsList.h
-
-/home/dcamachog1501/Desktop/Proyecto_1_Client/Main/main.cpp
-iostream
--
-../Client/Client.h
-/home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h
-../Interface_Logic/Manager/Manager.h
-/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager/Manager.h
-../Interface_Logic/JSON_Logic/JSONManager.h
-/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.h
 
 /home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/NodeP.h
 ../Interface_Logic/Player/Player.h

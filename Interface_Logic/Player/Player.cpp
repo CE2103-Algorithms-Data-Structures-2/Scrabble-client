@@ -5,17 +5,18 @@
 #include "Player.h"
 Player::Player()
 {
-    *turn= false;
-    this->points=nullptr;
-    this->chips= nullptr;
-    this->ID= nullptr;
+    turn= new bool(false);
+    this->name= new string("");
+    this->points=new int(0);
+    this->chips= new WordsList();
+    this->ID= new int(0);
 }
 Player::Player(string n) {
-    this->chips= nullptr;
-    *name=n;
-    *points=0;
-    *turn=false;
-    *ID=0;
+    this->chips= new WordsList();
+    this->name=new string(n);
+    this->points=new int(0);
+    this->turn=new bool(false);
+    this->ID=new int(0);
 
 }
 WordsList* Player::getChips()
@@ -43,4 +44,14 @@ void Player::setID(int i)
 int* Player::getID()
 {
     return this->ID;
+}
+void Player::print()
+{
+    cout<<"Nombre: "<<*name<<endl;
+    cout<<"ID: "<<*ID<<endl;
+}
+
+void Player::setName(string n)
+{
+    *name=n;
 }

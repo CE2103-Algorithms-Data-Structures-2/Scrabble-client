@@ -7,9 +7,9 @@
 PlayerList::PlayerList() 
 {
     
-    this->length=0;
+    this->length=new int(0);
     this->head= nullptr;
-    this->limit=new int(0);
+    this->limit=new int(1);
         
     
 }
@@ -17,20 +17,44 @@ int PlayerList::getLength()
 {
     return *this->length;
 }
-bool PlayerList::add(Player p)
+bool PlayerList::add(Player* p)
 {
+    bool adding=false;
     if(*length<*limit) {
         NodeP *n = new NodeP(p);
-        NodeP *temp = this->head;
-        while (temp->getNext() != nullptr) {
-            temp = temp->getNext();
+        if(head== nullptr)
+        {
+            this->head=n;
         }
-        temp->setNext(n);
-        return true;
+        else
+        {
+            NodeP *temp = this->head;
+            while (temp->getNext() != nullptr) {
+                temp = temp->getNext();
+            }
+            temp->setNext(n);
+        }
+        length++;
+        adding=true;
     }
-    return false;
+    if(adding)
+    {
+        cout<<"Adicion de jugador exitosa!"<<endl;
+    }
+    else
+    {
+        cout<<"ERROR: Limite de jugadores alcanzado."<<endl;
+    }
+    return adding;
+
+
 
 }
+
+int PlayerList::getLimit() {
+    return *limit;
+}
+
 void PlayerList::del(int i)
 {
     if(length!=0) {
@@ -70,5 +94,9 @@ Player* PlayerList::get(int i)
  }
  void PlayerList::setLimit(int i)
  {
+    if(i>4)
+    *limit=4;
+
+    else
     *limit=i;
  }

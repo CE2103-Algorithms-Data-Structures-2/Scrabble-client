@@ -47,10 +47,19 @@ class Player {
          */
         void setID(int i);
         /**
+         * Metodo para establecer el nombre del jugador.
+         * @param n Nombre dde tipo string.
+         */
+        void setName(string n);
+        /**
          * Metodo para obtener el ID del jugador.
          * @return ID de tipo entero.
          */
         int* getID();
+        /**
+         * Metodo para imprimir en consola los datos del jugador.
+         */
+        void print();
 
 
 

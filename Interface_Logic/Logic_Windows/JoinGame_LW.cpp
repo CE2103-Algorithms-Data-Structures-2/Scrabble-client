@@ -20,7 +20,7 @@ void JoinGame_LW::join()
 {
     cliente->sendMessage("join");
     string resp =cliente->receiveMessage();
-    int i=resp.compare("send")-1;
+    int i=resp.compare("send");
     if(i==0)
     {
         cliente->sendMessage(this->getInfo());

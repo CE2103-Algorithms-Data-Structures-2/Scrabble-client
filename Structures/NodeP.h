@@ -21,7 +21,7 @@ class NodeP {
      * Constructor de la clase NodeP.
      * @param p Objeto de tipo Player.
      */
-    NodeP(Player p);
+    NodeP(Player* p);
     /**
      * Metodo para obtener el puntero al nodo siguiente.
      * @return NodeP* Puntero al siguiente nodo de tipo NodeP*

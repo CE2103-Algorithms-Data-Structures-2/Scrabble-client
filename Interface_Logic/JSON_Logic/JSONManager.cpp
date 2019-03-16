@@ -2,14 +2,13 @@
 // Created by dcamachog1501 on 09/03/19.
 //
 
+
 #include "JSONManager.h"
 #include <algorithm>
-#include <boost/property_tree/ptree.hpp>
 #include <boost/property_tree/json_parser.hpp>
 #include <vector>
 #include <boost/algorithm/string.hpp>
 #include <string>
-
 using namespace std;
 
 using boost::property_tree::ptree;
@@ -37,6 +36,19 @@ string JSONManager::toJSON(string entrada)
     std::ostringstream buf;
     write_json (buf, output, false);
     std::string json = buf.str();
-    cout<<json;
+    cout<<json<<endl;
     return json;
+}
+ptree JSONManager::toPtree(string s) {
+
+    std::istringstream iss(s);
+    ptree document;
+    read_json(iss, document);
+    return document;
+}
+
+string JSONManager::askFor(string s,string l)
+{
+    ptree p= toPtree(s);
+    return p.get_value<string>(l);
 }
