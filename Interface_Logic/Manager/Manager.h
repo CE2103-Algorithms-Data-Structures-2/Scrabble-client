@@ -9,18 +9,37 @@
 #include "../JSON_Logic/JSONManager.h"
 #include "../Logic_Windows/NewGame_LW.h"
 #include "../Logic_Windows/JoinGame_LW.h"
+#include "../../Structures/PlayerList.h"
 
 
 class Manager{
 private:
+    bool* assigned;
+    string* code;
     Client* cliente;
+    PlayerList* players;
     JSONManager* Jmanager;
     NewGame_LW* NewG_LW;
     JoinGame_LW* JoinG_LW;
     bool* running;
 public:
+    /**
+     * Constructor de la clase manager.
+     */
     Manager();
+    /**
+     * Metodo para inicializar los recursos del juego.
+     */
     void Init();
+    /**
+     * Metodo para acceder a la lista de jugadores.
+     */
+    PlayerList* getPlayers();
+    /**
+     * Metodo para asignar el codigo de la partida al manager.
+     */
+    void setCode(string);
+
 };
 
 

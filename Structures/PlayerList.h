@@ -12,6 +12,7 @@ class PlayerList {
     private:
         int* length;
         NodeP* head;
+        int* limit;
     public:
     /**
      * Constructor de la clase PlayList
@@ -31,7 +32,7 @@ class PlayerList {
      * Metodo para agregar un jugador a la lista.
      * @param p Jugador de tipo Player.
      */
-    void add(Player p);
+    bool add(Player p);
     /**
      * Metodo para eliminar un jugador de la lista;
      * @param i ID de tipo entero.
@@ -42,6 +43,12 @@ class PlayerList {
      * @return Puntero de tipo Player.
      */
     Player* get(int i);
+    /**
+     * Metodo para establecer el limite de tamaño de la lista.
+     * @param i Limite de tipo entero.
+     */
+    void setLimit(int i);
+
 
 
 };

@@ -9,6 +9,7 @@ PlayerList::PlayerList()
     
     this->length=0;
     this->head= nullptr;
+    this->limit=new int(0);
         
     
 }
@@ -16,15 +17,19 @@ int PlayerList::getLength()
 {
     return *this->length;
 }
-void PlayerList::add(Player p)
+bool PlayerList::add(Player p)
 {
-    NodeP* n= new NodeP(p);
-    NodeP* temp= this->head;
-    while(temp->getNext()!=nullptr)
-    {
-        temp=temp->getNext();
+    if(*length<*limit) {
+        NodeP *n = new NodeP(p);
+        NodeP *temp = this->head;
+        while (temp->getNext() != nullptr) {
+            temp = temp->getNext();
+        }
+        temp->setNext(n);
+        return true;
     }
-    temp->setNext(n);
+    return false;
+
 }
 void PlayerList::del(int i)
 {
@@ -59,3 +64,11 @@ Player* PlayerList::get(int i)
     }
     return temp->getValue();
 }
+ NodeP* PlayerList::getHead()
+ {
+    return this->head;
+ }
+ void PlayerList::setLimit(int i)
+ {
+    *limit=i;
+ }

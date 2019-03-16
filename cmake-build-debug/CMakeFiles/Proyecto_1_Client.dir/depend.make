@@ -34,6 +34,11 @@ CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o: ../Inter
 CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o: ../Interface_Logic/Logic_Windows/NewGame_LW.h
 CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o: ../Interface_Logic/Manager/Manager.cpp
 CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o: ../Interface_Logic/Manager/Manager.h
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o: ../Interface_Logic/Player/Player.h
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o: ../Structures/NodeP.h
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o: ../Structures/NodeW.h
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o: ../Structures/PlayerList.h
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o: ../Structures/WordsList.h
 
 CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Player/Player.cpp.o: ../Interface_Logic/Player/Player.cpp
 CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Player/Player.cpp.o: ../Interface_Logic/Player/Player.h
@@ -46,7 +51,12 @@ CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o: ../Interface_Logic/Logic_Windo
 CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o: ../Interface_Logic/Logic_Windows/LogicWindow.h
 CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o: ../Interface_Logic/Logic_Windows/NewGame_LW.h
 CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o: ../Interface_Logic/Manager/Manager.h
+CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o: ../Interface_Logic/Player/Player.h
 CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o: ../Main/main.cpp
+CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o: ../Structures/NodeP.h
+CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o: ../Structures/NodeW.h
+CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o: ../Structures/PlayerList.h
+CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o: ../Structures/WordsList.h
 
 CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.o: ../Interface_Logic/Player/Player.h
 CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.o: ../Structures/NodeP.cpp
