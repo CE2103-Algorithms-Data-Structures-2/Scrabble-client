@@ -44,10 +44,6 @@ void Client::start()
                 connected = true;
                 cout<<"Connected!"<<endl;
                 //sendMessage("getList");
-                 if(receiveMessage().compare("denied")==0)
-                 {
-                     connected=false;
-                 };
             }
             cout << "Atempts to connect: " << attempts++ << endl;
 
@@ -107,8 +103,16 @@ bool Client::isConnected()
     return this->connected;
 }
 
-void Client::disconnect() {
+void Client::disconnect()
+{
     this->running=false;
+}
+void Client::isAccepted()
+{
+    if(receiveMessage().compare("denied")==0)
+    {
+        this->disconnect();
+    };
 }
 
 

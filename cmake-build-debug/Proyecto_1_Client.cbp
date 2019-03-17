@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug"/>
+				<Option working_dir="/home/dcamachog1501/Desktop/Cliente/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Cliente/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Cliente/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Cliente/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Cliente/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug"/>
+				<Option working_dir="/home/dcamachog1501/Desktop/Cliente/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Cliente/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Cliente/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Cliente/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Cliente/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto_1_Client">
-				<Option output="/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/Proyecto_1_Client" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug"/>
+				<Option output="/home/dcamachog1501/Desktop/Cliente/cmake-build-debug/Proyecto_1_Client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dcamachog1501/Desktop/Cliente/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1_Client"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Cliente/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1_Client"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Cliente/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Cliente/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Cliente/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto_1_Client/fast">
-				<Option output="/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/Proyecto_1_Client" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug"/>
+				<Option output="/home/dcamachog1501/Desktop/Cliente/cmake-build-debug/Proyecto_1_Client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dcamachog1501/Desktop/Cliente/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,99 +67,99 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1_Client/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Cliente/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1_Client/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Cliente/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Cliente/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Cliente/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug"/>
+				<Option working_dir="/home/dcamachog1501/Desktop/Cliente/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Proyecto_1_Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Cliente/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Cliente/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Cliente/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Cliente/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.cpp">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Client/Client.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Client/Client.h">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Client/Client.h">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Board_Logic/Box.cpp">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Interface_Logic/Board_Logic/Box.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Board_Logic/Box.h">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Interface_Logic/Board_Logic/Box.h">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.cpp">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Interface_Logic/JSON_Logic/JSONManager.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/JSON_Logic/JSONManager.h">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Interface_Logic/JSON_Logic/JSONManager.h">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/JoinGame_LW.cpp">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Interface_Logic/Logic_Windows/JoinGame_LW.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/JoinGame_LW.h">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Interface_Logic/Logic_Windows/JoinGame_LW.h">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/LogicWindow.cpp">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Interface_Logic/Logic_Windows/LogicWindow.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/LogicWindow.h">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Interface_Logic/Logic_Windows/LogicWindow.h">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_LW.cpp">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Interface_Logic/Logic_Windows/NewGame_LW.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Logic_Windows/NewGame_LW.h">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Interface_Logic/Logic_Windows/NewGame_LW.h">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager/Manager.cpp">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Interface_Logic/Manager/Manager.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Manager/Manager.h">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Interface_Logic/Manager/Manager.h">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Player/Player.cpp">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Interface_Logic/Player/Player.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Interface_Logic/Player/Player.h">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Interface_Logic/Player/Player.h">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Main/main.cpp">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Main/main.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/NodeP.cpp">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Structures/NodeP.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/NodeP.h">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Structures/NodeP.h">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/NodeW.cpp">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Structures/NodeW.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/NodeW.h">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Structures/NodeW.h">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/PlayerList.cpp">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Structures/PlayerList.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/PlayerList.h">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Structures/PlayerList.h">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/WordsList.cpp">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Structures/WordsList.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/Structures/WordsList.h">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/Structures/WordsList.h">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Proyecto_1_Client/CMakeLists.txt">
+		<Unit filename="/home/dcamachog1501/Desktop/Cliente/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

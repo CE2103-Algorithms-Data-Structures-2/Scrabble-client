@@ -26,6 +26,7 @@ class Client{
         string receiveMessage();
         bool isConnected();
         void disconnect();
+        void isAccepted();
 };
 
 

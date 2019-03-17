@@ -37,6 +37,7 @@ void Manager::Init()
 
             if(tr)
             {
+                cliente->isAccepted();
                 this->NewG_LW->newGame();
                 players->print();
                 this->setCode(cliente->receiveMessage());
