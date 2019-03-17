@@ -21,6 +21,8 @@ void WordsList::add(string s)
         temp=temp->getNext();
     }
     temp->setNext(n);
+    temp= nullptr;
+    delete(temp);
 }
 void WordsList::del(string s)
 {
@@ -28,6 +30,7 @@ void WordsList::del(string s)
         if (head->getValue() == s) {
             NodeW *temp = head;
             head = temp->getNext();
+            temp= nullptr;
             delete temp;
 
         }
@@ -40,6 +43,9 @@ void WordsList::del(string s)
                 NodeW *temp2 = temp->getNext();
                 temp->setNext(temp->getNext()->getNext());
                 temp2->setNext(nullptr);
+                temp= nullptr;
+                temp2=nullptr;
+                delete(temp);
                 delete temp2;
             }
         }
@@ -76,6 +82,8 @@ string WordsList::print()
             temp = temp->getNext();
         }
         f += "]";
+        temp= nullptr;
+        delete(temp);
         return f;
     }
 }

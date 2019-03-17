@@ -33,6 +33,8 @@ bool PlayerList::add(Player* p)
                 temp = temp->getNext();
             }
             temp->setNext(n);
+            temp= nullptr;
+            delete(temp);
         }
         adding=true;
     }
@@ -61,6 +63,7 @@ void PlayerList::del(int i)
         if (head->getValue()->getID() == to_string(i)) {
             NodeP*temp = head;
             head = temp->getNext();
+            temp= nullptr;
             delete temp;
 
         }
@@ -73,6 +76,7 @@ void PlayerList::del(int i)
                 NodeP *temp2 = temp->getNext();
                 temp->setNext(temp->getNext()->getNext());
                 temp2->setNext(nullptr);
+                temp2= nullptr;
                 delete temp2;
             }
         }
@@ -100,3 +104,14 @@ Player* PlayerList::get(int i)
     else
     *limit=i;
  }
+
+void PlayerList::print()
+{
+    NodeP* temp=this->head;
+    while(temp!=nullptr)
+    {
+        cout<<"Jugador #"<<temp->getValue()->getID()<<endl;
+        cout<<"Nombre: "<<temp->getValue()->getName()<<endl;
+        temp=temp->getNext();
+    }
+}

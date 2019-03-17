@@ -7,9 +7,9 @@
 PlayerList* Manager::players= new PlayerList();
 Player* Manager:: localP=new Player();
 
+#define getName(var)  #var
+
 int main() {
     Manager man= Manager();
-
-
     return 0;
 }

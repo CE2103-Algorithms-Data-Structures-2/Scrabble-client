@@ -53,6 +53,10 @@ class PlayerList {
      * @param i Limite de tipo entero.
      */
     void setLimit(int i);
+    /**
+     * Metodo para imprimir la lista.
+     */
+    void print();
 
 
 

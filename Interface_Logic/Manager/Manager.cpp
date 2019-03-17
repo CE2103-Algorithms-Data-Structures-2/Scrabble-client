@@ -38,7 +38,7 @@ void Manager::Init()
             if(tr)
             {
                 this->NewG_LW->newGame();
-                localP->print();
+                players->print();
                 this->setCode(cliente->receiveMessage());
                 ask();
                 /*bool accepted=this->JoinG_LW->join();
@@ -95,5 +95,7 @@ void Manager::ask() {
         }
         usleep(5000000);
     }
+    cout<<"Tope alcanzado"<<endl;
+    players->print();
 
 }

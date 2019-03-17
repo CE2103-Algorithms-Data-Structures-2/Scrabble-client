@@ -57,5 +57,5 @@ void Player::print()
 
 void Player::setName(string n)
 {
-    name=n;
+    this->name=n;
 }
