@@ -3,6 +3,8 @@
 //
 
 #include "JoinGame_LW.h"
+#include "../Manager/Manager.h"
+
 string JoinGame_LW::getInfo()
 {
     string out="";
@@ -34,4 +36,6 @@ bool JoinGame_LW::join()
     {
         return false;
     }
+    cliente->sendMessage("limit");
+    Manager::players->setLimit(stoi(cliente->receiveMessage()));
 }
