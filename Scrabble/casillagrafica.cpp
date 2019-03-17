@@ -4,7 +4,7 @@ CasillaGrafica::CasillaGrafica(int row, int column, Point coordinates, Perk bonu
 {
     this->row = row;
     this->column = column;
-    this->coodinates = coordinates;
+    this->coordinates = coordinates;
     this->bonus = bonus;
 }
 

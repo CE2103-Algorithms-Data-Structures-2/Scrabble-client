@@ -38,7 +38,24 @@ SOURCES += \
     point.cpp \
     tablerografico.cpp \
     ficha.cpp \
-    jugador.cpp
+    Client/Client.cpp \
+    cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp \
+    cmake-build-debug/CMakeFiles/feature_tests.cxx \
+    createlobby.cpp \
+    waitmenu.cpp \
+    cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c \
+    cmake-build-debug/CMakeFiles/feature_tests.c \
+    Board_Logic/Box.cpp \
+    JSON_Logic/JSONManager.cpp \
+    Logic_Windows/JoinGame_LW.cpp \
+    Logic_Windows/LogicWindow.cpp \
+    Logic_Windows/NewGame_LW.cpp \
+    Manager/Manager.cpp \
+    Player/Player.cpp \
+    Structures/NodeP.cpp \
+    Structures/NodeW.cpp \
+    Structures/PlayerList.cpp \
+    Structures/WordsList.cpp
 
 HEADERS += \
         mainmenu.h \
@@ -56,7 +73,20 @@ HEADERS += \
     perk.h \
     tablerografico.h \
     ficha.h \
-    jugador.h
+    Client/Client.h \
+    createlobby.h \
+    waitmenu.h \
+    Board_Logic/Box.h \
+    JSON_Logic/JSONManager.h \
+    Logic_Windows/JoinGame_LW.h \
+    Logic_Windows/LogicWindow.h \
+    Logic_Windows/NewGame_LW.h \
+    Manager/Manager.h \
+    Player/Player.h \
+    Structures/NodeP.h \
+    Structures/NodeW.h \
+    Structures/PlayerList.h \
+    Structures/WordsList.h
 
 FORMS += \
         mainmenu.ui \

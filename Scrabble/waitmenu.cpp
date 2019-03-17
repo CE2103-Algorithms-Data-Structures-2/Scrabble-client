@@ -1,4 +1,4 @@
-include "waitmenu.h"
+#include "waitmenu.h"
 
 WaitMenu::WaitMenu()
 {

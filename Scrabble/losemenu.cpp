@@ -12,3 +12,4 @@ LoseMenu::~LoseMenu()
 {
     delete ui;
 }
+

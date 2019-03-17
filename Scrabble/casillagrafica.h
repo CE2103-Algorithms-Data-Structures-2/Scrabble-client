@@ -9,17 +9,16 @@ class CasillaGrafica
 {
 
 public:
-    CasillaGrafica(int row, int column, Point coodinates, Perk bonus);
+    CasillaGrafica(int row, int column, Point coordinates, Perk bonus);
     void setLetter(char letter);
     void setImg(QImage img);
-    void setLetter(char letter);
     int getRow();
     int getColumn();
     Perk getBonus();
     char getLetter();
 
 private:
-    Point coodinates;
+    Point coordinates;
     int row;
     int column;
     char letter;

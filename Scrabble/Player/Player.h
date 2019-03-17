@@ -51,10 +51,7 @@ class Player {
          * @return ID de tipo entero.
          */
         int* getID();
-
-
-
-
+        void setPoints(int* points);
 };
 
 

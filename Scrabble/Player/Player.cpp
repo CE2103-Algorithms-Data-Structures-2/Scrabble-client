@@ -3,10 +3,11 @@
 //
 
 #include "Player.h"
+
 Player::Player()
 {
     *turn= false;
-    this->points=nullptr;
+    this->points=0;
     this->chips= nullptr;
     this->ID= nullptr;
 }
@@ -43,4 +44,8 @@ void Player::setID(int i)
 int* Player::getID()
 {
     return this->ID;
+}
+
+void Player::setPoints(int* points) {
+    this->points = points;
 }

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kugelblitz/Documents/Scrabble-client/Scrabble/Player/Player.cpp
+Player.h
+/home/kugelblitz/Documents/Scrabble-client/Scrabble/Player/Player.h
+
+/home/kugelblitz/Documents/Scrabble-client/Scrabble/Player/Player.h
+../../Structures/WordsList.h
+/home/kugelblitz/Documents/Scrabble-client/Structures/WordsList.h
+
+/home/kugelblitz/Documents/Scrabble-client/Scrabble/waitmenu.cpp
+waitmenu.h
+/home/kugelblitz/Documents/Scrabble-client/Scrabble/waitmenu.h
+
+/home/kugelblitz/Documents/Scrabble-client/Scrabble/waitmenu.h
+
+/home/kugelblitz/Documents/Scrabble-client/Structures/NodeW.h
+string
+-
+
+/home/kugelblitz/Documents/Scrabble-client/Structures/WordsList.h
+string.h
+-
+iostream
+-
+NodeW.h
+/home/kugelblitz/Documents/Scrabble-client/Structures/NodeW.h
+
