@@ -44,7 +44,10 @@ void Client::start()
                 connected = true;
                 cout<<"Connected!"<<endl;
                 //sendMessage("getList");
-                //receiveMessage();
+                 if(receiveMessage().compare("denied")==0)
+                 {
+                     connected=false;
+                 };
             }
             cout << "Atempts to connect: " << attempts++ << endl;
 
