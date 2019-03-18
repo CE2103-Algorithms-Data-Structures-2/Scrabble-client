@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/61/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/61/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/david/Desktop/P
+CMAKE_SOURCE_DIR = /home/dcamachog1501/Desktop/Cl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/david/Desktop/P/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dcamachog1501/Desktop/Cl/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/david/Desktop/P/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/61/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/61/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/david/Desktop/P/cmake-build-debug/CMakeFiles /home/david/Desktop/P/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dcamachog1501/Desktop/Cl/cmake-build-debug/CMakeFiles /home/dcamachog1501/Desktop/Cl/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/david/Desktop/P/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dcamachog1501/Desktop/Cl/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,6 +176,33 @@ Interface_Logic/Board_Logic/Box.s: Interface_Logic/Board_Logic/Box.cpp.s
 Interface_Logic/Board_Logic/Box.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.s
 .PHONY : Interface_Logic/Board_Logic/Box.cpp.s
+
+Interface_Logic/Board_Logic/Chip.o: Interface_Logic/Board_Logic/Chip.cpp.o
+
+.PHONY : Interface_Logic/Board_Logic/Chip.o
+
+# target to build an object file
+Interface_Logic/Board_Logic/Chip.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Chip.cpp.o
+.PHONY : Interface_Logic/Board_Logic/Chip.cpp.o
+
+Interface_Logic/Board_Logic/Chip.i: Interface_Logic/Board_Logic/Chip.cpp.i
+
+.PHONY : Interface_Logic/Board_Logic/Chip.i
+
+# target to preprocess a source file
+Interface_Logic/Board_Logic/Chip.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Chip.cpp.i
+.PHONY : Interface_Logic/Board_Logic/Chip.cpp.i
+
+Interface_Logic/Board_Logic/Chip.s: Interface_Logic/Board_Logic/Chip.cpp.s
+
+.PHONY : Interface_Logic/Board_Logic/Chip.s
+
+# target to generate assembly for a file
+Interface_Logic/Board_Logic/Chip.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Chip.cpp.s
+.PHONY : Interface_Logic/Board_Logic/Chip.cpp.s
 
 Interface_Logic/JSON_Logic/JSONManager.o: Interface_Logic/JSON_Logic/JSONManager.cpp.o
 
@@ -489,6 +516,9 @@ help:
 	@echo "... Interface_Logic/Board_Logic/Box.o"
 	@echo "... Interface_Logic/Board_Logic/Box.i"
 	@echo "... Interface_Logic/Board_Logic/Box.s"
+	@echo "... Interface_Logic/Board_Logic/Chip.o"
+	@echo "... Interface_Logic/Board_Logic/Chip.i"
+	@echo "... Interface_Logic/Board_Logic/Chip.s"
 	@echo "... Interface_Logic/JSON_Logic/JSONManager.o"
 	@echo "... Interface_Logic/JSON_Logic/JSONManager.i"
 	@echo "... Interface_Logic/JSON_Logic/JSONManager.s"

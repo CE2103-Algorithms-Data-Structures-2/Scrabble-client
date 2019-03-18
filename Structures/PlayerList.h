@@ -9,11 +9,11 @@
 #include "NodeP.h"
 
 class PlayerList {
-    private:
-        int* length;
-        NodeP* head;
-        int* limit;
-    public:
+private:
+    int* length;
+    NodeP* head;
+    int* limit;
+public:
     /**
      * Constructor de la clase PlayList
      */

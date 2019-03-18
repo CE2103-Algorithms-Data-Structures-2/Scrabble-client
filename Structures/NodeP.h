@@ -9,10 +9,10 @@
 #include "../Interface_Logic/Player/Player.h"
 
 class NodeP {
-    private:
-        Player* jugador;
-        NodeP* next;
-    public:
+private:
+    Player* jugador;
+    NodeP* next;
+public:
     /**
      * Constructor de la clase NodeP.
      */
@@ -26,17 +26,17 @@ class NodeP {
      * Metodo para obtener el puntero al nodo siguiente.
      * @return NodeP* Puntero al siguiente nodo de tipo NodeP*
      */
-     NodeP* getNext();
-     /**
-      * Metodo para establecer el puntero hacia el sigiente nodo de tipo NodeP.
-      * @param p Puntero de tipo NodeP.
-      */
-     void setNext(NodeP* p);
-     /**
-      * Metodo para obtener el objeto de tipo Player almacenado en el nodo.
-      * @return
-      */
-     Player* getValue();
+    NodeP* getNext();
+    /**
+     * Metodo para establecer el puntero hacia el sigiente nodo de tipo NodeP.
+     * @param p Puntero de tipo NodeP.
+     */
+    void setNext(NodeP* p);
+    /**
+     * Metodo para obtener el objeto de tipo Player almacenado en el nodo.
+     * @return
+     */
+    Player* getValue();
 
 };
 

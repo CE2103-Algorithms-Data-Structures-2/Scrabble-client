@@ -14,12 +14,14 @@ Player::Player()
     this->points=new int(0);
     this->chips= new WordsList();
     this->ID= " ";
+    this->rndChip= new Chip();
 }
 Player::Player(string n) {
     this->chips= new WordsList();
     this->name=" ";
     this->points=new int(0);
     this->turn=new bool(false);
+    this->rndChip= new Chip();
     this->ID=" ";
 
 }
@@ -51,11 +53,17 @@ string Player::getID()
 }
 void Player::print()
 {
-    cout<<"Nombre: "<<name<<endl;
+    cout<<"Name: "<<name<<endl;
     cout<<"ID: "<<ID<<endl;
+    cout<<"Random chip: "<<rndChip->getLetter()<<endl;
 }
 
 void Player::setName(string n)
 {
     this->name=n;
+}
+
+void Player::setRnd(Chip *c)
+{
+    this->rndChip=c;
 }

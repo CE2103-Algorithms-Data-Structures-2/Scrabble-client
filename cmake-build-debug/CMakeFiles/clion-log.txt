@@ -1,5 +1,5 @@
-/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/david/Desktop/P
+/snap/clion/61/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/dcamachog1501/Desktop/Cl
 -- Boost version: 1.65.1
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/david/Desktop/P/cmake-build-debug
+-- Build files have been written to: /home/dcamachog1501/Desktop/Cl/cmake-build-debug

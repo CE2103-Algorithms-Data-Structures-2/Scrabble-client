@@ -13,16 +13,16 @@ using namespace std;
 
 
 class WordsList {
-    private:
-        NodeW* head;
-        int length;
-    public:
-        WordsList();
-        int getLength();
-        string get(string s);
-        void add(string s);
-        void del(string s);
-        string print();
+private:
+    NodeW* head;
+    int length;
+public:
+    WordsList();
+    int getLength();
+    Chip* get(string s);
+    void add(Chip* c);
+    void del(string s);
+    void print();
 
 };
 

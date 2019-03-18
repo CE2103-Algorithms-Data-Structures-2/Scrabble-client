@@ -42,6 +42,10 @@ public:
      * Metodo para preguntar al servidor si hay jugadores nuevos.
      */
     void ask();
+    /**
+     * Metodo para iniciar la dinamica del juego.
+     */
+    void play();
     static Player* localP;
     static PlayerList* players;
 

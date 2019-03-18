@@ -38,16 +38,16 @@ void Manager::Init()
             if(tr)
             {
                 cliente->isAccepted();
-                /*this->NewG_LW->newGame();
+                this->NewG_LW->newGame();
                 players->print();
                 this->setCode(cliente->receiveMessage());
-                ask();*/
-                bool accepted=this->JoinG_LW->join();
+                /*bool accepted=this->JoinG_LW->join();
                 if(!accepted)
                 {
                     cliente->disconnect();
-                }
+                }*/
                 ask();
+                play();
                 tr=false;
 
             }
@@ -55,7 +55,25 @@ void Manager::Init()
         }
     }
 }
+void Manager::play()
+{
+    cliente->sendMessage("getRandom");
+    string incoming=cliente->receiveMessage();
+    Chip* c= new Chip();
+    c->setPoints(stoi(Manager::Jmanager->askFor(incoming,"points")));
+    c->setLetter(Manager::Jmanager->askFor(incoming,"letter"));
+    if(Manager::Jmanager->askFor(incoming,"wildcard").compare("true")==0)
+    {
+        c->setSpecial(true);
+    }
+    else if(Manager::Jmanager->askFor(incoming,"wildcard").compare("false")==0)
+    {
+        c->setSpecial(false);
+    }
+    Manager::localP->setRnd(c);
+    Manager::localP->print();
 
+}
 void Manager::setCode(string s) {
     if(!*assigned)
     {
