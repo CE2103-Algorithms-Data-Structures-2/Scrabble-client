@@ -38,16 +38,18 @@ void Manager::Init()
             if(tr)
             {
                 cliente->isAccepted();
-                this->NewG_LW->newGame();
+                /*this->NewG_LW->newGame();
                 players->print();
                 this->setCode(cliente->receiveMessage());
-                ask();
-                /*bool accepted=this->JoinG_LW->join();
+                ask();*/
+                bool accepted=this->JoinG_LW->join();
                 if(!accepted)
                 {
                     cliente->disconnect();
-                }*/
+                }
+                ask();
                 tr=false;
+
             }
 
         }
@@ -64,8 +66,8 @@ void Manager::setCode(string s) {
 
 }
 void Manager::ask() {
-    int counter=1;
-    while(counter<players->getLimit())
+    int counter=0;
+    while(counter<=players->getLimit()-1)
     {
         cliente->sendMessage("numP");
         string m=cliente->receiveMessage();

@@ -33,6 +33,6 @@ string NewGame_LW::getInfo()
     Manager::players->setLimit(stoi(temp));
     out+="No_jugadores@"+temp;
     out=Jmanager->toJSON(out);
-    Manager::players->add(Manager::localP);
+    //Manager::players->add(Manager::localP);
     return out;
 }
