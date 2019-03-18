@@ -24,6 +24,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Structures/PlayerList.cpp">
@@ -57,6 +58,14 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Client/Client.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1065">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
+>>>>>>> ba533c3d7312671eecbd714d393b8a29cbdecdb3
               <folding>
                 <element signature="e#127#146#0" expanded="true" />
               </folding>
@@ -64,6 +73,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Interface_Logic/Manager/Manager.cpp">
           <provider selected="true" editor-type-id="text-editor">
@@ -130,6 +140,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> ba533c3d7312671eecbd714d393b8a29cbdecdb3
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -203,7 +215,9 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -219,6 +233,7 @@
             </path>
             <path>
               <item name="Proyecto_1_Client" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
               <item name="Cl" type="462c0819:PsiDirectoryNode" />
               <item name="Client" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -230,15 +245,21 @@
             <path>
               <item name="Proyecto_1_Client" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cl" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Proyecto_1_Client" type="462c0819:PsiDirectoryNode" />
+>>>>>>> ba533c3d7312671eecbd714d393b8a29cbdecdb3
               <item name="Interface_Logic" type="462c0819:PsiDirectoryNode" />
               <item name="Manager" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="Proyecto_1_Client" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cl" type="462c0819:PsiDirectoryNode" />
               <item name="Interface_Logic" type="462c0819:PsiDirectoryNode" />
               <item name="Player" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+>>>>>>> ba533c3d7312671eecbd714d393b8a29cbdecdb3
           </expand>
           <select />
         </subPane>
@@ -326,9 +347,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24980047" />
+=======
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14167129" />
+>>>>>>> ba533c3d7312671eecbd714d393b8a29cbdecdb3
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -482,6 +510,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -516,6 +545,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> ba533c3d7312671eecbd714d393b8a29cbdecdb3
     <entry file="file://$PROJECT_DIR$/Client/Client.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -665,6 +696,16 @@
           <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
           <folding>
             <element signature="e#47#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/Client.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="e#48#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
