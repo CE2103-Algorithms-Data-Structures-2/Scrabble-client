@@ -14,58 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8f048ff-606a-4d04-9778-e641b0f9d2f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Interface_Logic/Board_Logic/Chip.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface_Logic/Board_Logic/Chip.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble-client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Client.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Client.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface_Logic/Manager/Manager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Interface_Logic/Manager/Manager.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface_Logic/Manager/Manager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Interface_Logic/Manager/Manager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface_Logic/Player/Player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Interface_Logic/Player/Player.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface_Logic/Player/Player.h" beforeDir="false" afterPath="$PROJECT_DIR$/Interface_Logic/Player/Player.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Structures/NodeP.h" beforeDir="false" afterPath="$PROJECT_DIR$/Structures/NodeP.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Structures/NodeW.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Structures/NodeW.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Structures/NodeW.h" beforeDir="false" afterPath="$PROJECT_DIR$/Structures/NodeW.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Structures/PlayerList.h" beforeDir="false" afterPath="$PROJECT_DIR$/Structures/PlayerList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Structures/WordsList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Structures/WordsList.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Structures/WordsList.h" beforeDir="false" afterPath="$PROJECT_DIR$/Structures/WordsList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Player/Player.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/NodeW.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/PlayerList.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/WordsList.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Proyecto_1_Client" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Proyecto_1_Client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Proyecto_1_Client.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Proyecto_1_Client.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-    </list>
+    <list default="true" id="c8f048ff-606a-4d04-9778-e641b0f9d2f9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Interface_Logic/Manager/Manager.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+            <state relative-caret-position="256">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="e#47#78#0" expanded="true" />
               </folding>
@@ -365,7 +314,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151735000" />
+    <option name="totallyTimeSpent" value="152209000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -378,6 +327,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24980047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -712,8 +662,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Interface_Logic/Manager/Manager.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+        <state relative-caret-position="256">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="e#47#78#0" expanded="true" />
           </folding>
