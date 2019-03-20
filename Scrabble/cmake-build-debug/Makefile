@@ -150,6 +150,384 @@ Client/Client.cpp.s:
 	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Client/Client.cpp.s
 .PHONY : Client/Client.cpp.s
 
+GameLogic/casillagrafica.o: GameLogic/casillagrafica.cpp.o
+
+.PHONY : GameLogic/casillagrafica.o
+
+# target to build an object file
+GameLogic/casillagrafica.cpp.o:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.o
+.PHONY : GameLogic/casillagrafica.cpp.o
+
+GameLogic/casillagrafica.i: GameLogic/casillagrafica.cpp.i
+
+.PHONY : GameLogic/casillagrafica.i
+
+# target to preprocess a source file
+GameLogic/casillagrafica.cpp.i:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.i
+.PHONY : GameLogic/casillagrafica.cpp.i
+
+GameLogic/casillagrafica.s: GameLogic/casillagrafica.cpp.s
+
+.PHONY : GameLogic/casillagrafica.s
+
+# target to generate assembly for a file
+GameLogic/casillagrafica.cpp.s:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.s
+.PHONY : GameLogic/casillagrafica.cpp.s
+
+GameLogic/ficha.o: GameLogic/ficha.cpp.o
+
+.PHONY : GameLogic/ficha.o
+
+# target to build an object file
+GameLogic/ficha.cpp.o:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.o
+.PHONY : GameLogic/ficha.cpp.o
+
+GameLogic/ficha.i: GameLogic/ficha.cpp.i
+
+.PHONY : GameLogic/ficha.i
+
+# target to preprocess a source file
+GameLogic/ficha.cpp.i:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.i
+.PHONY : GameLogic/ficha.cpp.i
+
+GameLogic/ficha.s: GameLogic/ficha.cpp.s
+
+.PHONY : GameLogic/ficha.s
+
+# target to generate assembly for a file
+GameLogic/ficha.cpp.s:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.s
+.PHONY : GameLogic/ficha.cpp.s
+
+GameLogic/gameboard.o: GameLogic/gameboard.cpp.o
+
+.PHONY : GameLogic/gameboard.o
+
+# target to build an object file
+GameLogic/gameboard.cpp.o:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/GameLogic/gameboard.cpp.o
+.PHONY : GameLogic/gameboard.cpp.o
+
+GameLogic/gameboard.i: GameLogic/gameboard.cpp.i
+
+.PHONY : GameLogic/gameboard.i
+
+# target to preprocess a source file
+GameLogic/gameboard.cpp.i:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/GameLogic/gameboard.cpp.i
+.PHONY : GameLogic/gameboard.cpp.i
+
+GameLogic/gameboard.s: GameLogic/gameboard.cpp.s
+
+.PHONY : GameLogic/gameboard.s
+
+# target to generate assembly for a file
+GameLogic/gameboard.cpp.s:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/GameLogic/gameboard.cpp.s
+.PHONY : GameLogic/gameboard.cpp.s
+
+GameLogic/point.o: GameLogic/point.cpp.o
+
+.PHONY : GameLogic/point.o
+
+# target to build an object file
+GameLogic/point.cpp.o:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/GameLogic/point.cpp.o
+.PHONY : GameLogic/point.cpp.o
+
+GameLogic/point.i: GameLogic/point.cpp.i
+
+.PHONY : GameLogic/point.i
+
+# target to preprocess a source file
+GameLogic/point.cpp.i:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/GameLogic/point.cpp.i
+.PHONY : GameLogic/point.cpp.i
+
+GameLogic/point.s: GameLogic/point.cpp.s
+
+.PHONY : GameLogic/point.s
+
+# target to generate assembly for a file
+GameLogic/point.cpp.s:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/GameLogic/point.cpp.s
+.PHONY : GameLogic/point.cpp.s
+
+GameLogic/tablerografico.o: GameLogic/tablerografico.cpp.o
+
+.PHONY : GameLogic/tablerografico.o
+
+# target to build an object file
+GameLogic/tablerografico.cpp.o:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.o
+.PHONY : GameLogic/tablerografico.cpp.o
+
+GameLogic/tablerografico.i: GameLogic/tablerografico.cpp.i
+
+.PHONY : GameLogic/tablerografico.i
+
+# target to preprocess a source file
+GameLogic/tablerografico.cpp.i:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.i
+.PHONY : GameLogic/tablerografico.cpp.i
+
+GameLogic/tablerografico.s: GameLogic/tablerografico.cpp.s
+
+.PHONY : GameLogic/tablerografico.s
+
+# target to generate assembly for a file
+GameLogic/tablerografico.cpp.s:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.s
+.PHONY : GameLogic/tablerografico.cpp.s
+
+Gui/configlobbymenu.o: Gui/configlobbymenu.cpp.o
+
+.PHONY : Gui/configlobbymenu.o
+
+# target to build an object file
+Gui/configlobbymenu.cpp.o:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.o
+.PHONY : Gui/configlobbymenu.cpp.o
+
+Gui/configlobbymenu.i: Gui/configlobbymenu.cpp.i
+
+.PHONY : Gui/configlobbymenu.i
+
+# target to preprocess a source file
+Gui/configlobbymenu.cpp.i:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.i
+.PHONY : Gui/configlobbymenu.cpp.i
+
+Gui/configlobbymenu.s: Gui/configlobbymenu.cpp.s
+
+.PHONY : Gui/configlobbymenu.s
+
+# target to generate assembly for a file
+Gui/configlobbymenu.cpp.s:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.s
+.PHONY : Gui/configlobbymenu.cpp.s
+
+Gui/createlobby.o: Gui/createlobby.cpp.o
+
+.PHONY : Gui/createlobby.o
+
+# target to build an object file
+Gui/createlobby.cpp.o:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/createlobby.cpp.o
+.PHONY : Gui/createlobby.cpp.o
+
+Gui/createlobby.i: Gui/createlobby.cpp.i
+
+.PHONY : Gui/createlobby.i
+
+# target to preprocess a source file
+Gui/createlobby.cpp.i:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/createlobby.cpp.i
+.PHONY : Gui/createlobby.cpp.i
+
+Gui/createlobby.s: Gui/createlobby.cpp.s
+
+.PHONY : Gui/createlobby.s
+
+# target to generate assembly for a file
+Gui/createlobby.cpp.s:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/createlobby.cpp.s
+.PHONY : Gui/createlobby.cpp.s
+
+Gui/createlobbymenu.o: Gui/createlobbymenu.cpp.o
+
+.PHONY : Gui/createlobbymenu.o
+
+# target to build an object file
+Gui/createlobbymenu.cpp.o:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/createlobbymenu.cpp.o
+.PHONY : Gui/createlobbymenu.cpp.o
+
+Gui/createlobbymenu.i: Gui/createlobbymenu.cpp.i
+
+.PHONY : Gui/createlobbymenu.i
+
+# target to preprocess a source file
+Gui/createlobbymenu.cpp.i:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/createlobbymenu.cpp.i
+.PHONY : Gui/createlobbymenu.cpp.i
+
+Gui/createlobbymenu.s: Gui/createlobbymenu.cpp.s
+
+.PHONY : Gui/createlobbymenu.s
+
+# target to generate assembly for a file
+Gui/createlobbymenu.cpp.s:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/createlobbymenu.cpp.s
+.PHONY : Gui/createlobbymenu.cpp.s
+
+Gui/joinlobbymenu.o: Gui/joinlobbymenu.cpp.o
+
+.PHONY : Gui/joinlobbymenu.o
+
+# target to build an object file
+Gui/joinlobbymenu.cpp.o:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/joinlobbymenu.cpp.o
+.PHONY : Gui/joinlobbymenu.cpp.o
+
+Gui/joinlobbymenu.i: Gui/joinlobbymenu.cpp.i
+
+.PHONY : Gui/joinlobbymenu.i
+
+# target to preprocess a source file
+Gui/joinlobbymenu.cpp.i:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/joinlobbymenu.cpp.i
+.PHONY : Gui/joinlobbymenu.cpp.i
+
+Gui/joinlobbymenu.s: Gui/joinlobbymenu.cpp.s
+
+.PHONY : Gui/joinlobbymenu.s
+
+# target to generate assembly for a file
+Gui/joinlobbymenu.cpp.s:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/joinlobbymenu.cpp.s
+.PHONY : Gui/joinlobbymenu.cpp.s
+
+Gui/losemenu.o: Gui/losemenu.cpp.o
+
+.PHONY : Gui/losemenu.o
+
+# target to build an object file
+Gui/losemenu.cpp.o:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/losemenu.cpp.o
+.PHONY : Gui/losemenu.cpp.o
+
+Gui/losemenu.i: Gui/losemenu.cpp.i
+
+.PHONY : Gui/losemenu.i
+
+# target to preprocess a source file
+Gui/losemenu.cpp.i:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/losemenu.cpp.i
+.PHONY : Gui/losemenu.cpp.i
+
+Gui/losemenu.s: Gui/losemenu.cpp.s
+
+.PHONY : Gui/losemenu.s
+
+# target to generate assembly for a file
+Gui/losemenu.cpp.s:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/losemenu.cpp.s
+.PHONY : Gui/losemenu.cpp.s
+
+Gui/mainmenu.o: Gui/mainmenu.cpp.o
+
+.PHONY : Gui/mainmenu.o
+
+# target to build an object file
+Gui/mainmenu.cpp.o:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/mainmenu.cpp.o
+.PHONY : Gui/mainmenu.cpp.o
+
+Gui/mainmenu.i: Gui/mainmenu.cpp.i
+
+.PHONY : Gui/mainmenu.i
+
+# target to preprocess a source file
+Gui/mainmenu.cpp.i:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/mainmenu.cpp.i
+.PHONY : Gui/mainmenu.cpp.i
+
+Gui/mainmenu.s: Gui/mainmenu.cpp.s
+
+.PHONY : Gui/mainmenu.s
+
+# target to generate assembly for a file
+Gui/mainmenu.cpp.s:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/mainmenu.cpp.s
+.PHONY : Gui/mainmenu.cpp.s
+
+Gui/waitforgamestartmenu.o: Gui/waitforgamestartmenu.cpp.o
+
+.PHONY : Gui/waitforgamestartmenu.o
+
+# target to build an object file
+Gui/waitforgamestartmenu.cpp.o:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.o
+.PHONY : Gui/waitforgamestartmenu.cpp.o
+
+Gui/waitforgamestartmenu.i: Gui/waitforgamestartmenu.cpp.i
+
+.PHONY : Gui/waitforgamestartmenu.i
+
+# target to preprocess a source file
+Gui/waitforgamestartmenu.cpp.i:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.i
+.PHONY : Gui/waitforgamestartmenu.cpp.i
+
+Gui/waitforgamestartmenu.s: Gui/waitforgamestartmenu.cpp.s
+
+.PHONY : Gui/waitforgamestartmenu.s
+
+# target to generate assembly for a file
+Gui/waitforgamestartmenu.cpp.s:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.s
+.PHONY : Gui/waitforgamestartmenu.cpp.s
+
+Gui/waitmenu.o: Gui/waitmenu.cpp.o
+
+.PHONY : Gui/waitmenu.o
+
+# target to build an object file
+Gui/waitmenu.cpp.o:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.o
+.PHONY : Gui/waitmenu.cpp.o
+
+Gui/waitmenu.i: Gui/waitmenu.cpp.i
+
+.PHONY : Gui/waitmenu.i
+
+# target to preprocess a source file
+Gui/waitmenu.cpp.i:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.i
+.PHONY : Gui/waitmenu.cpp.i
+
+Gui/waitmenu.s: Gui/waitmenu.cpp.s
+
+.PHONY : Gui/waitmenu.s
+
+# target to generate assembly for a file
+Gui/waitmenu.cpp.s:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.s
+.PHONY : Gui/waitmenu.cpp.s
+
+Gui/winmenu.o: Gui/winmenu.cpp.o
+
+.PHONY : Gui/winmenu.o
+
+# target to build an object file
+Gui/winmenu.cpp.o:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.o
+.PHONY : Gui/winmenu.cpp.o
+
+Gui/winmenu.i: Gui/winmenu.cpp.i
+
+.PHONY : Gui/winmenu.i
+
+# target to preprocess a source file
+Gui/winmenu.cpp.i:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.i
+.PHONY : Gui/winmenu.cpp.i
+
+Gui/winmenu.s: Gui/winmenu.cpp.s
+
+.PHONY : Gui/winmenu.s
+
+# target to generate assembly for a file
+Gui/winmenu.cpp.s:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.s
+.PHONY : Gui/winmenu.cpp.s
+
 JSON_Logic/JSONManager.o: JSON_Logic/JSONManager.cpp.o
 
 .PHONY : JSON_Logic/JSONManager.o
@@ -420,276 +798,6 @@ Structures/WordsList.cpp.s:
 	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.s
 .PHONY : Structures/WordsList.cpp.s
 
-casilla.o: casilla.cpp.o
-
-.PHONY : casilla.o
-
-# target to build an object file
-casilla.cpp.o:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/casilla.cpp.o
-.PHONY : casilla.cpp.o
-
-casilla.i: casilla.cpp.i
-
-.PHONY : casilla.i
-
-# target to preprocess a source file
-casilla.cpp.i:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/casilla.cpp.i
-.PHONY : casilla.cpp.i
-
-casilla.s: casilla.cpp.s
-
-.PHONY : casilla.s
-
-# target to generate assembly for a file
-casilla.cpp.s:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/casilla.cpp.s
-.PHONY : casilla.cpp.s
-
-casillagrafica.o: casillagrafica.cpp.o
-
-.PHONY : casillagrafica.o
-
-# target to build an object file
-casillagrafica.cpp.o:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/casillagrafica.cpp.o
-.PHONY : casillagrafica.cpp.o
-
-casillagrafica.i: casillagrafica.cpp.i
-
-.PHONY : casillagrafica.i
-
-# target to preprocess a source file
-casillagrafica.cpp.i:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/casillagrafica.cpp.i
-.PHONY : casillagrafica.cpp.i
-
-casillagrafica.s: casillagrafica.cpp.s
-
-.PHONY : casillagrafica.s
-
-# target to generate assembly for a file
-casillagrafica.cpp.s:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/casillagrafica.cpp.s
-.PHONY : casillagrafica.cpp.s
-
-configlobbymenu.o: configlobbymenu.cpp.o
-
-.PHONY : configlobbymenu.o
-
-# target to build an object file
-configlobbymenu.cpp.o:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/configlobbymenu.cpp.o
-.PHONY : configlobbymenu.cpp.o
-
-configlobbymenu.i: configlobbymenu.cpp.i
-
-.PHONY : configlobbymenu.i
-
-# target to preprocess a source file
-configlobbymenu.cpp.i:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/configlobbymenu.cpp.i
-.PHONY : configlobbymenu.cpp.i
-
-configlobbymenu.s: configlobbymenu.cpp.s
-
-.PHONY : configlobbymenu.s
-
-# target to generate assembly for a file
-configlobbymenu.cpp.s:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/configlobbymenu.cpp.s
-.PHONY : configlobbymenu.cpp.s
-
-createlobby.o: createlobby.cpp.o
-
-.PHONY : createlobby.o
-
-# target to build an object file
-createlobby.cpp.o:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/createlobby.cpp.o
-.PHONY : createlobby.cpp.o
-
-createlobby.i: createlobby.cpp.i
-
-.PHONY : createlobby.i
-
-# target to preprocess a source file
-createlobby.cpp.i:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/createlobby.cpp.i
-.PHONY : createlobby.cpp.i
-
-createlobby.s: createlobby.cpp.s
-
-.PHONY : createlobby.s
-
-# target to generate assembly for a file
-createlobby.cpp.s:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/createlobby.cpp.s
-.PHONY : createlobby.cpp.s
-
-createlobbymenu.o: createlobbymenu.cpp.o
-
-.PHONY : createlobbymenu.o
-
-# target to build an object file
-createlobbymenu.cpp.o:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/createlobbymenu.cpp.o
-.PHONY : createlobbymenu.cpp.o
-
-createlobbymenu.i: createlobbymenu.cpp.i
-
-.PHONY : createlobbymenu.i
-
-# target to preprocess a source file
-createlobbymenu.cpp.i:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/createlobbymenu.cpp.i
-.PHONY : createlobbymenu.cpp.i
-
-createlobbymenu.s: createlobbymenu.cpp.s
-
-.PHONY : createlobbymenu.s
-
-# target to generate assembly for a file
-createlobbymenu.cpp.s:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/createlobbymenu.cpp.s
-.PHONY : createlobbymenu.cpp.s
-
-ficha.o: ficha.cpp.o
-
-.PHONY : ficha.o
-
-# target to build an object file
-ficha.cpp.o:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/ficha.cpp.o
-.PHONY : ficha.cpp.o
-
-ficha.i: ficha.cpp.i
-
-.PHONY : ficha.i
-
-# target to preprocess a source file
-ficha.cpp.i:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/ficha.cpp.i
-.PHONY : ficha.cpp.i
-
-ficha.s: ficha.cpp.s
-
-.PHONY : ficha.s
-
-# target to generate assembly for a file
-ficha.cpp.s:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/ficha.cpp.s
-.PHONY : ficha.cpp.s
-
-gameboard.o: gameboard.cpp.o
-
-.PHONY : gameboard.o
-
-# target to build an object file
-gameboard.cpp.o:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/gameboard.cpp.o
-.PHONY : gameboard.cpp.o
-
-gameboard.i: gameboard.cpp.i
-
-.PHONY : gameboard.i
-
-# target to preprocess a source file
-gameboard.cpp.i:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/gameboard.cpp.i
-.PHONY : gameboard.cpp.i
-
-gameboard.s: gameboard.cpp.s
-
-.PHONY : gameboard.s
-
-# target to generate assembly for a file
-gameboard.cpp.s:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/gameboard.cpp.s
-.PHONY : gameboard.cpp.s
-
-joinlobbymenu.o: joinlobbymenu.cpp.o
-
-.PHONY : joinlobbymenu.o
-
-# target to build an object file
-joinlobbymenu.cpp.o:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/joinlobbymenu.cpp.o
-.PHONY : joinlobbymenu.cpp.o
-
-joinlobbymenu.i: joinlobbymenu.cpp.i
-
-.PHONY : joinlobbymenu.i
-
-# target to preprocess a source file
-joinlobbymenu.cpp.i:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/joinlobbymenu.cpp.i
-.PHONY : joinlobbymenu.cpp.i
-
-joinlobbymenu.s: joinlobbymenu.cpp.s
-
-.PHONY : joinlobbymenu.s
-
-# target to generate assembly for a file
-joinlobbymenu.cpp.s:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/joinlobbymenu.cpp.s
-.PHONY : joinlobbymenu.cpp.s
-
-jugador.o: jugador.cpp.o
-
-.PHONY : jugador.o
-
-# target to build an object file
-jugador.cpp.o:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/jugador.cpp.o
-.PHONY : jugador.cpp.o
-
-jugador.i: jugador.cpp.i
-
-.PHONY : jugador.i
-
-# target to preprocess a source file
-jugador.cpp.i:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/jugador.cpp.i
-.PHONY : jugador.cpp.i
-
-jugador.s: jugador.cpp.s
-
-.PHONY : jugador.s
-
-# target to generate assembly for a file
-jugador.cpp.s:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/jugador.cpp.s
-.PHONY : jugador.cpp.s
-
-losemenu.o: losemenu.cpp.o
-
-.PHONY : losemenu.o
-
-# target to build an object file
-losemenu.cpp.o:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/losemenu.cpp.o
-.PHONY : losemenu.cpp.o
-
-losemenu.i: losemenu.cpp.i
-
-.PHONY : losemenu.i
-
-# target to preprocess a source file
-losemenu.cpp.i:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/losemenu.cpp.i
-.PHONY : losemenu.cpp.i
-
-losemenu.s: losemenu.cpp.s
-
-.PHONY : losemenu.s
-
-# target to generate assembly for a file
-losemenu.cpp.s:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/losemenu.cpp.s
-.PHONY : losemenu.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -717,168 +825,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-mainmenu.o: mainmenu.cpp.o
-
-.PHONY : mainmenu.o
-
-# target to build an object file
-mainmenu.cpp.o:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/mainmenu.cpp.o
-.PHONY : mainmenu.cpp.o
-
-mainmenu.i: mainmenu.cpp.i
-
-.PHONY : mainmenu.i
-
-# target to preprocess a source file
-mainmenu.cpp.i:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/mainmenu.cpp.i
-.PHONY : mainmenu.cpp.i
-
-mainmenu.s: mainmenu.cpp.s
-
-.PHONY : mainmenu.s
-
-# target to generate assembly for a file
-mainmenu.cpp.s:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/mainmenu.cpp.s
-.PHONY : mainmenu.cpp.s
-
-point.o: point.cpp.o
-
-.PHONY : point.o
-
-# target to build an object file
-point.cpp.o:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/point.cpp.o
-.PHONY : point.cpp.o
-
-point.i: point.cpp.i
-
-.PHONY : point.i
-
-# target to preprocess a source file
-point.cpp.i:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/point.cpp.i
-.PHONY : point.cpp.i
-
-point.s: point.cpp.s
-
-.PHONY : point.s
-
-# target to generate assembly for a file
-point.cpp.s:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/point.cpp.s
-.PHONY : point.cpp.s
-
-tablerografico.o: tablerografico.cpp.o
-
-.PHONY : tablerografico.o
-
-# target to build an object file
-tablerografico.cpp.o:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/tablerografico.cpp.o
-.PHONY : tablerografico.cpp.o
-
-tablerografico.i: tablerografico.cpp.i
-
-.PHONY : tablerografico.i
-
-# target to preprocess a source file
-tablerografico.cpp.i:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/tablerografico.cpp.i
-.PHONY : tablerografico.cpp.i
-
-tablerografico.s: tablerografico.cpp.s
-
-.PHONY : tablerografico.s
-
-# target to generate assembly for a file
-tablerografico.cpp.s:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/tablerografico.cpp.s
-.PHONY : tablerografico.cpp.s
-
-waitforgamestartmenu.o: waitforgamestartmenu.cpp.o
-
-.PHONY : waitforgamestartmenu.o
-
-# target to build an object file
-waitforgamestartmenu.cpp.o:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/waitforgamestartmenu.cpp.o
-.PHONY : waitforgamestartmenu.cpp.o
-
-waitforgamestartmenu.i: waitforgamestartmenu.cpp.i
-
-.PHONY : waitforgamestartmenu.i
-
-# target to preprocess a source file
-waitforgamestartmenu.cpp.i:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/waitforgamestartmenu.cpp.i
-.PHONY : waitforgamestartmenu.cpp.i
-
-waitforgamestartmenu.s: waitforgamestartmenu.cpp.s
-
-.PHONY : waitforgamestartmenu.s
-
-# target to generate assembly for a file
-waitforgamestartmenu.cpp.s:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/waitforgamestartmenu.cpp.s
-.PHONY : waitforgamestartmenu.cpp.s
-
-waitmenu.o: waitmenu.cpp.o
-
-.PHONY : waitmenu.o
-
-# target to build an object file
-waitmenu.cpp.o:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/waitmenu.cpp.o
-.PHONY : waitmenu.cpp.o
-
-waitmenu.i: waitmenu.cpp.i
-
-.PHONY : waitmenu.i
-
-# target to preprocess a source file
-waitmenu.cpp.i:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/waitmenu.cpp.i
-.PHONY : waitmenu.cpp.i
-
-waitmenu.s: waitmenu.cpp.s
-
-.PHONY : waitmenu.s
-
-# target to generate assembly for a file
-waitmenu.cpp.s:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/waitmenu.cpp.s
-.PHONY : waitmenu.cpp.s
-
-winmenu.o: winmenu.cpp.o
-
-.PHONY : winmenu.o
-
-# target to build an object file
-winmenu.cpp.o:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/winmenu.cpp.o
-.PHONY : winmenu.cpp.o
-
-winmenu.i: winmenu.cpp.i
-
-.PHONY : winmenu.i
-
-# target to preprocess a source file
-winmenu.cpp.i:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/winmenu.cpp.i
-.PHONY : winmenu.cpp.i
-
-winmenu.s: winmenu.cpp.s
-
-.PHONY : winmenu.s
-
-# target to generate assembly for a file
-winmenu.cpp.s:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/winmenu.cpp.s
-.PHONY : winmenu.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -891,6 +837,48 @@ help:
 	@echo "... Client/Client.o"
 	@echo "... Client/Client.i"
 	@echo "... Client/Client.s"
+	@echo "... GameLogic/casillagrafica.o"
+	@echo "... GameLogic/casillagrafica.i"
+	@echo "... GameLogic/casillagrafica.s"
+	@echo "... GameLogic/ficha.o"
+	@echo "... GameLogic/ficha.i"
+	@echo "... GameLogic/ficha.s"
+	@echo "... GameLogic/gameboard.o"
+	@echo "... GameLogic/gameboard.i"
+	@echo "... GameLogic/gameboard.s"
+	@echo "... GameLogic/point.o"
+	@echo "... GameLogic/point.i"
+	@echo "... GameLogic/point.s"
+	@echo "... GameLogic/tablerografico.o"
+	@echo "... GameLogic/tablerografico.i"
+	@echo "... GameLogic/tablerografico.s"
+	@echo "... Gui/configlobbymenu.o"
+	@echo "... Gui/configlobbymenu.i"
+	@echo "... Gui/configlobbymenu.s"
+	@echo "... Gui/createlobby.o"
+	@echo "... Gui/createlobby.i"
+	@echo "... Gui/createlobby.s"
+	@echo "... Gui/createlobbymenu.o"
+	@echo "... Gui/createlobbymenu.i"
+	@echo "... Gui/createlobbymenu.s"
+	@echo "... Gui/joinlobbymenu.o"
+	@echo "... Gui/joinlobbymenu.i"
+	@echo "... Gui/joinlobbymenu.s"
+	@echo "... Gui/losemenu.o"
+	@echo "... Gui/losemenu.i"
+	@echo "... Gui/losemenu.s"
+	@echo "... Gui/mainmenu.o"
+	@echo "... Gui/mainmenu.i"
+	@echo "... Gui/mainmenu.s"
+	@echo "... Gui/waitforgamestartmenu.o"
+	@echo "... Gui/waitforgamestartmenu.i"
+	@echo "... Gui/waitforgamestartmenu.s"
+	@echo "... Gui/waitmenu.o"
+	@echo "... Gui/waitmenu.i"
+	@echo "... Gui/waitmenu.s"
+	@echo "... Gui/winmenu.o"
+	@echo "... Gui/winmenu.i"
+	@echo "... Gui/winmenu.s"
 	@echo "... JSON_Logic/JSONManager.o"
 	@echo "... JSON_Logic/JSONManager.i"
 	@echo "... JSON_Logic/JSONManager.s"
@@ -921,57 +909,9 @@ help:
 	@echo "... Structures/WordsList.o"
 	@echo "... Structures/WordsList.i"
 	@echo "... Structures/WordsList.s"
-	@echo "... casilla.o"
-	@echo "... casilla.i"
-	@echo "... casilla.s"
-	@echo "... casillagrafica.o"
-	@echo "... casillagrafica.i"
-	@echo "... casillagrafica.s"
-	@echo "... configlobbymenu.o"
-	@echo "... configlobbymenu.i"
-	@echo "... configlobbymenu.s"
-	@echo "... createlobby.o"
-	@echo "... createlobby.i"
-	@echo "... createlobby.s"
-	@echo "... createlobbymenu.o"
-	@echo "... createlobbymenu.i"
-	@echo "... createlobbymenu.s"
-	@echo "... ficha.o"
-	@echo "... ficha.i"
-	@echo "... ficha.s"
-	@echo "... gameboard.o"
-	@echo "... gameboard.i"
-	@echo "... gameboard.s"
-	@echo "... joinlobbymenu.o"
-	@echo "... joinlobbymenu.i"
-	@echo "... joinlobbymenu.s"
-	@echo "... jugador.o"
-	@echo "... jugador.i"
-	@echo "... jugador.s"
-	@echo "... losemenu.o"
-	@echo "... losemenu.i"
-	@echo "... losemenu.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... mainmenu.o"
-	@echo "... mainmenu.i"
-	@echo "... mainmenu.s"
-	@echo "... point.o"
-	@echo "... point.i"
-	@echo "... point.s"
-	@echo "... tablerografico.o"
-	@echo "... tablerografico.i"
-	@echo "... tablerografico.s"
-	@echo "... waitforgamestartmenu.o"
-	@echo "... waitforgamestartmenu.i"
-	@echo "... waitforgamestartmenu.s"
-	@echo "... waitmenu.o"
-	@echo "... waitmenu.i"
-	@echo "... waitmenu.s"
-	@echo "... winmenu.o"
-	@echo "... winmenu.i"
-	@echo "... winmenu.s"
 .PHONY : help
 
 

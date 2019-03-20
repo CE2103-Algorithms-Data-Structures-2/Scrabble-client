@@ -6,50 +6,19 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(Scrabble
-        casilla.cpp
-        casilla.h
-        casillagrafica.cpp
-        casillagrafica.h
-        configlobbymenu.cpp
-        configlobbymenu.h
-        createlobby.cpp
-        createlobby.h
-        createlobbymenu.cpp
-        createlobbymenu.h
-        ficha.cpp
-        ficha.h
-        gameboard.cpp
-        gameboard.h
-        joinlobbymenu.cpp
-        joinlobbymenu.h
-        jugador.cpp
-        jugador.h
-        losemenu.cpp
-        losemenu.h
-        main.cpp
-        mainmenu.cpp
-        mainmenu.h
-        perk.h
-        point.cpp
-        point.h
-        tablerografico.cpp
-        tablerografico.h
-        waitforgamestartmenu.cpp
-        waitforgamestartmenu.h
-        waitmenu.cpp
-        waitmenu.h
-        winmenu.cpp
-        winmenu.h
+        GameLogic/casillagrafica.cpp
+        GameLogic/casillagrafica.h
+        GameLogic/ficha.cpp
+        GameLogic/ficha.h
+        GameLogic/gameboard.cpp
+        GameLogic/gameboard.h
+        GameLogic/perk.h
+        GameLogic/point.cpp
+        GameLogic/point.h
+        GameLogic/tablerografico.cpp
+        GameLogic/tablerografico.h
         Client/Client.cpp
         Client/Client.h
-        gameboard.ui
-        joinlobbymenu.ui
-        configlobbymenu.ui
-        createlobbymenu.ui
-        losemenu.ui
-        mainmenu.ui
-        waitforgamestartmenu.ui
-        winmenu.ui
         JSON_Logic/JSONManager.cpp
         JSON_Logic/JSONManager.h
         Logic_Windows/JoinGame_LW.cpp
@@ -69,9 +38,40 @@ add_executable(Scrabble
         Structures/PlayerList.cpp
         Structures/PlayerList.h
         Structures/WordsList.cpp
-        Structures/WordsList.h)
+        Structures/WordsList.h
+        Gui/configlobbymenu.cpp
+        Gui/configlobbymenu.h
+        Gui/createlobby.cpp
+        Gui/createlobby.h
+        Gui/createlobbymenu.cpp
+        Gui/createlobbymenu.h
+        Gui/joinlobbymenu.cpp
+        Gui/joinlobbymenu.h
+        Gui/losemenu.cpp
+        Gui/losemenu.h
+        Gui/waitforgamestartmenu.h
+        Gui/waitforgamestartmenu.cpp
+        Gui/waitmenu.cpp
+        Gui/waitmenu.h
+        Gui/winmenu.cpp
+        Gui/winmenu.h
+        Gui/mainmenu.cpp
+        Gui/mainmenu.h
+        gameboard.ui
+        joinlobbymenu.ui
+        configlobbymenu.ui
+        createlobbymenu.ui
+        losemenu.ui
+        mainmenu.ui
+        waitforgamestartmenu.ui
+        winmenu.ui
+        main.cpp)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+
+find_package(Qt5Widgets)
+
+include_directories(${Qt5Widgets_INCLUDE_DIRS})
 
 find_package(Qt5Core REQUIRED)
 find_package(Qt5Widgets REQUIRED)
@@ -82,6 +82,8 @@ set(CMAKE_AUTORCC ON)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_PREFIX_PATH "PATH_TO_QT/QT_VERSION/QT_ARCH/lib/cmake")
+
+#add_executable(Scrabble main.cpp mainmenu.h.cpp mainmenu.h.h qml.qrc)
 
 target_link_libraries(Scrabble Qt5::Widgets)
 

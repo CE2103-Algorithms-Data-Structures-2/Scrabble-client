@@ -5,7 +5,7 @@
 #ifndef PROYECTO_1_CLIENT_CLIENT_H
 #define PROYECTO_1_CLIENT_CLIENT_H
 #include <iostream>
-#include<thread>
+#include <thread>
 using namespace std;
 
 

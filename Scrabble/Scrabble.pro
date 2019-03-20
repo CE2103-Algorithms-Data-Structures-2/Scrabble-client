@@ -25,26 +25,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainmenu.cpp \
-    gameboard.cpp \
-    createlobbymenu.cpp \
-    waitforgamestartmenu.cpp \
-    joinlobbymenu.cpp \
-    winmenu.cpp \
-    losemenu.cpp \
-    configlobbymenu.cpp \
-    casillagrafica.cpp \
-    tablerografico.cpp \
-    point.cpp \
-    tablerografico.cpp \
-    ficha.cpp \
     Client/Client.cpp \
-    cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp \
-    cmake-build-debug/CMakeFiles/feature_tests.cxx \
-    createlobby.cpp \
-    waitmenu.cpp \
-    cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c \
-    cmake-build-debug/CMakeFiles/feature_tests.c \
     Board_Logic/Box.cpp \
     JSON_Logic/JSONManager.cpp \
     Logic_Windows/JoinGame_LW.cpp \
@@ -55,27 +36,25 @@ SOURCES += \
     Structures/NodeP.cpp \
     Structures/NodeW.cpp \
     Structures/PlayerList.cpp \
-    Structures/WordsList.cpp
+    Structures/WordsList.cpp \
+    Gui/configlobbymenu.cpp \
+    Gui/createlobby.cpp \
+    Gui/createlobbymenu.cpp \
+    Gui/joinlobbymenu.cpp \
+    Gui/losemenu.cpp \
+    Gui/mainmenu.cpp \
+    Gui/waitforgamestartmenu.cpp \
+    Gui/waitmenu.cpp \
+    Gui/winmenu.cpp \
+    GameLogic/casillagrafica.cpp \
+    GameLogic/ficha.cpp \
+    GameLogic/gameboard.cpp \
+    GameLogic/point.cpp \
+    GameLogic/tablerografico.cpp \
+    mainwindow.cpp
 
 HEADERS += \
-        mainmenu.h \
-    gameboard.h \
-    gameboard.h \
-    createlobbymenu.h \
-    waitforgamestartmenu.h \
-    joinlobbymenu.h \
-    winmenu.h \
-    losemenu.h \
-    configlobbymenu.h \
-    casillagrafica.h \
-    tablerografico.h \
-    point.h \
-    perk.h \
-    tablerografico.h \
-    ficha.h \
     Client/Client.h \
-    createlobby.h \
-    waitmenu.h \
     Board_Logic/Box.h \
     JSON_Logic/JSONManager.h \
     Logic_Windows/JoinGame_LW.h \
@@ -86,14 +65,32 @@ HEADERS += \
     Structures/NodeP.h \
     Structures/NodeW.h \
     Structures/PlayerList.h \
-    Structures/WordsList.h
+    Structures/WordsList.h \
+    Gui/configlobbymenu.h \
+    Gui/createlobby.h \
+    Gui/createlobbymenu.h \
+    Gui/joinlobbymenu.h \
+    Gui/losemenu.h \
+    Gui/mainmenu.h \
+    Gui/waitforgamestartmenu.h \
+    Gui/waitmenu.h \
+    Gui/winmenu.h \
+    GameLogic/casillagrafica.h \
+    GameLogic/ficha.h \
+    GameLogic/gameboard.h \
+    GameLogic/perk.h \
+    GameLogic/point.h \
+    GameLogic/tablerografico.h \
+    mainwindow.h
 
 FORMS += \
-        mainmenu.ui \
     gameboard.ui \
-    createlobbymenu.ui \
     waitforgamestartmenu.ui \
     joinlobbymenu.ui \
     winmenu.ui \
     losemenu.ui \
-    configlobbymenu.ui
+    mainmenu.ui \
+    configlobbymenu.ui \
+    mainwindow.ui
+
+CONFIG += c++11
