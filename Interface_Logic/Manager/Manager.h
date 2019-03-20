@@ -40,8 +40,9 @@ public:
     void setCode(string);
     /**
      * Metodo para preguntar al servidor si hay jugadores nuevos.
+     * @param s: Peticion de tipo string.
      */
-    void ask();
+    void ask(string s);
     /**
      * Metodo para iniciar la dinamica del juego.
      */

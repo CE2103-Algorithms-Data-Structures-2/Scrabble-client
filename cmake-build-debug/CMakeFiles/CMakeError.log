@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/dcamachog1501/Desktop/Cl/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/dcamachog1501/Desktop/CL/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0d324/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0d324.dir/build.make CMakeFiles/cmTC_0d324.dir/build
-make[1]: Entering directory '/home/dcamachog1501/Desktop/Cl/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0d324.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_0d324.dir/CheckSymbolExists.c.o   -c /home/dcamachog1501/Desktop/Cl/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_0d324
-/snap/clion/61/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d324.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_0d324.dir/CheckSymbolExists.c.o  -o cmTC_0d324 
-CMakeFiles/cmTC_0d324.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_60ab4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_60ab4.dir/build.make CMakeFiles/cmTC_60ab4.dir/build
+make[1]: Entering directory '/home/dcamachog1501/Desktop/CL/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60ab4.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_60ab4.dir/CheckSymbolExists.c.o   -c /home/dcamachog1501/Desktop/CL/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_60ab4
+/snap/clion/61/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60ab4.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_60ab4.dir/CheckSymbolExists.c.o  -o cmTC_60ab4 
+CMakeFiles/cmTC_60ab4.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_0d324.dir/build.make:86: recipe for target 'cmTC_0d324' failed
-make[1]: *** [cmTC_0d324] Error 1
-make[1]: Leaving directory '/home/dcamachog1501/Desktop/Cl/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_0d324/fast' failed
-make: *** [cmTC_0d324/fast] Error 2
+CMakeFiles/cmTC_60ab4.dir/build.make:86: recipe for target 'cmTC_60ab4' failed
+make[1]: *** [cmTC_60ab4] Error 1
+make[1]: Leaving directory '/home/dcamachog1501/Desktop/CL/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_60ab4/fast' failed
+make: *** [cmTC_60ab4/fast] Error 2
 
-File /home/dcamachog1501/Desktop/Cl/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/dcamachog1501/Desktop/CL/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 

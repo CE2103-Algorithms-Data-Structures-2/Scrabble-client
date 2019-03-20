@@ -46,7 +46,7 @@ void Manager::Init()
                 {
                     cliente->disconnect();
                 }*/
-                ask();
+                ask("numP");
                 play();
                 tr=false;
 
@@ -57,22 +57,8 @@ void Manager::Init()
 }
 void Manager::play()
 {
-    cliente->sendMessage("getRandom");
-    string incoming=cliente->receiveMessage();
-    Chip* c= new Chip();
-    c->setPoints(stoi(Manager::Jmanager->askFor(incoming,"points")));
-    c->setLetter(Manager::Jmanager->askFor(incoming,"letter"));
-    if(Manager::Jmanager->askFor(incoming,"wildcard").compare("true")==0)
-    {
-        c->setSpecial(true);
-    }
-    else if(Manager::Jmanager->askFor(incoming,"wildcard").compare("false")==0)
-    {
-        c->setSpecial(false);
-    }
-    Manager::localP->setRnd(c);
-    Manager::localP->print();
-
+    ask("getRandom");
+    ask("ready");
 }
 void Manager::setCode(string s) {
     if(!*assigned)
@@ -83,40 +69,71 @@ void Manager::setCode(string s) {
     }
 
 }
-void Manager::ask() {
-    int counter=0;
-    while(counter<=players->getLimit()-1)
-    {
-        cliente->sendMessage("numP");
-        string m=cliente->receiveMessage();
-        int n=0;
-        try
-        {
-            n=stoi(m);
-        }
-        catch(int e)
-        {
-            n=0;
-        }
-        if(n>counter)
-        {
-            cout<<"Numero de jugadores en el server: "<<m<<endl;
-            cliente->sendMessage("askFor");
-            if((cliente->receiveMessage().compare("send"))==0)
-            {
-                cliente->sendMessage(to_string(counter));
-                string entrante=cliente->receiveMessage();
-                Player* p= new Player();
-                p->setName(Jmanager->askFor(entrante,string("name")));
-                p->setID(Jmanager->askFor(entrante,string("ID")));
-                players->add(p);
-                counter++;
+void Manager::ask(string p) {
+    if(p.compare("numP")==0) {
+        int counter = 0;
+        while (counter <= players->getLimit() - 1) {
+            cliente->sendMessage("numP");
+            string m = cliente->receiveMessage();
+            int n = 0;
+            try {
+                n = stoi(m);
+            }
+            catch (int e) {
+                n = 0;
+            }
+            if (n > counter) {
+                cout << "Numero de jugadores en el server: " << m << endl;
+                cliente->sendMessage("askFor");
+                if ((cliente->receiveMessage().compare("send")) == 0) {
+                    cliente->sendMessage(to_string(counter));
+                    string entrante = cliente->receiveMessage();
+                    Player *p = new Player();
+                    p->setName(Jmanager->askFor(entrante, string("name")));
+                    p->setID(Jmanager->askFor(entrante, string("ID")));
+                    players->add(p);
+                    counter++;
 
+                }
+            }
+            usleep(5000000);
+        }
+        cout << "Tope alcanzado" << endl;
+        players->print();
+    }
+    else if(p.compare("getRandom")==0)
+    {
+        cliente->sendMessage("getRandom");
+        string incoming=cliente->receiveMessage();
+        Chip* c= new Chip();
+        c->setPoints(stoi(Manager::Jmanager->askFor(incoming,"points")));
+        c->setLetter(Manager::Jmanager->askFor(incoming,"letter"));
+        if(Manager::Jmanager->askFor(incoming,"wildcard").compare("true")==0)
+        {
+            c->setSpecial(true);
+        }
+        else if(Manager::Jmanager->askFor(incoming,"wildcard").compare("false")==0)
+        {
+            c->setSpecial(false);
+        }
+        Manager::localP->setRnd(c);
+        Manager::localP->print();
+    }
+    else if(p.compare("ready")==0)
+    {
+        while(true)
+        {
+            cliente->sendMessage("ready");
+            string incoming=cliente->receiveMessage();
+            if(incoming.compare("true")==0)
+            {
+                break;
             }
         }
-        usleep(5000000);
+        cout<<" "<<endl;
+        cout<<"------------------------------------"<<endl;
+        cout<<"Todos los jugadores están listos!"<<endl;
+        cout<<"------------------------------------"<<endl;
     }
-    cout<<"Tope alcanzado"<<endl;
-    players->print();
 
 }
