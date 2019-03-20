@@ -105,19 +105,21 @@ void Manager::ask(string p) {
     {
         cliente->sendMessage("getRandom");
         string incoming=cliente->receiveMessage();
-        Chip* c= new Chip();
-        c->setPoints(stoi(Manager::Jmanager->askFor(incoming,"points")));
-        c->setLetter(Manager::Jmanager->askFor(incoming,"letter"));
-        if(Manager::Jmanager->askFor(incoming,"wildcard").compare("true")==0)
+        if(incoming.compare("send")==0)
         {
-            c->setSpecial(true);
+            cliente->sendMessage("rnd");
+            incoming = cliente->receiveMessage();
+            Chip *c = new Chip();
+            c->setPoints(stoi(Manager::Jmanager->askFor(incoming, "points")));
+            c->setLetter(Manager::Jmanager->askFor(incoming, "letter"));
+            if (Manager::Jmanager->askFor(incoming, "wildcard").compare("true") == 0) {
+                c->setSpecial(true);
+            } else if (Manager::Jmanager->askFor(incoming, "wildcard").compare("false") == 0) {
+                c->setSpecial(false);
+            }
+            Manager::localP->setRnd(c);
+            Manager::localP->print();
         }
-        else if(Manager::Jmanager->askFor(incoming,"wildcard").compare("false")==0)
-        {
-            c->setSpecial(false);
-        }
-        Manager::localP->setRnd(c);
-        Manager::localP->print();
     }
     else if(p.compare("ready")==0)
     {
@@ -134,6 +136,36 @@ void Manager::ask(string p) {
         cout<<"------------------------------------"<<endl;
         cout<<"Todos los jugadores están listos!"<<endl;
         cout<<"------------------------------------"<<endl;
+    }
+    else if(p.compare("seven")==0)
+    {
+        int i=0;
+        while(i<7)
+        {
+            cliente->sendMessage("getRandom");
+            string incoming=cliente->receiveMessage();
+            if(incoming.compare("send")==0)
+            {
+                cliente->sendMessage("seven");
+                incoming = cliente->receiveMessage();
+                Chip *c = new Chip();
+                c->setPoints(stoi(Manager::Jmanager->askFor(incoming, "points")));
+                c->setLetter(Manager::Jmanager->askFor(incoming, "letter"));
+                if (Manager::Jmanager->askFor(incoming, "wildcard").compare("true") == 0) {
+                    c->setSpecial(true);
+                } else if (Manager::Jmanager->askFor(incoming, "wildcard").compare("false") == 0) {
+                    c->setSpecial(false);
+                }
+                localP->getChips()->add(c);
+                i++;
+            }
+        }
+        cout<<" "<<endl;
+        cout<<"--------------------"<<endl;
+        cout<<" Fichas obtenidas: "<<endl;
+        cout<<" "<<endl;
+        localP->getChips()->print();
+        cout<<"--------------------"<<endl;
     }
 
 }
