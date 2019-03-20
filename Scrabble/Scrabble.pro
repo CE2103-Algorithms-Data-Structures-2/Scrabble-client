@@ -39,7 +39,6 @@ SOURCES += \
     Structures/WordsList.cpp \
     Gui/configlobbymenu.cpp \
     Gui/createlobby.cpp \
-    Gui/createlobbymenu.cpp \
     Gui/joinlobbymenu.cpp \
     Gui/losemenu.cpp \
     Gui/mainmenu.cpp \
@@ -68,7 +67,6 @@ HEADERS += \
     Structures/WordsList.h \
     Gui/configlobbymenu.h \
     Gui/createlobby.h \
-    Gui/createlobbymenu.h \
     Gui/joinlobbymenu.h \
     Gui/losemenu.h \
     Gui/mainmenu.h \
@@ -94,3 +92,4 @@ FORMS += \
     mainwindow.ui
 
 CONFIG += c++11
+QT += widgets
