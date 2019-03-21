@@ -40,6 +40,7 @@ public:
     void setCode(string);
     /**
      * Metodo para preguntar al servidor si hay jugadores nuevos.
+     * @param s: Peticion de tipo string.
      */
     void ask(string s);
     /**

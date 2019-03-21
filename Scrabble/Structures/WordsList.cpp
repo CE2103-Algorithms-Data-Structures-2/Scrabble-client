@@ -3,11 +3,11 @@
 //
 
 #include "WordsList.h"
-
 WordsList::WordsList()
 {
     this->head=nullptr;
     this->length=0;
+    this->next= nullptr;
 }
 int WordsList::getLength()
 {
@@ -22,7 +22,7 @@ void WordsList::add(Chip* c)
     }
     else
     {
-        NodeW *temp = this->head;
+        NodeW* temp= this->head;
         while (temp->getNext() != nullptr) {
             temp = temp->getNext();
         }
@@ -92,5 +92,28 @@ void WordsList::print()
         temp= nullptr;
         delete(temp);
         cout<<f<<endl;
+    }
+}
+
+WordsList *WordsList::getNext() {
+    return this->next;
+}
+
+void WordsList::setNext(WordsList* w)
+{
+    this->next=w;
+}
+
+void WordsList::fill15()
+{
+    while(true)
+    {
+        if(this->length==15)
+        {
+            break;
+        }
+        Chip* c= new Chip();
+        this->add(c);
+        length++;
     }
 }

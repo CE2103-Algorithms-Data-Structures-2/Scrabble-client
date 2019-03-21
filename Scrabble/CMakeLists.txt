@@ -24,6 +24,8 @@ add_executable(Scrabble
         Board_Logic/Box.h
         Board_Logic/Chip.cpp
         Board_Logic/Chip.h
+        Board_Logic/Matrix.cpp
+        Board_Logic/Matrix.h
         Client/Client.cpp
         Client/Client.h
         GameLogic/casillagrafica.cpp
@@ -76,7 +78,7 @@ add_executable(Scrabble
         mainmenu.ui
         waitforgamestartmenu.ui
         winmenu.ui
-        main.cpp Board_Logic/Chip.cpp Board_Logic/Chip.h)
+        main.cpp Board_Logic/Chip.cpp Board_Logic/Chip.h Board_Logic/Matrix.cpp Board_Logic/Matrix.h)
 
 target_link_libraries(${PROJECT_NAME} Qt5::Widgets)
 target_link_libraries(${PROJECT_NAME} Qt5::Widgets)

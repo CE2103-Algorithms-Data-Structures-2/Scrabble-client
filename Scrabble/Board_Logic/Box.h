@@ -6,15 +6,16 @@
 #define PROYECTO_1_CLIENT_BOX_H
 
 #include <string>
+#include "Chip.h"
 
 using namespace std;
 
 class Box {
 private:
-    int* columna;
-    int* fila;
-    string* perk;
-    string* letter;
+    int columna;
+    int fila;
+    string perk;
+    Chip* ficha;
 public:
     /**
      * Construtor de la clase box.
@@ -23,16 +24,16 @@ public:
      * @param p Perk de tipo string.
      * @param l Letra de tipo string.
      */
-    Box(int c,int f,string p,string l);
+    Box(int c,int f,string p,Chip *l);
     /**
      * Constructor de la clase Box.
      */
     Box();
     /**
-     * Metodo para obtener la letra de la casilla.
-     * @return Letra de tipo string.
+     * Metodo para obtener la ficha de la casilla.
+     * @return Ficha de tipo Chip
      */
-    string getLetter();
+    Chip* getChip();
     /**
      * Metodo para obtener la columna asociada a la casilla.
      * @return Columna de tipo entero.
@@ -67,7 +68,7 @@ public:
      * Metodo para establecer la letra de la casilla.
      * @param l Letra de tipo string
      */
-    void setLetter(string l);
+    void setChip(Chip* c);
 
 
 };

@@ -9,7 +9,6 @@
 #include <boost/algorithm/string.hpp>
 #include <algorithm>
 #include <thread>
-
 using namespace std;
 using boost::property_tree::ptree;
 
@@ -39,15 +38,14 @@ void Manager::Init()
             if(tr)
             {
                 cliente->isAccepted();
-                /*this->NewG_LW->newGame();
+                this->NewG_LW->newGame();
                 players->print();
                 this->setCode(cliente->receiveMessage());
-                ask();*/
-                bool accepted=this->JoinG_LW->join();
+                /*bool accepted=this->JoinG_LW->join();
                 if(!accepted)
                 {
                     cliente->disconnect();
-                }
+                }*/
                 ask("numP");
                 play();
                 tr=false;
@@ -62,7 +60,6 @@ void Manager::play()
     ask("getRandom");
     ask("ready");
     ask("seven");
-
 }
 void Manager::setCode(string s) {
     if(!*assigned)
@@ -135,6 +132,7 @@ void Manager::ask(string p) {
             {
                 break;
             }
+            usleep(5000000);
         }
         cout<<" "<<endl;
         cout<<"------------------------------------"<<endl;

@@ -16,10 +16,14 @@ class WordsList {
 private:
     NodeW* head;
     int length;
+    WordsList* next;
 public:
     WordsList();
     int getLength();
+    WordsList* getNext();
     Chip* get(string s);
+    void fill15();
+    void setNext(WordsList* w);
     void add(Chip* c);
     void del(string s);
     void print();

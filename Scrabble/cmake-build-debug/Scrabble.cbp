@@ -130,6 +130,12 @@
 		<Unit filename="/home/david/Documents/Scrabble-client/Scrabble/Board_Logic/Chip.h">
 			<Option target="Scrabble"/>
 		</Unit>
+		<Unit filename="/home/david/Documents/Scrabble-client/Scrabble/Board_Logic/Matrix.cpp">
+			<Option target="Scrabble"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Scrabble-client/Scrabble/Board_Logic/Matrix.h">
+			<Option target="Scrabble"/>
+		</Unit>
 		<Unit filename="/home/david/Documents/Scrabble-client/Scrabble/Client/Client.cpp">
 			<Option target="Scrabble"/>
 		</Unit>

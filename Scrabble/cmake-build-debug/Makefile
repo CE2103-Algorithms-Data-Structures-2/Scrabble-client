@@ -190,6 +190,33 @@ Board_Logic/Chip.cpp.s:
 	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Board_Logic/Chip.cpp.s
 .PHONY : Board_Logic/Chip.cpp.s
 
+Board_Logic/Matrix.o: Board_Logic/Matrix.cpp.o
+
+.PHONY : Board_Logic/Matrix.o
+
+# target to build an object file
+Board_Logic/Matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Board_Logic/Matrix.cpp.o
+.PHONY : Board_Logic/Matrix.cpp.o
+
+Board_Logic/Matrix.i: Board_Logic/Matrix.cpp.i
+
+.PHONY : Board_Logic/Matrix.i
+
+# target to preprocess a source file
+Board_Logic/Matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Board_Logic/Matrix.cpp.i
+.PHONY : Board_Logic/Matrix.cpp.i
+
+Board_Logic/Matrix.s: Board_Logic/Matrix.cpp.s
+
+.PHONY : Board_Logic/Matrix.s
+
+# target to generate assembly for a file
+Board_Logic/Matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Board_Logic/Matrix.cpp.s
+.PHONY : Board_Logic/Matrix.cpp.s
+
 Client/Client.o: Client/Client.cpp.o
 
 .PHONY : Client/Client.o
@@ -854,6 +881,9 @@ help:
 	@echo "... Board_Logic/Chip.o"
 	@echo "... Board_Logic/Chip.i"
 	@echo "... Board_Logic/Chip.s"
+	@echo "... Board_Logic/Matrix.o"
+	@echo "... Board_Logic/Matrix.i"
+	@echo "... Board_Logic/Matrix.s"
 	@echo "... Client/Client.o"
 	@echo "... Client/Client.i"
 	@echo "... Client/Client.s"

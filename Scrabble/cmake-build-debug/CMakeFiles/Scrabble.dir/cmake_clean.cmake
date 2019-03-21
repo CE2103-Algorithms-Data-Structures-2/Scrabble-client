@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Scrabble_autogen.dir/AutogenOldSettings.txt"
   "CMakeFiles/Scrabble.dir/Board_Logic/Box.cpp.o"
   "CMakeFiles/Scrabble.dir/Board_Logic/Chip.cpp.o"
+  "CMakeFiles/Scrabble.dir/Board_Logic/Matrix.cpp.o"
   "CMakeFiles/Scrabble.dir/Client/Client.cpp.o"
   "CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.o"
   "CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.o"

@@ -4,49 +4,49 @@
 
 #include "Box.h"
 
-Box::Box(int c, int f, string p,string l)
+Box::Box(int c, int f, string p,Chip* l)
 {
-    *columna=c;
-    *fila=f;
-    *letter=l;
-    *perk=p;
+    columna=c;
+    fila=f;
+    ficha=l;
+    perk=p;
 }
 Box::Box()
 {
-    *columna=0;
-    *fila=0;
-    *letter="";
-    *perk="";
+    columna=0;
+    fila=0;
+    ficha= nullptr;
+    perk="";
 }
 
-string Box::getLetter() {
-    return *letter;
+Chip* Box::getChip() {
+    return ficha;
 }
 int Box::getColumn()
 {
-    return *columna;
+    return columna;
 }
 int Box::getLine()
 {
-    return *fila;
+    return fila;
 }
 string Box::getPerk()
 {
-    return *perk;
+    return perk;
 }
 void Box::setColumn(int c)
 {
-    *columna=c;
+    columna=c;
 }
-void Box::setLetter(string l)
+void Box::setChip(Chip* c)
 {
-    *letter=l;
+    ficha=c;
 }
 void Box::setLine(int l)
 {
-    *fila=l;
+    fila=l;
 }
 void Box::setPerk(string p)
 {
-    *perk=p;
+    perk=p;
 }
