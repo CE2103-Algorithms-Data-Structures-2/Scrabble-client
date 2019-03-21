@@ -6,9 +6,16 @@ CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.o: ../Client/Client.h
 
 CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.o: ../Interface_Logic/Board_Logic/Box.cpp
 CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.o: ../Interface_Logic/Board_Logic/Box.h
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.o: ../Interface_Logic/Board_Logic/Chip.h
 
 CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Chip.cpp.o: ../Interface_Logic/Board_Logic/Chip.cpp
 CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Chip.cpp.o: ../Interface_Logic/Board_Logic/Chip.h
+
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Interface_Logic/Board_Logic/Chip.h
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Interface_Logic/Board_Logic/Matrix.cpp
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Interface_Logic/Board_Logic/Matrix.h
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Structures/NodeW.h
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Structures/WordsList.h
 
 CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o: ../Interface_Logic/JSON_Logic/JSONManager.cpp
 CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o: ../Interface_Logic/JSON_Logic/JSONManager.h
@@ -68,6 +75,7 @@ CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Player/Player.cpp.o: ../Structu
 
 CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o: ../Client/Client.h
 CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o: ../Interface_Logic/Board_Logic/Chip.h
+CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o: ../Interface_Logic/Board_Logic/Matrix.h
 CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o: ../Interface_Logic/JSON_Logic/JSONManager.h
 CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o: ../Interface_Logic/Logic_Windows/JoinGame_LW.h
 CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o: ../Interface_Logic/Logic_Windows/LogicWindow.h

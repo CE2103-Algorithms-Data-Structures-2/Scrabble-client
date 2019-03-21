@@ -59,6 +59,7 @@ void Manager::play()
 {
     ask("getRandom");
     ask("ready");
+    ask("seven");
 }
 void Manager::setCode(string s) {
     if(!*assigned)
@@ -131,6 +132,7 @@ void Manager::ask(string p) {
             {
                 break;
             }
+            usleep(5000000);
         }
         cout<<" "<<endl;
         cout<<"------------------------------------"<<endl;

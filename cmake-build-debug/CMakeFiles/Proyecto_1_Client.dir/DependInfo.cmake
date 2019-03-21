@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dcamachog1501/Desktop/CL/Client/Client.cpp" "/home/dcamachog1501/Desktop/CL/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.o"
   "/home/dcamachog1501/Desktop/CL/Interface_Logic/Board_Logic/Box.cpp" "/home/dcamachog1501/Desktop/CL/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.o"
   "/home/dcamachog1501/Desktop/CL/Interface_Logic/Board_Logic/Chip.cpp" "/home/dcamachog1501/Desktop/CL/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Chip.cpp.o"
+  "/home/dcamachog1501/Desktop/CL/Interface_Logic/Board_Logic/Matrix.cpp" "/home/dcamachog1501/Desktop/CL/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Matrix.cpp.o"
   "/home/dcamachog1501/Desktop/CL/Interface_Logic/JSON_Logic/JSONManager.cpp" "/home/dcamachog1501/Desktop/CL/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o"
   "/home/dcamachog1501/Desktop/CL/Interface_Logic/Logic_Windows/JoinGame_LW.cpp" "/home/dcamachog1501/Desktop/CL/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o"
   "/home/dcamachog1501/Desktop/CL/Interface_Logic/Logic_Windows/LogicWindow.cpp" "/home/dcamachog1501/Desktop/CL/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o"

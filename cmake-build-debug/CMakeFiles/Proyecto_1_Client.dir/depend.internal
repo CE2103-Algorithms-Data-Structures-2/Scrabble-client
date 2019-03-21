@@ -7,9 +7,16 @@ CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.o
 CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.o
  /home/dcamachog1501/Desktop/CL/Interface_Logic/Board_Logic/Box.cpp
  /home/dcamachog1501/Desktop/CL/Interface_Logic/Board_Logic/Box.h
+ /home/dcamachog1501/Desktop/CL/Interface_Logic/Board_Logic/Chip.h
 CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Chip.cpp.o
  /home/dcamachog1501/Desktop/CL/Interface_Logic/Board_Logic/Chip.cpp
  /home/dcamachog1501/Desktop/CL/Interface_Logic/Board_Logic/Chip.h
+CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Matrix.cpp.o
+ /home/dcamachog1501/Desktop/CL/Interface_Logic/Board_Logic/Chip.h
+ /home/dcamachog1501/Desktop/CL/Interface_Logic/Board_Logic/Matrix.cpp
+ /home/dcamachog1501/Desktop/CL/Interface_Logic/Board_Logic/Matrix.h
+ /home/dcamachog1501/Desktop/CL/Structures/NodeW.h
+ /home/dcamachog1501/Desktop/CL/Structures/WordsList.h
 CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o
  /home/dcamachog1501/Desktop/CL/Interface_Logic/JSON_Logic/JSONManager.cpp
  /home/dcamachog1501/Desktop/CL/Interface_Logic/JSON_Logic/JSONManager.h
@@ -69,6 +76,7 @@ CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Player/Player.cpp.o
 CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o
  /home/dcamachog1501/Desktop/CL/Client/Client.h
  /home/dcamachog1501/Desktop/CL/Interface_Logic/Board_Logic/Chip.h
+ /home/dcamachog1501/Desktop/CL/Interface_Logic/Board_Logic/Matrix.h
  /home/dcamachog1501/Desktop/CL/Interface_Logic/JSON_Logic/JSONManager.h
  /home/dcamachog1501/Desktop/CL/Interface_Logic/Logic_Windows/JoinGame_LW.h
  /home/dcamachog1501/Desktop/CL/Interface_Logic/Logic_Windows/LogicWindow.h

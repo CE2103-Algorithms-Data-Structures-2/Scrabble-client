@@ -30,7 +30,7 @@ void Client::start()
             }
 
             int port = 54000;
-            string ipAdress = "172.21.207.103";
+            string ipAdress = "172.18.63.49";
 
 
             sockaddr_in hint;

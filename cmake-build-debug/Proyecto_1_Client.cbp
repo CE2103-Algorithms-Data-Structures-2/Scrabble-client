@@ -102,6 +102,12 @@
 		<Unit filename="/home/dcamachog1501/Desktop/CL/Interface_Logic/Board_Logic/Chip.h">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/CL/Interface_Logic/Board_Logic/Matrix.cpp">
+			<Option target="Proyecto_1_Client"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/CL/Interface_Logic/Board_Logic/Matrix.h">
+			<Option target="Proyecto_1_Client"/>
+		</Unit>
 		<Unit filename="/home/dcamachog1501/Desktop/CL/Interface_Logic/JSON_Logic/JSONManager.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>

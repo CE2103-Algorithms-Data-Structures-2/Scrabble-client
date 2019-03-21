@@ -204,6 +204,33 @@ Interface_Logic/Board_Logic/Chip.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Chip.cpp.s
 .PHONY : Interface_Logic/Board_Logic/Chip.cpp.s
 
+Interface_Logic/Board_Logic/Matrix.o: Interface_Logic/Board_Logic/Matrix.cpp.o
+
+.PHONY : Interface_Logic/Board_Logic/Matrix.o
+
+# target to build an object file
+Interface_Logic/Board_Logic/Matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Matrix.cpp.o
+.PHONY : Interface_Logic/Board_Logic/Matrix.cpp.o
+
+Interface_Logic/Board_Logic/Matrix.i: Interface_Logic/Board_Logic/Matrix.cpp.i
+
+.PHONY : Interface_Logic/Board_Logic/Matrix.i
+
+# target to preprocess a source file
+Interface_Logic/Board_Logic/Matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Matrix.cpp.i
+.PHONY : Interface_Logic/Board_Logic/Matrix.cpp.i
+
+Interface_Logic/Board_Logic/Matrix.s: Interface_Logic/Board_Logic/Matrix.cpp.s
+
+.PHONY : Interface_Logic/Board_Logic/Matrix.s
+
+# target to generate assembly for a file
+Interface_Logic/Board_Logic/Matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Matrix.cpp.s
+.PHONY : Interface_Logic/Board_Logic/Matrix.cpp.s
+
 Interface_Logic/JSON_Logic/JSONManager.o: Interface_Logic/JSON_Logic/JSONManager.cpp.o
 
 .PHONY : Interface_Logic/JSON_Logic/JSONManager.o
@@ -519,6 +546,9 @@ help:
 	@echo "... Interface_Logic/Board_Logic/Chip.o"
 	@echo "... Interface_Logic/Board_Logic/Chip.i"
 	@echo "... Interface_Logic/Board_Logic/Chip.s"
+	@echo "... Interface_Logic/Board_Logic/Matrix.o"
+	@echo "... Interface_Logic/Board_Logic/Matrix.i"
+	@echo "... Interface_Logic/Board_Logic/Matrix.s"
 	@echo "... Interface_Logic/JSON_Logic/JSONManager.o"
 	@echo "... Interface_Logic/JSON_Logic/JSONManager.i"
 	@echo "... Interface_Logic/JSON_Logic/JSONManager.s"

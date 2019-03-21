@@ -16,6 +16,14 @@ thread
 string
 -
 
+/home/dcamachog1501/Desktop/CL/Interface_Logic/Board_Logic/Matrix.cpp
+Matrix.h
+/home/dcamachog1501/Desktop/CL/Interface_Logic/Board_Logic/Matrix.h
+
+/home/dcamachog1501/Desktop/CL/Interface_Logic/Board_Logic/Matrix.h
+../../Structures/WordsList.h
+/home/dcamachog1501/Desktop/CL/Structures/WordsList.h
+
 /home/dcamachog1501/Desktop/CL/Interface_Logic/JSON_Logic/JSONManager.h
 JSONManager.h
 /home/dcamachog1501/Desktop/CL/Interface_Logic/JSON_Logic/JSONManager.h
@@ -56,24 +64,6 @@ LogicWindow.h
 LogicWindow.h
 /home/dcamachog1501/Desktop/CL/Interface_Logic/Logic_Windows/LogicWindow.h
 
-/home/dcamachog1501/Desktop/CL/Interface_Logic/Manager/Manager.cpp
-../../Client/Client.h
-/home/dcamachog1501/Desktop/CL/Client/Client.h
-Manager.h
-/home/dcamachog1501/Desktop/CL/Interface_Logic/Manager/Manager.h
-../JSON_Logic/JSONManager.h
-/home/dcamachog1501/Desktop/CL/Interface_Logic/JSON_Logic/JSONManager.h
-boost/property_tree/ptree.hpp
--
-boost/property_tree/json_parser.hpp
--
-boost/algorithm/string.hpp
--
-algorithm
--
-thread
--
-
 /home/dcamachog1501/Desktop/CL/Interface_Logic/Manager/Manager.h
 ../../Client/Client.h
 /home/dcamachog1501/Desktop/CL/Client/Client.h
@@ -91,6 +81,18 @@ thread
 /home/dcamachog1501/Desktop/CL/Structures/WordsList.h
 string
 -
+
+/home/dcamachog1501/Desktop/CL/Main/main.cpp
+iostream
+-
+../Client/Client.h
+/home/dcamachog1501/Desktop/CL/Client/Client.h
+../Interface_Logic/Manager/Manager.h
+/home/dcamachog1501/Desktop/CL/Interface_Logic/Manager/Manager.h
+../Interface_Logic/JSON_Logic/JSONManager.h
+/home/dcamachog1501/Desktop/CL/Interface_Logic/JSON_Logic/JSONManager.h
+../Interface_Logic/Board_Logic/Matrix.h
+/home/dcamachog1501/Desktop/CL/Interface_Logic/Board_Logic/Matrix.h
 
 /home/dcamachog1501/Desktop/CL/Structures/NodeP.h
 ../Interface_Logic/Player/Player.h
