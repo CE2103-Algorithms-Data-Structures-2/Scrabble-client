@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
     MainMenu w;
     w.show();
 
-    Manager man= Manager();
+    // Manager man= Manager();
 
 
     return a.exec();

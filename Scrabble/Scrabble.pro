@@ -24,9 +24,20 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
-        main.cpp \
-    Client/Client.cpp \
     Board_Logic/Box.cpp \
+    Board_Logic/Chip.cpp \
+    Client/Client.cpp \
+    GameLogic/casillagrafica.cpp \
+    GameLogic/ficha.cpp \
+    GameLogic/point.cpp \
+    GameLogic/tablerografico.cpp \
+    Gui/configlobbymenu.cpp \
+    Gui/joinlobbymenu.cpp \
+    Gui/losemenu.cpp \
+    Gui/mainmenu.cpp \
+    Gui/waitforgamestartmenu.cpp \
+    Gui/waitmenu.cpp \
+    Gui/winmenu.cpp \
     JSON_Logic/JSONManager.cpp \
     Logic_Windows/JoinGame_LW.cpp \
     Logic_Windows/LogicWindow.cpp \
@@ -37,22 +48,24 @@ SOURCES += \
     Structures/NodeW.cpp \
     Structures/PlayerList.cpp \
     Structures/WordsList.cpp \
-    Gui/configlobbymenu.cpp \
-    Gui/joinlobbymenu.cpp \
-    Gui/losemenu.cpp \
-    Gui/mainmenu.cpp \
-    Gui/waitforgamestartmenu.cpp \
-    Gui/waitmenu.cpp \
-    Gui/winmenu.cpp \
-    GameLogic/casillagrafica.cpp \
-    GameLogic/ficha.cpp \
-    GameLogic/gameboard.cpp \
-    GameLogic/point.cpp \
-    GameLogic/tablerografico.cpp
+    main.cpp \
 
 HEADERS += \
-    Client/Client.h \
     Board_Logic/Box.h \
+    Board_Logic/Chip.h \
+    Client/Client.h \
+    GameLogic/casillagrafica.h \
+    GameLogic/ficha.h \
+    GameLogic/perk.h \
+    GameLogic/point.h \
+    GameLogic/tablerografico.h \
+    Gui/configlobbymenu.h \
+    Gui/joinlobbymenu.h \
+    Gui/losemenu.h \
+    Gui/mainmenu.h \
+    Gui/waitforgamestartmenu.h \
+    Gui/waitmenu.h \
+    Gui/winmenu.h \
     JSON_Logic/JSONManager.h \
     Logic_Windows/JoinGame_LW.h \
     Logic_Windows/LogicWindow.h \
@@ -62,20 +75,7 @@ HEADERS += \
     Structures/NodeP.h \
     Structures/NodeW.h \
     Structures/PlayerList.h \
-    Structures/WordsList.h \
-    Gui/configlobbymenu.h \
-    Gui/joinlobbymenu.h \
-    Gui/losemenu.h \
-    Gui/mainmenu.h \
-    Gui/waitforgamestartmenu.h \
-    Gui/waitmenu.h \
-    Gui/winmenu.h \
-    GameLogic/casillagrafica.h \
-    GameLogic/ficha.h \
-    GameLogic/gameboard.h \
-    GameLogic/perk.h \
-    GameLogic/point.h \
-    GameLogic/tablerografico.h
+    Structures/WordsList.h
 
 FORMS += \
     waitforgamestartmenu.ui \
