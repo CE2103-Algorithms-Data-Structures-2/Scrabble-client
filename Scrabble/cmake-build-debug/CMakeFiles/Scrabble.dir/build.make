@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/kugelblitz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/kugelblitz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kugelblitz/Documents/Scrabble-client/Scrabble
+CMAKE_SOURCE_DIR = /home/david/Documents/Scrabble-client/Scrabble
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug
+CMAKE_BINARY_DIR = /home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Scrabble.dir/depend.make
@@ -57,352 +57,346 @@ include CMakeFiles/Scrabble.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Scrabble.dir/flags.make
 
-CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.o: CMakeFiles/Scrabble.dir/flags.make
-CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.o: ../GameLogic/casillagrafica.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/GameLogic/casillagrafica.cpp
+CMakeFiles/Scrabble.dir/Board_Logic/Box.cpp.o: CMakeFiles/Scrabble.dir/flags.make
+CMakeFiles/Scrabble.dir/Board_Logic/Box.cpp.o: ../Board_Logic/Box.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Scrabble.dir/Board_Logic/Box.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Board_Logic/Box.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/Board_Logic/Box.cpp
 
-CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/GameLogic/casillagrafica.cpp > CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.i
+CMakeFiles/Scrabble.dir/Board_Logic/Box.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Board_Logic/Box.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/Board_Logic/Box.cpp > CMakeFiles/Scrabble.dir/Board_Logic/Box.cpp.i
 
-CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/GameLogic/casillagrafica.cpp -o CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.s
-
-CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.o: CMakeFiles/Scrabble.dir/flags.make
-CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.o: ../GameLogic/ficha.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/GameLogic/ficha.cpp
-
-CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/GameLogic/ficha.cpp > CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.i
-
-CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/GameLogic/ficha.cpp -o CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.s
-
-CMakeFiles/Scrabble.dir/GameLogic/gameboard.cpp.o: CMakeFiles/Scrabble.dir/flags.make
-CMakeFiles/Scrabble.dir/GameLogic/gameboard.cpp.o: ../GameLogic/gameboard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Scrabble.dir/GameLogic/gameboard.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/GameLogic/gameboard.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/GameLogic/gameboard.cpp
-
-CMakeFiles/Scrabble.dir/GameLogic/gameboard.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/GameLogic/gameboard.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/GameLogic/gameboard.cpp > CMakeFiles/Scrabble.dir/GameLogic/gameboard.cpp.i
-
-CMakeFiles/Scrabble.dir/GameLogic/gameboard.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/GameLogic/gameboard.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/GameLogic/gameboard.cpp -o CMakeFiles/Scrabble.dir/GameLogic/gameboard.cpp.s
-
-CMakeFiles/Scrabble.dir/GameLogic/point.cpp.o: CMakeFiles/Scrabble.dir/flags.make
-CMakeFiles/Scrabble.dir/GameLogic/point.cpp.o: ../GameLogic/point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Scrabble.dir/GameLogic/point.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/GameLogic/point.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/GameLogic/point.cpp
-
-CMakeFiles/Scrabble.dir/GameLogic/point.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/GameLogic/point.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/GameLogic/point.cpp > CMakeFiles/Scrabble.dir/GameLogic/point.cpp.i
-
-CMakeFiles/Scrabble.dir/GameLogic/point.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/GameLogic/point.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/GameLogic/point.cpp -o CMakeFiles/Scrabble.dir/GameLogic/point.cpp.s
-
-CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.o: CMakeFiles/Scrabble.dir/flags.make
-CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.o: ../GameLogic/tablerografico.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/GameLogic/tablerografico.cpp
-
-CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/GameLogic/tablerografico.cpp > CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.i
-
-CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/GameLogic/tablerografico.cpp -o CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.s
+CMakeFiles/Scrabble.dir/Board_Logic/Box.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Board_Logic/Box.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/Board_Logic/Box.cpp -o CMakeFiles/Scrabble.dir/Board_Logic/Box.cpp.s
 
 CMakeFiles/Scrabble.dir/Client/Client.cpp.o: CMakeFiles/Scrabble.dir/flags.make
 CMakeFiles/Scrabble.dir/Client/Client.cpp.o: ../Client/Client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Scrabble.dir/Client/Client.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Client/Client.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/Client/Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Scrabble.dir/Client/Client.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Client/Client.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/Client/Client.cpp
 
 CMakeFiles/Scrabble.dir/Client/Client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Client/Client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/Client/Client.cpp > CMakeFiles/Scrabble.dir/Client/Client.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/Client/Client.cpp > CMakeFiles/Scrabble.dir/Client/Client.cpp.i
 
 CMakeFiles/Scrabble.dir/Client/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Client/Client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/Client/Client.cpp -o CMakeFiles/Scrabble.dir/Client/Client.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/Client/Client.cpp -o CMakeFiles/Scrabble.dir/Client/Client.cpp.s
 
-CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.o: CMakeFiles/Scrabble.dir/flags.make
-CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.o: ../JSON_Logic/JSONManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/JSON_Logic/JSONManager.cpp
+CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.o: CMakeFiles/Scrabble.dir/flags.make
+CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.o: ../GameLogic/casillagrafica.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/GameLogic/casillagrafica.cpp
 
-CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/JSON_Logic/JSONManager.cpp > CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.i
+CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/GameLogic/casillagrafica.cpp > CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.i
 
-CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/JSON_Logic/JSONManager.cpp -o CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.s
+CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/GameLogic/casillagrafica.cpp -o CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.s
 
-CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.o: CMakeFiles/Scrabble.dir/flags.make
-CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.o: ../Logic_Windows/JoinGame_LW.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/Logic_Windows/JoinGame_LW.cpp
+CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.o: CMakeFiles/Scrabble.dir/flags.make
+CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.o: ../GameLogic/ficha.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/GameLogic/ficha.cpp
 
-CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/Logic_Windows/JoinGame_LW.cpp > CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.i
+CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/GameLogic/ficha.cpp > CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.i
 
-CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/Logic_Windows/JoinGame_LW.cpp -o CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.s
+CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/GameLogic/ficha.cpp -o CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.s
 
-CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.o: CMakeFiles/Scrabble.dir/flags.make
-CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.o: ../Logic_Windows/LogicWindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/Logic_Windows/LogicWindow.cpp
+CMakeFiles/Scrabble.dir/GameLogic/point.cpp.o: CMakeFiles/Scrabble.dir/flags.make
+CMakeFiles/Scrabble.dir/GameLogic/point.cpp.o: ../GameLogic/point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Scrabble.dir/GameLogic/point.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/GameLogic/point.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/GameLogic/point.cpp
 
-CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/Logic_Windows/LogicWindow.cpp > CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.i
+CMakeFiles/Scrabble.dir/GameLogic/point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/GameLogic/point.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/GameLogic/point.cpp > CMakeFiles/Scrabble.dir/GameLogic/point.cpp.i
 
-CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/Logic_Windows/LogicWindow.cpp -o CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.s
+CMakeFiles/Scrabble.dir/GameLogic/point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/GameLogic/point.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/GameLogic/point.cpp -o CMakeFiles/Scrabble.dir/GameLogic/point.cpp.s
 
-CMakeFiles/Scrabble.dir/Logic_Windows/NewGame_LW.cpp.o: CMakeFiles/Scrabble.dir/flags.make
-CMakeFiles/Scrabble.dir/Logic_Windows/NewGame_LW.cpp.o: ../Logic_Windows/NewGame_LW.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Scrabble.dir/Logic_Windows/NewGame_LW.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Logic_Windows/NewGame_LW.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/Logic_Windows/NewGame_LW.cpp
+CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.o: CMakeFiles/Scrabble.dir/flags.make
+CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.o: ../GameLogic/tablerografico.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/GameLogic/tablerografico.cpp
 
-CMakeFiles/Scrabble.dir/Logic_Windows/NewGame_LW.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Logic_Windows/NewGame_LW.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/Logic_Windows/NewGame_LW.cpp > CMakeFiles/Scrabble.dir/Logic_Windows/NewGame_LW.cpp.i
+CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/GameLogic/tablerografico.cpp > CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.i
 
-CMakeFiles/Scrabble.dir/Logic_Windows/NewGame_LW.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Logic_Windows/NewGame_LW.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/Logic_Windows/NewGame_LW.cpp -o CMakeFiles/Scrabble.dir/Logic_Windows/NewGame_LW.cpp.s
-
-CMakeFiles/Scrabble.dir/Manager/Manager.cpp.o: CMakeFiles/Scrabble.dir/flags.make
-CMakeFiles/Scrabble.dir/Manager/Manager.cpp.o: ../Manager/Manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Scrabble.dir/Manager/Manager.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Manager/Manager.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/Manager/Manager.cpp
-
-CMakeFiles/Scrabble.dir/Manager/Manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Manager/Manager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/Manager/Manager.cpp > CMakeFiles/Scrabble.dir/Manager/Manager.cpp.i
-
-CMakeFiles/Scrabble.dir/Manager/Manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Manager/Manager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/Manager/Manager.cpp -o CMakeFiles/Scrabble.dir/Manager/Manager.cpp.s
-
-CMakeFiles/Scrabble.dir/Player/Player.cpp.o: CMakeFiles/Scrabble.dir/flags.make
-CMakeFiles/Scrabble.dir/Player/Player.cpp.o: ../Player/Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Scrabble.dir/Player/Player.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Player/Player.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/Player/Player.cpp
-
-CMakeFiles/Scrabble.dir/Player/Player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Player/Player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/Player/Player.cpp > CMakeFiles/Scrabble.dir/Player/Player.cpp.i
-
-CMakeFiles/Scrabble.dir/Player/Player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Player/Player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/Player/Player.cpp -o CMakeFiles/Scrabble.dir/Player/Player.cpp.s
-
-CMakeFiles/Scrabble.dir/Structures/NodeP.cpp.o: CMakeFiles/Scrabble.dir/flags.make
-CMakeFiles/Scrabble.dir/Structures/NodeP.cpp.o: ../Structures/NodeP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Scrabble.dir/Structures/NodeP.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Structures/NodeP.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/Structures/NodeP.cpp
-
-CMakeFiles/Scrabble.dir/Structures/NodeP.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Structures/NodeP.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/Structures/NodeP.cpp > CMakeFiles/Scrabble.dir/Structures/NodeP.cpp.i
-
-CMakeFiles/Scrabble.dir/Structures/NodeP.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Structures/NodeP.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/Structures/NodeP.cpp -o CMakeFiles/Scrabble.dir/Structures/NodeP.cpp.s
-
-CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.o: CMakeFiles/Scrabble.dir/flags.make
-CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.o: ../Structures/NodeW.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/Structures/NodeW.cpp
-
-CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/Structures/NodeW.cpp > CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.i
-
-CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/Structures/NodeW.cpp -o CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.s
-
-CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.o: CMakeFiles/Scrabble.dir/flags.make
-CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.o: ../Structures/PlayerList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/Structures/PlayerList.cpp
-
-CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/Structures/PlayerList.cpp > CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.i
-
-CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/Structures/PlayerList.cpp -o CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.s
-
-CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.o: CMakeFiles/Scrabble.dir/flags.make
-CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.o: ../Structures/WordsList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/Structures/WordsList.cpp
-
-CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/Structures/WordsList.cpp > CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.i
-
-CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/Structures/WordsList.cpp -o CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.s
+CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/GameLogic/tablerografico.cpp -o CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.s
 
 CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.o: CMakeFiles/Scrabble.dir/flags.make
 CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.o: ../Gui/configlobbymenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/configlobbymenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/Gui/configlobbymenu.cpp
 
 CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/configlobbymenu.cpp > CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/Gui/configlobbymenu.cpp > CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.i
 
 CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/configlobbymenu.cpp -o CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.s
-
-CMakeFiles/Scrabble.dir/Gui/createlobby.cpp.o: CMakeFiles/Scrabble.dir/flags.make
-CMakeFiles/Scrabble.dir/Gui/createlobby.cpp.o: ../Gui/createlobby.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Scrabble.dir/Gui/createlobby.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Gui/createlobby.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/createlobby.cpp
-
-CMakeFiles/Scrabble.dir/Gui/createlobby.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Gui/createlobby.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/createlobby.cpp > CMakeFiles/Scrabble.dir/Gui/createlobby.cpp.i
-
-CMakeFiles/Scrabble.dir/Gui/createlobby.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Gui/createlobby.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/createlobby.cpp -o CMakeFiles/Scrabble.dir/Gui/createlobby.cpp.s
-
-CMakeFiles/Scrabble.dir/Gui/createlobbymenu.cpp.o: CMakeFiles/Scrabble.dir/flags.make
-CMakeFiles/Scrabble.dir/Gui/createlobbymenu.cpp.o: ../Gui/createlobbymenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Scrabble.dir/Gui/createlobbymenu.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Gui/createlobbymenu.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/createlobbymenu.cpp
-
-CMakeFiles/Scrabble.dir/Gui/createlobbymenu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Gui/createlobbymenu.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/createlobbymenu.cpp > CMakeFiles/Scrabble.dir/Gui/createlobbymenu.cpp.i
-
-CMakeFiles/Scrabble.dir/Gui/createlobbymenu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Gui/createlobbymenu.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/createlobbymenu.cpp -o CMakeFiles/Scrabble.dir/Gui/createlobbymenu.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/Gui/configlobbymenu.cpp -o CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.s
 
 CMakeFiles/Scrabble.dir/Gui/joinlobbymenu.cpp.o: CMakeFiles/Scrabble.dir/flags.make
 CMakeFiles/Scrabble.dir/Gui/joinlobbymenu.cpp.o: ../Gui/joinlobbymenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Scrabble.dir/Gui/joinlobbymenu.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Gui/joinlobbymenu.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/joinlobbymenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Scrabble.dir/Gui/joinlobbymenu.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Gui/joinlobbymenu.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/Gui/joinlobbymenu.cpp
 
 CMakeFiles/Scrabble.dir/Gui/joinlobbymenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Gui/joinlobbymenu.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/joinlobbymenu.cpp > CMakeFiles/Scrabble.dir/Gui/joinlobbymenu.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/Gui/joinlobbymenu.cpp > CMakeFiles/Scrabble.dir/Gui/joinlobbymenu.cpp.i
 
 CMakeFiles/Scrabble.dir/Gui/joinlobbymenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Gui/joinlobbymenu.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/joinlobbymenu.cpp -o CMakeFiles/Scrabble.dir/Gui/joinlobbymenu.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/Gui/joinlobbymenu.cpp -o CMakeFiles/Scrabble.dir/Gui/joinlobbymenu.cpp.s
 
 CMakeFiles/Scrabble.dir/Gui/losemenu.cpp.o: CMakeFiles/Scrabble.dir/flags.make
 CMakeFiles/Scrabble.dir/Gui/losemenu.cpp.o: ../Gui/losemenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Scrabble.dir/Gui/losemenu.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Gui/losemenu.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/losemenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Scrabble.dir/Gui/losemenu.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Gui/losemenu.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/Gui/losemenu.cpp
 
 CMakeFiles/Scrabble.dir/Gui/losemenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Gui/losemenu.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/losemenu.cpp > CMakeFiles/Scrabble.dir/Gui/losemenu.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/Gui/losemenu.cpp > CMakeFiles/Scrabble.dir/Gui/losemenu.cpp.i
 
 CMakeFiles/Scrabble.dir/Gui/losemenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Gui/losemenu.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/losemenu.cpp -o CMakeFiles/Scrabble.dir/Gui/losemenu.cpp.s
-
-CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.o: CMakeFiles/Scrabble.dir/flags.make
-CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.o: ../Gui/waitforgamestartmenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/waitforgamestartmenu.cpp
-
-CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/waitforgamestartmenu.cpp > CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.i
-
-CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/waitforgamestartmenu.cpp -o CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.s
-
-CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.o: CMakeFiles/Scrabble.dir/flags.make
-CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.o: ../Gui/waitmenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/waitmenu.cpp
-
-CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/waitmenu.cpp > CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.i
-
-CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/waitmenu.cpp -o CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.s
-
-CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.o: CMakeFiles/Scrabble.dir/flags.make
-CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.o: ../Gui/winmenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/winmenu.cpp
-
-CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/winmenu.cpp > CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.i
-
-CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/winmenu.cpp -o CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/Gui/losemenu.cpp -o CMakeFiles/Scrabble.dir/Gui/losemenu.cpp.s
 
 CMakeFiles/Scrabble.dir/Gui/mainmenu.cpp.o: CMakeFiles/Scrabble.dir/flags.make
 CMakeFiles/Scrabble.dir/Gui/mainmenu.cpp.o: ../Gui/mainmenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Scrabble.dir/Gui/mainmenu.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Gui/mainmenu.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/mainmenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Scrabble.dir/Gui/mainmenu.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Gui/mainmenu.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/Gui/mainmenu.cpp
 
 CMakeFiles/Scrabble.dir/Gui/mainmenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Gui/mainmenu.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/mainmenu.cpp > CMakeFiles/Scrabble.dir/Gui/mainmenu.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/Gui/mainmenu.cpp > CMakeFiles/Scrabble.dir/Gui/mainmenu.cpp.i
 
 CMakeFiles/Scrabble.dir/Gui/mainmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Gui/mainmenu.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/Gui/mainmenu.cpp -o CMakeFiles/Scrabble.dir/Gui/mainmenu.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/Gui/mainmenu.cpp -o CMakeFiles/Scrabble.dir/Gui/mainmenu.cpp.s
+
+CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.o: CMakeFiles/Scrabble.dir/flags.make
+CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.o: ../Gui/waitforgamestartmenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/Gui/waitforgamestartmenu.cpp
+
+CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/Gui/waitforgamestartmenu.cpp > CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.i
+
+CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/Gui/waitforgamestartmenu.cpp -o CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.s
+
+CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.o: CMakeFiles/Scrabble.dir/flags.make
+CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.o: ../Gui/waitmenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/Gui/waitmenu.cpp
+
+CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/Gui/waitmenu.cpp > CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.i
+
+CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/Gui/waitmenu.cpp -o CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.s
+
+CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.o: CMakeFiles/Scrabble.dir/flags.make
+CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.o: ../Gui/winmenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/Gui/winmenu.cpp
+
+CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/Gui/winmenu.cpp > CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.i
+
+CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/Gui/winmenu.cpp -o CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.s
+
+CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.o: CMakeFiles/Scrabble.dir/flags.make
+CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.o: ../JSON_Logic/JSONManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/JSON_Logic/JSONManager.cpp
+
+CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/JSON_Logic/JSONManager.cpp > CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.i
+
+CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/JSON_Logic/JSONManager.cpp -o CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.s
+
+CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.o: CMakeFiles/Scrabble.dir/flags.make
+CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.o: ../Logic_Windows/JoinGame_LW.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/Logic_Windows/JoinGame_LW.cpp
+
+CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/Logic_Windows/JoinGame_LW.cpp > CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.i
+
+CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/Logic_Windows/JoinGame_LW.cpp -o CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.s
+
+CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.o: CMakeFiles/Scrabble.dir/flags.make
+CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.o: ../Logic_Windows/LogicWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/Logic_Windows/LogicWindow.cpp
+
+CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/Logic_Windows/LogicWindow.cpp > CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.i
+
+CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/Logic_Windows/LogicWindow.cpp -o CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.s
+
+CMakeFiles/Scrabble.dir/Logic_Windows/NewGame_LW.cpp.o: CMakeFiles/Scrabble.dir/flags.make
+CMakeFiles/Scrabble.dir/Logic_Windows/NewGame_LW.cpp.o: ../Logic_Windows/NewGame_LW.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Scrabble.dir/Logic_Windows/NewGame_LW.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Logic_Windows/NewGame_LW.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/Logic_Windows/NewGame_LW.cpp
+
+CMakeFiles/Scrabble.dir/Logic_Windows/NewGame_LW.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Logic_Windows/NewGame_LW.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/Logic_Windows/NewGame_LW.cpp > CMakeFiles/Scrabble.dir/Logic_Windows/NewGame_LW.cpp.i
+
+CMakeFiles/Scrabble.dir/Logic_Windows/NewGame_LW.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Logic_Windows/NewGame_LW.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/Logic_Windows/NewGame_LW.cpp -o CMakeFiles/Scrabble.dir/Logic_Windows/NewGame_LW.cpp.s
+
+CMakeFiles/Scrabble.dir/Manager/Manager.cpp.o: CMakeFiles/Scrabble.dir/flags.make
+CMakeFiles/Scrabble.dir/Manager/Manager.cpp.o: ../Manager/Manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Scrabble.dir/Manager/Manager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Manager/Manager.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/Manager/Manager.cpp
+
+CMakeFiles/Scrabble.dir/Manager/Manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Manager/Manager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/Manager/Manager.cpp > CMakeFiles/Scrabble.dir/Manager/Manager.cpp.i
+
+CMakeFiles/Scrabble.dir/Manager/Manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Manager/Manager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/Manager/Manager.cpp -o CMakeFiles/Scrabble.dir/Manager/Manager.cpp.s
+
+CMakeFiles/Scrabble.dir/Player/Player.cpp.o: CMakeFiles/Scrabble.dir/flags.make
+CMakeFiles/Scrabble.dir/Player/Player.cpp.o: ../Player/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Scrabble.dir/Player/Player.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Player/Player.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/Player/Player.cpp
+
+CMakeFiles/Scrabble.dir/Player/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Player/Player.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/Player/Player.cpp > CMakeFiles/Scrabble.dir/Player/Player.cpp.i
+
+CMakeFiles/Scrabble.dir/Player/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Player/Player.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/Player/Player.cpp -o CMakeFiles/Scrabble.dir/Player/Player.cpp.s
+
+CMakeFiles/Scrabble.dir/Structures/NodeP.cpp.o: CMakeFiles/Scrabble.dir/flags.make
+CMakeFiles/Scrabble.dir/Structures/NodeP.cpp.o: ../Structures/NodeP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Scrabble.dir/Structures/NodeP.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Structures/NodeP.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/Structures/NodeP.cpp
+
+CMakeFiles/Scrabble.dir/Structures/NodeP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Structures/NodeP.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/Structures/NodeP.cpp > CMakeFiles/Scrabble.dir/Structures/NodeP.cpp.i
+
+CMakeFiles/Scrabble.dir/Structures/NodeP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Structures/NodeP.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/Structures/NodeP.cpp -o CMakeFiles/Scrabble.dir/Structures/NodeP.cpp.s
+
+CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.o: CMakeFiles/Scrabble.dir/flags.make
+CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.o: ../Structures/NodeW.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/Structures/NodeW.cpp
+
+CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/Structures/NodeW.cpp > CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.i
+
+CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/Structures/NodeW.cpp -o CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.s
+
+CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.o: CMakeFiles/Scrabble.dir/flags.make
+CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.o: ../Structures/PlayerList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/Structures/PlayerList.cpp
+
+CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/Structures/PlayerList.cpp > CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.i
+
+CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/Structures/PlayerList.cpp -o CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.s
+
+CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.o: CMakeFiles/Scrabble.dir/flags.make
+CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.o: ../Structures/WordsList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/Structures/WordsList.cpp
+
+CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/Structures/WordsList.cpp > CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.i
+
+CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/Structures/WordsList.cpp -o CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.s
 
 CMakeFiles/Scrabble.dir/main.cpp.o: CMakeFiles/Scrabble.dir/flags.make
 CMakeFiles/Scrabble.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Scrabble.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/main.cpp.o -c /home/kugelblitz/Documents/Scrabble-client/Scrabble/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Scrabble.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/main.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/main.cpp
 
 CMakeFiles/Scrabble.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kugelblitz/Documents/Scrabble-client/Scrabble/main.cpp > CMakeFiles/Scrabble.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/main.cpp > CMakeFiles/Scrabble.dir/main.cpp.i
 
 CMakeFiles/Scrabble.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kugelblitz/Documents/Scrabble-client/Scrabble/main.cpp -o CMakeFiles/Scrabble.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/main.cpp -o CMakeFiles/Scrabble.dir/main.cpp.s
+
+CMakeFiles/Scrabble.dir/Scrabble_autogen/mocs_compilation.cpp.o: CMakeFiles/Scrabble.dir/flags.make
+CMakeFiles/Scrabble.dir/Scrabble_autogen/mocs_compilation.cpp.o: Scrabble_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Scrabble.dir/Scrabble_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Scrabble.dir/Scrabble_autogen/mocs_compilation.cpp.o -c /home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/Scrabble_autogen/mocs_compilation.cpp
+
+CMakeFiles/Scrabble.dir/Scrabble_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scrabble.dir/Scrabble_autogen/mocs_compilation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/Scrabble_autogen/mocs_compilation.cpp > CMakeFiles/Scrabble.dir/Scrabble_autogen/mocs_compilation.cpp.i
+
+CMakeFiles/Scrabble.dir/Scrabble_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scrabble.dir/Scrabble_autogen/mocs_compilation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/Scrabble_autogen/mocs_compilation.cpp -o CMakeFiles/Scrabble.dir/Scrabble_autogen/mocs_compilation.cpp.s
 
 # Object files for target Scrabble
 Scrabble_OBJECTS = \
+"CMakeFiles/Scrabble.dir/Board_Logic/Box.cpp.o" \
+"CMakeFiles/Scrabble.dir/Client/Client.cpp.o" \
 "CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.o" \
 "CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.o" \
-"CMakeFiles/Scrabble.dir/GameLogic/gameboard.cpp.o" \
 "CMakeFiles/Scrabble.dir/GameLogic/point.cpp.o" \
 "CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.o" \
-"CMakeFiles/Scrabble.dir/Client/Client.cpp.o" \
+"CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.o" \
+"CMakeFiles/Scrabble.dir/Gui/joinlobbymenu.cpp.o" \
+"CMakeFiles/Scrabble.dir/Gui/losemenu.cpp.o" \
+"CMakeFiles/Scrabble.dir/Gui/mainmenu.cpp.o" \
+"CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.o" \
+"CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.o" \
+"CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.o" \
 "CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.o" \
 "CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.o" \
 "CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.o" \
@@ -413,26 +407,25 @@ Scrabble_OBJECTS = \
 "CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.o" \
 "CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.o" \
 "CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.o" \
-"CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.o" \
-"CMakeFiles/Scrabble.dir/Gui/createlobby.cpp.o" \
-"CMakeFiles/Scrabble.dir/Gui/createlobbymenu.cpp.o" \
-"CMakeFiles/Scrabble.dir/Gui/joinlobbymenu.cpp.o" \
-"CMakeFiles/Scrabble.dir/Gui/losemenu.cpp.o" \
-"CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.o" \
-"CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.o" \
-"CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.o" \
-"CMakeFiles/Scrabble.dir/Gui/mainmenu.cpp.o" \
-"CMakeFiles/Scrabble.dir/main.cpp.o"
+"CMakeFiles/Scrabble.dir/main.cpp.o" \
+"CMakeFiles/Scrabble.dir/Scrabble_autogen/mocs_compilation.cpp.o"
 
 # External object files for target Scrabble
 Scrabble_EXTERNAL_OBJECTS =
 
+Scrabble: CMakeFiles/Scrabble.dir/Board_Logic/Box.cpp.o
+Scrabble: CMakeFiles/Scrabble.dir/Client/Client.cpp.o
 Scrabble: CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.o
 Scrabble: CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.o
-Scrabble: CMakeFiles/Scrabble.dir/GameLogic/gameboard.cpp.o
 Scrabble: CMakeFiles/Scrabble.dir/GameLogic/point.cpp.o
 Scrabble: CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.o
-Scrabble: CMakeFiles/Scrabble.dir/Client/Client.cpp.o
+Scrabble: CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.o
+Scrabble: CMakeFiles/Scrabble.dir/Gui/joinlobbymenu.cpp.o
+Scrabble: CMakeFiles/Scrabble.dir/Gui/losemenu.cpp.o
+Scrabble: CMakeFiles/Scrabble.dir/Gui/mainmenu.cpp.o
+Scrabble: CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.o
+Scrabble: CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.o
+Scrabble: CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.o
 Scrabble: CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.o
 Scrabble: CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.o
 Scrabble: CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.o
@@ -443,22 +436,14 @@ Scrabble: CMakeFiles/Scrabble.dir/Structures/NodeP.cpp.o
 Scrabble: CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.o
 Scrabble: CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.o
 Scrabble: CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.o
-Scrabble: CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.o
-Scrabble: CMakeFiles/Scrabble.dir/Gui/createlobby.cpp.o
-Scrabble: CMakeFiles/Scrabble.dir/Gui/createlobbymenu.cpp.o
-Scrabble: CMakeFiles/Scrabble.dir/Gui/joinlobbymenu.cpp.o
-Scrabble: CMakeFiles/Scrabble.dir/Gui/losemenu.cpp.o
-Scrabble: CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.o
-Scrabble: CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.o
-Scrabble: CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.o
-Scrabble: CMakeFiles/Scrabble.dir/Gui/mainmenu.cpp.o
 Scrabble: CMakeFiles/Scrabble.dir/main.cpp.o
+Scrabble: CMakeFiles/Scrabble.dir/Scrabble_autogen/mocs_compilation.cpp.o
 Scrabble: CMakeFiles/Scrabble.dir/build.make
-Scrabble: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.5.1
-Scrabble: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.5.1
-Scrabble: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.5.1
+Scrabble: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.5
+Scrabble: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5
+Scrabble: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
 Scrabble: CMakeFiles/Scrabble.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable Scrabble"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable Scrabble"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Scrabble.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -471,6 +456,6 @@ CMakeFiles/Scrabble.dir/clean:
 .PHONY : CMakeFiles/Scrabble.dir/clean
 
 CMakeFiles/Scrabble.dir/depend:
-	cd /home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kugelblitz/Documents/Scrabble-client/Scrabble /home/kugelblitz/Documents/Scrabble-client/Scrabble /home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug /home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug /home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/david/Documents/Scrabble-client/Scrabble /home/david/Documents/Scrabble-client/Scrabble /home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug /home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug /home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Scrabble.dir/depend
 

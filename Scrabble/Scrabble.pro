@@ -38,7 +38,6 @@ SOURCES += \
     Structures/PlayerList.cpp \
     Structures/WordsList.cpp \
     Gui/configlobbymenu.cpp \
-    Gui/createlobby.cpp \
     Gui/joinlobbymenu.cpp \
     Gui/losemenu.cpp \
     Gui/mainmenu.cpp \
@@ -49,8 +48,7 @@ SOURCES += \
     GameLogic/ficha.cpp \
     GameLogic/gameboard.cpp \
     GameLogic/point.cpp \
-    GameLogic/tablerografico.cpp \
-    mainwindow.cpp
+    GameLogic/tablerografico.cpp
 
 HEADERS += \
     Client/Client.h \
@@ -66,7 +64,6 @@ HEADERS += \
     Structures/PlayerList.h \
     Structures/WordsList.h \
     Gui/configlobbymenu.h \
-    Gui/createlobby.h \
     Gui/joinlobbymenu.h \
     Gui/losemenu.h \
     Gui/mainmenu.h \
@@ -78,18 +75,15 @@ HEADERS += \
     GameLogic/gameboard.h \
     GameLogic/perk.h \
     GameLogic/point.h \
-    GameLogic/tablerografico.h \
-    mainwindow.h
+    GameLogic/tablerografico.h
 
 FORMS += \
-    gameboard.ui \
     waitforgamestartmenu.ui \
     joinlobbymenu.ui \
     winmenu.ui \
     losemenu.ui \
     mainmenu.ui \
-    configlobbymenu.ui \
-    mainwindow.ui
+    configlobbymenu.ui
 
 CONFIG += c++11
 QT += widgets

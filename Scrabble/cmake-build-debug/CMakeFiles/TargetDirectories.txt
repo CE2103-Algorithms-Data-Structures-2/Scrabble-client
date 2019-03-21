@@ -1,3 +1,4 @@
-/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir
-/home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir
+/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles/Scrabble_autogen.dir

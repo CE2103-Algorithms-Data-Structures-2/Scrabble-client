@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g   CMakeFiles/Scrabble.pro.user.dir/main.cpp.o CMakeFiles/Scrabble.pro.user.dir/Scrabble.pro.user_autogen/mocs_compilation.cpp.o  -o Scrabble.pro.user 

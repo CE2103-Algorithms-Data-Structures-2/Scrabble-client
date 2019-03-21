@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/kugelblitz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/kugelblitz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kugelblitz/Documents/Scrabble-client/Scrabble
+CMAKE_SOURCE_DIR = /home/david/Documents/Scrabble-client/Scrabble
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug
+CMAKE_BINARY_DIR = /home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-bui
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/kugelblitz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/kugelblitz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles /home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles /home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kugelblitz/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,46 @@ Scrabble: cmake_check_build_system
 Scrabble/fast:
 	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/build
 .PHONY : Scrabble/fast
+
+#=============================================================================
+# Target rules for targets named Scrabble_autogen
+
+# Build rule for target.
+Scrabble_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Scrabble_autogen
+.PHONY : Scrabble_autogen
+
+# fast build rule for target.
+Scrabble_autogen/fast:
+	$(MAKE) -f CMakeFiles/Scrabble_autogen.dir/build.make CMakeFiles/Scrabble_autogen.dir/build
+.PHONY : Scrabble_autogen/fast
+
+Board_Logic/Box.o: Board_Logic/Box.cpp.o
+
+.PHONY : Board_Logic/Box.o
+
+# target to build an object file
+Board_Logic/Box.cpp.o:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Board_Logic/Box.cpp.o
+.PHONY : Board_Logic/Box.cpp.o
+
+Board_Logic/Box.i: Board_Logic/Box.cpp.i
+
+.PHONY : Board_Logic/Box.i
+
+# target to preprocess a source file
+Board_Logic/Box.cpp.i:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Board_Logic/Box.cpp.i
+.PHONY : Board_Logic/Box.cpp.i
+
+Board_Logic/Box.s: Board_Logic/Box.cpp.s
+
+.PHONY : Board_Logic/Box.s
+
+# target to generate assembly for a file
+Board_Logic/Box.cpp.s:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Board_Logic/Box.cpp.s
+.PHONY : Board_Logic/Box.cpp.s
 
 Client/Client.o: Client/Client.cpp.o
 
@@ -204,33 +244,6 @@ GameLogic/ficha.cpp.s:
 	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.s
 .PHONY : GameLogic/ficha.cpp.s
 
-GameLogic/gameboard.o: GameLogic/gameboard.cpp.o
-
-.PHONY : GameLogic/gameboard.o
-
-# target to build an object file
-GameLogic/gameboard.cpp.o:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/GameLogic/gameboard.cpp.o
-.PHONY : GameLogic/gameboard.cpp.o
-
-GameLogic/gameboard.i: GameLogic/gameboard.cpp.i
-
-.PHONY : GameLogic/gameboard.i
-
-# target to preprocess a source file
-GameLogic/gameboard.cpp.i:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/GameLogic/gameboard.cpp.i
-.PHONY : GameLogic/gameboard.cpp.i
-
-GameLogic/gameboard.s: GameLogic/gameboard.cpp.s
-
-.PHONY : GameLogic/gameboard.s
-
-# target to generate assembly for a file
-GameLogic/gameboard.cpp.s:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/GameLogic/gameboard.cpp.s
-.PHONY : GameLogic/gameboard.cpp.s
-
 GameLogic/point.o: GameLogic/point.cpp.o
 
 .PHONY : GameLogic/point.o
@@ -311,60 +324,6 @@ Gui/configlobbymenu.s: Gui/configlobbymenu.cpp.s
 Gui/configlobbymenu.cpp.s:
 	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.s
 .PHONY : Gui/configlobbymenu.cpp.s
-
-Gui/createlobby.o: Gui/createlobby.cpp.o
-
-.PHONY : Gui/createlobby.o
-
-# target to build an object file
-Gui/createlobby.cpp.o:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/createlobby.cpp.o
-.PHONY : Gui/createlobby.cpp.o
-
-Gui/createlobby.i: Gui/createlobby.cpp.i
-
-.PHONY : Gui/createlobby.i
-
-# target to preprocess a source file
-Gui/createlobby.cpp.i:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/createlobby.cpp.i
-.PHONY : Gui/createlobby.cpp.i
-
-Gui/createlobby.s: Gui/createlobby.cpp.s
-
-.PHONY : Gui/createlobby.s
-
-# target to generate assembly for a file
-Gui/createlobby.cpp.s:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/createlobby.cpp.s
-.PHONY : Gui/createlobby.cpp.s
-
-Gui/createlobbymenu.o: Gui/createlobbymenu.cpp.o
-
-.PHONY : Gui/createlobbymenu.o
-
-# target to build an object file
-Gui/createlobbymenu.cpp.o:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/createlobbymenu.cpp.o
-.PHONY : Gui/createlobbymenu.cpp.o
-
-Gui/createlobbymenu.i: Gui/createlobbymenu.cpp.i
-
-.PHONY : Gui/createlobbymenu.i
-
-# target to preprocess a source file
-Gui/createlobbymenu.cpp.i:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/createlobbymenu.cpp.i
-.PHONY : Gui/createlobbymenu.cpp.i
-
-Gui/createlobbymenu.s: Gui/createlobbymenu.cpp.s
-
-.PHONY : Gui/createlobbymenu.s
-
-# target to generate assembly for a file
-Gui/createlobbymenu.cpp.s:
-	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Gui/createlobbymenu.cpp.s
-.PHONY : Gui/createlobbymenu.cpp.s
 
 Gui/joinlobbymenu.o: Gui/joinlobbymenu.cpp.o
 
@@ -690,6 +649,33 @@ Player/Player.cpp.s:
 	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Player/Player.cpp.s
 .PHONY : Player/Player.cpp.s
 
+Scrabble_autogen/mocs_compilation.o: Scrabble_autogen/mocs_compilation.cpp.o
+
+.PHONY : Scrabble_autogen/mocs_compilation.o
+
+# target to build an object file
+Scrabble_autogen/mocs_compilation.cpp.o:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Scrabble_autogen/mocs_compilation.cpp.o
+.PHONY : Scrabble_autogen/mocs_compilation.cpp.o
+
+Scrabble_autogen/mocs_compilation.i: Scrabble_autogen/mocs_compilation.cpp.i
+
+.PHONY : Scrabble_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+Scrabble_autogen/mocs_compilation.cpp.i:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Scrabble_autogen/mocs_compilation.cpp.i
+.PHONY : Scrabble_autogen/mocs_compilation.cpp.i
+
+Scrabble_autogen/mocs_compilation.s: Scrabble_autogen/mocs_compilation.cpp.s
+
+.PHONY : Scrabble_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+Scrabble_autogen/mocs_compilation.cpp.s:
+	$(MAKE) -f CMakeFiles/Scrabble.dir/build.make CMakeFiles/Scrabble.dir/Scrabble_autogen/mocs_compilation.cpp.s
+.PHONY : Scrabble_autogen/mocs_compilation.cpp.s
+
 Structures/NodeP.o: Structures/NodeP.cpp.o
 
 .PHONY : Structures/NodeP.o
@@ -834,6 +820,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Scrabble"
 	@echo "... edit_cache"
+	@echo "... Scrabble_autogen"
+	@echo "... Board_Logic/Box.o"
+	@echo "... Board_Logic/Box.i"
+	@echo "... Board_Logic/Box.s"
 	@echo "... Client/Client.o"
 	@echo "... Client/Client.i"
 	@echo "... Client/Client.s"
@@ -843,9 +833,6 @@ help:
 	@echo "... GameLogic/ficha.o"
 	@echo "... GameLogic/ficha.i"
 	@echo "... GameLogic/ficha.s"
-	@echo "... GameLogic/gameboard.o"
-	@echo "... GameLogic/gameboard.i"
-	@echo "... GameLogic/gameboard.s"
 	@echo "... GameLogic/point.o"
 	@echo "... GameLogic/point.i"
 	@echo "... GameLogic/point.s"
@@ -855,12 +842,6 @@ help:
 	@echo "... Gui/configlobbymenu.o"
 	@echo "... Gui/configlobbymenu.i"
 	@echo "... Gui/configlobbymenu.s"
-	@echo "... Gui/createlobby.o"
-	@echo "... Gui/createlobby.i"
-	@echo "... Gui/createlobby.s"
-	@echo "... Gui/createlobbymenu.o"
-	@echo "... Gui/createlobbymenu.i"
-	@echo "... Gui/createlobbymenu.s"
 	@echo "... Gui/joinlobbymenu.o"
 	@echo "... Gui/joinlobbymenu.i"
 	@echo "... Gui/joinlobbymenu.s"
@@ -897,6 +878,9 @@ help:
 	@echo "... Player/Player.o"
 	@echo "... Player/Player.i"
 	@echo "... Player/Player.s"
+	@echo "... Scrabble_autogen/mocs_compilation.o"
+	@echo "... Scrabble_autogen/mocs_compilation.i"
+	@echo "... Scrabble_autogen/mocs_compilation.s"
 	@echo "... Structures/NodeP.o"
 	@echo "... Structures/NodeP.i"
 	@echo "... Structures/NodeP.s"
