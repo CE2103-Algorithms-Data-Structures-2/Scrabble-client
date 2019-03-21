@@ -11,16 +11,16 @@
 
 class NewGame_LW:public LogicWindow
 {
-        public:
-            NewGame_LW(Client* c,JSONManager* j):LogicWindow(c, j)
-            {
+public:
+    NewGame_LW(Client* c,JSONManager* j):LogicWindow(c, j)
+    {
 
-                    cliente=c;
-                    Jmanager=j;
+        cliente=c;
+        Jmanager=j;
 
-            }
-            void newGame();
-            string getInfo();
+    }
+    void newGame();
+    string getInfo();
 };
 
 

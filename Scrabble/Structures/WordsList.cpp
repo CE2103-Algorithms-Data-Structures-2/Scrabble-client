@@ -3,6 +3,7 @@
 //
 
 #include "WordsList.h"
+
 WordsList::WordsList()
 {
     this->head=nullptr;
@@ -12,56 +13,68 @@ int WordsList::getLength()
 {
     return this->length;
 }
-void WordsList::add(string s)
+void WordsList::add(Chip* c)
 {
-    NodeW* n= new NodeW(s);
-    NodeW* temp= this->head;
-    while(temp->getNext()!=nullptr)
+    NodeW* n= new NodeW(c);
+    if(this->head== nullptr)
     {
-        temp=temp->getNext();
+        this->head=n;
     }
-    temp->setNext(n);
+    else
+    {
+        NodeW *temp = this->head;
+        while (temp->getNext() != nullptr) {
+            temp = temp->getNext();
+        }
+        temp->setNext(n);
+        temp = nullptr;
+        delete (temp);
+    }
 }
 void WordsList::del(string s)
 {
     if(length!=0) {
-        if (head->getValue() == s) {
+        if (head->getChip()->getLetter()== s) {
             NodeW *temp = head;
             head = temp->getNext();
+            temp= nullptr;
             delete temp;
 
         }
         else {
             NodeW *temp = this->head;
-            while (temp->getNext()->getValue() != s && temp->getNext() != nullptr) {
+            while (temp->getNext()->getChip()->getLetter() != s && temp->getNext() != nullptr) {
                 temp = temp->getNext();
             }
             if (temp->getNext() != nullptr) {
                 NodeW *temp2 = temp->getNext();
                 temp->setNext(temp->getNext()->getNext());
                 temp2->setNext(nullptr);
+                temp= nullptr;
+                temp2=nullptr;
+                delete(temp);
                 delete temp2;
             }
         }
         length--;
     }
 }
-string WordsList::get(string s)
+Chip* WordsList::get(string s)
 {
     NodeW* temp=head;
-    while(temp->getValue()!=s)
+    while(temp->getChip()->getLetter()!=s)
     {
         temp=temp->getNext();
     }
-    cout<<temp->getValue()<<endl;
-    return temp->getValue();
+    return temp->getChip();
 }
-string WordsList::print()
+
+void WordsList::print()
 {
     NodeW* temp=this->head;
     if(this->head== nullptr)
     {
-        return "[]";
+        cout<<"[]"<<endl;
     }
     else
     {
@@ -72,10 +85,12 @@ string WordsList::print()
                 f += ",";
 
             }
-            f +=temp->getValue();
+            f +=temp->getChip()->getLetter();
             temp = temp->getNext();
         }
         f += "]";
-        return f;
+        temp= nullptr;
+        delete(temp);
+        cout<<f<<endl;
     }
 }

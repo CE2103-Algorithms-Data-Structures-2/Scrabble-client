@@ -11,15 +11,15 @@
 #include "LogicWindow.h"
 
 class JoinGame_LW: public LogicWindow
-        {
-    public:
-        JoinGame_LW(Client* c,JSONManager* j):LogicWindow(c,j)
-        {
-                cliente=c;
-                Jmanager=j;
-        }
-        string getInfo();
-        void join();
+{
+public:
+    JoinGame_LW(Client* c,JSONManager* j):LogicWindow(c,j)
+    {
+            cliente=c;
+            Jmanager=j;
+    }
+    string getInfo();
+    bool join();
 
 
 };

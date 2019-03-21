@@ -4,24 +4,24 @@
 
 #include "NodeW.h"
 
-NodeW::NodeW(string s)
+NodeW::NodeW(Chip* c)
 {
     this->next= nullptr;
-    this->value=s;
+    this->ficha=c;
 }
-void NodeW::setValue(string s)
+void NodeW::setChip(Chip* c)
 {
-    this->value=s;
+    this->ficha=c;
 }
 void NodeW::setNext(NodeW* n)
 {
     this->next=n;
 }
-string NodeW::getValue()
+Chip *NodeW::getChip()
 {
-    return this->value;
+    return this->ficha;
 }
-NodeW* NodeW::getNext()
-{
+NodeW* NodeW::getNext() {
     return this->next;
+
 }

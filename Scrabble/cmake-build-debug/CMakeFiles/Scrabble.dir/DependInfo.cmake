@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/david/Documents/Scrabble-client/Scrabble/Board_Logic/Box.cpp" "/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Board_Logic/Box.cpp.o"
+  "/home/david/Documents/Scrabble-client/Scrabble/Board_Logic/Chip.cpp" "/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Board_Logic/Chip.cpp.o"
   "/home/david/Documents/Scrabble-client/Scrabble/Client/Client.cpp" "/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Client/Client.cpp.o"
   "/home/david/Documents/Scrabble-client/Scrabble/GameLogic/casillagrafica.cpp" "/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.o"
   "/home/david/Documents/Scrabble-client/Scrabble/GameLogic/ficha.cpp" "/home/david/Documents/Scrabble-client/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.o"

@@ -11,21 +11,23 @@ using namespace std;
 
 
 class Client{
-    private:
-       int sock;
-       char buff[4096];
-       bool connected;
-       bool running;
-       thread clientT;
+private:
+    int sock;
+    char buff[4096];
+    bool connected;
+    bool running;
+    thread clientT;
 
-    public:
-        Client();
-        void run();
-        void stop();
-        void start();
-        void sendMessage(string message);
-        string receiveMessage();
-        bool isConnected();
+public:
+    Client();
+    void run();
+    void stop();
+    void start();
+    void sendMessage(string message);
+    string receiveMessage();
+    bool isConnected();
+    void disconnect();
+    void isAccepted();
 };
 
 

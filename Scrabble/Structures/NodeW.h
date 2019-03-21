@@ -6,17 +6,19 @@
 #define PROYECTO_1_CLIENT_NODE_H
 
 #include <string>
+#include "Board_Logic/Chip.h"
+
 using namespace std;
 class NodeW {
-    private:
-        NodeW* next;
-        string value;
-    public:
-        NodeW(string s);
-        string getValue();
-        NodeW* getNext();
-        void setNext(NodeW* n);
-        void setValue(string s);
+private:
+    NodeW* next;
+    Chip* ficha;
+public:
+    NodeW(Chip* c);
+    Chip* getChip();
+    NodeW* getNext();
+    void setNext(NodeW* n);
+    void setChip(Chip* c);
 };
 
 

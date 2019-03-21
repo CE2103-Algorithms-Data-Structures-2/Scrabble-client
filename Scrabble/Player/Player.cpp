@@ -3,20 +3,26 @@
 //
 
 #include "Player.h"
+#include <string>
+#include <iostream>
+using namespace std;
 
 Player::Player()
 {
-    *turn= false;
-    this->points=0;
-    this->chips= nullptr;
-    this->ID= nullptr;
+    turn= new bool(false);
+    this->name=" ";
+    this->points=new int(0);
+    this->chips= new WordsList();
+    this->ID= " ";
+    this->rndChip= new Chip();
 }
 Player::Player(string n) {
-    this->chips= nullptr;
-    *name=n;
-    *points=0;
-    *turn=false;
-    *ID=0;
+    this->chips= new WordsList();
+    this->name=" ";
+    this->points=new int(0);
+    this->turn=new bool(false);
+    this->rndChip= new Chip();
+    this->ID=" ";
 
 }
 WordsList* Player::getChips()
@@ -27,7 +33,7 @@ int* Player::getPoints()
 {
     return this->points;
 }
-string* Player::getName()
+string Player::getName()
 {
     return this->name;
 }
@@ -36,16 +42,28 @@ void Player::setTurn()
     *turn=!*turn;
 }
 
-void Player::setID(int i)
+void Player::setID(string i)
 {
-    *ID=i;
+    ID=i;
 
 }
-int* Player::getID()
+string Player::getID()
 {
     return this->ID;
 }
+void Player::print()
+{
+    cout<<"Name: "<<name<<endl;
+    cout<<"ID: "<<ID<<endl;
+    cout<<"Random chip: "<<rndChip->getLetter()<<endl;
+}
 
-void Player::setPoints(int* points) {
-    this->points = points;
+void Player::setName(string n)
+{
+    this->name=n;
+}
+
+void Player::setRnd(Chip *c)
+{
+    this->rndChip=c;
 }

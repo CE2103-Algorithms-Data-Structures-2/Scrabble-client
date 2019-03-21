@@ -11,6 +11,7 @@
 #include <string>
 #include <thread>
 #include <pthread.h>
+
 using namespace std;
 Client::Client()
 {
@@ -44,13 +45,14 @@ void Client::start()
                 connected = true;
                 cout<<"Connected!"<<endl;
                 //sendMessage("getList");
-                //receiveMessage();
             }
             cout << "Atempts to connect: " << attempts++ << endl;
 
         }
 
     }
+    cout<<"Disconnecting..."<<endl;
+    exit(0);
 }
 string Client::receiveMessage()
 {
@@ -58,12 +60,21 @@ string Client::receiveMessage()
     try {
         memset(buff, 0, 4096);
         int bytesReceived = recv(sock, buff, 4096, 0);
-        receivedMessage = string(buff, bytesReceived);
+        if(bytesReceived==-1)
+        {
+            cout<<"ERROR:Mensaje corrupto"<<endl;
+        }
+        else
+        {
+            receivedMessage = string(buff, bytesReceived);
+        }
+
     }
     catch(exception& e){
         receivedMessage="";
         cout<<"No hay mensajes entrantes"<<endl;
     }
+    receivedMessage=receivedMessage.substr(0,receivedMessage.size()-1);
     cout<<"Mensaje recibido: "<<receivedMessage<<endl;
     return receivedMessage;
 }
@@ -92,3 +103,17 @@ bool Client::isConnected()
 {
     return this->connected;
 }
+
+void Client::disconnect()
+{
+    this->running=false;
+}
+void Client::isAccepted()
+{
+    if(receiveMessage().compare("denied")==0)
+    {
+        this->disconnect();
+    };
+}
+
+

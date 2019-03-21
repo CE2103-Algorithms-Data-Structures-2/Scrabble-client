@@ -22,6 +22,8 @@ find_package(Qt5Widgets REQUIRED)
 add_executable(Scrabble
         Board_Logic/Box.cpp
         Board_Logic/Box.h
+        Board_Logic/Chip.cpp
+        Board_Logic/Chip.h
         Client/Client.cpp
         Client/Client.h
         GameLogic/casillagrafica.cpp
@@ -74,10 +76,9 @@ add_executable(Scrabble
         mainmenu.ui
         waitforgamestartmenu.ui
         winmenu.ui
-        main.cpp)
+        main.cpp Board_Logic/Chip.cpp Board_Logic/Chip.h)
 
 target_link_libraries(${PROJECT_NAME} Qt5::Widgets)
 target_link_libraries(${PROJECT_NAME} Qt5::Widgets)
 target_link_libraries(${PROJECT_NAME} Qt5::Core)
 target_link_libraries(${PROJECT_NAME} Qt5::Gui)
-

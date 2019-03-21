@@ -4,46 +4,79 @@
 
 #include "PlayerList.h"
 
-PlayerList::PlayerList() 
+PlayerList::PlayerList()
 {
-    
-    this->length=0;
+
+    this->length=new int(0);
     this->head= nullptr;
-        
-    
+    this->limit=new int(1);
+
+
 }
 int PlayerList::getLength()
 {
     return *this->length;
 }
-void PlayerList::add(Player p)
+bool PlayerList::add(Player* p)
 {
-    NodeP* n= new NodeP(p);
-    NodeP* temp= this->head;
-    while(temp->getNext()!=nullptr)
-    {
-        temp=temp->getNext();
+    bool adding=false;
+    if(*length<*limit) {
+        NodeP *n = new NodeP(p);
+        if(head== nullptr)
+        {
+            this->head=n;
+        }
+        else
+        {
+            NodeP *temp = this->head;
+            while (temp->getNext() != nullptr) {
+                temp = temp->getNext();
+            }
+            temp->setNext(n);
+            temp= nullptr;
+            delete(temp);
+        }
+        adding=true;
     }
-    temp->setNext(n);
+    if(adding)
+    {
+        *length=*length+1;
+        cout<<"Adicion de jugador exitosa!"<<endl;
+    }
+    else
+    {
+        cout<<"ERROR: Limite de jugadores alcanzado."<<endl;
+    }
+    return adding;
+
+
+
 }
+
+int PlayerList::getLimit() {
+    return *limit;
+}
+
 void PlayerList::del(int i)
 {
     if(length!=0) {
-        if (*head->getValue()->getID() == i) {
+        if (head->getValue()->getID() == to_string(i)) {
             NodeP*temp = head;
             head = temp->getNext();
+            temp= nullptr;
             delete temp;
 
         }
         else {
             NodeP *temp = this->head;
-            while (*temp->getNext()->getValue()->getID()!= i && temp->getNext() != nullptr) {
+            while (temp->getNext()->getValue()->getID()!= to_string(i) && temp->getNext() != nullptr) {
                 temp = temp->getNext();
             }
             if (temp->getNext() != nullptr) {
                 NodeP *temp2 = temp->getNext();
                 temp->setNext(temp->getNext()->getNext());
                 temp2->setNext(nullptr);
+                temp2= nullptr;
                 delete temp2;
             }
         }
@@ -53,9 +86,32 @@ void PlayerList::del(int i)
 Player* PlayerList::get(int i)
 {
     NodeP* temp=head;
-    while(*temp->getValue()->getID()!=i)
+    while(temp->getValue()->getID()!=to_string(i))
     {
         temp=temp->getNext();
     }
     return temp->getValue();
+}
+NodeP* PlayerList::getHead()
+{
+    return this->head;
+}
+void PlayerList::setLimit(int i)
+{
+    if(i>4)
+        *limit=4;
+
+    else
+        *limit=i;
+}
+
+void PlayerList::print()
+{
+    NodeP* temp=this->head;
+    while(temp!=nullptr)
+    {
+        cout<<"Jugador #"<<temp->getValue()->getID()<<endl;
+        cout<<"Nombre: "<<temp->getValue()->getName()<<endl;
+        temp=temp->getNext();
+    }
 }

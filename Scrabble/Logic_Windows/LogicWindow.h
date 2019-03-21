@@ -10,12 +10,12 @@
 #include "../../Client/Client.h"
 
 class LogicWindow {
-    protected:
-        Client* cliente;
-        JSONManager* Jmanager;
-    public:
-        LogicWindow(Client* c,JSONManager* j);
-        string getInfo();
+protected:
+    Client* cliente;
+    JSONManager* Jmanager;
+public:
+    LogicWindow(Client* c,JSONManager* j);
+    string getInfo();
 };
 
 

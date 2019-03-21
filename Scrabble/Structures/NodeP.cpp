@@ -5,10 +5,11 @@
 #include "NodeP.h"
 NodeP::NodeP()
 {
-
+    this->jugador= nullptr;
+    this->next= nullptr;
 }
-NodeP::NodeP(Player p) {
-    *jugador=p;
+NodeP::NodeP(Player* p) {
+    jugador=p;
     this->next=nullptr;
 }
 NodeP* NodeP::getNext()
