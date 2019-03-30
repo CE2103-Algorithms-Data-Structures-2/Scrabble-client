@@ -58,4 +58,5 @@ void MainWindow::on_pushButton_11_clicked()
 void MainWindow::on_pushButton_13_clicked()
 {
     ui->stackedWidget->setCurrentIndex(0);
+    LOG("something");
 }
