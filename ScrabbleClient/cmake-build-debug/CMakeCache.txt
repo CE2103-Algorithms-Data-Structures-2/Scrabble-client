@@ -237,6 +237,8 @@ ScrabbleClient_BINARY_DIR:STATIC=/home/dcamachog1501/Desktop/CL/ScrabbleClient/c
 
 //Value Computed by CMake
 ScrabbleClient_SOURCE_DIR:STATIC=/home/dcamachog1501/Desktop/CL/ScrabbleClient
+
+
 ########################
 # INTERNAL cache entries
 ########################
@@ -334,7 +336,6 @@ CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/dcamachog1501/Desktop/CL/ScrabbleClient
-
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
