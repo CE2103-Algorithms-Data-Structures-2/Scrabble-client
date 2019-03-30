@@ -18,29 +18,35 @@
 ../../Structures/PlayerList.h
 ../Structures/PlayerList.h
 
-../Client/Client.h
+..//mainwindow.h
+QMainWindow
+-
+Interface_Logic/Manager/Manager.h
+-
+
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Client/Client.h
 iostream
 -
 thread
 -
 
-../Interface_Logic/Board_Logic/Box.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
 string
 -
 Chip.h
-../Interface_Logic/Board_Logic/Chip.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
 
-../Interface_Logic/Board_Logic/Chip.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
 string
 -
 
-../Interface_Logic/Board_Logic/Matrix.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
 ../../Structures/WordsList.h
-../Structures/WordsList.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Structures/WordsList.h
 ../../Structures/BoxList.h
-../Structures/BoxList.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Structures/BoxList.h
 
-../Interface_Logic/JSON_Logic/JSONManager.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
 algorithm
 -
 boost/property_tree/json_parser.hpp
@@ -56,84 +62,100 @@ boost/property_tree/ptree.hpp
 iostream
 -
 ../Board_Logic/Matrix.h
-../Interface_Logic/Board_Logic/Matrix.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
 
-../Interface_Logic/Logic_Windows/JoinGame_LW.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.h
 ../../Client/Client.h
-../Client/Client.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Client/Client.h
 ../JSON_Logic/JSONManager.h
-../Interface_Logic/JSON_Logic/JSONManager.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
 LogicWindow.h
-../Interface_Logic/Logic_Windows/LogicWindow.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/Logic_Windows/LogicWindow.h
 
-../Interface_Logic/Logic_Windows/LogicWindow.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/Logic_Windows/LogicWindow.h
 ../JSON_Logic/JSONManager.h
-../Interface_Logic/JSON_Logic/JSONManager.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
 ../../Client/Client.h
-../Client/Client.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Client/Client.h
 
-../Interface_Logic/Logic_Windows/NewGame_LW.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/Logic_Windows/NewGame_LW.h
 ../../Client/Client.h
-../Client/Client.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Client/Client.h
 ../JSON_Logic/JSONManager.h
-../Interface_Logic/JSON_Logic/JSONManager.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
 LogicWindow.h
-../Interface_Logic/Logic_Windows/LogicWindow.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/Logic_Windows/LogicWindow.h
 
-../Interface_Logic/Player/Player.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/Manager/Manager.cpp
+../../Client/Client.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Client/Client.h
+Manager.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/Manager/Manager.h
+../JSON_Logic/JSONManager.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
+boost/property_tree/ptree.hpp
+-
+boost/property_tree/json_parser.hpp
+-
+boost/algorithm/string.hpp
+-
+algorithm
+-
+thread
+-
+mainwindow.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/Manager/mainwindow.h
+
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/Manager/Manager.h
+../../Client/Client.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Client/Client.h
+../JSON_Logic/JSONManager.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
+../Logic_Windows/NewGame_LW.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/Logic_Windows/NewGame_LW.h
+../Logic_Windows/JoinGame_LW.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.h
+../../Structures/PlayerList.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Structures/PlayerList.h
+
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/Player/Player.h
 ../../Structures/WordsList.h
-../Structures/WordsList.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Structures/WordsList.h
 string
 -
 
-../Structures/BoxList.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Structures/BoxList.h
 ../Interface_Logic/Board_Logic/Box.h
-../Interface_Logic/Board_Logic/Box.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
 
-../Structures/NodeP.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Structures/NodeP.h
 ../Interface_Logic/Player/Player.h
-../Interface_Logic/Player/Player.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/Player/Player.h
 
-../Structures/NodeW.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Structures/NodeW.h
 string
 -
 ../Interface_Logic/Board_Logic/Chip.h
-../Interface_Logic/Board_Logic/Chip.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
 
-../Structures/PlayerList.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Structures/PlayerList.h
 NodeP.h
-../Structures/NodeP.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Structures/NodeP.h
 
-../Structures/WordsList.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Structures/WordsList.h
 string.h
 -
 iostream
 -
 NodeW.h
-../Structures/NodeW.h
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Structures/NodeW.h
 ../Interface_Logic/Board_Logic/Matrix.h
-../Interface_Logic/Board_Logic/Matrix.h
-
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/EWIEGA46WW/moc_mainwindow.cpp
-../../../mainwindow.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/mainwindow.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/mocs_compilation.cpp
-EWIEGA46WW/moc_mainwindow.cpp
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/EWIEGA46WW/moc_mainwindow.cpp
-
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/mainwindow.h
-QMainWindow
--
-Interface_Logic/Manager/Manager.h
--
+/home/dcamachog1501/Desktop/CL2/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 QtCore/qglobal.h
+-
+intrin.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -161,8 +183,6 @@ atomic
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_msvc.h
 QtCore/qgenericatomic.h
 -
-winbase.h
--
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h
 QtCore/qatomic.h
@@ -171,25 +191,7 @@ QtCore/qatomic_bootstrap.h
 -
 QtCore/qatomic_cxx11.h
 -
-QtCore/qatomic_gcc.h
--
 QtCore/qatomic_msvc.h
--
-QtCore/qatomic_armv7.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore/qatomic_armv7.h
-QtCore/qatomic_armv6.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore/qatomic_armv6.h
-QtCore/qatomic_armv5.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore/qatomic_armv5.h
-QtCore/qatomic_ia64.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore/qatomic_ia64.h
-QtCore/qatomic_x86.h
--
-QtCore/qatomic_cxx11.h
--
-QtCore/qatomic_gcc.h
--
-QtCore/qatomic_unix.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h
@@ -206,6 +208,8 @@ string.h
 stdarg.h
 -
 string
+-
+iterator
 -
 QtCore/qstring.h
 -
@@ -225,6 +229,8 @@ QtCore/qglobal.h
 -
 utility
 -
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig-bootstrapped.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h
 
@@ -277,6 +283,16 @@ QtCore/qset.h
 -
 QtCore/qcontiguouscache.h
 -
+QtCore/qsharedpointer.h
+-
+vector
+-
+list
+-
+map
+-
+utility
+-
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
 QtCore/qfiledevice.h
@@ -295,10 +311,6 @@ QtCore/qstring.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
 QtCore/qglobal.h
 -
-QtCore/qtypeinfo.h
--
-QtCore/qtypetraits.h
--
 initializer_list
 -
 
@@ -309,13 +321,19 @@ QtCore/qtypeinfo.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
+type_traits
+-
 cstddef
+-
+utility
 -
 stddef.h
 -
+QtCore/qconfig-bootstrapped.h
+-
 QtCore/qconfig.h
 -
-QtCore/qfeatures.h
+QtCore/qtcore-config.h
 -
 QtCore/qsystemdetection.h
 -
@@ -339,6 +357,8 @@ QtCore/qglobalstatic.h
 -
 QtCore/qnumeric.h
 -
+QtCore/qversiontagging.h
+-
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h
 QtCore/qglobal.h
@@ -355,13 +375,21 @@ QtCore/qiterator.h
 -
 QtCore/qlist.h
 -
-QtCore/qpair.h
--
 QtCore/qrefcount.h
 -
-numeric
+QtCore/qhashfunctions.h
 -
 initializer_list
+-
+algorithm
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
+QtCore/qchar.h
+-
+QtCore/qpair.h
+-
+numeric
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
@@ -374,12 +402,6 @@ QtCore/qobjectdefs.h
 QtCore/qscopedpointer.h
 -
 QtCore/qstring.h
--
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qisenum.h
-QtCore/qglobal.h
--
-QtCore/qtypetraits.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
@@ -398,6 +420,8 @@ QtCore/qiterator.h
 QtCore/qrefcount.h
 -
 QtCore/qarraydata.h
+-
+QtCore/qhashfunctions.h
 -
 iterator
 -
@@ -449,6 +473,8 @@ map
 -
 new
 -
+functional
+-
 initializer_list
 -
 
@@ -464,10 +490,6 @@ QtCore/qatomic.h
 QtCore/qbytearray.h
 -
 QtCore/qvarlengtharray.h
--
-QtCore/qisenum.h
--
-QtCore/qtypetraits.h
 -
 QtCore/qobjectdefs.h
 -
@@ -486,6 +508,10 @@ QtCore/qglobal.h
 QtCore/qatomic.h
 -
 new
+-
+chrono
+-
+limits
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h
@@ -512,6 +538,8 @@ QtCore/qscopedpointer.h
 QtCore/qmetatype.h
 -
 QtCore/qobject_impl.h
+-
+chrono
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h
@@ -567,6 +595,8 @@ QtCore/qhash.h
 -
 initializer_list
 -
+iterator
+-
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
 QtCore/qglobal.h
@@ -574,6 +604,8 @@ QtCore/qglobal.h
 QtCore/qatomic.h
 -
 QtCore/qhash.h
+-
+QtCore/qhashfunctions.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h
@@ -595,7 +627,7 @@ QtCore/qobject.h
 -
 QtCore/qhash.h
 -
-utility
+QtCore/qhashfunctions.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h
@@ -612,6 +644,8 @@ QtCore/qrefcount.h
 QtCore/qnamespace.h
 -
 string
+-
+iterator
 -
 stdarg.h
 -
@@ -656,6 +690,8 @@ Availability.h
 AvailabilityMacros.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
 QtCore/qiodevice.h
 -
@@ -671,13 +707,7 @@ stdio.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
-QtCore/qtypetraits.h
--
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qtypetraits.h
 QtCore/qglobal.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore/qglobal.h
-utility
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h
@@ -745,6 +775,8 @@ algorithm
 -
 initializer_list
 -
+iterator
+-
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 QtCore/qalgorithms.h
@@ -756,6 +788,8 @@ QtCore/qlist.h
 QtCore/qrefcount.h
 -
 QtCore/qarraydata.h
+-
+QtCore/qhashfunctions.h
 -
 iterator
 -
@@ -772,7 +806,13 @@ algorithm
 QtCore/qpoint.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+QtCore/qglobal.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
+QtGui/qtguiglobal.h
+-
 QtCore/qpair.h
 -
 QtCore/qpoint.h
@@ -793,23 +833,29 @@ QtGui/qpixmap.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
+QtGui/qtguiglobal.h
+-
 QtGui/qrgb.h
 -
 QtCore/qnamespace.h
 -
 QtCore/qstringlist.h
 -
+QtGui/qrgba64.h
+-
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
+QtGui/qtguiglobal.h
+-
 QtCore/qpoint.h
 -
 QtGui/qwindowdefs.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h
-QtGui/qwindowdefs.h
+QtGui/qtguiglobal.h
 -
-QtCore/qobject.h
+QtGui/qwindowdefs.h
 -
 QtGui/qregion.h
 -
@@ -839,6 +885,8 @@ QtGui/qtouchdevice.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h
+QtGui/qtguiglobal.h
+-
 QtGui/qwindowdefs.h
 -
 QtCore/qstring.h
@@ -847,12 +895,16 @@ QtCore/qsharedpointer.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h
+QtGui/qtguiglobal.h
+-
 QtGui/qfont.h
 -
 QtCore/qsharedpointer.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h
+QtGui/qtguiglobal.h
+-
 QtGui/qfont.h
 -
 QtCore/qsharedpointer.h
@@ -861,7 +913,7 @@ QtCore/qrect.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
-QtCore/qglobal.h
+QtGui/qtguiglobal.h
 -
 QtCore/qsize.h
 -
@@ -871,13 +923,17 @@ QtGui/qpixmap.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
-QtGui/qtransform.h
+QtGui/qtguiglobal.h
 -
-QtGui/qpaintdevice.h
+QtGui/qcolor.h
 -
 QtGui/qrgb.h
 -
+QtGui/qpaintdevice.h
+-
 QtGui/qpixelformat.h
+-
+QtGui/qtransform.h
 -
 QtCore/qbytearray.h
 -
@@ -889,7 +945,7 @@ QtCore/qstringlist.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
-QtCore/qnamespace.h
+QtGui/qtguiglobal.h
 -
 QtCore/qstring.h
 -
@@ -897,6 +953,8 @@ QtCore/qobjectdefs.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h
+QtGui/qtguiglobal.h
+-
 QtGui/qpolygon.h
 -
 QtGui/qregion.h
@@ -911,12 +969,16 @@ QtCore/qrect.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
+QtGui/qtguiglobal.h
+-
 QtGui/qwindowdefs.h
 -
 QtCore/qrect.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
+QtGui/qtguiglobal.h
+-
 QtGui/qmatrix.h
 -
 QtCore/qglobal.h
@@ -931,6 +993,8 @@ QtCore/qscopedpointer.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h
+QtGui/qtguiglobal.h
+-
 QtGui/qwindowdefs.h
 -
 QtGui/qcolor.h
@@ -939,10 +1003,12 @@ QtGui/qbrush.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
-QtCore/qglobal.h
+QtGui/qtguiglobal.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
+QtGui/qtguiglobal.h
+-
 QtGui/qpaintdevice.h
 -
 QtGui/qcolor.h
@@ -959,6 +1025,8 @@ QtGui/qtransform.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h
+QtGui/qtguiglobal.h
+-
 QtCore/qvector.h
 -
 QtCore/qpoint.h
@@ -967,6 +1035,8 @@ QtCore/qrect.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h
+QtGui/qtguiglobal.h
+-
 QtCore/qatomic.h
 -
 QtCore/qrect.h
@@ -977,16 +1047,34 @@ QtCore/qdatastream.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h
-QtCore/qglobal.h
+QtGui/qtguiglobal.h
 -
 QtCore/qprocessordetection.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h
+QtGui/qtguiglobal.h
+-
+QtCore/qprocessordetection.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
+QtCore/qglobal.h
+-
+QtGui/qtgui-config.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
+QtGui/qtguiglobal.h
+-
 QtCore/qobject.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
+QtGui/qtguiglobal.h
+-
 QtGui/qmatrix.h
 -
 QtGui/qpainterpath.h
@@ -1005,13 +1093,15 @@ QtCore/qrect.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
+QtGui/qtguiglobal.h
+-
 QtCore/qpoint.h
 -
 QtCore/qmetatype.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
-QtCore/qglobal.h
+QtGui/qtguiglobal.h
 -
 QtCore/qobjectdefs.h
 -
@@ -1021,7 +1111,7 @@ QtGui/qwindowdefs_win.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
-QtCore/qglobal.h
+QtGui/qtguiglobal.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
@@ -1029,22 +1119,40 @@ qmainwindow.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
+QtWidgets/qtwidgetsglobal.h
+-
 QtWidgets/qwidget.h
 -
 QtWidgets/qtabwidget.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
+QtWidgets/qtwidgetsglobal.h
+-
 QtCore/qobject.h
+-
+QtCore/qalgorithms.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
+QtWidgets/qtwidgetsglobal.h
+-
 QtWidgets/qwidget.h
 -
 QtGui/qicon.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
+QtGui/qtguiglobal.h
+-
+QtWidgets/qtwidgets-config.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
+QtWidgets/qtwidgetsglobal.h
+-
 QtGui/qwindowdefs.h
 -
 QtCore/qobject.h
