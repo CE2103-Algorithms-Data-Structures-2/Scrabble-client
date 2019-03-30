@@ -91,6 +91,7 @@ public:
         stackedWidget = new QStackedWidget(centralWidget);
         stackedWidget->setObjectName(QStringLiteral("stackedWidget"));
         stackedWidget->setGeometry(QRect(0, 0, 1201, 701));
+        stackedWidget->setStyleSheet(QStringLiteral("background-color: rgb(38, 50, 56);"));
         MainMenu = new QWidget();
         MainMenu->setObjectName(QStringLiteral("MainMenu"));
         MainMenu->setStyleSheet(QLatin1String("QWidget#verticalWidget {\n"
@@ -170,7 +171,8 @@ public:
         stackedWidget->addWidget(MainMenu);
         ConfigMenu = new QWidget();
         ConfigMenu->setObjectName(QStringLiteral("ConfigMenu"));
-        ConfigMenu->setStyleSheet(QStringLiteral("background-color: rgb(38, 50, 56);"));
+        ConfigMenu->setStyleSheet(QLatin1String("border-color: rgb(255, 136, 0);\n"
+"background-color: rgb(38, 50, 56);"));
         centralWidget_2 = new QWidget(ConfigMenu);
         centralWidget_2->setObjectName(QStringLiteral("centralWidget_2"));
         centralWidget_2->setGeometry(QRect(0, 0, 1201, 701));
@@ -192,7 +194,7 @@ public:
         font2.setItalic(false);
         font2.setWeight(50);
         label_9->setFont(font2);
-        label_9->setStyleSheet(QStringLiteral("color: rgb(0, 200, 81);"));
+        label_9->setStyleSheet(QStringLiteral("color: rgb(105, 240, 174);"));
 
         verticalLayout_12->addWidget(label_9, 0, Qt::AlignHCenter);
 
@@ -270,7 +272,7 @@ public:
         font5.setBold(false);
         font5.setWeight(50);
         label_11->setFont(font5);
-        label_11->setStyleSheet(QStringLiteral("color: rgb(0, 200, 81);"));
+        label_11->setStyleSheet(QStringLiteral("color: rgb(105, 240, 174);"));
 
         horizontalLayout_4->addWidget(label_11, 0, Qt::AlignHCenter);
 
@@ -305,7 +307,7 @@ public:
         label_12 = new QLabel(centralWidget_2);
         label_12->setObjectName(QStringLiteral("label_12"));
         label_12->setFont(font5);
-        label_12->setStyleSheet(QStringLiteral("color: rgb(0, 200, 81);"));
+        label_12->setStyleSheet(QStringLiteral("color: rgb(105, 240, 174);"));
 
         verticalLayout_13->addWidget(label_12, 0, Qt::AlignHCenter);
 

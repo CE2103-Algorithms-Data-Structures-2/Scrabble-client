@@ -47,6 +47,9 @@
       <height>701</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(38, 50, 56);</string>
+    </property>
     <widget class="QWidget" name="MainMenu">
      <property name="styleSheet">
       <string notr="true">QWidget#verticalWidget {
@@ -180,7 +183,8 @@ background-color: rgb(51, 181, 229);</string>
     </widget>
     <widget class="QWidget" name="ConfigMenu">
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(38, 50, 56);</string>
+      <string notr="true">border-color: rgb(255, 136, 0);
+background-color: rgb(38, 50, 56);</string>
      </property>
      <widget class="QWidget" name="centralWidget_2">
       <property name="geometry">
@@ -224,7 +228,7 @@ background-color: rgb(51, 181, 229);</string>
             </font>
            </property>
            <property name="styleSheet">
-            <string notr="true">color: rgb(0, 200, 81);</string>
+            <string notr="true">color: rgb(105, 240, 174);</string>
            </property>
            <property name="text">
             <string>Nombre del lobby</string>
@@ -477,7 +481,7 @@ border-radius: 7;
             </font>
            </property>
            <property name="styleSheet">
-            <string notr="true">color: rgb(0, 200, 81);</string>
+            <string notr="true">color: rgb(105, 240, 174);</string>
            </property>
            <property name="text">
             <string>Cantidad de jugadores</string>
@@ -555,7 +559,7 @@ border-color: rgb(255, 136, 0);</string>
             </font>
            </property>
            <property name="styleSheet">
-            <string notr="true">color: rgb(0, 200, 81);</string>
+            <string notr="true">color: rgb(105, 240, 174);</string>
            </property>
            <property name="text">
             <string>Su nombre</string>
