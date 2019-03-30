@@ -31,10 +31,6 @@ public:
      */
     void Init();
     /**
-     * Metodo para acceder a la lista de jugadores.
-     */
-    PlayerList* getPlayers();
-    /**
      * Metodo para asignar el codigo de la partida al manager.
      */
     void setCode(string);
@@ -47,6 +43,14 @@ public:
      * Metodo para iniciar la dinamica del juego.
      */
     void play();
+    /**
+     * Metodo para crear una nueva partida.
+     */
+    void newGame(string name,string partida,string jugadores);
+    /**
+     * Metodo para unirse a una nueva partida.
+     */
+    void newJoin(string name,string code);
     static Player* localP;
     static PlayerList* players;
 

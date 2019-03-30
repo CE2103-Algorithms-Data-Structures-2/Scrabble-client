@@ -56,6 +56,7 @@ public:
     QLabel *label_12;
     QLineEdit *lineEdit_3;
     QPushButton *pushButton_14;
+    QLabel *label_2;
     QWidget *JoinMenu;
     QWidget *verticalLayoutWidget;
     QVBoxLayout *verticalLayout;
@@ -64,6 +65,7 @@ public:
     QLabel *label;
     QLineEdit *lineEdit_4;
     QPushButton *pushButton;
+    QLabel *label_3;
     QWidget *WaitMenu;
     QWidget *GameBoard;
     QWidget *WinMenu;
@@ -96,7 +98,6 @@ public:
         MainMenu->setObjectName(QStringLiteral("MainMenu"));
         MainMenu->setStyleSheet(QLatin1String("QWidget#verticalWidget {\n"
 "background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(1, 113, 200, 255), stop:0.377273 rgba(137, 123, 168, 255), stop:0.636364 rgba(194, 134, 135, 255), stop:1 rgba(240, 146, 100, 255));\n"
-"border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 0, 0, 255), stop:0.166 rgba(255, 255, 0, 255), stop:0.333 rgba(0, 255, 0, 255), stop:0.5 rgba(0, 255, 255, 255), stop:0.666 rgba(0, 0, 255, 255), stop:0.833 rgba(255, 0, 255, 255), stop:1 rgba(255, 0, 0, 255));\n"
 "border-style: solid;\n"
 "border-width: 5px;\n"
 "};\n"
@@ -147,9 +148,9 @@ public:
 
         line_5 = new QFrame(verticalWidget);
         line_5->setObjectName(QStringLiteral("line_5"));
-        line_5->setStyleSheet(QLatin1String("color: rgb(255, 255, 255);\n"
-"  padding-right: 100px;\n"
-"  padding-left: 100px;"));
+        line_5->setStyleSheet(QLatin1String("background-color: rgb(255, 255, 255);\n"
+"padding-right: 100px;\n"
+"padding-left: 100px;"));
         line_5->setFrameShape(QFrame::HLine);
         line_5->setFrameShadow(QFrame::Sunken);
 
@@ -171,8 +172,13 @@ public:
         stackedWidget->addWidget(MainMenu);
         ConfigMenu = new QWidget();
         ConfigMenu->setObjectName(QStringLiteral("ConfigMenu"));
-        ConfigMenu->setStyleSheet(QLatin1String("border-color: rgb(255, 136, 0);\n"
-"background-color: rgb(38, 50, 56);"));
+        ConfigMenu->setStyleSheet(QLatin1String("#ConfigMenu {\n"
+"border-color: rgb(255, 136, 0);\n"
+"border-color: rgb(255, 136, 0);\n"
+"border-width:  3px;\n"
+"border-style: solid;\n"
+"background-color: rgb(38, 50, 56);\n"
+"}"));
         centralWidget_2 = new QWidget(ConfigMenu);
         centralWidget_2->setObjectName(QStringLiteral("centralWidget_2"));
         centralWidget_2->setGeometry(QRect(0, 0, 1201, 701));
@@ -344,10 +350,22 @@ public:
 
         gridLayout->addWidget(pushButton_14, 14, 0, 1, 1, Qt::AlignHCenter);
 
+        label_2 = new QLabel(centralWidget_2);
+        label_2->setObjectName(QStringLiteral("label_2"));
+        label_2->setFont(font7);
+        label_2->setStyleSheet(QStringLiteral("color: rgb(255, 68, 68);"));
+
+        gridLayout->addWidget(label_2, 15, 0, 1, 1, Qt::AlignHCenter);
+
         stackedWidget->addWidget(ConfigMenu);
         JoinMenu = new QWidget();
         JoinMenu->setObjectName(QStringLiteral("JoinMenu"));
-        JoinMenu->setStyleSheet(QStringLiteral("background-color: rgb(38, 50, 56);"));
+        JoinMenu->setStyleSheet(QLatin1String("#JoinMenu{\n"
+"background-color: rgb(38, 50, 56);\n"
+"border-color: rgb(255, 136, 0);\n"
+"border-width: 3px;\n"
+"border-style: solid;\n"
+"}"));
         verticalLayoutWidget = new QWidget(JoinMenu);
         verticalLayoutWidget->setObjectName(QStringLiteral("verticalLayoutWidget"));
         verticalLayoutWidget->setGeometry(QRect(0, -1, 1201, 782));
@@ -355,7 +373,7 @@ public:
         verticalLayout->setSpacing(30);
         verticalLayout->setContentsMargins(11, 11, 11, 11);
         verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
-        verticalLayout->setContentsMargins(0, 100, 0, 200);
+        verticalLayout->setContentsMargins(0, 100, 0, 100);
         label_13 = new QLabel(verticalLayoutWidget);
         label_13->setObjectName(QStringLiteral("label_13"));
         QFont font8;
@@ -421,6 +439,16 @@ public:
 
         verticalLayout->addWidget(pushButton, 0, Qt::AlignHCenter);
 
+        label_3 = new QLabel(verticalLayoutWidget);
+        label_3->setObjectName(QStringLiteral("label_3"));
+        QFont font9;
+        font9.setFamily(QStringLiteral("Open Sans"));
+        font9.setPointSize(20);
+        label_3->setFont(font9);
+        label_3->setStyleSheet(QStringLiteral("color: rgb(255, 68, 68);"));
+
+        verticalLayout->addWidget(label_3, 0, Qt::AlignHCenter);
+
         stackedWidget->addWidget(JoinMenu);
         WaitMenu = new QWidget();
         WaitMenu->setObjectName(QStringLiteral("WaitMenu"));
@@ -430,7 +458,12 @@ public:
         stackedWidget->addWidget(GameBoard);
         WinMenu = new QWidget();
         WinMenu->setObjectName(QStringLiteral("WinMenu"));
-        WinMenu->setStyleSheet(QStringLiteral("background-color: rgb(38, 50, 56);"));
+        WinMenu->setStyleSheet(QLatin1String("#WinMenu {\n"
+"background-color: rgb(38, 50, 56);\n"
+"border-color: rgb(255, 136, 0);\n"
+"border-width: 3px;\n"
+"border-style: solid;\n"
+"}"));
         layoutWidget = new QWidget(WinMenu);
         layoutWidget->setObjectName(QStringLiteral("layoutWidget"));
         layoutWidget->setGeometry(QRect(0, 0, 1201, 701));
@@ -441,22 +474,22 @@ public:
         verticalLayout_5->setContentsMargins(0, 250, 0, 250);
         label_6 = new QLabel(layoutWidget);
         label_6->setObjectName(QStringLiteral("label_6"));
-        QFont font9;
-        font9.setFamily(QStringLiteral("Open Sans"));
-        font9.setPointSize(48);
-        font9.setBold(true);
-        font9.setWeight(75);
-        label_6->setFont(font9);
+        QFont font10;
+        font10.setFamily(QStringLiteral("Open Sans"));
+        font10.setPointSize(48);
+        font10.setBold(true);
+        font10.setWeight(75);
+        label_6->setFont(font10);
         label_6->setStyleSheet(QStringLiteral("color: rgb(0, 200, 81);"));
 
         verticalLayout_5->addWidget(label_6, 0, Qt::AlignHCenter|Qt::AlignVCenter);
 
         pushButton_11 = new QPushButton(layoutWidget);
         pushButton_11->setObjectName(QStringLiteral("pushButton_11"));
-        QFont font10;
-        font10.setFamily(QStringLiteral("Open Sans"));
-        font10.setPointSize(24);
-        pushButton_11->setFont(font10);
+        QFont font11;
+        font11.setFamily(QStringLiteral("Open Sans"));
+        font11.setPointSize(24);
+        pushButton_11->setFont(font11);
         pushButton_11->setStyleSheet(QLatin1String("background-color: rgb(51, 181, 229);\n"
 "color: rgb(255, 255, 255);\n"
 "border-radius: 10px;\n"
@@ -469,7 +502,12 @@ public:
         stackedWidget->addWidget(WinMenu);
         LoseMenu = new QWidget();
         LoseMenu->setObjectName(QStringLiteral("LoseMenu"));
-        LoseMenu->setStyleSheet(QStringLiteral("background-color: rgb(38, 50, 56);"));
+        LoseMenu->setStyleSheet(QLatin1String("#LoseMenu {\n"
+"background-color: rgb(38, 50, 56);\n"
+"border-color: rgb(255, 136, 0);\n"
+"border-width: 3px;\n"
+"border-style: solid;\n"
+"}"));
         verticalLayoutWidget_3 = new QWidget(LoseMenu);
         verticalLayoutWidget_3->setObjectName(QStringLiteral("verticalLayoutWidget_3"));
         verticalLayoutWidget_3->setGeometry(QRect(0, 0, 1191, 701));
@@ -480,14 +518,14 @@ public:
         verticalLayout_11->setContentsMargins(0, 250, 0, 250);
         label_8 = new QLabel(verticalLayoutWidget_3);
         label_8->setObjectName(QStringLiteral("label_8"));
-        label_8->setFont(font9);
+        label_8->setFont(font10);
         label_8->setStyleSheet(QStringLiteral("color: rgb(255, 68, 68);"));
 
         verticalLayout_11->addWidget(label_8, 0, Qt::AlignHCenter|Qt::AlignVCenter);
 
         pushButton_13 = new QPushButton(verticalLayoutWidget_3);
         pushButton_13->setObjectName(QStringLiteral("pushButton_13"));
-        pushButton_13->setFont(font10);
+        pushButton_13->setFont(font11);
         pushButton_13->setStyleSheet(QLatin1String("background-color: rgb(51, 181, 229);\n"
 "color: rgb(255, 255, 255);\n"
 "border-radius: 10px;\n"
@@ -524,9 +562,11 @@ public:
         );
         label_12->setText(QApplication::translate("MainWindow", "Su nombre", 0));
         pushButton_14->setText(QApplication::translate("MainWindow", "Enviar", 0));
+        label_2->setText(QString());
         label_13->setText(QApplication::translate("MainWindow", "Ingrese el c\303\263digo del lobby al que desea unirse", 0));
         label->setText(QApplication::translate("MainWindow", "Ingrese su nombre", 0));
         pushButton->setText(QApplication::translate("MainWindow", "Enviar", 0));
+        label_3->setText(QString());
         label_6->setText(QApplication::translate("MainWindow", "\302\241Has Ganado!", 0));
         pushButton_11->setText(QApplication::translate("MainWindow", "Volver al menu principal", 0));
         label_8->setText(QApplication::translate("MainWindow", "\302\241Has Perdido!", 0));

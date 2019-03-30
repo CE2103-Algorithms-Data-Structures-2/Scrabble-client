@@ -27,9 +27,7 @@ class NewGame_LW:public LogicWindow
             /**
              * Metodo para crear un juego nuevo en el servidor.
              */
-            void newGame();
-
-            string getInfo();
+            void newGame(string name,string partida,string jugadores);
 };
 
 

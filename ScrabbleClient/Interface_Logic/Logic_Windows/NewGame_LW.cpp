@@ -6,33 +6,27 @@
 #include "../Manager/Manager.h"
 
 
-void NewGame_LW::newGame()
+void NewGame_LW::newGame(string name,string partida,string jugadores)
 {
     cliente->sendMessage("newGame");
     string resp =cliente->receiveMessage();
     int i=resp.compare("send");
     if(i==0)
     {
-        cliente->sendMessage(this->getInfo());
+        string out="";
+
+        Manager::localP->setName(name);
+        Manager::localP->setID("0");
+        out+="Jugador@"+name+"$";
+
+        out+="Nombre_partida@"+partida+"$";
+
+        Manager::players->setLimit(stoi(jugadores));
+        out+="No_jugadores@"+jugadores;
+        out=Jmanager->toJSON(out);
+        Manager::players->add(Manager::localP);
+        cliente->sendMessage(out);
     }
+
 }
-string NewGame_LW::getInfo()
-{
-    string out="";
-    string temp;
-    cout<<"Jugador: "<<endl;
-    getline(cin,temp);
-    Manager::localP->setName(temp);
-    Manager::localP->setID("0");
-    out+="Jugador@"+temp+"$";
-    cout<<"Nombre de la partida: "<<endl;
-    getline(cin,temp);
-    out+="Nombre_partida@"+temp+"$";
-    cout<<"No. jugadores : "<<endl;
-    getline(cin,temp);
-    Manager::players->setLimit(stoi(temp));
-    out+="No_jugadores@"+temp;
-    out=Jmanager->toJSON(out);
-    //Manager::players->add(Manager::localP);
-    return out;
-}
+

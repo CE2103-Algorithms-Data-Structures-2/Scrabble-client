@@ -9,6 +9,7 @@
 
 PlayerList* Manager::players= new PlayerList();
 Player* Manager:: localP=new Player();
+Manager* MainWindow::Wmanager=new Manager();
 
 #define getName(var)  #var
 

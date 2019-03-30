@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Client/Client.cpp" "/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Client/Client.cpp.o"
+  "/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Gui_Logic/CasillaGrafica.cpp" "/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Gui_Logic/CasillaGrafica.cpp.o"
   "/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Box.cpp" "/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Box.cpp.o"
   "/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Chip.cpp" "/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Chip.cpp.o"
   "/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.cpp" "/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o"

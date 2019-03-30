@@ -163,6 +163,33 @@ Client/Client.cpp.s:
 	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Client/Client.cpp.s
 .PHONY : Client/Client.cpp.s
 
+Gui_Logic/CasillaGrafica.o: Gui_Logic/CasillaGrafica.cpp.o
+
+.PHONY : Gui_Logic/CasillaGrafica.o
+
+# target to build an object file
+Gui_Logic/CasillaGrafica.cpp.o:
+	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Gui_Logic/CasillaGrafica.cpp.o
+.PHONY : Gui_Logic/CasillaGrafica.cpp.o
+
+Gui_Logic/CasillaGrafica.i: Gui_Logic/CasillaGrafica.cpp.i
+
+.PHONY : Gui_Logic/CasillaGrafica.i
+
+# target to preprocess a source file
+Gui_Logic/CasillaGrafica.cpp.i:
+	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Gui_Logic/CasillaGrafica.cpp.i
+.PHONY : Gui_Logic/CasillaGrafica.cpp.i
+
+Gui_Logic/CasillaGrafica.s: Gui_Logic/CasillaGrafica.cpp.s
+
+.PHONY : Gui_Logic/CasillaGrafica.s
+
+# target to generate assembly for a file
+Gui_Logic/CasillaGrafica.cpp.s:
+	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Gui_Logic/CasillaGrafica.cpp.s
+.PHONY : Gui_Logic/CasillaGrafica.cpp.s
+
 Interface_Logic/Board_Logic/Box.o: Interface_Logic/Board_Logic/Box.cpp.o
 
 .PHONY : Interface_Logic/Board_Logic/Box.o
@@ -635,6 +662,9 @@ help:
 	@echo "... Client/Client.o"
 	@echo "... Client/Client.i"
 	@echo "... Client/Client.s"
+	@echo "... Gui_Logic/CasillaGrafica.o"
+	@echo "... Gui_Logic/CasillaGrafica.i"
+	@echo "... Gui_Logic/CasillaGrafica.s"
 	@echo "... Interface_Logic/Board_Logic/Box.o"
 	@echo "... Interface_Logic/Board_Logic/Box.i"
 	@echo "... Interface_Logic/Board_Logic/Box.s"

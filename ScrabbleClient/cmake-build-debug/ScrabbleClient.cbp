@@ -124,6 +124,12 @@
 		<Unit filename="/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Client/Client.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
+		<Unit filename="/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Gui_Logic/CasillaGrafica.cpp">
+			<Option target="ScrabbleClient"/>
+		</Unit>
+		<Unit filename="/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Gui_Logic/CasillaGrafica.h">
+			<Option target="ScrabbleClient"/>
+		</Unit>
 		<Unit filename="/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Box.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>

@@ -31,31 +31,7 @@ Manager::Manager()
 void Manager::Init()
 {
     cliente->run();
-    /*bool tr= true;
-    while(running)
-    {
-        if(cliente->isConnected())
-        {
 
-            if(tr)
-            {
-                cliente->isAccepted();
-                *//*this->NewG_LW->newGame();
-                players->print();
-                this->setCode(cliente->receiveMessage());*//*
-                bool accepted=this->JoinG_LW->join();
-                if(!accepted)
-                {
-                    cliente->disconnect();
-                }
-                ask("numP");
-                play();
-                tr=false;
-
-            }
-
-        }
-    }*/
 }
 void Manager::play()
 {
@@ -72,6 +48,54 @@ void Manager::setCode(string s) {
         cout<<"Assigned code: "<<*code<<endl;
     }
 
+}
+void Manager::newGame(string name, string partida,string jugadores)
+{
+    bool tr= true;
+    while(running)
+    {
+        if(cliente->isConnected())
+        {
+
+            if(tr)
+            {
+                cliente->isAccepted();
+                this->NewG_LW->newGame(name,partida,jugadores);
+                players->print();
+                this->setCode(cliente->receiveMessage());
+                ask("numP");
+                play();
+                tr=false;
+
+            }
+
+        }
+    }
+}
+void Manager::newJoin(string name,string code)
+{
+    bool tr= true;
+    while(running)
+    {
+        if(cliente->isConnected())
+        {
+
+            if(tr)
+            {
+                cliente->isAccepted();
+                bool accepted=this->JoinG_LW->join(name,code);
+                if(!accepted)
+                {
+                    cliente->disconnect();
+                }
+                ask("numP");
+                play();
+                tr=false;
+
+            }
+
+        }
+    }
 }
 void Manager::ask(string p) {
     if (p.compare("numP") == 0) {
@@ -100,7 +124,7 @@ void Manager::ask(string p) {
 
                 }
             }
-            usleep(5000000);
+            usleep(3000000);
         }
         cout << "Tope alcanzado" << endl;
         players->print();
@@ -132,7 +156,7 @@ void Manager::ask(string p) {
             if (incoming.compare("true") == 0) {
                 break;
             }
-            usleep(5000000);
+            usleep(3000000);
         }
         cout << " " << endl;
         cout << "------------------------------------" << endl;

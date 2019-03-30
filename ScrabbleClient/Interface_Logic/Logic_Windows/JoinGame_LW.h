@@ -32,7 +32,7 @@ class JoinGame_LW: public LogicWindow
          * Método para solicitar unirse al servidor.
          * @return Condicion de tipo booleana.
          */
-        bool join();
+        bool join(string name,string code);
 
 
 };

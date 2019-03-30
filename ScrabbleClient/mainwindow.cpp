@@ -4,7 +4,7 @@
 #include <string>
 
 #define LOG(x) std::cout << x << std::endl;
-
+using namespace std;
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
@@ -30,16 +30,23 @@ void MainWindow::on_pushButton_10_clicked()
 void MainWindow::on_pushButton_14_clicked()
 {
     if (ui->lineEdit_2->text().toStdString() != "" && ui->lineEdit_3->text().toStdString() != "") {
+
         std::string nomLobby = ui->lineEdit_2->text().toStdString();
         std::string nomJugador = ui->lineEdit_3->text().toStdString();
         std::string numJugadores = ui->comboBox->currentText().toStdString();
+        Wmanager->newGame(nomJugador,nomLobby,numJugadores);
 
         LOG(nomLobby);
         LOG(nomJugador);
         LOG(numJugadores);
+
+        ui->stackedWidget->setCurrentIndex(3);
     }
-
-
+    else
+    {
+        ui->label_2->setText("¡Debe rellenar todos los campos!");
+        cout<<"Llene todos los campos"<<endl;
+    }
 
 }
 
@@ -51,7 +58,6 @@ void MainWindow::on_pushButton_11_clicked()
 void MainWindow::on_pushButton_13_clicked()
 {
     ui->stackedWidget->setCurrentIndex(0);
-    LOG("something");
 }
 
 void MainWindow::on_pushButton_clicked()
@@ -60,8 +66,16 @@ void MainWindow::on_pushButton_clicked()
         std::string codigo = ui->lineEdit->text().toStdString();
         std::string nomJugador = ui->lineEdit_4->text().toStdString();
 
-        LOG(codigo)
-        LOG(nomJugador)
+        Wmanager->newJoin(nomJugador,codigo);
+
+        LOG(codigo);
+        LOG(nomJugador);
+
+        ui->stackedWidget->setCurrentIndex(3);
+    }
+
+    else {
+        ui->label_3->setText("¡Debe rellenar todos los campos!");
     }
 }
 

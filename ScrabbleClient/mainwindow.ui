@@ -54,7 +54,6 @@
      <property name="styleSheet">
       <string notr="true">QWidget#verticalWidget {
 background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(1, 113, 200, 255), stop:0.377273 rgba(137, 123, 168, 255), stop:0.636364 rgba(194, 134, 135, 255), stop:1 rgba(240, 146, 100, 255));
-border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 0, 0, 255), stop:0.166 rgba(255, 255, 0, 255), stop:0.333 rgba(0, 255, 0, 255), stop:0.5 rgba(0, 255, 255, 255), stop:0.666 rgba(0, 0, 255, 255), stop:0.833 rgba(255, 0, 255, 255), stop:1 rgba(255, 0, 0, 255));
 border-style: solid;
 border-width: 5px;
 };
@@ -145,9 +144,9 @@ background-color: rgb(51, 181, 229);</string>
        <item>
         <widget class="Line" name="line_5">
          <property name="styleSheet">
-          <string notr="true">color: rgb(255, 255, 255);
-  padding-right: 100px;
-  padding-left: 100px;</string>
+          <string notr="true">background-color: rgb(255, 255, 255);
+padding-right: 100px;
+padding-left: 100px;</string>
          </property>
          <property name="orientation">
           <enum>Qt::Horizontal</enum>
@@ -183,8 +182,13 @@ background-color: rgb(51, 181, 229);</string>
     </widget>
     <widget class="QWidget" name="ConfigMenu">
      <property name="styleSheet">
-      <string notr="true">border-color: rgb(255, 136, 0);
-background-color: rgb(38, 50, 56);</string>
+      <string notr="true">#ConfigMenu {
+border-color: rgb(255, 136, 0);
+border-color: rgb(255, 136, 0);
+border-width:  3px;
+border-style: solid;
+background-color: rgb(38, 50, 56);
+}</string>
      </property>
      <widget class="QWidget" name="centralWidget_2">
       <property name="geometry">
@@ -605,12 +609,33 @@ border-color: rgb(105, 240, 174);
          </property>
         </widget>
        </item>
+       <item row="15" column="0" alignment="Qt::AlignHCenter">
+        <widget class="QLabel" name="label_2">
+         <property name="font">
+          <font>
+           <family>Open Sans</family>
+           <pointsize>18</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 68, 68);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
       </layout>
      </widget>
     </widget>
     <widget class="QWidget" name="JoinMenu">
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(38, 50, 56);</string>
+      <string notr="true">#JoinMenu{
+background-color: rgb(38, 50, 56);
+border-color: rgb(255, 136, 0);
+border-width: 3px;
+border-style: solid;
+}</string>
      </property>
      <widget class="QWidget" name="verticalLayoutWidget">
       <property name="geometry">
@@ -629,7 +654,7 @@ border-color: rgb(105, 240, 174);
         <number>100</number>
        </property>
        <property name="bottomMargin">
-        <number>200</number>
+        <number>100</number>
        </property>
        <item alignment="Qt::AlignHCenter">
         <widget class="QLabel" name="label_13">
@@ -727,6 +752,22 @@ border-color: rgb(105, 240, 174);
          </property>
         </widget>
        </item>
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QLabel" name="label_3">
+         <property name="font">
+          <font>
+           <family>Open Sans</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 68, 68);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
       </layout>
      </widget>
     </widget>
@@ -734,7 +775,12 @@ border-color: rgb(105, 240, 174);
     <widget class="QWidget" name="GameBoard"/>
     <widget class="QWidget" name="WinMenu">
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(38, 50, 56);</string>
+      <string notr="true">#WinMenu {
+background-color: rgb(38, 50, 56);
+border-color: rgb(255, 136, 0);
+border-width: 3px;
+border-style: solid;
+}</string>
      </property>
      <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
@@ -796,7 +842,12 @@ padding-left: 10px;
     </widget>
     <widget class="QWidget" name="LoseMenu">
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(38, 50, 56);</string>
+      <string notr="true">#LoseMenu {
+background-color: rgb(38, 50, 56);
+border-color: rgb(255, 136, 0);
+border-width: 3px;
+border-style: solid;
+}</string>
      </property>
      <widget class="QWidget" name="verticalLayoutWidget_3">
       <property name="geometry">

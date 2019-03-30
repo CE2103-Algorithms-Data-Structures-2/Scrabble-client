@@ -74,6 +74,7 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o
  /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Structures/PlayerList.h
  /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o
+ ..//Interface_Logic/Manager/Manager.h
  ..//mainwindow.h
  /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Client/Client.h
  /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
@@ -205,6 +206,7 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Player/Player.cpp.o
  /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Structures/NodeW.h
  /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Main/main.cpp.o
+ ..//Interface_Logic/Manager/Manager.h
  ..//mainwindow.h
  /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Client/Client.h
  /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
@@ -334,6 +336,21 @@ CMakeFiles/ScrabbleClient.dir/Main/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 CMakeFiles/ScrabbleClient.dir/ScrabbleClient_autogen/mocs_compilation.cpp.o
+ ..//Interface_Logic/Manager/Manager.h
+ ../Client/Client.h
+ ../Interface_Logic/Board_Logic/Box.h
+ ../Interface_Logic/Board_Logic/Chip.h
+ ../Interface_Logic/Board_Logic/Matrix.h
+ ../Interface_Logic/JSON_Logic/JSONManager.h
+ ../Interface_Logic/Logic_Windows/JoinGame_LW.h
+ ../Interface_Logic/Logic_Windows/LogicWindow.h
+ ../Interface_Logic/Logic_Windows/NewGame_LW.h
+ ../Interface_Logic/Player/Player.h
+ ../Structures/BoxList.h
+ ../Structures/NodeP.h
+ ../Structures/NodeW.h
+ ../Structures/PlayerList.h
+ ../Structures/WordsList.h
  /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/EWIEGA46WW/moc_mainwindow.cpp
  /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/mocs_compilation.cpp
  /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/mainwindow.h
@@ -489,6 +506,21 @@ CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o
  /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Structures/WordsList.cpp
  /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o
+ ..//Interface_Logic/Manager/Manager.h
+ ../Client/Client.h
+ ../Interface_Logic/Board_Logic/Box.h
+ ../Interface_Logic/Board_Logic/Chip.h
+ ../Interface_Logic/Board_Logic/Matrix.h
+ ../Interface_Logic/JSON_Logic/JSONManager.h
+ ../Interface_Logic/Logic_Windows/JoinGame_LW.h
+ ../Interface_Logic/Logic_Windows/LogicWindow.h
+ ../Interface_Logic/Logic_Windows/NewGame_LW.h
+ ../Interface_Logic/Player/Player.h
+ ../Structures/BoxList.h
+ ../Structures/NodeP.h
+ ../Structures/NodeW.h
+ ../Structures/PlayerList.h
+ ../Structures/WordsList.h
  /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/mainwindow.cpp
  /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/mainwindow.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
