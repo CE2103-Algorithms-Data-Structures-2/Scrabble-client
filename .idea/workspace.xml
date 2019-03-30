@@ -15,298 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8f048ff-606a-4d04-9778-e641b0f9d2f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Client/include.pri" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/.idea/Scrabble.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Board_Logic/Box.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Board_Logic/Box.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Board_Logic/Chip.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Board_Logic/Chip.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Board_Logic/Matrix.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Board_Logic/Matrix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Client/Client.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Client/Client.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/GameLogic/casillagrafica.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/GameLogic/casillagrafica.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/GameLogic/ficha.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/GameLogic/ficha.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/GameLogic/perk.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/GameLogic/point.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/GameLogic/point.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/GameLogic/tablerografico.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/GameLogic/tablerografico.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Gui/configlobbymenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Gui/configlobbymenu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Gui/joinlobbymenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Gui/joinlobbymenu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Gui/losemenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Gui/losemenu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Gui/mainmenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Gui/mainmenu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Gui/perks.h.autosave" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Gui/waitforgamestartmenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Gui/waitforgamestartmenu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Gui/waitmenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Gui/waitmenu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Gui/winmenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Gui/winmenu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/JSON_Logic/JSONManager.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/JSON_Logic/JSONManager.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Logic_Windows/JoinGame_LW.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Logic_Windows/JoinGame_LW.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Logic_Windows/LogicWindow.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Logic_Windows/LogicWindow.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Logic_Windows/NewGame_LW.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Logic_Windows/NewGame_LW.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Manager/Manager.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Manager/Manager.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Player/Player.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Player/Player.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Scrabble.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Scrabble.pro.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Scrabble.pro.user.203bd74" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Scrabble.pro.user.fa9904f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Structures/NodeP.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Structures/NodeP.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Structures/NodeW.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Structures/NodeW.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Structures/PlayerList.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Structures/PlayerList.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Structures/WordsList.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/Structures/WordsList.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Board_Logic/Box.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Board_Logic/Chip.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Client/Client.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/GameLogic/casillagrafica.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/GameLogic/ficha.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/GameLogic/point.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/GameLogic/tablerografico.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Gui/configlobbymenu.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Gui/joinlobbymenu.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Gui/losemenu.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Gui/mainmenu.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Gui/waitforgamestartmenu.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Gui/waitmenu.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Gui/winmenu.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/JSON_Logic/JSONManager.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Logic_Windows/JoinGame_LW.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Logic_Windows/LogicWindow.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Logic_Windows/NewGame_LW.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Manager/Manager.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Player/Player.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Scrabble_autogen/mocs_compilation.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Structures/NodeP.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Structures/NodeW.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Structures/PlayerList.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/Structures/WordsList.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/main.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro.user.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro.user.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro.user.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro.user.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro.user.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro.user.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro.user.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro.user_autogen.dir/AutogenInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro.user_autogen.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro.user_autogen.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro.user_autogen.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro.user_autogen.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro_autogen.dir/AutogenInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro_autogen.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro_autogen.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro_autogen.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble.pro_autogen.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble_autogen.dir/AutogenInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble_autogen.dir/AutogenOldSettings.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble_autogen.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble_autogen.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble_autogen.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble_autogen.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble_autogen.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/Scrabble_autogen.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/Scrabble" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/Scrabble.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/Scrabble_autogen/EHIEGSSRCT/moc_configlobbymenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/Scrabble_autogen/EHIEGSSRCT/moc_joinlobbymenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/Scrabble_autogen/EHIEGSSRCT/moc_losemenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/Scrabble_autogen/EHIEGSSRCT/moc_mainmenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/Scrabble_autogen/EHIEGSSRCT/moc_waitforgamestartmenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/Scrabble_autogen/EHIEGSSRCT/moc_winmenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/Scrabble_autogen/include/main.moc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/Scrabble_autogen/include/ui_configlobbymenu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/Scrabble_autogen/include/ui_joinlobbymenu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/Scrabble_autogen/include/ui_losemenu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/Scrabble_autogen/include/ui_mainmenu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/Scrabble_autogen/include/ui_waitforgamestartmenu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/Scrabble_autogen/include/ui_winmenu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/Scrabble_autogen/moc_predefs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/Scrabble_autogen/mocs_compilation.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/configlobbymenu.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/createlobbymenu.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/joinlobbymenu.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/losemenu.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/mainmenu.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/waitforgamestartmenu.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrabble/winmenu.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structures/BoxList.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structures/BoxList.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/Box.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/Client.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/JSONManager.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/JoinGame_LW.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/LogicWindow.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/Manager.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/NewGame_LW.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/NodeP.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/NodeW.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/Player.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/PlayerList.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/Scrabble" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/WordsList.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/casillagrafica.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/configlobbymenu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/createlobby.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/createlobbymenu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/ficha.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/gameboard.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/joinlobbymenu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/losemenu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/main.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/mainmenu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/mainwindow.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/moc_configlobbymenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/moc_configlobbymenu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/moc_createlobbymenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/moc_createlobbymenu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/moc_gameboard.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/moc_gameboard.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/moc_joinlobbymenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/moc_joinlobbymenu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/moc_losemenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/moc_losemenu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/moc_mainmenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/moc_mainmenu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/moc_mainwindow.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/moc_mainwindow.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/moc_waitforgamestartmenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/moc_waitforgamestartmenu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/moc_winmenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/moc_winmenu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/point.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/tablerografico.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/ui_configlobbymenu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/ui_createlobbymenu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/ui_gameboard.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/ui_joinlobbymenu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/ui_losemenu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/ui_mainmenu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/ui_mainwindow.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/ui_waitforgamestartmenu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/ui_winmenu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/waitforgamestartmenu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/waitmenu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-Scrabble-Desktop-Debug/winmenu.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Client.h" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Client.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface_Logic/Board_Logic/Box.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Interface_Logic/Board_Logic/Box.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface_Logic/Board_Logic/Box.h" beforeDir="false" afterPath="$PROJECT_DIR$/Interface_Logic/Board_Logic/Box.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface_Logic/Board_Logic/Matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Interface_Logic/Board_Logic/Matrix.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface_Logic/Board_Logic/Matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/Interface_Logic/Board_Logic/Matrix.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface_Logic/JSON_Logic/JSONManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Interface_Logic/JSON_Logic/JSONManager.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface_Logic/JSON_Logic/JSONManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Interface_Logic/JSON_Logic/JSONManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface_Logic/Logic_Windows/JoinGame_LW.h" beforeDir="false" afterPath="$PROJECT_DIR$/Interface_Logic/Logic_Windows/JoinGame_LW.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface_Logic/Logic_Windows/LogicWindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/Interface_Logic/Logic_Windows/LogicWindow.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface_Logic/Logic_Windows/NewGame_LW.h" beforeDir="false" afterPath="$PROJECT_DIR$/Interface_Logic/Logic_Windows/NewGame_LW.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interface_Logic/Manager/Manager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Interface_Logic/Manager/Manager.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface_Logic/Player/Player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Interface_Logic/Player/Player.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface_Logic/Player/Player.h" beforeDir="false" afterPath="$PROJECT_DIR$/Interface_Logic/Player/Player.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Main/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Structures/NodeW.h" beforeDir="false" afterPath="$PROJECT_DIR$/Structures/NodeW.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Structures/PlayerList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Structures/PlayerList.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Structures/PlayerList.h" beforeDir="false" afterPath="$PROJECT_DIR$/Structures/PlayerList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Structures/WordsList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Structures/WordsList.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Structures/WordsList.h" beforeDir="false" afterPath="$PROJECT_DIR$/Structures/WordsList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Client/Client.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Matrix.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Matrix.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Player/Player.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Player/Player.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/NodeW.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/NodeW.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/PlayerList.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/WordsList.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/WordsList.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Proyecto_1_Client" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Proyecto_1_Client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Proyecto_1_Client.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Proyecto_1_Client.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -321,11 +30,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Interface_Logic/Manager/Manager.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2308">
-              <caret line="173" column="58" selection-start-line="173" selection-start-column="58" selection-end-line="173" selection-end-column="58" />
+            <state relative-caret-position="915">
+              <caret line="132" column="20" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="20" />
               <folding>
                 <element signature="e#47#78#0" expanded="true" />
               </folding>
@@ -342,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Client/Client.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
+            <state relative-caret-position="1215">
               <caret line="81" selection-start-line="81" selection-end-line="81" />
               <folding>
                 <element signature="e#48#67#0" expanded="true" />
@@ -469,7 +178,7 @@
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
     <option name="y" value="25" />
     <option name="width" value="927" />
@@ -601,12 +310,12 @@
       <workItem from="1553725966812" duration="14427000" />
       <workItem from="1553749736306" duration="247000" />
       <workItem from="1553885247724" duration="9000" />
-      <workItem from="1553900198740" duration="8745000" />
+      <workItem from="1553900198740" duration="13370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119846000" />
+    <option name="totallyTimeSpent" value="124471000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -618,15 +327,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="743" extended-state="7" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19233839" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19233839" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Statistic" order="0" weight="0.62703586" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.30944625" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.084690556" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.5846906" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -679,13 +389,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Interface_Logic/Manager/Manager.cpp</url>
-          <line>171</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Interface_Logic/Manager/Manager.cpp</url>
-          <line>187</line>
-          <option name="timeStamp" value="9" />
+          <line>201</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -943,16 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/Client.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-          <folding>
-            <element signature="e#48#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/boost/throw_exception.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -969,10 +664,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Interface_Logic/Manager/Manager.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2308">
-          <caret line="173" column="58" selection-start-line="173" selection-start-column="58" selection-end-line="173" selection-end-column="58" />
+        <state relative-caret-position="915">
+          <caret line="132" column="20" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="20" />
           <folding>
             <element signature="e#47#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/Client.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="e#48#67#0" expanded="true" />
           </folding>
         </state>
       </provider>

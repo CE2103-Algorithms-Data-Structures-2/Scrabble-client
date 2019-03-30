@@ -98,7 +98,7 @@ void Manager::ask(string p) {
 
                 }
             }
-            usleep(5000000);
+            usleep(3000000);
         }
         cout << "Tope alcanzado" << endl;
         players->print();
@@ -130,7 +130,7 @@ void Manager::ask(string p) {
             if (incoming.compare("true") == 0) {
                 break;
             }
-            usleep(5000000);
+            usleep(3000000);
         }
         cout << " " << endl;
         cout << "------------------------------------" << endl;
