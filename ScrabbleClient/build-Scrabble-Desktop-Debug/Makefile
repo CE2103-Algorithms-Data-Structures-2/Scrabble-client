@@ -38,7 +38,8 @@ LINK          = g++
 LFLAGS        = -m64
 LIBS          = $(SUBLIBS) -L/usr/X11R6/lib64 -lQt5Widgets -lQt5Gui -lQt5Core -lGL -lpthread 
 AR            = ar cqs
-RANLIB        = 
+RANLIB        =
+
 SED           = sed
 STRIP         = strip
 

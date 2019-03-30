@@ -11,20 +11,20 @@
 				<Option working_dir="/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ScrabbleClient">
@@ -46,20 +46,20 @@
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 ScrabbleClient"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 ScrabbleClient"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ScrabbleClient/fast">
@@ -81,40 +81,40 @@
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 ScrabbleClient/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 ScrabbleClient/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ScrabbleClient_autogen">
 				<Option working_dir="/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 ScrabbleClient_autogen"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 ScrabbleClient_autogen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>

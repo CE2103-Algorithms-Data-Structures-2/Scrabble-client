@@ -12,26 +12,45 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Chip.cpp.o
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Chip.cpp
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o
+ ../Client/Client.h
+ ../Interface_Logic/Board_Logic/Matrix.h
+ ../Interface_Logic/JSON_Logic/JSONManager.h
+ ../Interface_Logic/Logic_Windows/JoinGame_LW.h
+ ../Interface_Logic/Logic_Windows/LogicWindow.h
+ ../Interface_Logic/Logic_Windows/NewGame_LW.h
+ ../Interface_Logic/Manager/Manager.h
+ ../Interface_Logic/Player/Player.h
+ ../Structures/NodeP.h
+ ../Structures/PlayerList.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.cpp
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/BoxList.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeW.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o
+ ../Client/Client.h
+ ../Interface_Logic/Board_Logic/Matrix.h
+ ../Interface_Logic/JSON_Logic/JSONManager.h
+ ../Interface_Logic/Logic_Windows/JoinGame_LW.h
+ ../Interface_Logic/Logic_Windows/LogicWindow.h
+ ../Interface_Logic/Logic_Windows/NewGame_LW.h
+ ../Interface_Logic/Manager/Manager.h
+ ../Interface_Logic/Player/Player.h
+ ../Structures/NodeP.h
+ ../Structures/PlayerList.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.cpp
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/BoxList.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeW.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o
+ ../Interface_Logic/Board_Logic/Matrix.h
+ ../Interface_Logic/JSON_Logic/JSONManager.h
+ ../Interface_Logic/Manager/Manager.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Client/Client.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.cpp
@@ -42,19 +61,24 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Player/Player.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/BoxList.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeP.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeW.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/PlayerList.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o
+ ../Interface_Logic/Board_Logic/Matrix.h
+ ../Interface_Logic/JSON_Logic/JSONManager.h
+ ../Interface_Logic/Logic_Windows/JoinGame_LW.h
+ ../Interface_Logic/Logic_Windows/NewGame_LW.h
+ ../Interface_Logic/Manager/Manager.h
+ ../Interface_Logic/Player/Player.h
+ ../Structures/NodeP.h
+ ../Structures/PlayerList.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Client/Client.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Logic_Windows/LogicWindow.cpp
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Logic_Windows/LogicWindow.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/BoxList.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeW.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Client/Client.h
@@ -74,11 +98,11 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/PlayerList.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o
- ..//Interface_Logic/Manager/Manager.h
- ..//mainwindow.h
+ ../Interface_Logic/Board_Logic/Matrix.h
+ ../Interface_Logic/JSON_Logic/JSONManager.h
+ ../Interface_Logic/Manager/Manager.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Client/Client.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.h
@@ -89,140 +113,42 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Player/Player.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/BoxList.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeP.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeW.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/PlayerList.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_bootstrap.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_msvc.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig-bootstrapped.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qmutex.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringbuilder.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qurlquery.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Player/Player.cpp.o
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
+ ../Client/Client.h
+ ../Interface_Logic/Board_Logic/Box.h
+ ../Interface_Logic/Board_Logic/Matrix.h
+ ../Interface_Logic/JSON_Logic/JSONManager.h
+ ../Interface_Logic/Logic_Windows/JoinGame_LW.h
+ ../Interface_Logic/Logic_Windows/LogicWindow.h
+ ../Interface_Logic/Logic_Windows/NewGame_LW.h
+ ../Interface_Logic/Manager/Manager.h
+ ../Interface_Logic/Player/Player.h
+ ../Structures/BoxList.h
+ ../Structures/NodeP.h
+ ../Structures/PlayerList.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Player/Player.cpp
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Player/Player.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/BoxList.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeW.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Main/main.cpp.o
  ..//Interface_Logic/Manager/Manager.h
  ..//mainwindow.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Client/Client.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Logic_Windows/LogicWindow.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Logic_Windows/NewGame_LW.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Manager/Manager.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Player/Player.h
+ ../Client/Client.h
+ ../Interface_Logic/Board_Logic/Box.h
+ ../Interface_Logic/Board_Logic/Chip.h
+ ../Interface_Logic/Board_Logic/Matrix.h
+ ../Interface_Logic/JSON_Logic/JSONManager.h
+ ../Interface_Logic/Logic_Windows/JoinGame_LW.h
+ ../Interface_Logic/Logic_Windows/LogicWindow.h
+ ../Interface_Logic/Logic_Windows/NewGame_LW.h
+ ../Interface_Logic/Player/Player.h
+ ../Structures/BoxList.h
+ ../Structures/NodeP.h
+ ../Structures/NodeW.h
+ ../Structures/PlayerList.h
+ ../Structures/WordsList.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Main/main.cpp
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/BoxList.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeP.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeW.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/PlayerList.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -234,15 +160,12 @@ CMakeFiles/ScrabbleClient.dir/Main/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig-bootstrapped.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
@@ -285,15 +208,14 @@ CMakeFiles/ScrabbleClient.dir/Main/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypetraits.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurlquery.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -301,10 +223,8 @@ CMakeFiles/ScrabbleClient.dir/Main/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
@@ -323,15 +243,10 @@ CMakeFiles/ScrabbleClient.dir/Main/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 CMakeFiles/ScrabbleClient.dir/ScrabbleClient_autogen/mocs_compilation.cpp.o
  ..//Interface_Logic/Manager/Manager.h
@@ -363,7 +278,6 @@ CMakeFiles/ScrabbleClient.dir/ScrabbleClient_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig-bootstrapped.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h
@@ -412,15 +326,14 @@ CMakeFiles/ScrabbleClient.dir/ScrabbleClient_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypetraits.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurlquery.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -452,8 +365,6 @@ CMakeFiles/ScrabbleClient.dir/ScrabbleClient_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 CMakeFiles/ScrabbleClient.dir/Structures/BoxList.cpp.o
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
@@ -461,34 +372,49 @@ CMakeFiles/ScrabbleClient.dir/Structures/BoxList.cpp.o
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/BoxList.cpp
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/BoxList.h
 CMakeFiles/ScrabbleClient.dir/Structures/NodeP.cpp.o
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
+ ../Client/Client.h
+ ../Interface_Logic/Board_Logic/Box.h
+ ../Interface_Logic/Board_Logic/Matrix.h
+ ../Interface_Logic/JSON_Logic/JSONManager.h
+ ../Interface_Logic/Logic_Windows/JoinGame_LW.h
+ ../Interface_Logic/Logic_Windows/LogicWindow.h
+ ../Interface_Logic/Logic_Windows/NewGame_LW.h
+ ../Interface_Logic/Manager/Manager.h
+ ../Structures/BoxList.h
+ ../Structures/PlayerList.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Player/Player.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/BoxList.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeP.cpp
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeP.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeW.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Structures/NodeW.cpp.o
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeW.cpp
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeW.h
 CMakeFiles/ScrabbleClient.dir/Structures/PlayerList.cpp.o
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
+ ../Client/Client.h
+ ../Interface_Logic/Board_Logic/Box.h
+ ../Interface_Logic/Board_Logic/Matrix.h
+ ../Interface_Logic/JSON_Logic/JSONManager.h
+ ../Interface_Logic/Logic_Windows/JoinGame_LW.h
+ ../Interface_Logic/Logic_Windows/LogicWindow.h
+ ../Interface_Logic/Logic_Windows/NewGame_LW.h
+ ../Interface_Logic/Manager/Manager.h
+ ../Structures/BoxList.h
+ ../Structures/PlayerList.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Player/Player.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/BoxList.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeP.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeW.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/PlayerList.cpp
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/PlayerList.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o
+ ../Interface_Logic/Board_Logic/Box.h
+ ../Interface_Logic/Board_Logic/Chip.h
+ ../Interface_Logic/Board_Logic/Matrix.h
+ ../Interface_Logic/JSON_Logic/JSONManager.h
+ ../Structures/BoxList.h
+ ../Structures/NodeW.h
+ ../Structures/WordsList.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Client/Client.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.h
@@ -496,9 +422,7 @@ CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Logic_Windows/NewGame_LW.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Manager/Manager.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Player/Player.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/BoxList.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeP.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeW.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/PlayerList.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.cpp
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.h
@@ -521,7 +445,6 @@ CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/mainwindow.cpp
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/mainwindow.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -533,7 +456,6 @@ CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig-bootstrapped.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h
@@ -551,7 +473,6 @@ CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qitemselectionmodel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
@@ -586,15 +507,14 @@ CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypetraits.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurlquery.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -611,7 +531,6 @@ CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h
@@ -620,7 +539,6 @@ CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
@@ -644,12 +562,7 @@ CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStackedWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemview.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qactiongroup.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
@@ -668,11 +581,7 @@ CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstackedwidget.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.5
+** Created by: Qt User Interface Compiler version 5.5.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -117,7 +117,7 @@ public:
         font.setItalic(false);
         font.setWeight(50);
         label_5->setFont(font);
-        label_5->setStyleSheet(QLatin1String("color: rgb(0, 200, 81);\n"
+        label_5->setStyleSheet(QLatin1String("color: rgb(255, 255, 255);\n"
 "background-color: rgba(0,0,0,0%)\n"
 ""));
 
@@ -465,26 +465,26 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", Q_NULLPTR));
-        label_5->setText(QApplication::translate("MainWindow", "Scrabble", Q_NULLPTR));
-        pushButton_9->setText(QApplication::translate("MainWindow", "Crear Partida", Q_NULLPTR));
-        pushButton_10->setText(QApplication::translate("MainWindow", "Unirse a partida", Q_NULLPTR));
-        label_9->setText(QApplication::translate("MainWindow", "Nombre del lobby", Q_NULLPTR));
-        label_10->setText(QApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:36pt;\">Seleccione la configuraci\303\263n de su lobby</span></p></body></html>", Q_NULLPTR));
-        label_11->setText(QApplication::translate("MainWindow", "Cantidad de jugadores", Q_NULLPTR));
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", 0));
+        label_5->setText(QApplication::translate("MainWindow", "Scrabble", 0));
+        pushButton_9->setText(QApplication::translate("MainWindow", "Crear Partida", 0));
+        pushButton_10->setText(QApplication::translate("MainWindow", "Unirse a partida", 0));
+        label_9->setText(QApplication::translate("MainWindow", "Nombre del lobby", 0));
+        label_10->setText(QApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:36pt;\">Seleccione la configuraci\303\263n de su lobby</span></p></body></html>", 0));
+        label_11->setText(QApplication::translate("MainWindow", "Cantidad de jugadores", 0));
         comboBox->clear();
         comboBox->insertItems(0, QStringList()
-         << QApplication::translate("MainWindow", "2", Q_NULLPTR)
-         << QApplication::translate("MainWindow", "3", Q_NULLPTR)
-         << QApplication::translate("MainWindow", "4", Q_NULLPTR)
+         << QApplication::translate("MainWindow", "2", 0)
+         << QApplication::translate("MainWindow", "3", 0)
+         << QApplication::translate("MainWindow", "4", 0)
         );
-        label_12->setText(QApplication::translate("MainWindow", "Su nombre", Q_NULLPTR));
-        pushButton_14->setText(QApplication::translate("MainWindow", "Enviar", Q_NULLPTR));
-        label_13->setText(QApplication::translate("MainWindow", "Ingrese el c\303\263digo del lobby al que desea unirse", Q_NULLPTR));
-        label_6->setText(QApplication::translate("MainWindow", "\302\241Has Ganado!", Q_NULLPTR));
-        pushButton_11->setText(QApplication::translate("MainWindow", "Volver al menu principal", Q_NULLPTR));
-        label_8->setText(QApplication::translate("MainWindow", "\302\241Has Perdido!", Q_NULLPTR));
-        pushButton_13->setText(QApplication::translate("MainWindow", "Volver al menu principal", Q_NULLPTR));
+        label_12->setText(QApplication::translate("MainWindow", "Su nombre", 0));
+        pushButton_14->setText(QApplication::translate("MainWindow", "Enviar", 0));
+        label_13->setText(QApplication::translate("MainWindow", "Ingrese el c\303\263digo del lobby al que desea unirse", 0));
+        label_6->setText(QApplication::translate("MainWindow", "\302\241Has Ganado!", 0));
+        pushButton_11->setText(QApplication::translate("MainWindow", "Volver al menu principal", 0));
+        label_8->setText(QApplication::translate("MainWindow", "\302\241Has Perdido!", 0));
+        pushButton_13->setText(QApplication::translate("MainWindow", "Volver al menu principal", 0));
     } // retranslateUi
 
 };

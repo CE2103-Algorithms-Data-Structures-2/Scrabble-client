@@ -25,7 +25,7 @@ void NewGame_LW::newGame(string name,string partida,string jugadores)
         out+="No_jugadores@"+jugadores;
         out=Jmanager->toJSON(out);
         Manager::players->add(Manager::localP);
-        cliente->sendMessage(this->getInfo());
+        cliente->sendMessage(out);
     }
 
 }
