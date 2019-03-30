@@ -29,11 +29,8 @@ void MainWindow::on_pushButton_10_clicked()
 
 void MainWindow::on_pushButton_14_clicked()
 {
-<<<<<<< HEAD
-    if ((!ui->lineEdit_2->text().toStdString().compare("")==0) &&( !ui->lineEdit_3->text().toStdString().compare("")==0)){
-=======
     if (ui->lineEdit_2->text().toStdString() != "" && ui->lineEdit_3->text().toStdString() != "") {
->>>>>>> e1a2a1996afa8e8027b1edd4dfa1fdf0a30faec2
+
         std::string nomLobby = ui->lineEdit_2->text().toStdString();
         std::string nomJugador = ui->lineEdit_3->text().toStdString();
         std::string numJugadores = ui->comboBox->currentText().toStdString();
@@ -68,6 +65,8 @@ void MainWindow::on_pushButton_clicked()
     if (ui->lineEdit->text().toStdString() != "") {
         std::string codigo = ui->lineEdit->text().toStdString();
         std::string nomJugador = ui->lineEdit_4->text().toStdString();
+
+        Wmanager->newJoin(nomJugador,codigo);
 
         LOG(codigo)
         LOG(nomJugador)

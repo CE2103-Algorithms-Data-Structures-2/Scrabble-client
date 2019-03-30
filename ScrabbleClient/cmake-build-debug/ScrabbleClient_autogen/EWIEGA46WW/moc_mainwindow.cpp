@@ -101,8 +101,6 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 3: _t->on_lineEdit_returnPressed(); break;
         case 4: _t->on_pushButton_11_clicked(); break;
         case 5: _t->on_pushButton_13_clicked(); break;
-        case 6: _t->on_pushButton_clicked(); break;
-        case 7: _t->on_lineEdit_4_returnPressed(); break;
         default: ;
         }
     }
