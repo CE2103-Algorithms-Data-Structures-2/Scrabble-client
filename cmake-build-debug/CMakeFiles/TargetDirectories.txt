@@ -1,3 +1,0 @@
-/home/dcamachog1501/Desktop/CL/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/dcamachog1501/Desktop/CL/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir
-/home/dcamachog1501/Desktop/CL/cmake-build-debug/CMakeFiles/edit_cache.dir

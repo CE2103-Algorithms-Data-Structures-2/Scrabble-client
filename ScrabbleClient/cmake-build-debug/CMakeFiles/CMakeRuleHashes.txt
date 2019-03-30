@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+f154955f7ad79fe5d975f31c906469dc CMakeFiles/ScrabbleClient_autogen
