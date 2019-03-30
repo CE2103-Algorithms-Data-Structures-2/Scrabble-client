@@ -614,15 +614,18 @@ border-color: rgb(105, 240, 174);
         <x>0</x>
         <y>-1</y>
         <width>1201</width>
-        <height>701</height>
+        <height>782</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>30</number>
+       </property>
        <property name="topMargin">
-        <number>250</number>
+        <number>100</number>
        </property>
        <property name="bottomMargin">
-        <number>250</number>
+        <number>200</number>
        </property>
        <item alignment="Qt::AlignHCenter">
         <widget class="QLabel" name="label_13">
@@ -659,6 +662,64 @@ border-radius: 10px;
 border-width : 1.5px;
 border-style:inset;
 border-color: rgb(255, 187, 51);</string>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <family>Open Sans</family>
+           <pointsize>36</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(105, 240, 174);
+</string>
+         </property>
+         <property name="text">
+          <string>Ingrese su nombre</string>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QLineEdit" name="lineEdit_4">
+         <property name="styleSheet">
+          <string notr="true">padding-top: 0px;
+background-color: rgb(238, 238, 236);
+padding-right: 60px;
+padding-bottom: 0px;
+padding-left: 60px;
+border-radius: 10px;
+border-width : 1.5px;
+border-style:inset;
+border-color: rgb(255, 187, 51);</string>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QPushButton" name="pushButton">
+         <property name="font">
+          <font>
+           <family>Open Sans</family>
+           <pointsize>18</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(51, 181, 229);
+color: rgb(255, 255, 255);
+border-radius: 10px;
+border-width : 1.5px;
+border-style:inset;
+border-color: rgb(105, 240, 174);
+ margin-top: 30px;
+  padding-top: 0px;
+  padding-right: 35px;
+  padding-bottom: 0px;
+  padding-left: 35px;</string>
+         </property>
+         <property name="text">
+          <string>Enviar</string>
          </property>
         </widget>
        </item>

@@ -61,6 +61,9 @@ public:
     QVBoxLayout *verticalLayout;
     QLabel *label_13;
     QLineEdit *lineEdit;
+    QLabel *label;
+    QLineEdit *lineEdit_4;
+    QPushButton *pushButton;
     QWidget *WaitMenu;
     QWidget *GameBoard;
     QWidget *WinMenu;
@@ -345,12 +348,12 @@ public:
         JoinMenu->setStyleSheet(QStringLiteral("background-color: rgb(38, 50, 56);"));
         verticalLayoutWidget = new QWidget(JoinMenu);
         verticalLayoutWidget->setObjectName(QStringLiteral("verticalLayoutWidget"));
-        verticalLayoutWidget->setGeometry(QRect(0, -1, 1201, 701));
+        verticalLayoutWidget->setGeometry(QRect(0, -1, 1201, 782));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
-        verticalLayout->setSpacing(6);
+        verticalLayout->setSpacing(30);
         verticalLayout->setContentsMargins(11, 11, 11, 11);
         verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
-        verticalLayout->setContentsMargins(0, 250, 0, 250);
+        verticalLayout->setContentsMargins(0, 100, 0, 200);
         label_13 = new QLabel(verticalLayoutWidget);
         label_13->setObjectName(QStringLiteral("label_13"));
         QFont font8;
@@ -376,6 +379,45 @@ public:
 "border-color: rgb(255, 187, 51);"));
 
         verticalLayout->addWidget(lineEdit, 0, Qt::AlignHCenter);
+
+        label = new QLabel(verticalLayoutWidget);
+        label->setObjectName(QStringLiteral("label"));
+        label->setFont(font8);
+        label->setStyleSheet(QLatin1String("color: rgb(105, 240, 174);\n"
+""));
+
+        verticalLayout->addWidget(label, 0, Qt::AlignHCenter);
+
+        lineEdit_4 = new QLineEdit(verticalLayoutWidget);
+        lineEdit_4->setObjectName(QStringLiteral("lineEdit_4"));
+        lineEdit_4->setStyleSheet(QLatin1String("padding-top: 0px;\n"
+"background-color: rgb(238, 238, 236);\n"
+"padding-right: 60px;\n"
+"padding-bottom: 0px;\n"
+"padding-left: 60px;\n"
+"border-radius: 10px;\n"
+"border-width : 1.5px;\n"
+"border-style:inset;\n"
+"border-color: rgb(255, 187, 51);"));
+
+        verticalLayout->addWidget(lineEdit_4, 0, Qt::AlignHCenter);
+
+        pushButton = new QPushButton(verticalLayoutWidget);
+        pushButton->setObjectName(QStringLiteral("pushButton"));
+        pushButton->setFont(font7);
+        pushButton->setStyleSheet(QLatin1String("background-color: rgb(51, 181, 229);\n"
+"color: rgb(255, 255, 255);\n"
+"border-radius: 10px;\n"
+"border-width : 1.5px;\n"
+"border-style:inset;\n"
+"border-color: rgb(105, 240, 174);\n"
+" margin-top: 30px;\n"
+"  padding-top: 0px;\n"
+"  padding-right: 35px;\n"
+"  padding-bottom: 0px;\n"
+"  padding-left: 35px;"));
+
+        verticalLayout->addWidget(pushButton, 0, Qt::AlignHCenter);
 
         stackedWidget->addWidget(JoinMenu);
         WaitMenu = new QWidget();
@@ -481,6 +523,8 @@ public:
         label_12->setText(QApplication::translate("MainWindow", "Su nombre", 0));
         pushButton_14->setText(QApplication::translate("MainWindow", "Enviar", 0));
         label_13->setText(QApplication::translate("MainWindow", "Ingrese el c\303\263digo del lobby al que desea unirse", 0));
+        label->setText(QApplication::translate("MainWindow", "Ingrese su nombre", 0));
+        pushButton->setText(QApplication::translate("MainWindow", "Enviar", 0));
         label_6->setText(QApplication::translate("MainWindow", "\302\241Has Ganado!", 0));
         pushButton_11->setText(QApplication::translate("MainWindow", "Volver al menu principal", 0));
         label_8->setText(QApplication::translate("MainWindow", "\302\241Has Perdido!", 0));
