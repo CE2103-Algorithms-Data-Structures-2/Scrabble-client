@@ -106,7 +106,7 @@ border-width: 5px;
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(0, 200, 81);
+          <string notr="true">color: rgb(255, 255, 255);
 background-color: rgba(0,0,0,0%)
 </string>
          </property>

@@ -117,7 +117,7 @@ public:
         font.setItalic(false);
         font.setWeight(50);
         label_5->setFont(font);
-        label_5->setStyleSheet(QLatin1String("color: rgb(0, 200, 81);\n"
+        label_5->setStyleSheet(QLatin1String("color: rgb(255, 255, 255);\n"
 "background-color: rgba(0,0,0,0%)\n"
 ""));
 
