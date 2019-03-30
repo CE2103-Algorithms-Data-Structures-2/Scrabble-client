@@ -38,14 +38,14 @@ void Manager::Init()
             if(tr)
             {
                 cliente->isAccepted();
-                this->NewG_LW->newGame();
+                /*this->NewG_LW->newGame();
                 players->print();
-                this->setCode(cliente->receiveMessage());
-                /*bool accepted=this->JoinG_LW->join();
+                this->setCode(cliente->receiveMessage());*/
+                bool accepted=this->JoinG_LW->join();
                 if(!accepted)
                 {
                     cliente->disconnect();
-                }*/
+                }
                 ask("numP");
                 play();
                 tr=false;
