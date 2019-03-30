@@ -160,12 +160,6 @@ iostream
 ../Board_Logic/Matrix.h
 /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
 
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.cpp
-JoinGame_LW.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.h
-../Manager/Manager.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Manager/Manager.h
-
 /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.h
 ../../Client/Client.h
 /home/dcamachog1501/Desktop/CL/ScrabbleClient/Client/Client.h
@@ -179,12 +173,6 @@ LogicWindow.h
 /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
 ../../Client/Client.h
 /home/dcamachog1501/Desktop/CL/ScrabbleClient/Client/Client.h
-
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Logic_Windows/NewGame_LW.cpp
-NewGame_LW.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Logic_Windows/NewGame_LW.h
-../Manager/Manager.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Manager/Manager.h
 
 /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Logic_Windows/NewGame_LW.h
 ../../Client/Client.h
@@ -265,12 +253,6 @@ string
 /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/PlayerList.h
 NodeP.h
 /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeP.h
-
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.cpp
-WordsList.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.h
-../Interface_Logic/Manager/Manager.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Manager/Manager.h
 
 /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.h
 string.h
