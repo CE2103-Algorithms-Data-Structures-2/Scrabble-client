@@ -1,4 +1,0 @@
-#include "tablerografico.h"
-
-
-
