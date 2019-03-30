@@ -4,6 +4,7 @@
 
 
 #include "JSONManager.h"
+#include "../Board_Logic/Matrix.h"
 #include <algorithm>
 #include <boost/property_tree/json_parser.hpp>
 #include <vector>
@@ -47,9 +48,48 @@ ptree JSONManager::toPtree(string s) {
     return document;
 }
 
-string JSONManager::askFor(string s,string l)
+string JSONManager::askFor(string JSON,string llave)
 {
-    ptree p= toPtree(s);
-    string v=p.get<string>(l);
+    ptree p= toPtree(JSON);
+    string v=p.get<string>(llave);
     return v;
 }
+
+string JSONManager::matrixtoJSON(Matrix *m)
+{
+    int cont=0;
+    string convert="";
+    BoxList* temp= m->getHead();
+    while(temp!= nullptr)
+    {
+        Box* temp2=temp->getHead();
+        convert+="f"+to_string(cont)+"@";
+        while(temp2!= nullptr)
+        {
+            if(temp2->getChip()->getLetter()==" ")
+            {
+                convert+="0";
+            }
+            else
+            {
+                convert+=temp2->getChip()->getLetter();
+            }
+            if(temp2->getNext()!= nullptr)
+            {
+                convert+="#";
+            }
+            temp2=temp2->getNext();
+
+        }
+        if(temp->getNext()!= nullptr)
+        {
+            convert+="$";
+        }
+        temp=temp->getNext();
+        cont++;
+    }
+    string out =toJSON(convert);
+    return out;
+}
+
+

@@ -3,6 +3,8 @@
 //
 
 #include "WordsList.h"
+#include "../Interface_Logic/Manager/Manager.h"
+
 WordsList::WordsList()
 {
     this->head=nullptr;
@@ -59,16 +61,6 @@ void WordsList::del(string s)
         length--;
     }
 }
-Chip* WordsList::get(string s)
-{
-    NodeW* temp=head;
-    while(temp->getChip()->getLetter()!=s)
-    {
-        temp=temp->getNext();
-    }
-    return temp->getChip();
-}
-
 void WordsList::print()
 {
     NodeW* temp=this->head;
@@ -104,16 +96,49 @@ void WordsList::setNext(WordsList* w)
     this->next=w;
 }
 
-void WordsList::fill15()
+NodeW *WordsList::getHead()
 {
-    while(true)
+    return this->head;
+}
+
+bool WordsList::writeAble(WordsList *w)
+{
+    bool writeable=true;
+    NodeW* temp=w->getHead();
+    if(temp!= nullptr)
     {
-        if(this->length==15)
+        while(temp!= nullptr)
         {
-            break;
+            int local=times(temp->getChip()->getLetter(),w);
+            int localp=times(temp->getChip()->getLetter(),this);
+            if(localp<local)
+            {
+                cout<<"No es posible armar la palabra indicada!"<<endl;
+                return false;
+            }
+            temp=temp->getNext();
         }
-        Chip* c= new Chip();
-        this->add(c);
-        length++;
+        cout<<"Es posible armar la palabra!"<<endl;
+        return true;
+
     }
 }
+
+int WordsList::times(string l,WordsList* w) {
+    int i=0;
+    NodeW* temp=w->getHead();
+    if(temp!= nullptr)
+    {
+        while(temp!= nullptr)
+        {
+            if(temp->getChip()->getLetter().compare(l)==0)
+            {
+                i++;
+            }
+            temp=temp->getNext();
+        }
+    }
+    return i;
+}
+
+

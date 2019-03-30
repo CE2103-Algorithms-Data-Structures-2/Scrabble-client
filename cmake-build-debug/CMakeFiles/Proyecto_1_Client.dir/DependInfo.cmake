@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dcamachog1501/Desktop/CL/Interface_Logic/Manager/Manager.cpp" "/home/dcamachog1501/Desktop/CL/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Manager/Manager.cpp.o"
   "/home/dcamachog1501/Desktop/CL/Interface_Logic/Player/Player.cpp" "/home/dcamachog1501/Desktop/CL/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Player/Player.cpp.o"
   "/home/dcamachog1501/Desktop/CL/Main/main.cpp" "/home/dcamachog1501/Desktop/CL/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.o"
+  "/home/dcamachog1501/Desktop/CL/Structures/BoxList.cpp" "/home/dcamachog1501/Desktop/CL/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/BoxList.cpp.o"
   "/home/dcamachog1501/Desktop/CL/Structures/NodeP.cpp" "/home/dcamachog1501/Desktop/CL/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/NodeP.cpp.o"
   "/home/dcamachog1501/Desktop/CL/Structures/NodeW.cpp" "/home/dcamachog1501/Desktop/CL/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/NodeW.cpp.o"
   "/home/dcamachog1501/Desktop/CL/Structures/PlayerList.cpp" "/home/dcamachog1501/Desktop/CL/cmake-build-debug/CMakeFiles/Proyecto_1_Client.dir/Structures/PlayerList.cpp.o"

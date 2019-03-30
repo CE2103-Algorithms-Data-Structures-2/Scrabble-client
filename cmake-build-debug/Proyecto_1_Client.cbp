@@ -147,6 +147,12 @@
 		<Unit filename="/home/dcamachog1501/Desktop/CL/Main/main.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/CL/Structures/BoxList.cpp">
+			<Option target="Proyecto_1_Client"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/CL/Structures/BoxList.h">
+			<Option target="Proyecto_1_Client"/>
+		</Unit>
 		<Unit filename="/home/dcamachog1501/Desktop/CL/Structures/NodeP.cpp">
 			<Option target="Proyecto_1_Client"/>
 		</Unit>

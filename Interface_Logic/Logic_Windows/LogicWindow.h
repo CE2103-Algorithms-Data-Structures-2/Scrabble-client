@@ -14,7 +14,17 @@ class LogicWindow {
         Client* cliente;
         JSONManager* Jmanager;
     public:
+        /**
+         * Constructor de la clase LogicWindow
+         * @param c Puntero de tipo Client.
+         * @param j Puntero de tipo JSONManager.
+         */
         LogicWindow(Client* c,JSONManager* j);
+
+    virtual /**
+         * Metodo para obtener la informacion registrada en la ventana por el cliente.
+         * @return Informacion de tipo string.
+         */
         string getInfo();
 };
 

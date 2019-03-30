@@ -12,6 +12,11 @@
 class NewGame_LW:public LogicWindow
 {
         public:
+            /**
+            * Constructor de la clase NewGame_LW.
+            * @param c Puntero de tipo Client.
+            * @param j Puntero de tipo JSONManager.
+            */
             NewGame_LW(Client* c,JSONManager* j):LogicWindow(c, j)
             {
 
@@ -19,7 +24,11 @@ class NewGame_LW:public LogicWindow
                     Jmanager=j;
 
             }
+            /**
+             * Metodo para crear un juego nuevo en el servidor.
+             */
             void newGame();
+
             string getInfo();
 };
 

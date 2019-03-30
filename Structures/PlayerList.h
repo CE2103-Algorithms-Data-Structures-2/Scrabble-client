@@ -10,7 +10,7 @@
 
 class PlayerList {
 private:
-    int* length;
+    int length;
     NodeP* head;
     int* limit;
 public:
@@ -57,6 +57,10 @@ public:
      * Metodo para imprimir la lista.
      */
     void print();
+    /**
+     * Metodo para eliminar todos los elementos de la lista;
+     */
+    void purge();
 
 
 

@@ -64,7 +64,16 @@ public:
      * Metodo para imprimir en consola los datos del jugador.
      */
     void print();
+    /**
+     * Metodo para asignarle al jugador la ficha que determina su turno.
+     * @param c Puntero de tipo Chip.
+     */
     void setRnd(Chip* c);
+    /**
+     * Metodo para obtener la ficha random del jugador.
+     * @return Puntero de tipo Chip.
+     */
+    Chip* getRnd();
 
 
 

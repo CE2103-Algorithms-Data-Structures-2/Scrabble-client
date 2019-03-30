@@ -7,16 +7,45 @@
 
 
 #include "../../Structures/WordsList.h"
-
+#include "../../Structures/BoxList.h"
+class WordsList;
 class Matrix {
     private:
-        WordsList* head;
+        BoxList* head;
 
     public:
+        /**
+         * Constructor de la clase Matrix.
+         */
         Matrix();
+        /**
+         * Método par ainicializar la matríz en ceros.
+         */
         void init();
+        /**
+         * Método para imprimir la matríz.
+         */
         void print();
-        WordsList getLine(int i);
+        /**
+         * Metodo para añadir palabras a la matriz.
+         * @param f Fila de tipo entero.
+         * @param c Columna de tipo entero.
+         * @param dir Dirección de tipo string.
+         * @param list Puntero de tipo WordsList.
+         */
+        void addWord(int f,int c,string dir,WordsList* list );
+        /**
+         * Metodo para obtener la casilla en el punto especificado.
+         * @param f Fila de tipo entero.
+         * @param c Columna de tipo entero.
+         * @return Puntero de tipo Box.
+         */
+        Box* get(int f,int c);
+        /**
+         * Metodo para obtener la primera fila de la matríz.
+         * @return Puntero de tipo BoxList.
+         */
+        BoxList* getHead();
 
 
 

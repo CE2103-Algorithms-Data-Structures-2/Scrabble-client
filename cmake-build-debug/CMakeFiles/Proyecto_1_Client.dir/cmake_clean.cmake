@@ -14,6 +14,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Box.cpp.o"
   "CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Chip.cpp.o"
   "CMakeFiles/Proyecto_1_Client.dir/Interface_Logic/Board_Logic/Matrix.cpp.o"
+  "CMakeFiles/Proyecto_1_Client.dir/Structures/BoxList.cpp.o"
   "Proyecto_1_Client.pdb"
   "Proyecto_1_Client"
 )

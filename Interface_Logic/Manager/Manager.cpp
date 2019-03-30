@@ -59,6 +59,7 @@ void Manager::play()
 {
     ask("getRandom");
     ask("ready");
+    ask("getSequence");
     ask("seven");
 }
 void Manager::setCode(string s) {
@@ -71,7 +72,7 @@ void Manager::setCode(string s) {
 
 }
 void Manager::ask(string p) {
-    if(p.compare("numP")==0) {
+    if (p.compare("numP") == 0) {
         int counter = 0;
         while (counter <= players->getLimit() - 1) {
             cliente->sendMessage("numP");
@@ -102,12 +103,11 @@ void Manager::ask(string p) {
         cout << "Tope alcanzado" << endl;
         players->print();
     }
-    else if(p.compare("getRandom")==0)
+    else if (p.compare("getRandom") == 0)
     {
         cliente->sendMessage("getRandom");
-        string incoming=cliente->receiveMessage();
-        if(incoming.compare("send")==0)
-        {
+        string incoming = cliente->receiveMessage();
+        if (incoming.compare("send") == 0) {
             cliente->sendMessage("rnd");
             incoming = cliente->receiveMessage();
             Chip *c = new Chip();
@@ -122,52 +122,92 @@ void Manager::ask(string p) {
             Manager::localP->print();
         }
     }
-    else if(p.compare("ready")==0)
+    else if (p.compare("ready") == 0)
     {
-        while(true)
-        {
+        while (true) {
             cliente->sendMessage("ready");
-            string incoming=cliente->receiveMessage();
-            if(incoming.compare("true")==0)
-            {
+            string incoming = cliente->receiveMessage();
+            if (incoming.compare("true") == 0) {
                 break;
             }
             usleep(5000000);
         }
-        cout<<" "<<endl;
-        cout<<"------------------------------------"<<endl;
-        cout<<"Todos los jugadores están listos!"<<endl;
-        cout<<"------------------------------------"<<endl;
-    }
-    else if(p.compare("seven")==0)
-    {
-        int i=0;
-        while(i<7)
-        {
-            cliente->sendMessage("getRandom");
-            string incoming=cliente->receiveMessage();
-            if(incoming.compare("send")==0)
-            {
-                cliente->sendMessage("seven");
-                incoming = cliente->receiveMessage();
+        cout << " " << endl;
+        cout << "------------------------------------" << endl;
+        cout << "Todos los jugadores están listos!" << endl;
+        cout << "------------------------------------" << endl;
+    } else if (p.compare("seven") == 0) {
+        cliente->sendMessage("getRandom");
+        string incoming = cliente->receiveMessage();
+        if (incoming.compare("send") == 0) {
+            cliente->sendMessage("seven");
+            incoming = cliente->receiveMessage();
+            for (int i = 0; i < 7; i++) {
                 Chip *c = new Chip();
-                c->setPoints(stoi(Manager::Jmanager->askFor(incoming, "points")));
-                c->setLetter(Manager::Jmanager->askFor(incoming, "letter"));
-                if (Manager::Jmanager->askFor(incoming, "wildcard").compare("true") == 0) {
+                string JSON = Manager::Jmanager->askFor(incoming, to_string(i));
+                c->setPoints(stoi(Manager::Jmanager->askFor(JSON, "points")));
+                c->setLetter(Manager::Jmanager->askFor(JSON, "letter"));
+                if (Manager::Jmanager->askFor(JSON, "wildcard").compare("true") == 0) {
                     c->setSpecial(true);
-                } else if (Manager::Jmanager->askFor(incoming, "wildcard").compare("false") == 0) {
+                } else if (Manager::Jmanager->askFor(JSON, "wildcard").compare("false") == 0) {
                     c->setSpecial(false);
                 }
                 localP->getChips()->add(c);
-                i++;
             }
         }
-        cout<<" "<<endl;
-        cout<<"--------------------"<<endl;
-        cout<<" Fichas obtenidas: "<<endl;
-        cout<<" "<<endl;
-        localP->getChips()->print();
-        cout<<"--------------------"<<endl;
-    }
 
+        cout << " " << endl;
+        cout << "--------------------" << endl;
+        cout << " Fichas obtenidas: " << endl;
+        cout << " " << endl;
+        localP->getChips()->print();
+        cout << "--------------------" << endl;
+    }
+    else if(p.compare("getSequence")==0)
+    {
+        cliente->sendMessage("getSequence");
+        string incomming =cliente->receiveMessage();
+        int l=players->getLength();
+        Manager::players->purge();
+        for(int i=0;i<l;i++)
+        {
+            string jug= Jmanager->askFor(incomming,"player"+to_string(i));
+            Player* p= new Player();
+            p->setName(Jmanager->askFor(jug,"name"));
+            p->setID(Jmanager->askFor(jug,"index"));
+            Chip* c= new Chip();
+            string ficha=Jmanager->askFor(jug,"rnd");
+            c->setLetter(Jmanager->askFor(ficha,"letter"));
+            c->setPoints(stoi(Jmanager->askFor(ficha,"point")));
+            if (Manager::Jmanager->askFor(ficha, "wildcard").compare("true") == 0) {
+                c->setSpecial(true);
+            } else if (Manager::Jmanager->askFor(ficha, "wildcard").compare("false") == 0) {
+                c->setSpecial(false);
+            }
+            p->setRnd(c);
+            players->add(p);
+
+        }
+        NodeP* temp=players->getHead();
+        while(temp!= nullptr)
+        {
+            cout<<"-------------------------------------"<<endl;
+            cout<<"Nombre del jugador: "+temp->getValue()->getName()<<endl;
+            cout<<"ID del jugador: "+temp->getValue()->getID()<<endl;
+            cout<<"Ficha rnd: "+temp->getValue()->getRnd()->getLetter();
+            cout<<"-------------------------------------"<<endl;
+            cout<<" "<<endl;
+            temp=temp->getNext();
+        }
+        cout<<"Jugador local: "<<endl;
+        cout<<""<<endl;
+        cliente->sendMessage("getLocal");
+        incomming=cliente->receiveMessage();
+        localP= players->get(stoi(incomming));
+        localP->print();
+
+    }
 }
+
+
+

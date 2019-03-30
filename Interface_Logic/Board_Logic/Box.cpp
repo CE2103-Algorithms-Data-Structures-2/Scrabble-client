@@ -10,13 +10,24 @@ Box::Box(int c, int f, string p,Chip* l)
     fila=f;
     ficha=l;
     perk=p;
+    next= nullptr;
 }
+Box::Box(int c, int f)
+{
+    this->columna=c;
+    this->fila=f;
+    this->perk="";
+    this->next= nullptr;
+    this->ficha= nullptr;
+}
+
 Box::Box()
 {
     columna=0;
     fila=0;
     ficha= nullptr;
     perk="";
+    next= nullptr;
 }
 
 Chip* Box::getChip() {
@@ -50,3 +61,13 @@ void Box::setPerk(string p)
 {
     perk=p;
 }
+
+Box *Box::getNext() {
+    return this->next;
+}
+
+void Box::setNext(Box *b)
+{
+    this->next=b;
+}
+

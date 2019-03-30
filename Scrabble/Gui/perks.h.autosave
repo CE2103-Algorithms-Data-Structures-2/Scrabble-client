@@ -1,0 +1,11 @@
+#ifndef PERKS_H
+#define PERKS_H
+
+#endif // PERKS_H
+
+enum Perks {
+    Dl,
+    Dw,
+    Tl,
+    Tw
+};

@@ -67,3 +67,7 @@ void Player::setRnd(Chip *c)
 {
     this->rndChip=c;
 }
+
+Chip *Player::getRnd() {
+    return this->rndChip;
+}

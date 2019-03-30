@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/61/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/67/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/61/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/67/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/dcamachog1501/Desktop/CL/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/61/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/67/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/61/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/67/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -420,6 +420,33 @@ Main/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Main/main.cpp.s
 .PHONY : Main/main.cpp.s
 
+Structures/BoxList.o: Structures/BoxList.cpp.o
+
+.PHONY : Structures/BoxList.o
+
+# target to build an object file
+Structures/BoxList.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/BoxList.cpp.o
+.PHONY : Structures/BoxList.cpp.o
+
+Structures/BoxList.i: Structures/BoxList.cpp.i
+
+.PHONY : Structures/BoxList.i
+
+# target to preprocess a source file
+Structures/BoxList.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/BoxList.cpp.i
+.PHONY : Structures/BoxList.cpp.i
+
+Structures/BoxList.s: Structures/BoxList.cpp.s
+
+.PHONY : Structures/BoxList.s
+
+# target to generate assembly for a file
+Structures/BoxList.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1_Client.dir/build.make CMakeFiles/Proyecto_1_Client.dir/Structures/BoxList.cpp.s
+.PHONY : Structures/BoxList.cpp.s
+
 Structures/NodeP.o: Structures/NodeP.cpp.o
 
 .PHONY : Structures/NodeP.o
@@ -570,6 +597,9 @@ help:
 	@echo "... Main/main.o"
 	@echo "... Main/main.i"
 	@echo "... Main/main.s"
+	@echo "... Structures/BoxList.o"
+	@echo "... Structures/BoxList.i"
+	@echo "... Structures/BoxList.s"
 	@echo "... Structures/NodeP.o"
 	@echo "... Structures/NodeP.i"
 	@echo "... Structures/NodeP.s"

@@ -5,7 +5,7 @@
 #ifndef PROYECTO_1_CLIENT_CLIENT_H
 #define PROYECTO_1_CLIENT_CLIENT_H
 #include <iostream>
-#include<thread>
+#include <thread>
 using namespace std;
 
 
@@ -18,14 +18,44 @@ class Client{
        thread clientT;
 
     public:
+        /**
+         * Constructor de la clase client.
+         */
         Client();
+        /**
+         * Metodo para inicializar el thread del cliente.
+         */
         void run();
+        /**
+         * Metodo para detener la ejecucion del thread del cliente
+         */
         void stop();
+        /**
+         * Metodo para realizar la conexion con el servidor.
+         */
         void start();
+        /**
+         * Metodo para enviar mensajes al servidor.
+         * @param message Mensaje de tipo String.
+         */
         void sendMessage(string message);
+        /**
+         * Metodo para obtener el mensaje recibido por el servidor.
+         * @return Mensaje de tipo string.
+         */
         string receiveMessage();
+        /**
+         * Metodo para saber si el cliente está conectado al servidor.
+         * @return Condición de tipo booleano.
+         */
         bool isConnected();
+        /**
+         * Metodo para detener la ejecucion del cliente.
+         */
         void disconnect();
+        /**
+         * Metodo para saber si el servidor aceptó al cliente.
+         */
         void isAccepted();
 };
 

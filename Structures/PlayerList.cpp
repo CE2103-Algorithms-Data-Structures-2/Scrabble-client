@@ -7,7 +7,7 @@
 PlayerList::PlayerList() 
 {
     
-    this->length=new int(0);
+    length=0;
     this->head= nullptr;
     this->limit=new int(1);
         
@@ -15,12 +15,12 @@ PlayerList::PlayerList()
 }
 int PlayerList::getLength()
 {
-    return *this->length;
+    return this->length;
 }
 bool PlayerList::add(Player* p)
 {
     bool adding=false;
-    if(*length<*limit) {
+    if(length<*limit) {
         NodeP *n = new NodeP(p);
         if(head== nullptr)
         {
@@ -40,7 +40,7 @@ bool PlayerList::add(Player* p)
     }
     if(adding)
     {
-        *length=*length+1;
+        length=length+1;
         cout<<"Adicion de jugador exitosa!"<<endl;
     }
     else
@@ -114,4 +114,18 @@ void PlayerList::print()
         cout<<"Nombre: "<<temp->getValue()->getName()<<endl;
         temp=temp->getNext();
     }
+}
+
+void PlayerList::purge()
+{
+    NodeP* temp  =this->getHead();
+    while(temp!= nullptr)
+    {
+        NodeP* temp2=temp;
+        this->head=temp->getNext();
+        temp=temp->getNext();
+        delete(temp2);
+    }
+    length=0;
+
 }

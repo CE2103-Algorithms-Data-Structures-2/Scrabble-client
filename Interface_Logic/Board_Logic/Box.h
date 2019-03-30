@@ -16,6 +16,7 @@ class Box {
         int fila;
         string perk;
         Chip* ficha;
+        Box* next;
     public:
         /**
          * Construtor de la clase box.
@@ -28,6 +29,7 @@ class Box {
         /**
          * Constructor de la clase Box.
          */
+        Box(int c,int f);
         Box();
         /**
          * Metodo para obtener la ficha de la casilla.
@@ -69,6 +71,16 @@ class Box {
          * @param l Letra de tipo string
          */
         void setChip(Chip* c);
+        /**
+         * Metodo para obtener el siguiente valor en la fila.
+         * @return Puntero de tipo Box.
+         */
+        Box* getNext();
+        /**
+         * Método para establecer la siguiente casilla de la fila.
+         * @param b Puntero de Box.
+         */
+        void setNext(Box* b);
 
 
 };

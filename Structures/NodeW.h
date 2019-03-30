@@ -14,10 +14,30 @@ private:
     NodeW* next;
     Chip* ficha;
 public:
+    /**
+     * Constructor de la clase NodeW.
+     * @param c Puntero de tipo Chip.
+     */
     NodeW(Chip* c);
+    /**
+     * Metodo para obtener la ficha almacenada en el nodo.
+     * @return Puntero de tipo Chip.
+     */
     Chip* getChip();
+    /**
+     * Metodo para obtener el nodo siguiente en la lista.
+     * @return Puntero de tipo NodeW.
+     */
     NodeW* getNext();
+    /**
+     * Metodo para establecer el puntero al nodo siguiente en la lista.
+     * @param n Puntero de tipo NodeW.
+     */
     void setNext(NodeW* n);
+    /**
+     * Metodo para asignar la ficha correspondiente a ese nodo.
+     * @param c Puntero de tipo Chip.
+     */
     void setChip(Chip* c);
 };
 
