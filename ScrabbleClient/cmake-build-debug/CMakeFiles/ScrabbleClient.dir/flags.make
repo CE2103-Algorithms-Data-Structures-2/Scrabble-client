@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -g   -fPIC -std=gnu++14
 
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug -I/home/dcamachog1501/Desktop/CL/ScrabbleClient -I/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/include -I/home/dcamachog1501/Desktop/CL/ScrabbleClient/. -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ 
+CXX_INCLUDES = -I/home/dcamachog1501/Desktop/CL2/ScrabbleClient/cmake-build-debug -I/home/dcamachog1501/Desktop/CL2/ScrabbleClient -I/home/dcamachog1501/Desktop/CL2/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/include -I/home/dcamachog1501/Desktop/CL2/ScrabbleClient/. -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ 
 
