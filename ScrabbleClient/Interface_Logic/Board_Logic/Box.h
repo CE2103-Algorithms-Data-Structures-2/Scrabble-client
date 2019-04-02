@@ -17,6 +17,7 @@ class Box {
         string perk;
         Chip* ficha;
         Box* next;
+        Box* prev;
     public:
         /**
          * Construtor de la clase box.
@@ -77,10 +78,20 @@ class Box {
          */
         Box* getNext();
         /**
+         * Metodo para obtener el valor prervio en la fila.
+         * @return Puntero de tipo Box.
+         */
+        Box* getPrev();
+        /**
          * Método para establecer la siguiente casilla de la fila.
          * @param b Puntero de Box.
          */
         void setNext(Box* b);
+        /**
+         * Metod para establecer la caasilla previa de la fila.
+         * @param b Puntero de tipo Box.
+         */
+        void setPrev(Box* b);
 
 
 };

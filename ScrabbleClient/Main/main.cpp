@@ -15,9 +15,14 @@ Manager* MainWindow::Wmanager=new Manager();
 
 int main(int argc, char *argv[]) {
 
+
     QApplication a(argc, argv);
     MainWindow w;
     w.show();
+
+
+
+
    /* Matrix *m = new Matrix();
     m->init();
     JSONManager* jmanager=new  JSONManager();

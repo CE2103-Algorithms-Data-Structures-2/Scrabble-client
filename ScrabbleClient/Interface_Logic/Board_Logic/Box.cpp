@@ -6,11 +6,12 @@
 
 Box::Box(int c, int f, string p,Chip* l)
 {
-    columna=c;
-    fila=f;
-    ficha=l;
-    perk=p;
-    next= nullptr;
+    this->columna=c;
+    this->fila=f;
+    this->ficha=l;
+    this->perk=p;
+    this->next= nullptr;
+    this->prev= nullptr;
 }
 Box::Box(int c, int f)
 {
@@ -18,16 +19,18 @@ Box::Box(int c, int f)
     this->fila=f;
     this->perk="";
     this->next= nullptr;
+    this->prev= nullptr;
     this->ficha= nullptr;
 }
 
 Box::Box()
 {
-    columna=0;
-    fila=0;
-    ficha= nullptr;
-    perk="";
-    next= nullptr;
+    this->columna=0;
+    this->fila=0;
+    this->ficha= nullptr;
+    this->perk="";
+    this->next= nullptr;
+    this->prev=nullptr;
 }
 
 Chip* Box::getChip() {
@@ -69,5 +72,15 @@ Box *Box::getNext() {
 void Box::setNext(Box *b)
 {
     this->next=b;
+}
+
+Box *Box::getPrev()
+{
+    return this->prev;
+}
+
+void Box::setPrev(Box *b)
+{
+    this->prev=b;
 }
 

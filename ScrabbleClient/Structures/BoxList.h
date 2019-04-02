@@ -13,6 +13,7 @@ class BoxList {
         Box* head;
         int length;
         BoxList* next;
+        BoxList* prev;
     public:
         /**
         * Constructor de la clase BoxList.
@@ -29,16 +30,20 @@ class BoxList {
          */
         BoxList* getNext();
         /**
+         * Metodo para obtener la lista anterior a la actual.
+         * @return Puntero de tipo BoxList.
+         */
+        BoxList*getPrev();
+        /**
          * Metodo para establecer la siguiente lista de casillas.
          * @param b Puntero de tipo BoxList.
          */
         void setNext(BoxList* b);
         /**
-         * Metodo para suprimir una casilla de la lista.
-         * @param f Fila de tipo entero.
-         * @param c Columna de tipo entero.
+         * Metodo para establecer la lista de casillas previa a la actual
+         * @param b Puntero de tipo BoxList.
          */
-        void del(int f,int c);
+        void setPrev(BoxList*b);
         /**
          * Metodo para añadir una ficha en la posicion indicada.
          * @param f Fila de tipo entero.
