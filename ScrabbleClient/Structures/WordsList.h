@@ -60,13 +60,18 @@ public:
      * Metodo para saber si una palabra se puede escribir en la matriz.
      * @param w Puntero de tipo WordsList.
      */
-    bool writeAble(WordsList* w);
+    bool writeAble(WordsList w);
     /**
      * Metodo para saber la cantidad de veces que está una letra en la lista.
      * @param l Letra de tipo string.
      * @return Cantidad de tipo entero.
      */
-    int times(string l,WordsList* w);
+    int times(string l,WordsList w);
+    /**
+     * Metodo para obtener la palabraa que desccribe la lista de letras.
+     * @return Palabra de tipo string.
+     */
+    string getWord();
 
 };
 

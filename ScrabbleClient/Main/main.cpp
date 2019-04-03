@@ -15,15 +15,12 @@ Manager* MainWindow::Wmanager=new Manager();
 
 int main(int argc, char *argv[]) {
 
-
     QApplication a(argc, argv);
     MainWindow w;
     w.show();
 
 
-
-
-   /* Matrix *m = new Matrix();
+    /*Matrix *m = new Matrix();
     m->init();
     JSONManager* jmanager=new  JSONManager();
     WordsList* mano= new WordsList();
@@ -43,7 +40,7 @@ int main(int argc, char *argv[]) {
     mano->print();
     while(true)
     {
-        WordsList *w = new WordsList();
+        WordsList w = WordsList();
         string storage = "";
         string fila = "";
         string columna = "";
@@ -56,7 +53,7 @@ int main(int argc, char *argv[]) {
             std::string u = "";
             u += s;
             c->setLetter(u);
-            w->add(c);
+            w.add(c);
         }
         if(mano->writeAble(w))
         {
@@ -67,9 +64,16 @@ int main(int argc, char *argv[]) {
             cout<<"Direccion: "<<endl;
             getline(cin,dir);
             m->addWord(stoi(fila),stoi(columna),dir,w);
-            //string json=jmanager->matrixtoJSON(m);
+            string json=jmanager->matrixtoJSON(m);
+            cout<<""<<endl;
+            cout<<"JSON convertido: \n"<<endl;
+            jmanager->JSONtomatrix(json);
+            break;
+
         }
-    }*/
+    }
+*/
     return a.exec();
+    return 0;
 }
 

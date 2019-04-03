@@ -101,32 +101,34 @@ NodeW *WordsList::getHead()
     return this->head;
 }
 
-bool WordsList::writeAble(WordsList *w)
+bool WordsList::writeAble(WordsList w)
 {
     bool writeable=true;
-    NodeW* temp=w->getHead();
+    NodeW* temp=w.getHead();
     if(temp!= nullptr)
     {
         while(temp!= nullptr)
         {
             int local=times(temp->getChip()->getLetter(),w);
-            int localp=times(temp->getChip()->getLetter(),this);
+            int localp=times(temp->getChip()->getLetter(),*this);
             if(localp<local)
             {
                 cout<<"No es posible armar la palabra indicada!"<<endl;
+                delete(temp);
                 return false;
             }
             temp=temp->getNext();
         }
         cout<<"Es posible armar la palabra!"<<endl;
+        delete(temp);
         return true;
 
     }
 }
 
-int WordsList::times(string l,WordsList* w) {
+int WordsList::times(string l,WordsList w) {
     int i=0;
-    NodeW* temp=w->getHead();
+    NodeW* temp=w.getHead();
     if(temp!= nullptr)
     {
         while(temp!= nullptr)
@@ -138,7 +140,20 @@ int WordsList::times(string l,WordsList* w) {
             temp=temp->getNext();
         }
     }
+    delete(temp);
     return i;
+}
+string WordsList::getWord()
+{
+    NodeW* temp= this->getHead();
+    string out="";
+    while(temp!= nullptr)
+    {
+        out+=temp->getChip()->getLetter();
+        temp=temp->getNext();
+    }
+    delete(temp);
+    return out;
 }
 
 

@@ -91,5 +91,26 @@ string JSONManager::matrixtoJSON(Matrix *m)
     string out =toJSON(convert);
     return out;
 }
+Matrix JSONManager::JSONtomatrix(string JSON)
+{
+    //{"f0":"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0","f1":"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0","f2":"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0","f3":"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0","f4":"0#0#0#0#0#c#a#s#a#0#0#0#0#0#0","f5":"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0","f6":"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0","f7":"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0","f8":"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0","f9":"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0","f10":"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0","f11":"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0","f12":"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0","f13":"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0","f14":"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0"}
+    Matrix m=Matrix();
+    m.init();
+    for(int f=0;f<15;f++)
+    {
+        string act=askFor(JSON,"f"+to_string(f));
+        vector<string> elementos;
+        boost::split(elementos, act, boost::is_any_of("#"));
+        for(int c=0;c<15;c++)
+        {
+            if(elementos[c]=="0")
+            m.get(f,c)->getChip()->setLetter(" ");
+            else
+            m.get(f,c)->getChip()->setLetter(elementos[c]);
+        }
+    }
+    m.print();
+    return m;
+}
 
 

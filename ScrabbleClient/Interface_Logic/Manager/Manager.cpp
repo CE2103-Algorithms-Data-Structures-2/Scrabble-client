@@ -17,7 +17,9 @@ using boost::property_tree::ptree;
 Manager::Manager()
 {
     code=new string("");
-    assigned=new bool(false);
+    matrix=new Matrix();
+    assigned=false;
+    playing=new bool(true);
     cliente=new Client();
     running=new bool(true);
     Jmanager=new JSONManager();
@@ -31,6 +33,7 @@ Manager::Manager()
 void Manager::Init()
 {
     cliente->run();
+    matrix->init();
 
 }
 void Manager::play()
@@ -39,12 +42,41 @@ void Manager::play()
     ask("ready");
     ask("getSequence");
     ask("seven");
+    while(playing)
+    {
+        cliente->sendMessage("myTurn");
+        string incoming=cliente->receiveMessage();
+        if(incoming.compare("true")==0)
+        {
+            Matrix temp= *matrix;
+            writeToMatrix();
+            incoming=cliente->receiveMessage();
+            if(incoming.compare("false")==0)
+            {
+                *matrix=temp;
+            }
+            matrix->print();
+        }
+        cliente->sendMessage("update");
+        incoming=cliente->receiveMessage();
+        if(incoming.compare("true")==0)
+        {
+            cliente->sendMessage("newMat");
+            incoming=cliente->receiveMessage();
+            Matrix m=Jmanager->JSONtomatrix(incoming);
+            *matrix=m;
+            cout<<"Matriz recibida del servidor: \n"<<endl;
+            matrix->print();
+        }
+        usleep(5000000);
+    }
+
 }
 void Manager::setCode(string s) {
-    if(!*assigned)
+    if(!assigned)
     {
         *code=s;
-        *assigned=true;
+        assigned=true;
         cout<<"Assigned code: "<<*code<<endl;
     }
 
@@ -232,6 +264,43 @@ void Manager::ask(string p) {
         localP= players->get(stoi(incomming));
         localP->print();
 
+    }
+    else if(p.compare("myTurn")==0)
+    {
+
+    }
+}
+
+void Manager::writeToMatrix()
+{
+    cout<<"Mano del jugador: "<<endl;
+    localP->getChips()->print();
+    WordsList w = WordsList();
+    string storage = "";
+    string fila = "";
+    string columna = "";
+    string dir="";
+    cout << "Ingrese una palabra: ";
+    getline(cin, storage);
+    for (int i = 0; i < storage.size(); i++) {
+        Chip *c = new Chip();
+        char s = storage[i];
+        std::string u = "";
+        u += s;
+        c->setLetter(u);
+        w.add(c);
+    }
+    if(localP->getChips()->writeAble(w))
+    {
+        cout << "Fila: " << endl;
+        getline(cin, fila);
+        cout << "Columna: " << endl;
+        getline(cin, columna);
+        cout<<"Direccion: "<<endl;
+        getline(cin,dir);
+        matrix->addWord(stoi(fila),stoi(columna),dir,w);
+        string JSON=Jmanager->matrixtoJSON(matrix);
+        cliente->sendMessage(JSON);
     }
 }
 

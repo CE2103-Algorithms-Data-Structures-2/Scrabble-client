@@ -14,13 +14,15 @@
 
 class Manager{
 private:
-    bool* assigned;
+    bool assigned;
     string* code;
     Client* cliente;
+    Matrix* matrix;
     JSONManager* Jmanager;
     NewGame_LW* NewG_LW;
     JoinGame_LW* JoinG_LW;
     bool* running;
+    bool* playing;
 public:
     /**
      * Constructor de la clase manager.
@@ -51,6 +53,10 @@ public:
      * Metodo para unirse a una nueva partida.
      */
     void newJoin(string name,string code);
+    /**
+     * Metodo para verificar si una palabra se puede escribir en la matriz y escribirla
+     */
+    void writeToMatrix();
     static Player* localP;
     static PlayerList* players;
 

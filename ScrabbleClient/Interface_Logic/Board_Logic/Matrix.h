@@ -33,7 +33,7 @@ class Matrix {
          * @param dir Dirección de tipo string.
          * @param list Puntero de tipo WordsList.
          */
-        void addWord(int f,int c,string dir,WordsList* list );
+        void addWord(int f,int c,string dir,WordsList list );
         /**
          * Metodo para obtener la casilla en el punto especificado.
          * @param f Fila de tipo entero.

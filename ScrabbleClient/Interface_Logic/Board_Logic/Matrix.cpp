@@ -44,12 +44,12 @@ void Matrix::print()
     cout<<""<<endl;
 }
 
-void Matrix::addWord(int f, int c, string dir,WordsList* l)
+void Matrix::addWord(int f, int c, string dir,WordsList l)
 {
     if(dir.compare("D")==0)
     {
        Box* temp=this->get(f,c);
-       NodeW* templ= l->getHead();
+       NodeW* templ= l.getHead();
        while(true)
        {
            if(f==15||c<0||templ== nullptr)
@@ -69,7 +69,7 @@ void Matrix::addWord(int f, int c, string dir,WordsList* l)
     else if(dir.compare("R")==0)
     {
         Box* temp=this->get(f,c);
-        NodeW* templ= l->getHead();
+        NodeW* templ= l.getHead();
         while(true)
         {
             if(c==15||c<0||templ== nullptr)

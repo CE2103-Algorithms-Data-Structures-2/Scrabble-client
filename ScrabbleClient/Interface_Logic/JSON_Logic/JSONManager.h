@@ -49,6 +49,12 @@ class JSONManager {
          * @return Matriz en formato JSON.
          */
         string matrixtoJSON(Matrix* m);
+        /**
+         * Metodo para convertir un JSON a una matriz.
+         * @param JSON String que representa una matriz en formato JSON.
+         * @return Objeto de tipo Matriz.
+         */
+        Matrix JSONtomatrix(string JSON);
 
 };
 
