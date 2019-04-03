@@ -85,7 +85,7 @@ void Client::sendMessage(string message)
     {
         cout<<"Couldn't send the message: "<<message<<endl;
     }
-    cout<<"Mensaje enviado: "<<sendMes<<endl;
+    cout<<"Mensaje enviado: "<<message<<endl;
 }
 void Client::run()
 {
