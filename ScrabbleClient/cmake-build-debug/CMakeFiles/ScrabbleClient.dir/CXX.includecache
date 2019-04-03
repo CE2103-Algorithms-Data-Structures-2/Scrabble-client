@@ -129,6 +129,8 @@ QMainWindow
 -
 Interface_Logic/Manager/Manager.h
 -
+QtWidgets/QLabel
+-
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 qvariant.h
@@ -1204,6 +1206,10 @@ qframe.h
 qgridlayout.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox
+qgroupbox.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgroupbox.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
 qboxlayout.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
@@ -1348,6 +1354,10 @@ QtWidgets/qlayout.h
 QtWidgets/qwidget.h
 -
 limits.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgroupbox.h
+QtWidgets/qframe.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qheaderview.h
@@ -1514,6 +1524,8 @@ QtWidgets/QComboBox
 QtWidgets/QFrame
 -
 QtWidgets/QGridLayout
+-
+QtWidgets/QGroupBox
 -
 QtWidgets/QHBoxLayout
 -

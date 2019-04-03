@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <Interface_Logic/Manager/Manager.h>
+#include <QtWidgets/QLabel>
 
 namespace Ui {
 class MainWindow;
@@ -12,9 +13,13 @@ class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
+    QLabel* board_array[15][15];
+    QLabel* fichas_array[7];
+
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
+    void setUp();
     static Manager* Wmanager;
 
 private slots:
@@ -33,6 +38,8 @@ private slots:
     void on_pushButton_clicked();
 
     void on_lineEdit_4_returnPressed();
+
+    void on_pushButton_2_clicked();
 
 private:
     Ui::MainWindow *ui;
