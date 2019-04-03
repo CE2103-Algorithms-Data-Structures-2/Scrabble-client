@@ -205,6 +205,12 @@
 		<Unit filename="/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/PlayerList.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/SearchList.cpp">
+			<Option target="ScrabbleClient"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/SearchList.h">
+			<Option target="ScrabbleClient"/>
+		</Unit>
 		<Unit filename="/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>

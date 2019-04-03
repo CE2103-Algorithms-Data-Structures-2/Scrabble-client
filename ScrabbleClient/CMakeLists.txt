@@ -56,7 +56,7 @@ add_executable(ScrabbleClient
         Structures/WordsList.cpp
         mainwindow.h
         mainwindow.cpp
-        mainwindow.ui)
+        mainwindow.ui Structures/SearchList.cpp Structures/SearchList.h)
 
 target_link_libraries(ScrabbleClient Threads::Threads)
 target_link_libraries(${PROJECT_NAME} Qt5::Widgets)

@@ -15,7 +15,12 @@ using namespace std;
 class WordsList {
 private:
     NodeW* head;
+    string word;
     int length;
+    int Finicial;
+    int Ffinal;
+    int Cinicial;
+    int Cfinal;
     WordsList* next;
 public:
     /**
@@ -72,6 +77,29 @@ public:
      * @return Palabra de tipo string.
      */
     string getWord();
+    /**
+     * Metodo para eliminar un juego de letras de la lista de letras.
+     * @param w Lista de letras.
+     */
+    void removeSetOfLetters(WordsList w);
+    /**
+     * Metodo para establecer el inicio de la lista en la matriz
+     * @param f Fila inicial.
+     * @param c Columna inicial.
+     */
+    void setInicio(int f,int c);
+    /**
+     * Metodo para establecer el final de la lista en la matriz
+     * @param f Fila final.
+     * @param c Columna final.
+     */
+    void setFinal(int f,int c);
+    void setWord(string w);
+    int getFinicial();
+    int getFfinal();
+    int getCinicial();
+    int getCfinal();
+
 
 };
 

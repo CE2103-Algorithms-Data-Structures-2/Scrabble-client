@@ -12,12 +12,16 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Chip.cpp.o
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Chip.cpp
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o
+ ..//Structures/SearchList.h
+ ../Interface_Logic/Board_Logic/Chip.h
+ ../Interface_Logic/Board_Logic/Matrix.h
+ ../Structures/NodeW.h
+ ../Structures/WordsList.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.cpp
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/BoxList.h
- /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeW.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
@@ -484,6 +488,15 @@ CMakeFiles/ScrabbleClient.dir/Structures/PlayerList.cpp.o
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeW.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/PlayerList.cpp
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/PlayerList.h
+ /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.h
+CMakeFiles/ScrabbleClient.dir/Structures/SearchList.cpp.o
+ /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
+ /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
+ /home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
+ /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/BoxList.h
+ /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeW.h
+ /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/SearchList.cpp
+ /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/SearchList.h
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o
  /home/dcamachog1501/Desktop/CL/ScrabbleClient/Client/Client.h

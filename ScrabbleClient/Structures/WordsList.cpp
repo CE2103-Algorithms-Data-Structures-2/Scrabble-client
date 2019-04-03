@@ -7,9 +7,14 @@
 
 WordsList::WordsList()
 {
+    this->word="";
     this->head=nullptr;
     this->length=0;
     this->next= nullptr;
+    this->Finicial=0;
+    this->Ffinal=0;
+    this->Cinicial=0;
+    this->Cfinal=0;
 }
 int WordsList::getLength()
 {
@@ -32,6 +37,7 @@ void WordsList::add(Chip* c)
         temp = nullptr;
         delete (temp);
     }
+    length++;
 }
 void WordsList::del(string s)
 {
@@ -156,6 +162,46 @@ string WordsList::getWord()
     }
     delete(temp);
     return out;
+}
+void WordsList::removeSetOfLetters(WordsList w)
+{
+    NodeW* temp=w.getHead();
+    while(temp!= nullptr)
+    {
+        this->del(temp->getChip()->getLetter());
+        temp=temp->getNext();
+    }
+}
+void WordsList::setInicio(int f,int c)
+{
+    this->Finicial=f;
+    this->Cinicial=c;
+}
+void WordsList::setFinal(int f,int c)
+{
+    this->Ffinal=f;
+    this->Cfinal=c;
+}
+
+int WordsList::getFinicial() {
+    return this->Finicial;
+}
+
+int WordsList::getFfinal() {
+    return this->Ffinal;
+}
+
+int WordsList::getCinicial() {
+    return this->Cinicial;
+}
+
+int WordsList::getCfinal() {
+    return this->Cfinal;
+}
+
+void WordsList::setWord(string w)
+{
+    this->word=w;
 }
 
 

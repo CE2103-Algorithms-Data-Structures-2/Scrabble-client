@@ -322,6 +322,13 @@ void Manager::writeToMatrix()
             matrix->addWord(stoi(fila), stoi(columna), dir, w);
             string JSON = Jmanager->matrixtoJSON(matrix);
             cliente->sendMessage(JSON);
+            string incomming=cliente->receiveMessage();
+            if(incomming.compare("send")==0)
+            {
+                string entry="Fini@"+ to_string(w.getFinicial())+"$"+"Cini@"+to_string(w.getCinicial())+"$"+"Ffin@"+to_string(w.getFfinal())+"$"+"Cfin@"+to_string(w.getCfinal());
+                string JSON=Jmanager->toJSON(entry);
+            }
+
             break;
         }
     }

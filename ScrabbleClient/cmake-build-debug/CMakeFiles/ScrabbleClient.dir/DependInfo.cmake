@@ -20,6 +20,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeP.cpp" "/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Structures/NodeP.cpp.o"
   "/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeW.cpp" "/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Structures/NodeW.cpp.o"
   "/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/PlayerList.cpp" "/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Structures/PlayerList.cpp.o"
+  "/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/SearchList.cpp" "/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Structures/SearchList.cpp.o"
   "/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.cpp" "/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o"
   "/home/dcamachog1501/Desktop/CL/ScrabbleClient/mainwindow.cpp" "/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o"
   )

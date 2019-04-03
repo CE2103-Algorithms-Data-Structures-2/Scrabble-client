@@ -46,10 +46,15 @@ class Matrix {
          * @return Puntero de tipo BoxList.
          */
         BoxList* getHead();
-
-
-
-
+        void search(int filaIn,int columIn,int filaFin,int columnFin);
+        bool hasUp(int f,int c);
+        bool hasLeft(int f,int c);
+        bool hasDown(int f,int c);
+        bool hasRight(int f,int c);
+        WordsList* getUptoDown(int f,int c);
+        WordsList* gettoDown(int f,int c);
+        WordsList* getLefttoRight(int f, int c);
+        WordsList *gettoRight(int f, int c);
 };
 
 

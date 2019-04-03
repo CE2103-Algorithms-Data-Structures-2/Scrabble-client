@@ -568,6 +568,33 @@ Structures/PlayerList.cpp.s:
 	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Structures/PlayerList.cpp.s
 .PHONY : Structures/PlayerList.cpp.s
 
+Structures/SearchList.o: Structures/SearchList.cpp.o
+
+.PHONY : Structures/SearchList.o
+
+# target to build an object file
+Structures/SearchList.cpp.o:
+	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Structures/SearchList.cpp.o
+.PHONY : Structures/SearchList.cpp.o
+
+Structures/SearchList.i: Structures/SearchList.cpp.i
+
+.PHONY : Structures/SearchList.i
+
+# target to preprocess a source file
+Structures/SearchList.cpp.i:
+	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Structures/SearchList.cpp.i
+.PHONY : Structures/SearchList.cpp.i
+
+Structures/SearchList.s: Structures/SearchList.cpp.s
+
+.PHONY : Structures/SearchList.s
+
+# target to generate assembly for a file
+Structures/SearchList.cpp.s:
+	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Structures/SearchList.cpp.s
+.PHONY : Structures/SearchList.cpp.s
+
 Structures/WordsList.o: Structures/WordsList.cpp.o
 
 .PHONY : Structures/WordsList.o
@@ -680,6 +707,9 @@ help:
 	@echo "... Structures/PlayerList.o"
 	@echo "... Structures/PlayerList.i"
 	@echo "... Structures/PlayerList.s"
+	@echo "... Structures/SearchList.o"
+	@echo "... Structures/SearchList.i"
+	@echo "... Structures/SearchList.s"
 	@echo "... Structures/WordsList.o"
 	@echo "... Structures/WordsList.i"
 	@echo "... Structures/WordsList.s"
