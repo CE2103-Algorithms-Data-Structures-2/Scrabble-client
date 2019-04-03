@@ -118,6 +118,7 @@ bool WordsList::writeAble(WordsList w)
                 return false;
             }
             temp=temp->getNext();
+            cout<<"ciclo writeable"<<endl;
         }
         cout<<"Es posible armar la palabra!"<<endl;
         delete(temp);
@@ -138,6 +139,7 @@ int WordsList::times(string l,WordsList w) {
                 i++;
             }
             temp=temp->getNext();
+            cout<<"ciclo times"<<endl;
         }
     }
     delete(temp);
