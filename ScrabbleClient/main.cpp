@@ -1,10 +1,10 @@
 #include "mainwindow.h"
 #include <QApplication>
 #include <iostream>
-#include "../Client/Client.h"
-#include "../Interface_Logic/Manager/Manager.h"
-#include "../Interface_Logic/JSON_Logic/JSONManager.h"
-#include "../Interface_Logic/Board_Logic/Matrix.h"
+#include "Client/Client.h"
+#include "Interface_Logic/Manager/Manager.h"
+#include "Interface_Logic/JSON_Logic/JSONManager.h"
+#include "Interface_Logic/Board_Logic/Matrix.h"
 
 
 PlayerList* Manager::players= new PlayerList();

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/kugelblitz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/kugelblitz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient
+CMAKE_SOURCE_DIR = /home/david/Documents/Scrabble-client/ScrabbleClient
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug
+CMAKE_BINARY_DIR = /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/cma
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/kugelblitz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/kugelblitz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -163,33 +163,6 @@ Client/Client.cpp.s:
 	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Client/Client.cpp.s
 .PHONY : Client/Client.cpp.s
 
-Gui_Logic/CasillaGrafica.o: Gui_Logic/CasillaGrafica.cpp.o
-
-.PHONY : Gui_Logic/CasillaGrafica.o
-
-# target to build an object file
-Gui_Logic/CasillaGrafica.cpp.o:
-	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Gui_Logic/CasillaGrafica.cpp.o
-.PHONY : Gui_Logic/CasillaGrafica.cpp.o
-
-Gui_Logic/CasillaGrafica.i: Gui_Logic/CasillaGrafica.cpp.i
-
-.PHONY : Gui_Logic/CasillaGrafica.i
-
-# target to preprocess a source file
-Gui_Logic/CasillaGrafica.cpp.i:
-	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Gui_Logic/CasillaGrafica.cpp.i
-.PHONY : Gui_Logic/CasillaGrafica.cpp.i
-
-Gui_Logic/CasillaGrafica.s: Gui_Logic/CasillaGrafica.cpp.s
-
-.PHONY : Gui_Logic/CasillaGrafica.s
-
-# target to generate assembly for a file
-Gui_Logic/CasillaGrafica.cpp.s:
-	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Gui_Logic/CasillaGrafica.cpp.s
-.PHONY : Gui_Logic/CasillaGrafica.cpp.s
-
 Interface_Logic/Board_Logic/Box.o: Interface_Logic/Board_Logic/Box.cpp.o
 
 .PHONY : Interface_Logic/Board_Logic/Box.o
@@ -217,6 +190,33 @@ Interface_Logic/Board_Logic/Box.cpp.s:
 	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Box.cpp.s
 .PHONY : Interface_Logic/Board_Logic/Box.cpp.s
 
+Interface_Logic/Board_Logic/CasillaGrafica.o: Interface_Logic/Board_Logic/CasillaGrafica.cpp.o
+
+.PHONY : Interface_Logic/Board_Logic/CasillaGrafica.o
+
+# target to build an object file
+Interface_Logic/Board_Logic/CasillaGrafica.cpp.o:
+	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/CasillaGrafica.cpp.o
+.PHONY : Interface_Logic/Board_Logic/CasillaGrafica.cpp.o
+
+Interface_Logic/Board_Logic/CasillaGrafica.i: Interface_Logic/Board_Logic/CasillaGrafica.cpp.i
+
+.PHONY : Interface_Logic/Board_Logic/CasillaGrafica.i
+
+# target to preprocess a source file
+Interface_Logic/Board_Logic/CasillaGrafica.cpp.i:
+	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/CasillaGrafica.cpp.i
+.PHONY : Interface_Logic/Board_Logic/CasillaGrafica.cpp.i
+
+Interface_Logic/Board_Logic/CasillaGrafica.s: Interface_Logic/Board_Logic/CasillaGrafica.cpp.s
+
+.PHONY : Interface_Logic/Board_Logic/CasillaGrafica.s
+
+# target to generate assembly for a file
+Interface_Logic/Board_Logic/CasillaGrafica.cpp.s:
+	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/CasillaGrafica.cpp.s
+.PHONY : Interface_Logic/Board_Logic/CasillaGrafica.cpp.s
+
 Interface_Logic/Board_Logic/Chip.o: Interface_Logic/Board_Logic/Chip.cpp.o
 
 .PHONY : Interface_Logic/Board_Logic/Chip.o
@@ -243,6 +243,33 @@ Interface_Logic/Board_Logic/Chip.s: Interface_Logic/Board_Logic/Chip.cpp.s
 Interface_Logic/Board_Logic/Chip.cpp.s:
 	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Chip.cpp.s
 .PHONY : Interface_Logic/Board_Logic/Chip.cpp.s
+
+Interface_Logic/Board_Logic/FichaGrafica.o: Interface_Logic/Board_Logic/FichaGrafica.cpp.o
+
+.PHONY : Interface_Logic/Board_Logic/FichaGrafica.o
+
+# target to build an object file
+Interface_Logic/Board_Logic/FichaGrafica.cpp.o:
+	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/FichaGrafica.cpp.o
+.PHONY : Interface_Logic/Board_Logic/FichaGrafica.cpp.o
+
+Interface_Logic/Board_Logic/FichaGrafica.i: Interface_Logic/Board_Logic/FichaGrafica.cpp.i
+
+.PHONY : Interface_Logic/Board_Logic/FichaGrafica.i
+
+# target to preprocess a source file
+Interface_Logic/Board_Logic/FichaGrafica.cpp.i:
+	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/FichaGrafica.cpp.i
+.PHONY : Interface_Logic/Board_Logic/FichaGrafica.cpp.i
+
+Interface_Logic/Board_Logic/FichaGrafica.s: Interface_Logic/Board_Logic/FichaGrafica.cpp.s
+
+.PHONY : Interface_Logic/Board_Logic/FichaGrafica.s
+
+# target to generate assembly for a file
+Interface_Logic/Board_Logic/FichaGrafica.cpp.s:
+	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/FichaGrafica.cpp.s
+.PHONY : Interface_Logic/Board_Logic/FichaGrafica.cpp.s
 
 Interface_Logic/Board_Logic/Matrix.o: Interface_Logic/Board_Logic/Matrix.cpp.o
 
@@ -433,33 +460,6 @@ Interface_Logic/Player/Player.cpp.s:
 	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Interface_Logic/Player/Player.cpp.s
 .PHONY : Interface_Logic/Player/Player.cpp.s
 
-Main/main.o: Main/main.cpp.o
-
-.PHONY : Main/main.o
-
-# target to build an object file
-Main/main.cpp.o:
-	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Main/main.cpp.o
-.PHONY : Main/main.cpp.o
-
-Main/main.i: Main/main.cpp.i
-
-.PHONY : Main/main.i
-
-# target to preprocess a source file
-Main/main.cpp.i:
-	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Main/main.cpp.i
-.PHONY : Main/main.cpp.i
-
-Main/main.s: Main/main.cpp.s
-
-.PHONY : Main/main.s
-
-# target to generate assembly for a file
-Main/main.cpp.s:
-	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Main/main.cpp.s
-.PHONY : Main/main.cpp.s
-
 ScrabbleClient_autogen/mocs_compilation.o: ScrabbleClient_autogen/mocs_compilation.cpp.o
 
 .PHONY : ScrabbleClient_autogen/mocs_compilation.o
@@ -622,6 +622,33 @@ Structures/WordsList.cpp.s:
 	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.s
 .PHONY : Structures/WordsList.cpp.s
 
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 mainwindow.o: mainwindow.cpp.o
 
 .PHONY : mainwindow.o
@@ -662,15 +689,18 @@ help:
 	@echo "... Client/Client.o"
 	@echo "... Client/Client.i"
 	@echo "... Client/Client.s"
-	@echo "... Gui_Logic/CasillaGrafica.o"
-	@echo "... Gui_Logic/CasillaGrafica.i"
-	@echo "... Gui_Logic/CasillaGrafica.s"
 	@echo "... Interface_Logic/Board_Logic/Box.o"
 	@echo "... Interface_Logic/Board_Logic/Box.i"
 	@echo "... Interface_Logic/Board_Logic/Box.s"
+	@echo "... Interface_Logic/Board_Logic/CasillaGrafica.o"
+	@echo "... Interface_Logic/Board_Logic/CasillaGrafica.i"
+	@echo "... Interface_Logic/Board_Logic/CasillaGrafica.s"
 	@echo "... Interface_Logic/Board_Logic/Chip.o"
 	@echo "... Interface_Logic/Board_Logic/Chip.i"
 	@echo "... Interface_Logic/Board_Logic/Chip.s"
+	@echo "... Interface_Logic/Board_Logic/FichaGrafica.o"
+	@echo "... Interface_Logic/Board_Logic/FichaGrafica.i"
+	@echo "... Interface_Logic/Board_Logic/FichaGrafica.s"
 	@echo "... Interface_Logic/Board_Logic/Matrix.o"
 	@echo "... Interface_Logic/Board_Logic/Matrix.i"
 	@echo "... Interface_Logic/Board_Logic/Matrix.s"
@@ -692,9 +722,6 @@ help:
 	@echo "... Interface_Logic/Player/Player.o"
 	@echo "... Interface_Logic/Player/Player.i"
 	@echo "... Interface_Logic/Player/Player.s"
-	@echo "... Main/main.o"
-	@echo "... Main/main.i"
-	@echo "... Main/main.s"
 	@echo "... ScrabbleClient_autogen/mocs_compilation.o"
 	@echo "... ScrabbleClient_autogen/mocs_compilation.i"
 	@echo "... ScrabbleClient_autogen/mocs_compilation.s"
@@ -713,6 +740,9 @@ help:
 	@echo "... Structures/WordsList.o"
 	@echo "... Structures/WordsList.i"
 	@echo "... Structures/WordsList.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"

@@ -5,6 +5,7 @@
 
 #define LOG(x) std::cout << x << std::endl;
 using namespace std;
+
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
@@ -21,38 +22,21 @@ MainWindow::~MainWindow()
 
 void MainWindow::setUp() {
 
-    // New GridLayout for Button Array
     QGridLayout *LabelLayout = ui->stackedWidget->widget(4)->findChild<QGridLayout *>("gridLayout_3");
     LabelLayout->setSpacing(0);
     LabelLayout->setMargin(0);
 
-
-    // Create 20x20 Buttons in Grid
-    for (int i = 0; i < 15; i++) {
-        for (int j = 0; j < 15; j++) {
-
-            QLabel *label = new QLabel("");
-
-            // Next line will be used to help find the Path later
-            board_array[i][j] = label;
-
-            LabelLayout->addWidget(label, i, j, 1, 1);
-        }
-    }
-
-
     int num_board = 1;
     for (int i = 0; i < 15; i++) {
         for (int j = 0; j < 15; j++) {
-            std::string file = "/home/kugelblitz/Documents/QtGameTest/AssetsScrabble/TilesBoard/board_";
-            std::stringstream sstm;
-            sstm << file << num_board << ".png";
-            file = sstm.str();
+            Box casilla = Box(j, i);
+            Perks nada = nada;
+            CasillaGrafica* casillaGrafica = new CasillaGrafica(casilla, num_board, nada);
+            board_array[i][j] = casillaGrafica;
 
-            QPixmap pix(file.c_str());
-            board_array[i][j]->setPixmap(pix);
+            LabelLayout->addWidget(casillaGrafica->getLabel(), i, j, 1, 1);
+
             num_board++;
-
         }
     }
 
@@ -60,27 +44,28 @@ void MainWindow::setUp() {
     LabelLayout->setSpacing(0);
     LabelLayout->setMargin(0);
 
-
     for (int i = 0; i < 7; i++) {
         QLabel *label = new QLabel("");
         fichas_array[i] = label;
 
         fichasLayout->addWidget(label);
 
+        // TODO generar fichas según las dadas por el servidor
+        
         char letra = 'A';
-        std::string file = "/home/kugelblitz/Documents/QtGameTest/AssetsScrabble/LetrasScrabble/";
+        std::string file = "../AssetsScrabble/LetrasScrabble/";
         std::stringstream sstm;
         sstm << file << letra << ".gif";
         file = sstm.str();
         std::cout <<file << std::endl;
         QPixmap pix(file.c_str());
-        fichas_array[i]->setPixmap(pix);
-
-
-
+        fichas_array[i]->setPixmap(pix.scaled(80, 80, Qt::KeepAspectRatio));
     }
 }
 
+void MainWindow::actualizarFichas() {
+    // Tomar fichas que da el servidor y volver a llenar layout
+}
 
 
 void MainWindow::on_pushButton_9_clicked()
@@ -165,4 +150,19 @@ void MainWindow::on_pushButton_2_clicked()
         // Poner label de error
 
         ui->stackedWidget->setCurrentIndex(4);
+}
+
+void MainWindow::on_pushButton_5_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(0);
+}
+
+void MainWindow::on_pushButton_8_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(0);
+}
+
+void MainWindow::on_pushButton_12_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(0);
 }

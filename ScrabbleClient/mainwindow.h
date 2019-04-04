@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <Interface_Logic/Manager/Manager.h>
 #include <QtWidgets/QLabel>
+#include "../Interface_Logic/Board_Logic/CasillaGrafica.h"
 
 namespace Ui {
 class MainWindow;
@@ -13,13 +14,14 @@ class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
-    QLabel* board_array[15][15];
+    CasillaGrafica* board_array[15][15];
     QLabel* fichas_array[7];
 
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
     void setUp();
+    void actualizarFichas();
     static Manager* Wmanager;
 
 private slots:
@@ -40,6 +42,12 @@ private slots:
     void on_lineEdit_4_returnPressed();
 
     void on_pushButton_2_clicked();
+
+    void on_pushButton_5_clicked();
+
+    void on_pushButton_8_clicked();
+
+    void on_pushButton_12_clicked();
 
 private:
     Ui::MainWindow *ui;

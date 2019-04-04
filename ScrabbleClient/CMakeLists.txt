@@ -43,7 +43,7 @@ add_executable(ScrabbleClient
         Interface_Logic/Manager/Manager.cpp
         Interface_Logic/Player/Player.h
         Interface_Logic/Player/Player.cpp
-        Main/main.cpp
+        main.cpp
         Structures/BoxList.h
         Structures/BoxList.cpp
         Structures/NodeP.h
@@ -56,7 +56,7 @@ add_executable(ScrabbleClient
         Structures/WordsList.cpp
         mainwindow.h
         mainwindow.cpp
-        mainwindow.ui Gui_Logic/CasillaGrafica.cpp Gui_Logic/CasillaGrafica.h)
+        mainwindow.ui Interface_Logic/Board_Logic/CasillaGrafica.cpp Interface_Logic/Board_Logic/CasillaGrafica.h Interface_Logic/Board_Logic/FichaGrafica.cpp Interface_Logic/Board_Logic/FichaGrafica.h Interface_Logic/Board_Logic/Bonus.h)
 
 target_link_libraries(ScrabbleClient Threads::Threads)
 target_link_libraries(${PROJECT_NAME} Qt5::Widgets)

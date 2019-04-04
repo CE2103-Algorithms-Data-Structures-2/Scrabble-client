@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/kugelblitz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/kugelblitz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient
+CMAKE_SOURCE_DIR = /home/david/Documents/Scrabble-client/ScrabbleClient
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug
+CMAKE_BINARY_DIR = /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug
 
 # Utility rule file for ScrabbleClient_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/cma
 include CMakeFiles/ScrabbleClient_autogen.dir/progress.make
 
 CMakeFiles/ScrabbleClient_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ScrabbleClient"
-	/home/kugelblitz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E cmake_autogen /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient_autogen.dir/AutogenInfo.cmake Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ScrabbleClient"
+	/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E cmake_autogen /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient_autogen.dir/AutogenInfo.cmake Debug
 
 ScrabbleClient_autogen: CMakeFiles/ScrabbleClient_autogen
 ScrabbleClient_autogen: CMakeFiles/ScrabbleClient_autogen.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/ScrabbleClient_autogen.dir/clean:
 .PHONY : CMakeFiles/ScrabbleClient_autogen.dir/clean
 
 CMakeFiles/ScrabbleClient_autogen.dir/depend:
-	cd /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug /home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/david/Documents/Scrabble-client/ScrabbleClient /home/david/Documents/Scrabble-client/ScrabbleClient /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ScrabbleClient_autogen.dir/depend
 
