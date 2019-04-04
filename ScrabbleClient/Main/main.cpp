@@ -2,6 +2,8 @@
 #include <QApplication>
 #include <iostream>
 #include "../Client/Client.h"
+#include <boost/property_tree/ptree.hpp>
+#include <boost/property_tree/json_parser.hpp>
 #include "../Interface_Logic/Manager/Manager.h"
 #include "../Interface_Logic/JSON_Logic/JSONManager.h"
 #include "../Interface_Logic/Board_Logic/Matrix.h"
@@ -9,16 +11,20 @@
 
 PlayerList* Manager::players= new PlayerList();
 Player* Manager:: localP=new Player();
-/*Manager* MainWindow::Wmanager=new Manager();*/
+//Manager* MainWindow::Wmanager=new Manager();
+JSONManager* Manager::Jmanager=new JSONManager();
 
 #define getName(var)  #var
+using boost::property_tree::ptree;
 
 int main(int argc, char *argv[]) {
-
-   /* QApplication a(argc, argv);
+    /*Matrix* m= new Matrix();
+    m->init();
+    m->setSpecial();
+    QApplication a(argc, argv);
     MainWindow w;
-    w.show();*/
-
+    w.show();
+*/
 
     /*Matrix *m = new Matrix();
     m->init();
@@ -78,13 +84,12 @@ int main(int argc, char *argv[]) {
 
     JSONManager* jsonManager= new JSONManager();
     Matrix* m= new Matrix();
-    *m=jsonManager->JSONtomatrix("{\"f0\":\"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0\",\"f1\":\"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0\",\"f2\":\"0#0#0#0#0#c#a#s#a#0#0#0#0#0#0\",\"f3\":\"0#0#0#0#c#a#r#a#0#0#0#0#0#0#0\",\"f4\":\"0#0#0#0#0#r#o#p#a#0#0#0#0#0#0\",\"f5\":\"0#0#0#0#0#r#0#o#0#0#0#0#0#0#0\",\"f6\":\"0#0#0#0#0#o#0#0#0#0#0#0#0#0#0\",\"f7\":\"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0\",\"f8\":\"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0\",\"f9\":\"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0\",\"f10\":\"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0\",\"f11\":\"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0\",\"f12\":\"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0\",\"f13\":\"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0\",\"f14\":\"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0\"}");
-    m->search(2,5,6,5);
-    char c= 'Avion';
-    string s;
-    s.append(1,c);
-    cout<<s<<endl;
-
+    m->init();
+    *m=jsonManager->JSONtomatrix("{\"f0\":\"0#0#c#a#r#e#p#i#c#h#a#0#0#0#0\",\"f1\":\"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0\",\"f2\":\"0#0#0#0#0#c#a#s#a#0#0#0#0#0#0\",\"f3\":\"0#0#0#0#c#a#r#a#0#0#0#0#0#0#0\",\"f4\":\"0#0#0#0#0#r#o#p#a#0#0#0#0#0#0\",\"f5\":\"0#0#0#0#0#r#0#o#0#0#0#0#0#0#0\",\"f6\":\"0#0#0#0#0#o#0#0#0#0#0#0#0#0#0\",\"f7\":\"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0\",\"f8\":\"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0\",\"f9\":\"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0\",\"f10\":\"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0\",\"f11\":\"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0\",\"f12\":\"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0\",\"f13\":\"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0\",\"f14\":\"0#0#0#0#0#0#0#0#0#0#0#0#0#0#0\"}");
+    m->assignLetters();
+    m->setSpecial();
+    SearchList* s=m->search(0,2,0,10);
+    s->printPoints();
     return 0;
 }
 

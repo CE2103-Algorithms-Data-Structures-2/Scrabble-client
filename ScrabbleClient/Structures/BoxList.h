@@ -64,7 +64,9 @@ class BoxList {
          * @return Puntero de tipo Box.
          */
         Box* getHead();
-
+        void add_Box(Box b);
+        bool in(int f,int c);
+        Box* get(int f,int c);
 };
 
 

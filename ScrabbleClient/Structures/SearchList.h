@@ -7,6 +7,7 @@
 
 
 #include "WordsList.h"
+class WordsList;
 
 class SearchList
 {
@@ -16,11 +17,12 @@ class SearchList
     public:
         SearchList();
         WordsList* getHead();
-        int getlenth();
+        int getlength();
         void add(WordsList* w);
         void del(WordsList* w);
         void purge();
         void print();
+        void printPoints();
         int times(int fi,int ci,int ff,int cf);
 };
 

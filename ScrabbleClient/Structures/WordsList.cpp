@@ -204,4 +204,24 @@ void WordsList::setWord(string w)
     this->word=w;
 }
 
+void WordsList::multiplyBy(int i)
+{
+    NodeW* temp=head;
+    while(temp!= nullptr)
+    {
+        temp->getChip()->setPoints(temp->getChip()->getPoints()*i);
+        temp=temp->getNext();
+    }
+}
+int WordsList::getPoints() {
+    int i=0;
+    NodeW* temp=this->head;
+    while(temp!= nullptr)
+    {
+        i+=temp->getChip()->getPoints();
+        temp=temp->getNext();
+    }
+    return i;
+}
+
 

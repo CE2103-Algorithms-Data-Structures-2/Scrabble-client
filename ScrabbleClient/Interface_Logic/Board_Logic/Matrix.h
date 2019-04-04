@@ -6,20 +6,24 @@
 #define PROYECTO_1_CLIENT_MATRIX_H
 
 
+#include <Structures/SearchList.h>
 #include "../../Structures/WordsList.h"
 #include "../../Structures/BoxList.h"
+#include "../../Structures/SearchList.h"
+class SearchList;
 class WordsList;
 class Matrix {
     private:
         BoxList* head;
+        string letters="{\"a\":\"1\",\"b\":\"3\",\"c\":\"3\",\"d\":\"2\",\"e\":\"1\",\"f\":\"4\",\"g\":\"2\",\"h\":\"4\",\"i\":\"1\",\"j\":\"8\",\"l\":\"1\",\"m\":\"3\",\"n\":\"1\",\"o\":\"1\",\"p\":\"3\",\"q\":\"5\",\"r\":\"1\",\"s\":\"1\",\"t\":\"1\",\"u\":\"1\",\"v\":\"4\",\"x\":\"8\",\"y\":\"4\",\"z\":\"10\",\"ch\":\"5\",\"ll\":\"8\",\"ñ\":\"8\",\"rr\":\"8\"}";
 
-    public:
+public:
         /**
          * Constructor de la clase Matrix.
          */
         Matrix();
         /**
-         * Método par ainicializar la matríz en ceros.
+         * Método para inicializar la matríz en ceros.
          */
         void init();
         /**
@@ -46,7 +50,7 @@ class Matrix {
          * @return Puntero de tipo BoxList.
          */
         BoxList* getHead();
-        void search(int filaIn,int columIn,int filaFin,int columnFin);
+        SearchList* search(int filaIn,int columIn,int filaFin,int columnFin);
         bool hasUp(int f,int c);
         bool hasLeft(int f,int c);
         bool hasDown(int f,int c);
@@ -55,6 +59,10 @@ class Matrix {
         WordsList* gettoDown(int f,int c);
         WordsList* getLefttoRight(int f, int c);
         WordsList *gettoRight(int f, int c);
+        void setSpecial();
+        void assignLetters();
+
+    int getPoints();
 };
 
 

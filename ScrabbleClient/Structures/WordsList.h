@@ -101,6 +101,8 @@ public:
     int getCfinal();
 
 
+    void multiplyBy(int i);
+    int getPoints();
 };
 
 

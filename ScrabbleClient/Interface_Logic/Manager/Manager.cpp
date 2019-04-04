@@ -58,10 +58,17 @@ void Manager::play()
                 incoming = cliente->receiveMessage();
                 if (incoming.compare("false") == 0) {
                     *matrix = temp;
+                    cliente->sendMessage("send");
+                    incoming=cliente->receiveMessage();
+                    cout<<"ERROR: La palabra "+incoming+" no es valida!Vuelva a intentar";
+
                 }
                 else if(incoming.compare("true") == 0)
                 {
-                        break;
+                    cliente->sendMessage("send");
+                    incoming=cliente->receiveMessage();
+                    this->localP->addPoints(stoi(incoming));
+                    break;
                 }
                 matrix->print();
             }
@@ -328,7 +335,6 @@ void Manager::writeToMatrix()
                 string entry="Fini@"+ to_string(w.getFinicial())+"$"+"Cini@"+to_string(w.getCinicial())+"$"+"Ffin@"+to_string(w.getFfinal())+"$"+"Cfin@"+to_string(w.getCfinal());
                 string JSON=Jmanager->toJSON(entry);
             }
-
             break;
         }
     }

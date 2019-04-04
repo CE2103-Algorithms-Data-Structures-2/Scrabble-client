@@ -92,6 +92,7 @@ class Box {
          * @param b Puntero de tipo Box.
          */
         void setPrev(Box* b);
+        void setCoords(int f,int c);
 
 
 };

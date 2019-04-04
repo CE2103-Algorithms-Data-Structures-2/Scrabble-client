@@ -13,7 +13,7 @@ WordsList *SearchList::getHead() {
     return this->head;
 }
 
-int SearchList::getlenth() {
+int SearchList::getlength() {
     return this->length;
 }
 
@@ -109,4 +109,16 @@ int SearchList::times(int fi,int ci,int ff,int cf) {
     }
     return i;
 }
+
+void SearchList::printPoints()
+{
+    WordsList* temp=this->head;
+    while(temp!= nullptr)
+    {
+        cout<<"Puntaje de "+temp->getWord()+" :"+to_string(temp->getPoints())+"\n";
+        temp=temp->getNext();
+    }
+
+}
+
 

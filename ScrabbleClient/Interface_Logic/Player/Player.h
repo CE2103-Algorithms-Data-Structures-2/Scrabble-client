@@ -74,6 +74,10 @@ public:
      * @return Puntero de tipo Chip.
      */
     Chip* getRnd();
+    /**
+     * Metodo para añadirle puntos al jugador.
+     */
+    void addPoints(int p);
 
 
 

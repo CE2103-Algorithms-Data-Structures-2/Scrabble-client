@@ -84,3 +84,8 @@ void Box::setPrev(Box *b)
     this->prev=b;
 }
 
+void Box::setCoords(int f, int c) {
+    this->fila=f;
+    this->columna=c;
+}
+

@@ -18,12 +18,12 @@ private:
     string* code;
     Client* cliente;
     Matrix* matrix;
-    JSONManager* Jmanager;
     NewGame_LW* NewG_LW;
     JoinGame_LW* JoinG_LW;
     bool* running;
     bool* playing;
 public:
+    static JSONManager* Jmanager;
     /**
      * Constructor de la clase manager.
      */

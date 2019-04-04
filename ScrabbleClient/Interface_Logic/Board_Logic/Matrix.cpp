@@ -2,7 +2,7 @@
 // Created by dcamachog1501 on 20/03/19.
 //
 
-#include <Structures/SearchList.h>
+#include <Interface_Logic/Manager/Manager.h>
 #include "Matrix.h"
 #include "../../Structures/BoxList.h"
 
@@ -121,7 +121,7 @@ Box *Matrix::get(int f, int c)
 BoxList *Matrix::getHead() {
     return this->head;
 }
-void Matrix::search(int filaIn,int columIn,int filaFin,int columFin)
+SearchList* Matrix::search(int filaIn,int columIn,int filaFin,int columFin)
 {
     SearchList* found=new SearchList();
     Box* temp=get(filaIn,columIn);
@@ -159,6 +159,7 @@ void Matrix::search(int filaIn,int columIn,int filaFin,int columFin)
     found->purge();
     cout<<"Palabras encontradas: \n"<<endl;
     found->print();
+    return found;
 }
 bool Matrix::hasDown(int f, int c)
 {
@@ -239,12 +240,34 @@ WordsList *Matrix::gettoDown(int f, int c)
 {
     WordsList* found= new WordsList();
     Box* temp=get(f,c);
+    int multiplier=1;
     while(true)
     {
         Chip* chip=new Chip();
         chip->setLetter(temp->getChip()->getLetter());
-        chip->setPoints(temp->getChip()->getPoints());
-        chip->setSpecial(temp->getChip()->getPoints());
+        if(temp->getPerk().compare("tripleP")==0)
+        {
+            multiplier=3;
+            chip->setPoints(temp->getChip()->getPoints());
+        }
+        else if(temp->getPerk().compare("dobleL")==0)
+        {
+            chip->setPoints(temp->getChip()->getPoints()*2);
+        }
+        else if(temp->getPerk().compare("tripleL")==0)
+        {
+            chip->setPoints(temp->getChip()->getPoints()*3);
+        }
+        else if(temp->getPerk().compare("dobleP")==0)
+        {
+            multiplier=2;
+            chip->setPoints(temp->getChip()->getPoints());
+        }
+        else if(temp->getPerk().compare("norm")==0)
+        {
+            chip->setPoints(temp->getChip()->getPoints());
+        }
+        chip->setSpecial(temp->getChip()->isSpecial());
         if(!hasDown(temp->getLine(),temp->getColumn()))
         {
             found->add(chip);
@@ -255,6 +278,7 @@ WordsList *Matrix::gettoDown(int f, int c)
     }
     found->setInicio(f,c);
     found->setFinal(temp->getLine(),temp->getColumn());
+    found->multiplyBy(multiplier);
     return found;
 }
 
@@ -274,12 +298,34 @@ WordsList *Matrix::gettoRight(int f, int c)
 {
     WordsList* found= new WordsList();
     Box* temp=get(f,c);
+    int multiplier=1;
     while(true)
     {
         Chip* chip=new Chip();
         chip->setLetter(temp->getChip()->getLetter());
-        chip->setPoints(temp->getChip()->getPoints());
-        chip->setSpecial(temp->getChip()->getPoints());
+        if(temp->getPerk().compare("tripleP")==0)
+        {
+            multiplier=3;
+            chip->setPoints(temp->getChip()->getPoints());
+        }
+        else if(temp->getPerk().compare("dobleL")==0)
+        {
+            chip->setPoints(temp->getChip()->getPoints()*2);
+        }
+        else if(temp->getPerk().compare("tripleL")==0)
+        {
+            chip->setPoints(temp->getChip()->getPoints()*3);
+        }
+        else if(temp->getPerk().compare("dobleP")==0)
+        {
+            multiplier=2;
+            chip->setPoints(temp->getChip()->getPoints());
+        }
+        else if(temp->getPerk().compare("norm")==0)
+        {
+            chip->setPoints(temp->getChip()->getPoints());
+        }
+        chip->setSpecial(temp->getChip()->isSpecial());
         if(!hasRight(temp->getLine(),temp->getColumn()))
         {
             found->add(chip);
@@ -290,6 +336,182 @@ WordsList *Matrix::gettoRight(int f, int c)
     }
     found->setInicio(f,c);
     found->setFinal(temp->getLine(),temp->getColumn());
+    found->multiplyBy(multiplier);
     return found;
 }
+void Matrix::setSpecial()
+{
+    BoxList* b= new BoxList();
+    Box box= Box();
+    box.setCoords(0,0);
+    box.setPerk("tripleP");
+    b->add_Box(box);
+    box.setCoords(0,7);
+    b->add_Box(box);
+    box.setCoords(0,14);
+    b->add_Box(box);
+    box.setCoords(7,0);
+    b->add_Box(box);
+    box.setCoords(7,14);
+    b->add_Box(box);
+    box.setCoords(14,0);
+    b->add_Box(box);
+    box.setCoords(14,7);
+    b->add_Box(box);
+    box.setCoords(14,14);
+    b->add_Box(box);
+    box.setPerk("dobleL");
+    box.setCoords(0,3);
+    b->add_Box(box);
+    box.setCoords(0,11);
+    b->add_Box(box);
+    box.setCoords(2,6);
+    b->add_Box(box);
+    box.setCoords(2,8);
+    b->add_Box(box);
+    box.setCoords(3,0);
+    b->add_Box(box);
+    box.setCoords(3,7);
+    b->add_Box(box);
+    box.setCoords(3,14);
+    b->add_Box(box);
+    box.setCoords(6,2);
+    b->add_Box(box);
+    box.setCoords(6,6);
+    b->add_Box(box);
+    box.setCoords(6,8);
+    b->add_Box(box);
+    box.setCoords(6,12);
+    b->add_Box(box);
+    box.setCoords(7,3);
+    b->add_Box(box);
+    box.setCoords(7,11);
+    b->add_Box(box);
+    box.setCoords(8,2);
+    b->add_Box(box);
+    box.setCoords(8,6);
+    b->add_Box(box);
+    box.setCoords(8,8);
+    b->add_Box(box);
+    box.setCoords(8,12);
+    b->add_Box(box);
+    box.setCoords(11,0);
+    b->add_Box(box);
+    box.setCoords(11,7);
+    b->add_Box(box);
+    box.setCoords(11,14);
+    b->add_Box(box);
+    box.setCoords(12,6);
+    b->add_Box(box);
+    box.setCoords(12,8);
+    b->add_Box(box);
+    box.setCoords(14,3);
+    b->add_Box(box);
+    box.setCoords(14,11);
+    b->add_Box(box);
+    box.setPerk("tripleL");
+    box.setCoords(1,5);
+    b->add_Box(box);
+    box.setCoords(1,9);
+    b->add_Box(box);
+    box.setCoords(5,1);
+    b->add_Box(box);
+    box.setCoords(5,5);
+    b->add_Box(box);
+    box.setCoords(5,9);
+    b->add_Box(box);
+    box.setCoords(5,13);
+    b->add_Box(box);
+    box.setCoords(9,1);
+    b->add_Box(box);
+    box.setCoords(9,5);
+    b->add_Box(box);
+    box.setCoords(9,9);
+    b->add_Box(box);
+    box.setCoords(9,13);
+    b->add_Box(box);
+    box.setCoords(13,5);
+    b->add_Box(box);
+    box.setCoords(13,9);
+    b->add_Box(box);
+    box.setPerk("dobleP");
+    box.setCoords(1,1);
+    b->add_Box(box);
+    box.setCoords(2,2);
+    b->add_Box(box);
+    box.setCoords(3,3);
+    b->add_Box(box);
+    box.setCoords(4,4);
+    b->add_Box(box);
+    box.setCoords(10,10);
+    b->add_Box(box);
+    box.setCoords(11,11);
+    b->add_Box(box);
+    box.setCoords(12,12);
+    b->add_Box(box);
+    box.setCoords(13,13);
+    b->add_Box(box);
+    box.setCoords(13,1);
+    b->add_Box(box);
+    box.setCoords(12,2);
+    b->add_Box(box);
+    box.setCoords(11,3);
+    b->add_Box(box);
+    box.setCoords(10,4);
+    b->add_Box(box);
+    box.setCoords(4,10);
+    b->add_Box(box);
+    box.setCoords(3,11);
+    b->add_Box(box);
+    box.setCoords(2,12);
+    b->add_Box(box);
+    box.setCoords(1,13);
+    b->add_Box(box);
+
+    BoxList* temp=this->head;
+    while(temp!= nullptr)
+    {
+        Box* temp2=temp->getHead();
+        while(temp2!= nullptr)
+        {
+
+            if(b->in(temp2->getLine(),temp2->getColumn()))
+            {
+                temp2->setPerk(b->get(temp2->getLine(),temp2->getColumn())->getPerk());
+            }
+            else
+            {
+                temp2->setPerk("norm");
+            }
+            temp2=temp2->getNext();
+        }
+        temp=temp->getNext();
+        temp2= nullptr;
+        delete(temp2);
+    }
+    temp= nullptr;
+    delete(temp);
+
+
+}
+
+void Matrix::assignLetters()
+{
+    BoxList* temp=this->head;
+    while(temp!= nullptr)
+    {
+        Box* temp2=temp->getHead();
+        while(temp2!= nullptr)
+        {
+            if(!(temp2->getChip()->getLetter().compare(" ")==0))
+            {
+                string value = Manager::Jmanager->askFor(letters, temp2->getChip()->getLetter());
+                temp2->getChip()->setPoints(stoi(value));
+            }
+            temp2=temp2->getNext();
+        }
+        temp=temp->getNext();
+    }
+}
+
 
