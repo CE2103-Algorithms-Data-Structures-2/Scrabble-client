@@ -339,7 +339,7 @@ void Manager::writeToMatrix()
             break;
         }
     }
-}R
+}
 
 
 

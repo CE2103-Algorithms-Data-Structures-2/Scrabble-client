@@ -11,10 +11,10 @@ WordsList::WordsList()
     this->head=nullptr;
     this->length=0;
     this->next= nullptr;
-    this->Finicial=0;
-    this->Ffinal=0;
-    this->Cinicial=0;
-    this->Cfinal=0;
+    Finicial=new int(0);
+    Ffinal=new int(0);
+    Cinicial=new int (0);
+    Cfinal=new int(0);
 }
 int WordsList::getLength()
 {
@@ -174,29 +174,29 @@ void WordsList::removeSetOfLetters(WordsList w)
 }
 void WordsList::setInicio(int f,int c)
 {
-    this->Finicial=f;
-    this->Cinicial=c;
+    *Finicial=f;
+    *Cinicial=c;
 }
 void WordsList::setFinal(int f,int c)
 {
-    this->Ffinal=f;
-    this->Cfinal=c;
+    *Ffinal=f;
+    *Cfinal=c;
 }
 
 int WordsList::getFinicial() {
-    return this->Finicial;
+    return *Finicial;
 }
 
 int WordsList::getFfinal() {
-    return this->Ffinal;
+    return *Ffinal;
 }
 
 int WordsList::getCinicial() {
-    return this->Cinicial;
+    return *Cinicial;
 }
 
 int WordsList::getCfinal() {
-    return this->Cfinal;
+    return *Cfinal;
 }
 
 void WordsList::setWord(string w)

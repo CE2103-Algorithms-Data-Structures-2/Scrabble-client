@@ -17,10 +17,10 @@ private:
     NodeW* head;
     string word;
     int length;
-    int Finicial;
-    int Ffinal;
-    int Cinicial;
-    int Cfinal;
+    int *Finicial;
+    int *Ffinal;
+    int *Cinicial;
+    int *Cfinal;
     WordsList* next;
 public:
     /**
