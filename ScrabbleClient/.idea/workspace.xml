@@ -13,319 +13,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="545fb6a5-c6e3-4ead-84f7-95e1475fc01f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Interface_Logic/Board_Logic/Bonus.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface_Logic/Board_Logic/CasillaGrafica.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface_Logic/Board_Logic/CasillaGrafica.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface_Logic/Board_Logic/FichaGrafica.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface_Logic/Board_Logic/FichaGrafica.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/A.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/B.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/BONUS.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/C.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/D.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/E.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/F.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/G.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/H.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/I.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/J.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/K.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/L.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/M.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/N.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/O.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/P.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/Q.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/R.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/S.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/T.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/U.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/V.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/W.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/X.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/Y.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/LetrasScrabble/Z.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/BoardSprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_101.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_102.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_103.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_104.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_105.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_106.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_107.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_108.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_109.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_111.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_112.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_113.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_115.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_116.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_117.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_118.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_119.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_121.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_122.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_123.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_124.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_125.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_126.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_127.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_129.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_130.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_131.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_132.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_133.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_134.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_135.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_136.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_137.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_138.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_139.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_140.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_141.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_142.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_143.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_145.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_146.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_147.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_148.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_149.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_151.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_153.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_154.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_155.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_156.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_157.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_158.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_159.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_160.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_161.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_162.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_163.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_164.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_165.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_166.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_167.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_168.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_169.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_170.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_171.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_172.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_173.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_174.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_175.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_176.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_177.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_178.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_179.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_181.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_182.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_183.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_184.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_185.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_186.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_187.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_188.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_189.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_190.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_191.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_193.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_194.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_195.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_196.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_197.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_198.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_199.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_201.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_202.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_203.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_204.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_205.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_206.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_207.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_208.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_209.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_210.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_211.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_212.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_213.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_214.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_215.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_216.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_217.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_218.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_219.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_220.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_221.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_222.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_223.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_224.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_225.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_53.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_61.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_62.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_63.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_65.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_66.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_67.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_68.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_69.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_71.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_73.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_74.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_75.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_77.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_78.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_79.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_81.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_82.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_83.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_84.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_85.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_86.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_87.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_88.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_89.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_91.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_92.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_93.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_94.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_95.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_97.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_98.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/TilesBoard/board_99.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetsScrabble/board.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gui_Logic/CasillaGrafica.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gui_Logic/CasillaGrafica.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient.pro.user" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient.pro.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Client/Client.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Client/Client.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Box.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Box.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Chip.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Chip.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Player/Player.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Player/Player.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Main/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/ScrabbleClient_autogen/mocs_compilation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/ScrabbleClient_autogen/mocs_compilation.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Structures/BoxList.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Structures/BoxList.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Structures/NodeP.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Structures/NodeP.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Structures/NodeW.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Structures/NodeW.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Structures/PlayerList.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Structures/PlayerList.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient_autogen.dir/AutogenInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient_autogen.dir/AutogenInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient_autogen.dir/AutogenOldSettings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient_autogen.dir/AutogenOldSettings.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient_autogen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient_autogen.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient_autogen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ScrabbleClient_autogen.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ScrabbleClient.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ScrabbleClient.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ScrabbleClient_autogen/EWIEGA46WW/moc_mainwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ScrabbleClient_autogen/EWIEGA46WW/moc_mainwindow.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ScrabbleClient_autogen/include/ui_mainwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ScrabbleClient_autogen/include/ui_mainwindow.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mainwindow.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/mainwindow.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainwindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/mainwindow.ui" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -341,7 +28,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mainwindow.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
+            <state relative-caret-position="251">
               <caret line="154" selection-start-line="154" selection-end-line="154" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -537,23 +224,22 @@
       <workItem from="1553923644611" duration="9050000" />
       <workItem from="1554273955560" duration="3658000" />
       <workItem from="1554320321643" duration="3989000" />
-      <workItem from="1554355121083" duration="17689000" />
+      <workItem from="1554355121083" duration="18949000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39291000" />
+    <option name="totallyTimeSpent" value="40551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="700" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26136363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32809773" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32809773" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977974" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -701,7 +387,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mainwindow.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
+        <state relative-caret-position="251">
           <caret line="154" selection-start-line="154" selection-end-line="154" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
