@@ -150,6 +150,7 @@ void MainWindow::on_pushButton_2_clicked()
         // Poner label de error
 
         ui->stackedWidget->setCurrentIndex(4);
+        // comentario random
 }
 
 void MainWindow::on_pushButton_5_clicked()
