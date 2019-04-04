@@ -34,7 +34,7 @@ void MainWindow::on_pushButton_14_clicked()
         std::string nomLobby = ui->lineEdit_2->text().toStdString();
         std::string nomJugador = ui->lineEdit_3->text().toStdString();
         std::string numJugadores = ui->comboBox->currentText().toStdString();
-        //Wmanager->newGame(nomJugador,nomLobby,numJugadores);
+        Wmanager->newGame(nomJugador,nomLobby,numJugadores);
 
         LOG(nomLobby);
         LOG(nomJugador);
@@ -66,7 +66,7 @@ void MainWindow::on_pushButton_clicked()
         std::string codigo = ui->lineEdit->text().toStdString();
         std::string nomJugador = ui->lineEdit_4->text().toStdString();
 
-        //Wmanager->newJoin(nomJugador,codigo);
+        Wmanager->newJoin(nomJugador,codigo);
 
         LOG(codigo)
         LOG(nomJugador)

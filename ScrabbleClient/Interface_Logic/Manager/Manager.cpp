@@ -334,11 +334,12 @@ void Manager::writeToMatrix()
             {
                 string entry="Fini@"+ to_string(w.getFinicial())+"$"+"Cini@"+to_string(w.getCinicial())+"$"+"Ffin@"+to_string(w.getFfinal())+"$"+"Cfin@"+to_string(w.getCfinal());
                 string JSON=Jmanager->toJSON(entry);
+                cliente->sendMessage(JSON);
             }
             break;
         }
     }
-}
+}R
 
 
 

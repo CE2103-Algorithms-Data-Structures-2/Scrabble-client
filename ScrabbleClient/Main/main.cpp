@@ -11,7 +11,7 @@
 
 PlayerList* Manager::players= new PlayerList();
 Player* Manager:: localP=new Player();
-//Manager* MainWindow::Wmanager=new Manager();
+Manager* MainWindow::Wmanager=new Manager();
 JSONManager* Manager::Jmanager=new JSONManager();
 
 #define getName(var)  #var
@@ -20,11 +20,11 @@ using boost::property_tree::ptree;
 int main(int argc, char *argv[]) {
     /*Matrix* m= new Matrix();
     m->init();
-    m->setSpecial();
+    m->setSpecial();*/
+
     QApplication a(argc, argv);
     MainWindow w;
     w.show();
-*/
 
     /*Matrix *m = new Matrix();
     m->init();
@@ -80,8 +80,8 @@ int main(int argc, char *argv[]) {
 
         }
     }*/
-    //return a.exec();
-
+    return a.exec();
+/*
     JSONManager* jsonManager= new JSONManager();
     Matrix* m= new Matrix();
     m->init();
@@ -89,7 +89,7 @@ int main(int argc, char *argv[]) {
     m->assignLetters();
     m->setSpecial();
     SearchList* s=m->search(0,2,0,10);
-    s->printPoints();
-    return 0;
+    s->printPoints();*/
+    //return 0;
 }
 

@@ -47,6 +47,7 @@ void Matrix::print()
 
 void Matrix::addWord(int f, int c, string dir,WordsList l)
 {
+    l.setInicio(f,c);
     if(dir.compare("D")==0)
     {
        Box* temp=this->get(f,c);
@@ -57,15 +58,15 @@ void Matrix::addWord(int f, int c, string dir,WordsList l)
            {
                break;
            }
+           if(templ->getNext()== nullptr)
+           {
+               l.setFinal(f,c);
+           }
            temp->getChip()->setLetter(templ->getChip()->getLetter());
            f++;
            temp=get(f,c);
            templ=templ->getNext();
        }
-    }
-    else if(dir.compare("U")==0)
-    {
-
     }
     else if(dir.compare("R")==0)
     {
@@ -77,15 +78,15 @@ void Matrix::addWord(int f, int c, string dir,WordsList l)
             {
                 break;
             }
+            if(templ->getNext()== nullptr)
+            {
+                l.setFinal(f,c);
+            }
             temp->getChip()->setLetter(templ->getChip()->getLetter());
             c++;
             temp=get(f,c);
             templ=templ->getNext();
         }
-    }
-    else if(dir.compare("L")==0)
-    {
-
     }
     print();
 }
@@ -362,6 +363,8 @@ void Matrix::setSpecial()
     b->add_Box(box);
     box.setPerk("dobleL");
     box.setCoords(0,3);
+    b->add_Box(box);
+    box.setCoords(7,7);
     b->add_Box(box);
     box.setCoords(0,11);
     b->add_Box(box);
