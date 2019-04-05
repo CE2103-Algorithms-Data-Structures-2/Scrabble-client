@@ -8,7 +8,3 @@ LogicWindow::LogicWindow(Client *c, JSONManager *j)
     cliente=c;
     Jmanager=j;
 }
-string LogicWindow::getInfo()
-{
-    return "";
-}

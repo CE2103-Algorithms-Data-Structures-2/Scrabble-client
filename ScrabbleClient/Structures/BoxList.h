@@ -64,8 +64,24 @@ class BoxList {
          * @return Puntero de tipo Box.
          */
         Box* getHead();
+        /**
+         * Metodo para anadir una casilla a la lista.
+         * @param b
+         */
         void add_Box(Box b);
+        /**
+         * Metodo para saber si una casilla esta en la lista.
+         * @param f Fila de tipo entero.
+         * @param c Columna de tipo entero.
+         * @return Coondicion de tipo booleano
+         */
         bool in(int f,int c);
+        /**
+         * Metodo para obtener una casilla en una posicion especifica.
+         * @param f Fila de tipo entero.
+         * @param c Columna de tipo entero.
+         * @return Puntero de tipo Box.
+         */
         Box* get(int f,int c);
 };
 

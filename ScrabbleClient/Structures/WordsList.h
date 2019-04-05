@@ -94,14 +94,40 @@ public:
      * @param c Columna final.
      */
     void setFinal(int f,int c);
+    /**
+     * Metodo para estableecer cual es la palabra que forma la lista de fichas.
+     * @param w Palabra de tipo string.
+     */
     void setWord(string w);
+    /**
+     * Metodo para obtener la fila donde inicia la lista en la matriz.
+     * @return Fila de tipo entero
+     */
     int getFinicial();
+    /**
+     * Metodo para obtener la fila donde termina la lista en la matriz.
+     * @return Fila de tipo entero.
+     */
     int getFfinal();
+    /**
+     * Metodo para obtener la columna donde inicia la lista en la matriz.
+     * @return Columna de tipo entero.
+     */
     int getCinicial();
+    /**
+     * Metodo para obtener la columna donde termina la lista en la matriz.
+     * @return Columna de tipo entero.
+     */
     int getCfinal();
-
-
-    void multiplyBy(int i);
+    /**
+     * Metodo para multiplicar el puntaje de cada letra en la lista, de acuerdo a las casillas del tablero.
+     * @param mult Multiplicador de tipo entero.
+     */
+    void multiplyBy(int mult);
+    /**
+     * Metodo para obtener el total de puntos de la lista
+     * @return
+     */
     int getPoints();
 };
 

@@ -50,19 +50,80 @@ public:
          * @return Puntero de tipo BoxList.
          */
         BoxList* getHead();
+        /**
+         * Metodo para conseguir todas las palabras formadas a partir de una palabra central.
+         * @param filaIn Fila inicial de tipo entero.
+         * @param columIn Columna inicial de tipo entero.
+         * @param filaFin Fila final de tipo entero.
+         * @param columnFin Columna final de tipo entero.
+         * @return Lista de palabras encontradas de tipo SearchList*.
+         */
         SearchList* search(int filaIn,int columIn,int filaFin,int columnFin);
+        /**
+         * Metodo para saber si hay una letra en la casilla que esta arriba de la casilla en cuestion.
+         * @param f Fila de tipo entero.
+         * @param c Columna de tipo entero.
+         * @return Condicion de tipo booleano.
+         */
         bool hasUp(int f,int c);
+        /**
+         * Metodo para saber si hay una letra en la casilla que esta a la izquierda de la casilla en cuestion.
+         * @param f Fila de tipo entero.
+         * @param c Columna de tipo entero.
+         * @return Condicion de tipo booleano.
+         */
         bool hasLeft(int f,int c);
+        /**
+         * Metodo para saber si hay una letra en la casilla que esta abajo de la casilla en cuestion.
+         * @param f Fila de tipo entero.
+         * @param c Columna de tipo entero.
+         * @return Condicion de tipo booleano.
+         */
         bool hasDown(int f,int c);
+        /**
+         * Metodo para saber si hay una letra en la casilla que esta a la derecha de la casilla en cuestion.
+         * @param f Fila de tipo entero.
+         * @param c Columna de tipo entero.
+         * @return Condicion de tipo booleano.
+         */
         bool hasRight(int f,int c);
+        /**
+         * Metodo para obtener la palabra formada por la casilla en cuestion y las fichas que estan arriba y abajo de la misma.
+         * @param f Fila de tipo entero.
+         * @param c Columna de tipo entero.
+         * @return Lista de palabras de tipo WordList*
+         */
         WordsList* getUptoDown(int f,int c);
+        /**
+         * Metodo para obtener la palabra formada por una casilla en cuestion y todas las fichas debajo de la misma.
+         * @param f Fila de tipo entero.
+         * @param c Columna de tipo entero.
+         * @return Lista de palabras de tipo WordList*.
+         */
         WordsList* gettoDown(int f,int c);
+        /**
+         * Metodo para obtener la palabra formada por la casilla en cuestion y las fichas que estan a la derecha e izquierda de la misma.
+         * @param f Fila de tipo entero.
+         * @param c Columna de tipo entero.
+         * @return Lista de palabras de tipo WordList*
+         */
         WordsList* getLefttoRight(int f, int c);
+        /**
+         * Metodo para obtener la palabra formada por una casilla en cuestion y todas las fichas a la derecha de la misma.
+         * @param f Fila de tipo entero.
+         * @param c Columna de tipo entero.
+         * @return Lista de palabras de tipo WordList*.
+         */
         WordsList *gettoRight(int f, int c);
+        /**
+         * Metodo para establecer cuales casillas son especiales.
+         */
         void setSpecial();
+        /**
+         * Metodo para asignar el puntaje predeterminado a cada una de las fichas.
+         */
         void assignLetters();
 
-    int getPoints();
 };
 
 

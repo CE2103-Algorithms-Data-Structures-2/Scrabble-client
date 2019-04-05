@@ -20,12 +20,6 @@ class LogicWindow {
          * @param j Puntero de tipo JSONManager.
          */
         LogicWindow(Client* c,JSONManager* j);
-
-    virtual /**
-         * Metodo para obtener la informacion registrada en la ventana por el cliente.
-         * @return Informacion de tipo string.
-         */
-        string getInfo();
 };
 
 

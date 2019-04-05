@@ -92,6 +92,11 @@ class Box {
          * @param b Puntero de tipo Box.
          */
         void setPrev(Box* b);
+        /**
+         * Metodo para estaablecer ambas coordenadas de la casilla
+         * @param f Fila de tipo entero.
+         * @param c Columna dde tipo entero.
+         */
         void setCoords(int f,int c);
 
 
