@@ -677,7 +677,7 @@ public:
 ""));
         pushButton_12 = new QPushButton(WaitMenu);
         pushButton_12->setObjectName(QStringLiteral("pushButton_12"));
-        pushButton_12->setGeometry(QRect(530, 640, 161, 34));
+        pushButton_12->setGeometry(QRect(520, 640, 171, 34));
         pushButton_12->setFont(font8);
         pushButton_12->setStyleSheet(QLatin1String("background-color: rgb(38, 50, 56);\n"
 "color: rgb(255, 68, 68);\n"
@@ -711,7 +711,7 @@ public:
         label_44->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
         label_45 = new QLabel(WaitMenu);
         label_45->setObjectName(QStringLiteral("label_45"));
-        label_45->setGeometry(QRect(530, 80, 151, 51));
+        label_45->setGeometry(QRect(500, 80, 221, 51));
         label_45->setFont(font10);
         label_45->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
         stackedWidget->addWidget(WaitMenu);
