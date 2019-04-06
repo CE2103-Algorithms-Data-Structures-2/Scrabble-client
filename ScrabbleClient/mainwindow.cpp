@@ -91,7 +91,7 @@ void MainWindow::on_pushButton_14_clicked()
 
         Wmanager->localP->setHost();
         ui->stackedWidget->setCurrentIndex(3);
-
+        ui->label_45->setText(Wmanager->getParty().c_str());
         ui->label_42->setText(Wmanager->getCode().c_str());
         QString qString = QString::fromStdString(nomLobby);
         ui->label_45->setText(qString);
@@ -129,6 +129,7 @@ void MainWindow::on_pushButton_clicked()
 
 
         ui->stackedWidget->setCurrentIndex(3);
+        ui->label_45->setText(Wmanager->getParty().c_str());
         ui->label_42->setText(Wmanager->getCode().c_str());
         Wmanager->update();
 
@@ -152,6 +153,7 @@ void MainWindow::on_lineEdit_returnPressed()
 
 void MainWindow::on_pushButton_2_clicked()
 {
+
     if((Wmanager->localP->isHost())&&(Wmanager->players->getLength()==Wmanager->players->getLimit()))
     {
         ui->stackedWidget->setCurrentIndex(4);

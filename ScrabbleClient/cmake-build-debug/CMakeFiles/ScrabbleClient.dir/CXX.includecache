@@ -138,11 +138,11 @@ NodeW.h
 ../Interface_Logic/Board_Logic/Matrix.h
 ../Interface_Logic/Board_Logic/Matrix.h
 
-/home/david/Documents/Scrabble-client/ScrabbleClient/mainwindow.cpp
+/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/mainwindow.cpp
 mainwindow.h
-/home/david/Documents/Scrabble-client/ScrabbleClient/mainwindow.h
+/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/mainwindow.h
 ui_mainwindow.h
-/home/david/Documents/Scrabble-client/ScrabbleClient/ui_mainwindow.h
+/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/ui_mainwindow.h
 iostream
 -
 string
@@ -152,7 +152,7 @@ QtCore/QFuture
 QtConcurrent/QtConcurrent
 -
 
-/home/david/Documents/Scrabble-client/ScrabbleClient/mainwindow.h
+/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/mainwindow.h
 QMainWindow
 -
 Interface_Logic/Manager/Manager.h
@@ -160,7 +160,7 @@ Interface_Logic/Manager/Manager.h
 QtWidgets/QLabel
 -
 ../Interface_Logic/Board_Logic/CasillaGrafica.h
-/home/david/Documents/Scrabble-client/Interface_Logic/Board_Logic/CasillaGrafica.h
+/home/dcamachog1501/Desktop/Kugel/Interface_Logic/Board_Logic/CasillaGrafica.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtConcurrent/QtConcurrent
 QtConcurrent/QtConcurrentDepends

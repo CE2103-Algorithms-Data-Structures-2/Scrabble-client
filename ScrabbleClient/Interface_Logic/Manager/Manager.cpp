@@ -361,4 +361,10 @@ string Manager::getCode()
     return this->code->c_str();
 }
 
+string Manager::getParty() {
+    cliente->sendMessage("getParty");
+    string incoming= cliente->receiveMessage();
+    return incoming;
+}
+
 
