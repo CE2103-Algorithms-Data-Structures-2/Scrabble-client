@@ -26,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mainwindow.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
-              <caret line="152" column="28" selection-start-line="152" selection-start-column="28" selection-end-line="152" selection-end-column="28" />
+            <state relative-caret-position="370">
+              <caret line="143" column="1" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -224,16 +224,18 @@
       <workItem from="1554320321643" duration="3989000" />
       <workItem from="1554355121083" duration="18949000" />
       <workItem from="1554416461450" duration="2414000" />
+      <workItem from="1554593798833" duration="608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42965000" />
+    <option name="totallyTimeSpent" value="43573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1051" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647059" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26791444" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -266,19 +268,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gui_Logic/CasillaGrafica.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui_Logic/CasillaGrafica.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="e#126#149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Gui_Logic/CasillaGrafica.cpp" />
+    <entry file="file://$PROJECT_DIR$/Gui_Logic/CasillaGrafica.h" />
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/ScrabbleClient_autogen/EWIEGA46WW/moc_mainwindow.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1530">
@@ -332,8 +323,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mainwindow.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="152" column="28" selection-start-line="152" selection-start-column="28" selection-end-line="152" selection-end-column="28" />
+        <state relative-caret-position="370">
+          <caret line="143" column="1" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
