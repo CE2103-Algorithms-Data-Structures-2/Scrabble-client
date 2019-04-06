@@ -1444,8 +1444,8 @@ border-color: rgb(230, 81, 0);
      <widget class="QLabel" name="label_41">
       <property name="geometry">
        <rect>
-        <x>530</x>
-        <y>40</y>
+        <x>540</x>
+        <y>480</y>
         <width>161</width>
         <height>51</height>
        </rect>
@@ -1466,9 +1466,9 @@ border-color: rgb(230, 81, 0);
      <widget class="QLabel" name="label_42">
       <property name="geometry">
        <rect>
-        <x>540</x>
-        <y>100</y>
-        <width>121</width>
+        <x>570</x>
+        <y>530</y>
+        <width>101</width>
         <height>31</height>
        </rect>
       </property>
@@ -1490,7 +1490,7 @@ border-color: rgb(230, 81, 0);
        <rect>
         <x>430</x>
         <y>410</y>
-        <width>361</width>
+        <width>371</width>
         <height>31</height>
        </rect>
       </property>
@@ -1505,6 +1505,50 @@ border-color: rgb(230, 81, 0);
       </property>
       <property name="text">
        <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_44">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>40</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Open Sans</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Lobby</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_45">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>80</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Open Sans</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>NOMBRE</string>
       </property>
      </widget>
     </widget>

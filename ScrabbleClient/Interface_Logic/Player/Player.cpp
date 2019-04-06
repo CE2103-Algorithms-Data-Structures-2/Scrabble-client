@@ -15,6 +15,7 @@ Player::Player()
     this->chips= new WordsList();
     this->ID= " ";
     this->rndChip= new Chip();
+    this->host=false;
 }
 Player::Player(string n) {
     this->chips= new WordsList();
@@ -23,6 +24,7 @@ Player::Player(string n) {
     this->turn=new bool(false);
     this->rndChip= new Chip();
     this->ID=" ";
+    this->host=false;
 
 }
 WordsList* Player::getChips()
@@ -74,4 +76,12 @@ Chip *Player::getRnd() {
 void Player::addPoints(int p)
 {
     this->points+=p;
+}
+
+void Player::setHost() {
+    this->host=true;
+}
+
+bool Player::isHost() {
+    return host;
 }

@@ -101,7 +101,7 @@ void Manager::setCode(string s) {
     }
 
 }
-void Manager::newGame(string name, string partida,string jugadores)
+int Manager::newGame(string name, string partida,string jugadores)
 {
     bool tr= true;
     while(running)
@@ -115,9 +115,7 @@ void Manager::newGame(string name, string partida,string jugadores)
                 this->NewG_LW->newGame(name,partida,jugadores);
                 players->print();
                 this->setCode(cliente->receiveMessage());
-                ask("numP");
-                play();
-                tr=false;
+                return 1;
 
             }
 
@@ -142,11 +140,16 @@ int Manager::newJoin(string name,string code)
                 }
                 cliente->sendMessage("myID");
                 string incoming=cliente->receiveMessage();
-                return (stoi(incoming));
+                return 1;
             }
 
         }
     }
+}
+void Manager::setNew()
+{
+    ask("numP");
+    play();
 }
 void Manager::setJoin()
 {
@@ -353,6 +356,9 @@ void Manager::update()
     thread updateT= thread(&Manager::setJoin,this);
     updateT.detach();
 }
-
+string Manager::getCode()
+{
+    return this->code->c_str();
+}
 
 

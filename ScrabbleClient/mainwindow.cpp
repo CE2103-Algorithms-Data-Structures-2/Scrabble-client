@@ -89,11 +89,15 @@ void MainWindow::on_pushButton_14_clicked()
         std::string numJugadores = ui->comboBox->currentText().toStdString();
         Wmanager->newGame(nomJugador,nomLobby,numJugadores);
 
-        LOG(nomLobby);
-        LOG(nomJugador);
-        LOG(numJugadores);
-
+        Wmanager->localP->setHost();
         ui->stackedWidget->setCurrentIndex(3);
+
+        ui->label_42->setText(Wmanager->getCode().c_str());
+        QString qString = QString::fromStdString(nomLobby);
+        ui->label_45->setText(qString);
+        Wmanager->update();
+
+        QtConcurrent::run(this, &MainWindow::LobbyUpdater);
 
     }
     else
@@ -120,12 +124,12 @@ void MainWindow::on_pushButton_clicked()
     {
         std::string codigo = ui->lineEdit->text().toStdString();
         std::string nomJugador = ui->lineEdit_4->text().toStdString();
-
+        Wmanager->setCode(codigo);
         Wmanager->newJoin(nomJugador,codigo);
 
 
         ui->stackedWidget->setCurrentIndex(3);
-
+        ui->label_42->setText(Wmanager->getCode().c_str());
         Wmanager->update();
 
         QtConcurrent::run(this, &MainWindow::LobbyUpdater);
@@ -148,14 +152,13 @@ void MainWindow::on_lineEdit_returnPressed()
 
 void MainWindow::on_pushButton_2_clicked()
 {
-    // Verificar si host es el que esta iniciando
-        // Si es verificar si todos están listos
-            // Comenzar Partida
-        // Si no poner label de error
-    // Si no
-        // Poner label de error
-
+    if((Wmanager->localP->isHost())&&(Wmanager->players->getLength()==Wmanager->players->getLimit()))
+    {
         ui->stackedWidget->setCurrentIndex(4);
+    } else
+    {
+        ui->label_43->setText("Solo el anfitrion puede empezar la partida!");
+    }
 }
 
 void MainWindow::on_pushButton_5_clicked()
