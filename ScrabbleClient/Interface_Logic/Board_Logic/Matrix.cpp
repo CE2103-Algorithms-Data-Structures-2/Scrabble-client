@@ -517,3 +517,54 @@ void Matrix::assignLetters()
     }
 }
 
+void Matrix::addLine(BoxList b)
+{
+    BoxList* temp=head;
+    if(temp== nullptr)
+    {
+        BoxList* bl=new BoxList();
+        *bl=b;
+        head=bl;
+    }
+    else
+        {
+        while (temp->getNext() != nullptr) {
+            temp = temp->getNext();
+        }
+        BoxList *bl = new BoxList();
+        *bl = b;
+        temp->setNext(bl);
+        temp = nullptr;
+
+    }
+    delete (temp);
+
+}
+
+Matrix Matrix::copy()
+{
+   Matrix m= Matrix();
+   BoxList* temp=head;
+   while(temp!= nullptr)
+   {
+       Box* temp2=temp->getHead();
+       BoxList b= BoxList();
+       while(temp2!= nullptr)
+       {
+           Box temp3= Box();
+           temp3.setCoords(temp2->getLine(),temp2->getColumn());
+           temp3.setPerk(temp2->getPerk());
+           Chip* c= new Chip();
+           c->setPoints(temp2->getChip()->getPoints());
+           c->setLetter(temp2->getChip()->getLetter());
+           c->setSpecial(temp2->getChip()->isSpecial());
+           temp3.setChip(c);
+           b.add_Box(temp3);
+           temp2=temp2->getNext();
+       }
+       m.addLine(b);
+       temp=temp->getNext();
+   }
+   return m;
+}
+

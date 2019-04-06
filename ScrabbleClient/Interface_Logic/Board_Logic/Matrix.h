@@ -123,6 +123,12 @@ public:
          * Metodo para asignar el puntaje predeterminado a cada una de las fichas.
          */
         void assignLetters();
+        /**
+         * Metodo para copiar la matriz;
+         * @return
+         */
+        Matrix copy();
+        void addLine(BoxList b);
 
 };
 

@@ -90,6 +90,6 @@ int main(int argc, char *argv[]) {
     m->setSpecial();
     SearchList* s=m->search(0,2,0,10);
     s->printPoints();*/
-    //return 0;
+    /*return 0;*/
 }
 

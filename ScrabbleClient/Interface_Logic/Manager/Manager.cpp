@@ -53,20 +53,24 @@ void Manager::play()
         {
             while(true)
             {
-                Matrix temp = *matrix;
+                Matrix *temp=new Matrix();
+                *temp=matrix->copy();
                 writeToMatrix();
                 incoming = cliente->receiveMessage();
                 if (incoming.compare("false") == 0) {
-                    *matrix = temp;
+                    *matrix = *temp;
                     cliente->sendMessage("send");
                     incoming=cliente->receiveMessage();
-                    cout<<"ERROR: La palabra "+incoming+" no es valida!Vuelva a intentar";
+                    cout<<"ERROR: La palabra "+incoming+" no es valida!Vuelva a intentar\n";
+                    cliente->sendMessage("myTurn");
+                    incoming=cliente->receiveMessage();
 
                 }
                 else if(incoming.compare("true") == 0)
                 {
                     cliente->sendMessage("send");
                     incoming=cliente->receiveMessage();
+                    cout<<"Puntos obtenidos: "+incoming<<endl;
                     this->localP->addPoints(stoi(incoming));
                     break;
                 }
