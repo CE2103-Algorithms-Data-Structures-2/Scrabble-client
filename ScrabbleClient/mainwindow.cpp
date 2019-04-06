@@ -89,11 +89,13 @@ void MainWindow::on_pushButton_14_clicked()
         std::string numJugadores = ui->comboBox->currentText().toStdString();
         Wmanager->newGame(nomJugador,nomLobby,numJugadores);
 
-        LOG(nomLobby);
-        LOG(nomJugador);
-        LOG(numJugadores);
-
+        Wmanager->localP->setHost();
         ui->stackedWidget->setCurrentIndex(3);
+
+        Wmanager->update();
+
+        QtConcurrent::run(this, &MainWindow::LobbyUpdater);
+
     }
     else
     {
@@ -152,7 +154,7 @@ void MainWindow::on_pushButton_2_clicked()
         // Si no poner label de error
     // Si no
         // Poner label de error
-
+    if(Wmanager->localP->isHost()&&Wmanager->players->getLength()==Wmanager->players->getLimit())
         ui->stackedWidget->setCurrentIndex(4);
 }
 

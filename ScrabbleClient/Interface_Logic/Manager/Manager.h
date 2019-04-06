@@ -48,7 +48,7 @@ public:
     /**
      * Metodo para crear una nueva partida.
      */
-    void newGame(string name,string partida,string jugadores);
+    int newGame(string name,string partida,string jugadores);
     /**
      * Metodo para unirse a una nueva partida.
      */
@@ -62,6 +62,8 @@ public:
     static PlayerList* players;
 
     void update();
+
+    void setNew();
 };
 
 

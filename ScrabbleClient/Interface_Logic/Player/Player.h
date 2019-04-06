@@ -19,6 +19,7 @@ private:
     WordsList* chips;
     Chip* rndChip;
     bool* turn;
+    bool host;
 public:
     Player();
     /**
@@ -78,6 +79,10 @@ public:
      * Metodo para añadirle puntos al jugador.
      */
     void addPoints(int p);
+
+    void setHost();
+
+    bool isHost();
 };
 
 
