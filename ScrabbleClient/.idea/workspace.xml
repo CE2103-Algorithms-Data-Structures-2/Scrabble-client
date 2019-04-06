@@ -12,9 +12,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="545fb6a5-c6e3-4ead-84f7-95e1475fc01f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mainwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mainwindow.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="545fb6a5-c6e3-4ead-84f7-95e1475fc01f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -303,7 +301,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59560000" />
+    <option name="totallyTimeSpent" value="60156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="700" extended-state="6" />
