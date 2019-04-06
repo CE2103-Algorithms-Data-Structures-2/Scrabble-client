@@ -197,6 +197,7 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o
  ..//Interface_Logic/Manager/Manager.h
  ..//Structures/SearchList.h
  ../Client/Client.h
+ ../Interface_Logic/Board_Logic/Chip.h
  ../Interface_Logic/Board_Logic/Matrix.h
  ../Interface_Logic/JSON_Logic/JSONManager.h
  ../Interface_Logic/Logic_Windows/JoinGame_LW.h
@@ -204,6 +205,7 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o
  ../Interface_Logic/Logic_Windows/NewGame_LW.h
  ../Interface_Logic/Player/Player.h
  ../Structures/NodeP.h
+ ../Structures/NodeW.h
  ../Structures/PlayerList.h
  ../Structures/WordsList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
@@ -211,7 +213,6 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.cpp
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/BoxList.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/NodeW.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/SearchList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o
@@ -227,12 +228,7 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/SearchList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o
- ..//Structures/SearchList.h
- ../Structures/WordsList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Client/Client.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.cpp
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.h
@@ -240,11 +236,8 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Logic_Windows/NewGame_LW.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Manager/Manager.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Player/Player.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/BoxList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/NodeP.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/NodeW.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/PlayerList.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/SearchList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o
  ..//Structures/SearchList.h
@@ -261,12 +254,7 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/SearchList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o
- ..//Structures/SearchList.h
- ../Structures/WordsList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Client/Client.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Logic_Windows/LogicWindow.h
@@ -274,25 +262,16 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Logic_Windows/NewGame_LW.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Manager/Manager.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Player/Player.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/BoxList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/NodeP.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/NodeW.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/PlayerList.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/SearchList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o
  ..//Interface_Logic/Manager/Manager.h
- ..//Structures/SearchList.h
  ..//mainwindow.h
  ../Interface_Logic/Board_Logic/Bonus.h
  ../Interface_Logic/Board_Logic/Box.h
  ../Interface_Logic/Board_Logic/CasillaGrafica.h
- ../Interface_Logic/Board_Logic/Chip.h
- ../Structures/WordsList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Client/Client.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Logic_Windows/LogicWindow.h
@@ -300,11 +279,8 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Manager/Manager.cpp
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Manager/Manager.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Player/Player.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/BoxList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/NodeP.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/NodeW.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/PlayerList.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/SearchList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/WordsList.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -602,22 +578,15 @@ CMakeFiles/ScrabbleClient.dir/Structures/SearchList.cpp.o
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/SearchList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o
- ..//Structures/SearchList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Client/Client.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Logic_Windows/LogicWindow.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Logic_Windows/NewGame_LW.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Manager/Manager.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Player/Player.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/BoxList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/NodeP.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/NodeW.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/PlayerList.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/SearchList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/WordsList.cpp
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/main.cpp.o
@@ -626,10 +595,11 @@ CMakeFiles/ScrabbleClient.dir/main.cpp.o
  ../Interface_Logic/Board_Logic/Box.h
  ../Interface_Logic/Board_Logic/CasillaGrafica.h
  ../Interface_Logic/Board_Logic/Chip.h
+ ../Interface_Logic/Board_Logic/Matrix.h
+ ../Structures/NodeW.h
  ../Structures/WordsList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Client/Client.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.h
@@ -639,7 +609,6 @@ CMakeFiles/ScrabbleClient.dir/main.cpp.o
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Player/Player.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/BoxList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/NodeP.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/NodeW.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/PlayerList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/SearchList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/WordsList.h

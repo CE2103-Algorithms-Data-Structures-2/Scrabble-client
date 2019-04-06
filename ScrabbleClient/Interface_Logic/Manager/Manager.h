@@ -63,10 +63,14 @@ public:
 
     void update();
 
-    void setNew();
+    bool verifyPlayers();
 
     string getCode();
     string getParty();
+
+    bool triggered();
+
+    void setTrigger();
 };
 
 

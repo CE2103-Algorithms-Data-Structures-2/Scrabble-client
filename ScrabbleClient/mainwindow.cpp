@@ -93,11 +93,11 @@ void MainWindow::on_pushButton_14_clicked()
         ui->stackedWidget->setCurrentIndex(3);
         ui->label_45->setText(Wmanager->getParty().c_str());
         ui->label_42->setText(Wmanager->getCode().c_str());
-        QString qString = QString::fromStdString(nomLobby);
-        ui->label_45->setText(qString);
+        ui->label_16->setText(nomJugador.c_str());
         Wmanager->update();
 
         QtConcurrent::run(this, &MainWindow::LobbyUpdater);
+        QtConcurrent::run(this, &MainWindow::isTriggered);
 
     }
     else
@@ -132,8 +132,9 @@ void MainWindow::on_pushButton_clicked()
         ui->label_45->setText(Wmanager->getParty().c_str());
         ui->label_42->setText(Wmanager->getCode().c_str());
         Wmanager->update();
-
         QtConcurrent::run(this, &MainWindow::LobbyUpdater);
+        QtConcurrent::run(this, &MainWindow::isTriggered);
+
     }
 
     else {
@@ -153,10 +154,10 @@ void MainWindow::on_lineEdit_returnPressed()
 
 void MainWindow::on_pushButton_2_clicked()
 {
-
     if((Wmanager->localP->isHost())&&(Wmanager->players->getLength()==Wmanager->players->getLimit()))
     {
-        ui->stackedWidget->setCurrentIndex(4);
+        Wmanager->setTrigger();
+        //ui->stackedWidget->setCurrentIndex(4);
     } else
     {
         ui->label_43->setText("Solo el anfitrion puede empezar la partida!");
@@ -217,4 +218,11 @@ void MainWindow::LobbyUpdater()
         usleep(1500000);
     }
 
+}
+void MainWindow::isTriggered()
+{
+    if(Wmanager->triggered())
+    {
+        ui->stackedWidget->setCurrentIndex(4);
+    }
 }

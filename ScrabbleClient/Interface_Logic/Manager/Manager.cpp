@@ -146,16 +146,15 @@ int Manager::newJoin(string name,string code)
         }
     }
 }
-void Manager::setNew()
+bool Manager::verifyPlayers()
 {
     ask("numP");
-    play();
+    if(triggered())
+    {
+        return true;
+    }
 }
-void Manager::setJoin()
-{
-    ask("numP");
-    play();
-}
+
 void Manager::ask(string p) {
     if (p.compare("numP") == 0) {
         int counter = 0;
@@ -353,7 +352,7 @@ void Manager::writeToMatrix()
 
 void Manager::update()
 {
-    thread updateT= thread(&Manager::setJoin,this);
+    thread updateT= thread(&Manager::verifyPlayers,this);
     updateT.detach();
 }
 string Manager::getCode()
@@ -366,5 +365,22 @@ string Manager::getParty() {
     string incoming= cliente->receiveMessage();
     return incoming;
 }
+bool Manager::triggered()
+{
 
+    while(true)
+    {
+        cliente->sendMessage("triggered");
+        string incoming=cliente->receiveMessage();
+        if(incoming.compare("true")==0)
+        {
+            return true;
+        }
+        usleep(150000);
+    }
 
+}
+void Manager::setTrigger()
+{
+    cliente->sendMessage("setTrigger");
+}

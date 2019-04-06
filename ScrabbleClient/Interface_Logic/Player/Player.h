@@ -19,7 +19,7 @@ private:
     WordsList* chips;
     Chip* rndChip;
     bool* turn;
-    bool host;
+    bool* host;
 public:
     Player();
     /**

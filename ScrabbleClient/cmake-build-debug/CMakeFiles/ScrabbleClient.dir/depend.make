@@ -196,6 +196,7 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/FichaGrafica.cpp.o: /u
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Interface_Logic/Manager/Manager.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Structures/SearchList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Client/Client.h
+CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Interface_Logic/Board_Logic/Chip.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Interface_Logic/Board_Logic/Matrix.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Interface_Logic/JSON_Logic/JSONManager.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Interface_Logic/Logic_Windows/JoinGame_LW.h
@@ -203,6 +204,7 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Inter
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Interface_Logic/Logic_Windows/NewGame_LW.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Interface_Logic/Player/Player.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Structures/NodeP.h
+CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Structures/NodeW.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Structures/PlayerList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Interface_Logic/Board_Logic/Box.h
@@ -210,7 +212,6 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Inter
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Interface_Logic/Board_Logic/Matrix.cpp
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Interface_Logic/Board_Logic/Matrix.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Structures/BoxList.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Structures/NodeW.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Structures/SearchList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/Matrix.cpp.o: ../Structures/WordsList.h
 
@@ -226,12 +227,7 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o: ../S
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o: ../Structures/SearchList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/JSON_Logic/JSONManager.cpp.o: ../Structures/WordsList.h
 
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o: ../Structures/SearchList.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o: ../Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o: ../Client/Client.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o: ../Interface_Logic/Board_Logic/Box.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o: ../Interface_Logic/Board_Logic/Chip.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o: ../Interface_Logic/Board_Logic/Matrix.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o: ../Interface_Logic/JSON_Logic/JSONManager.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o: ../Interface_Logic/Logic_Windows/JoinGame_LW.cpp
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o: ../Interface_Logic/Logic_Windows/JoinGame_LW.h
@@ -239,11 +235,8 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o: .
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o: ../Interface_Logic/Logic_Windows/NewGame_LW.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o: ../Interface_Logic/Manager/Manager.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o: ../Interface_Logic/Player/Player.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o: ../Structures/BoxList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o: ../Structures/NodeP.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o: ../Structures/NodeW.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o: ../Structures/PlayerList.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o: ../Structures/SearchList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o: ../Structures/WordsList.h
 
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o: ../Structures/SearchList.h
@@ -260,12 +253,7 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o: .
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o: ../Structures/SearchList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o: ../Structures/WordsList.h
 
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o: ../Structures/SearchList.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o: ../Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o: ../Client/Client.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o: ../Interface_Logic/Board_Logic/Box.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o: ../Interface_Logic/Board_Logic/Chip.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o: ../Interface_Logic/Board_Logic/Matrix.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o: ../Interface_Logic/JSON_Logic/JSONManager.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o: ../Interface_Logic/Logic_Windows/JoinGame_LW.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o: ../Interface_Logic/Logic_Windows/LogicWindow.h
@@ -273,25 +261,16 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o: ..
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o: ../Interface_Logic/Logic_Windows/NewGame_LW.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o: ../Interface_Logic/Manager/Manager.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o: ../Interface_Logic/Player/Player.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o: ../Structures/BoxList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o: ../Structures/NodeP.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o: ../Structures/NodeW.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o: ../Structures/PlayerList.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o: ../Structures/SearchList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o: ../Structures/WordsList.h
 
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Interface_Logic/Manager/Manager.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Structures/SearchList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../mainwindow.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Interface_Logic/Board_Logic/Bonus.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Interface_Logic/Board_Logic/Box.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Interface_Logic/Board_Logic/CasillaGrafica.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Interface_Logic/Board_Logic/Chip.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Client/Client.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Interface_Logic/Board_Logic/Box.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Interface_Logic/Board_Logic/Chip.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Interface_Logic/Board_Logic/Matrix.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Interface_Logic/JSON_Logic/JSONManager.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Interface_Logic/Logic_Windows/JoinGame_LW.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Interface_Logic/Logic_Windows/LogicWindow.h
@@ -299,11 +278,8 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Interfac
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Interface_Logic/Manager/Manager.cpp
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Interface_Logic/Manager/Manager.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Interface_Logic/Player/Player.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Structures/BoxList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Structures/NodeP.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Structures/NodeW.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Structures/PlayerList.h
-CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Structures/SearchList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: ../Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -601,22 +577,15 @@ CMakeFiles/ScrabbleClient.dir/Structures/SearchList.cpp.o: ../Structures/SearchL
 CMakeFiles/ScrabbleClient.dir/Structures/SearchList.cpp.o: ../Structures/SearchList.h
 CMakeFiles/ScrabbleClient.dir/Structures/SearchList.cpp.o: ../Structures/WordsList.h
 
-CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o: ../Structures/SearchList.h
 CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o: ../Client/Client.h
-CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o: ../Interface_Logic/Board_Logic/Box.h
-CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o: ../Interface_Logic/Board_Logic/Chip.h
-CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o: ../Interface_Logic/Board_Logic/Matrix.h
 CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o: ../Interface_Logic/JSON_Logic/JSONManager.h
 CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o: ../Interface_Logic/Logic_Windows/JoinGame_LW.h
 CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o: ../Interface_Logic/Logic_Windows/LogicWindow.h
 CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o: ../Interface_Logic/Logic_Windows/NewGame_LW.h
 CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o: ../Interface_Logic/Manager/Manager.h
 CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o: ../Interface_Logic/Player/Player.h
-CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o: ../Structures/BoxList.h
 CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o: ../Structures/NodeP.h
-CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o: ../Structures/NodeW.h
 CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o: ../Structures/PlayerList.h
-CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o: ../Structures/SearchList.h
 CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o: ../Structures/WordsList.cpp
 CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o: ../Structures/WordsList.h
 
@@ -625,10 +594,11 @@ CMakeFiles/ScrabbleClient.dir/main.cpp.o: ../Interface_Logic/Board_Logic/Bonus.h
 CMakeFiles/ScrabbleClient.dir/main.cpp.o: ../Interface_Logic/Board_Logic/Box.h
 CMakeFiles/ScrabbleClient.dir/main.cpp.o: ../Interface_Logic/Board_Logic/CasillaGrafica.h
 CMakeFiles/ScrabbleClient.dir/main.cpp.o: ../Interface_Logic/Board_Logic/Chip.h
+CMakeFiles/ScrabbleClient.dir/main.cpp.o: ../Interface_Logic/Board_Logic/Matrix.h
+CMakeFiles/ScrabbleClient.dir/main.cpp.o: ../Structures/NodeW.h
 CMakeFiles/ScrabbleClient.dir/main.cpp.o: ../Structures/WordsList.h
 CMakeFiles/ScrabbleClient.dir/main.cpp.o: ../Client/Client.h
 CMakeFiles/ScrabbleClient.dir/main.cpp.o: ../Interface_Logic/Board_Logic/Box.h
-CMakeFiles/ScrabbleClient.dir/main.cpp.o: ../Interface_Logic/Board_Logic/Chip.h
 CMakeFiles/ScrabbleClient.dir/main.cpp.o: ../Interface_Logic/Board_Logic/Matrix.h
 CMakeFiles/ScrabbleClient.dir/main.cpp.o: ../Interface_Logic/JSON_Logic/JSONManager.h
 CMakeFiles/ScrabbleClient.dir/main.cpp.o: ../Interface_Logic/Logic_Windows/JoinGame_LW.h
@@ -638,7 +608,6 @@ CMakeFiles/ScrabbleClient.dir/main.cpp.o: ../Interface_Logic/Manager/Manager.h
 CMakeFiles/ScrabbleClient.dir/main.cpp.o: ../Interface_Logic/Player/Player.h
 CMakeFiles/ScrabbleClient.dir/main.cpp.o: ../Structures/BoxList.h
 CMakeFiles/ScrabbleClient.dir/main.cpp.o: ../Structures/NodeP.h
-CMakeFiles/ScrabbleClient.dir/main.cpp.o: ../Structures/NodeW.h
 CMakeFiles/ScrabbleClient.dir/main.cpp.o: ../Structures/PlayerList.h
 CMakeFiles/ScrabbleClient.dir/main.cpp.o: ../Structures/SearchList.h
 CMakeFiles/ScrabbleClient.dir/main.cpp.o: ../Structures/WordsList.h
