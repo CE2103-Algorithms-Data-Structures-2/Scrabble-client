@@ -66,6 +66,7 @@ public:
     void setNew();
 
     string getCode();
+    string getParty();
 };
 
 

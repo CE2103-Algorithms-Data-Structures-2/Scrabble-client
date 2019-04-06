@@ -91,7 +91,10 @@ void MainWindow::on_pushButton_14_clicked()
 
         Wmanager->localP->setHost();
         ui->stackedWidget->setCurrentIndex(3);
+        ui->label_45->setText(Wmanager->getParty().c_str());
         ui->label_42->setText(Wmanager->getCode().c_str());
+        QString qString = QString::fromStdString(nomLobby);
+        ui->label_45->setText(qString);
         Wmanager->update();
 
         QtConcurrent::run(this, &MainWindow::LobbyUpdater);
@@ -126,6 +129,7 @@ void MainWindow::on_pushButton_clicked()
 
 
         ui->stackedWidget->setCurrentIndex(3);
+        ui->label_45->setText(Wmanager->getParty().c_str());
         ui->label_42->setText(Wmanager->getCode().c_str());
         Wmanager->update();
 
@@ -149,14 +153,7 @@ void MainWindow::on_lineEdit_returnPressed()
 
 void MainWindow::on_pushButton_2_clicked()
 {
-    // Verificar si host es el que esta iniciando
-        // Si es verificar si todos están listos
-            // Comenzar Partida
-        // Si no poner label de error
-    // Si no
-        // Poner label de error
-    cout<<Wmanager->players->getLimit()<<endl;
-    cout<<Wmanager->players->getLength()<<endl;
+
     if((Wmanager->localP->isHost())&&(Wmanager->players->getLength()==Wmanager->players->getLimit()))
     {
         ui->stackedWidget->setCurrentIndex(4);
