@@ -64,6 +64,8 @@ public:
     void update();
 
     void setNew();
+
+    string getCode();
 };
 
 

@@ -356,6 +356,9 @@ void Manager::update()
     thread updateT= thread(&Manager::setJoin,this);
     updateT.detach();
 }
-
+string Manager::getCode()
+{
+    return this->code->c_str();
+}
 
 

@@ -91,7 +91,7 @@ void MainWindow::on_pushButton_14_clicked()
 
         Wmanager->localP->setHost();
         ui->stackedWidget->setCurrentIndex(3);
-
+        ui->label_42->setText(Wmanager->getCode().c_str());
         Wmanager->update();
 
         QtConcurrent::run(this, &MainWindow::LobbyUpdater);
@@ -124,8 +124,9 @@ void MainWindow::on_pushButton_clicked()
 
         Wmanager->newJoin(nomJugador,codigo);
 
-        ui->stackedWidget->setCurrentIndex(3);
 
+        ui->stackedWidget->setCurrentIndex(3);
+        ui->label_42->setText(Wmanager->getCode().c_str());
         Wmanager->update();
 
         QtConcurrent::run(this, &MainWindow::LobbyUpdater);
@@ -189,22 +190,22 @@ void MainWindow::LobbyUpdater()
                 case 0:
                     ui->label_16->setText(p->getName().c_str());
                     ui->label_14->setText("Conectado");
-                    ui->label_14->setStyleSheet("{color:#00C851}");
+                    ui->label_14->setStyleSheet("{color:#00c851}");
                     break;
                 case 1:
                     ui->label_26->setText(p->getName().c_str());
                     ui->label_24->setText("Conectado");
-                    ui->label_24->setStyleSheet("{color:#00C851}");
+                    ui->label_24->setStyleSheet("{color:#00c851}");
                     break;
                 case 2:
                     ui->label_36->setText(p->getName().c_str());
                     ui->label_34->setText("Conectado");
-                    ui->label_34->setStyleSheet("{color:#00C851}");
+                    ui->label_34->setStyleSheet("{color:#00c851}");
                     break;
                 case 3:
                     ui->label_31->setText(p->getName().c_str());
                     ui->label_29->setText("Conectado");
-                    ui->label_29->setStyleSheet("{color:#00C851}");
+                    ui->label_29->setStyleSheet("{color:#00c851}");
                     break;
             }
             counter++;
