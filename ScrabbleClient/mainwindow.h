@@ -55,6 +55,8 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+
+    void LobbyUpdater();
 };
 
 #endif // MAINWINDOW_H

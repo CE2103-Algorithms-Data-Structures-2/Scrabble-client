@@ -124,7 +124,7 @@ void Manager::newGame(string name, string partida,string jugadores)
         }
     }
 }
-void Manager::newJoin(string name,string code)
+int Manager::newJoin(string name,string code)
 {
     bool tr= true;
     while(running)
@@ -140,14 +140,18 @@ void Manager::newJoin(string name,string code)
                 {
                     cliente->disconnect();
                 }
-                ask("numP");
-                play();
-                tr=false;
-
+                cliente->sendMessage("myID");
+                string incoming=cliente->receiveMessage();
+                return (stoi(incoming));
             }
 
         }
     }
+}
+void Manager::setJoin()
+{
+    ask("numP");
+    play();
 }
 void Manager::ask(string p) {
     if (p.compare("numP") == 0) {
@@ -285,8 +289,7 @@ void Manager::ask(string p) {
         localP->print();
 
     }
-    else if(p.compare("coordinate")==0)
-    {
+    else if(p.compare("coordinate")==0) {
         while (true) {
             cliente->sendMessage("coordinate");
             string incoming = cliente->receiveMessage();
@@ -343,6 +346,12 @@ void Manager::writeToMatrix()
             break;
         }
     }
+}
+
+void Manager::update()
+{
+    thread updateT= thread(&Manager::setJoin,this);
+    updateT.detach();
 }
 
 

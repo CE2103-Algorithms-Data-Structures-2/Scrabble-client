@@ -129,3 +129,15 @@ void PlayerList::purge()
     length=0;
 
 }
+
+Player *PlayerList::getLast() {
+    NodeP* temp=this->getHead();
+    if(temp!= nullptr)
+    {
+        while(temp->getNext()!= nullptr)
+        {
+            temp=temp->getNext();
+        }
+        return temp->getValue();
+    }
+}
