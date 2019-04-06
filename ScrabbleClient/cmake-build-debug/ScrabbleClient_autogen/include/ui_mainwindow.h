@@ -409,11 +409,11 @@ public:
         font8.setPointSize(16);
         pushButton_5->setFont(font8);
         pushButton_5->setStyleSheet(QLatin1String("background-color: rgb(38, 50, 56);\n"
+"border-color: rgb(38, 50, 56);\n"
 "color: rgb(255, 68, 68);\n"
 "border-radius: 10px;\n"
-"border-width : 1.5px;\n"
+"border-width : 0px;\n"
 "border-style:inset;\n"
-"border-color: rgb(230, 81, 0);\n"
 "  padding-top: 0px;\n"
 "  padding-right: 35px;\n"
 "  padding-bottom: 0px;\n"
@@ -442,11 +442,11 @@ public:
         pushButton_8->setObjectName(QStringLiteral("pushButton_8"));
         pushButton_8->setFont(font8);
         pushButton_8->setStyleSheet(QLatin1String("background-color: rgb(38, 50, 56);\n"
+"border-color: rgb(38, 50, 56);\n"
 "color: rgb(255, 68, 68);\n"
 "border-radius: 10px;\n"
-"border-width : 1.5px;\n"
+"border-width : 0px;\n"
 "border-style:inset;\n"
-"border-color: rgb(230, 81, 0);\n"
 "  padding-top: 0px;\n"
 "  padding-right: 35px;\n"
 "  padding-bottom: 0px;\n"
@@ -490,6 +490,7 @@ public:
 
         lineEdit_4 = new QLineEdit(verticalLayoutWidget);
         lineEdit_4->setObjectName(QStringLiteral("lineEdit_4"));
+        lineEdit_4->setFont(font6);
         lineEdit_4->setStyleSheet(QLatin1String("padding-top: 0px;\n"
 "background-color: rgb(238, 238, 236);\n"
 "padding-right: 60px;\n"

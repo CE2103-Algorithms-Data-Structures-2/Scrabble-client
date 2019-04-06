@@ -312,6 +312,12 @@ QtWidgets/QLabel
 ../Interface_Logic/Board_Logic/CasillaGrafica.h
 /home/david/Documents/Scrabble-client/Interface_Logic/Board_Logic/CasillaGrafica.h
 
+/home/david/Documents/Scrabble-client/ScrabbleClient/tilelabel.cpp
+tilelabel.h
+/home/david/Documents/Scrabble-client/ScrabbleClient/tilelabel.h
+
+/home/david/Documents/Scrabble-client/ScrabbleClient/tilelabel.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 qvariant.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h

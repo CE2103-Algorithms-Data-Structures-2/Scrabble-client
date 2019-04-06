@@ -24,6 +24,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/david/Documents/Scrabble-client/ScrabbleClient/Structures/WordsList.cpp" "/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o"
   "/home/david/Documents/Scrabble-client/ScrabbleClient/main.cpp" "/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/main.cpp.o"
   "/home/david/Documents/Scrabble-client/ScrabbleClient/mainwindow.cpp" "/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o"
+  "/home/david/Documents/Scrabble-client/ScrabbleClient/tilelabel.cpp" "/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

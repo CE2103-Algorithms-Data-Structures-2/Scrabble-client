@@ -640,11 +640,11 @@ border-color: rgb(105, 240, 174);
          </property>
          <property name="styleSheet">
           <string notr="true">background-color: rgb(38, 50, 56);
+border-color: rgb(38, 50, 56);
 color: rgb(255, 68, 68);
 border-radius: 10px;
-border-width : 1.5px;
+border-width : 0px;
 border-style:inset;
-border-color: rgb(230, 81, 0);
   padding-top: 0px;
   padding-right: 35px;
   padding-bottom: 0px;
@@ -696,11 +696,11 @@ border-style: solid;
          </property>
          <property name="styleSheet">
           <string notr="true">background-color: rgb(38, 50, 56);
+border-color: rgb(38, 50, 56);
 color: rgb(255, 68, 68);
 border-radius: 10px;
-border-width : 1.5px;
+border-width : 0px;
 border-style:inset;
-border-color: rgb(230, 81, 0);
   padding-top: 0px;
   padding-right: 35px;
   padding-bottom: 0px;

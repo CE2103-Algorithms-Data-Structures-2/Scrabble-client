@@ -278,9 +278,22 @@ CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/ScrabbleClient/mainwindow.cpp -o CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.s
 
+CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.o: CMakeFiles/ScrabbleClient.dir/flags.make
+CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.o: ../tilelabel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.o -c /home/david/Documents/Scrabble-client/ScrabbleClient/tilelabel.cpp
+
+CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/Scrabble-client/ScrabbleClient/tilelabel.cpp > CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.i
+
+CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/Scrabble-client/ScrabbleClient/tilelabel.cpp -o CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.s
+
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/CasillaGrafica.cpp.o: CMakeFiles/ScrabbleClient.dir/flags.make
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/CasillaGrafica.cpp.o: ../Interface_Logic/Board_Logic/CasillaGrafica.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/CasillaGrafica.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/CasillaGrafica.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/CasillaGrafica.cpp.o -c /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/CasillaGrafica.cpp
 
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/CasillaGrafica.cpp.i: cmake_force
@@ -293,7 +306,7 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/CasillaGrafica.cpp.s: 
 
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/FichaGrafica.cpp.o: CMakeFiles/ScrabbleClient.dir/flags.make
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/FichaGrafica.cpp.o: ../Interface_Logic/Board_Logic/FichaGrafica.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/FichaGrafica.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/FichaGrafica.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/FichaGrafica.cpp.o -c /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/FichaGrafica.cpp
 
 CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/FichaGrafica.cpp.i: cmake_force
@@ -306,7 +319,7 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/FichaGrafica.cpp.s: cm
 
 CMakeFiles/ScrabbleClient.dir/ScrabbleClient_autogen/mocs_compilation.cpp.o: CMakeFiles/ScrabbleClient.dir/flags.make
 CMakeFiles/ScrabbleClient.dir/ScrabbleClient_autogen/mocs_compilation.cpp.o: ScrabbleClient_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/ScrabbleClient.dir/ScrabbleClient_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/ScrabbleClient.dir/ScrabbleClient_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScrabbleClient.dir/ScrabbleClient_autogen/mocs_compilation.cpp.o -c /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/mocs_compilation.cpp
 
 CMakeFiles/ScrabbleClient.dir/ScrabbleClient_autogen/mocs_compilation.cpp.i: cmake_force
@@ -336,6 +349,7 @@ ScrabbleClient_OBJECTS = \
 "CMakeFiles/ScrabbleClient.dir/Structures/PlayerList.cpp.o" \
 "CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o" \
 "CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o" \
+"CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.o" \
 "CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/CasillaGrafica.cpp.o" \
 "CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/FichaGrafica.cpp.o" \
 "CMakeFiles/ScrabbleClient.dir/ScrabbleClient_autogen/mocs_compilation.cpp.o"
@@ -360,6 +374,7 @@ ScrabbleClient: CMakeFiles/ScrabbleClient.dir/Structures/NodeW.cpp.o
 ScrabbleClient: CMakeFiles/ScrabbleClient.dir/Structures/PlayerList.cpp.o
 ScrabbleClient: CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o
 ScrabbleClient: CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o
+ScrabbleClient: CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.o
 ScrabbleClient: CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/CasillaGrafica.cpp.o
 ScrabbleClient: CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/FichaGrafica.cpp.o
 ScrabbleClient: CMakeFiles/ScrabbleClient.dir/ScrabbleClient_autogen/mocs_compilation.cpp.o
@@ -368,7 +383,7 @@ ScrabbleClient: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.5
 ScrabbleClient: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5
 ScrabbleClient: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
 ScrabbleClient: CMakeFiles/ScrabbleClient.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable ScrabbleClient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable ScrabbleClient"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ScrabbleClient.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

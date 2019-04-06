@@ -882,3 +882,6 @@ CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt
 CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o: ScrabbleClient_autogen/include/ui_mainwindow.h
 
+CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.o: ../tilelabel.cpp
+CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.o: ../tilelabel.h
+

@@ -14,6 +14,8 @@ class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
+    QPoint offset;
+
     CasillaGrafica* board_array[15][15];
     QLabel* fichas_array[7];
 
@@ -48,6 +50,8 @@ private slots:
     void on_pushButton_8_clicked();
 
     void on_pushButton_12_clicked();
+
+    void on_pushButton_14_pressed();
 
 private:
     Ui::MainWindow *ui;
