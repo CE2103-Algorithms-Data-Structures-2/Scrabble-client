@@ -24,7 +24,6 @@ void NewGame_LW::newGame(string name,string partida,string jugadores)
         Manager::players->setLimit(stoi(jugadores));
         out+="No_jugadores@"+jugadores;
         out=Jmanager->toJSON(out);
-        Manager::players->add(Manager::localP);
         cliente->sendMessage(out);
     }
 

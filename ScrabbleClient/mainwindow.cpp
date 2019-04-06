@@ -121,7 +121,7 @@ void MainWindow::on_pushButton_clicked()
     {
         std::string codigo = ui->lineEdit->text().toStdString();
         std::string nomJugador = ui->lineEdit_4->text().toStdString();
-
+        Wmanager->setCode(codigo);
         Wmanager->newJoin(nomJugador,codigo);
 
 
@@ -155,8 +155,15 @@ void MainWindow::on_pushButton_2_clicked()
         // Si no poner label de error
     // Si no
         // Poner label de error
-    if(Wmanager->localP->isHost()&&Wmanager->players->getLength()==Wmanager->players->getLimit())
+    cout<<Wmanager->players->getLimit()<<endl;
+    cout<<Wmanager->players->getLength()<<endl;
+    if((Wmanager->localP->isHost())&&(Wmanager->players->getLength()==Wmanager->players->getLimit()))
+    {
         ui->stackedWidget->setCurrentIndex(4);
+    } else
+    {
+        ui->label_43->setText("Solo el anfitrion puede empezar la partida!");
+    }
 }
 
 void MainWindow::on_pushButton_5_clicked()
