@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug"/>
+				<Option working_dir="/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug"/>
+				<Option working_dir="/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ScrabbleClient">
-				<Option output="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/ScrabbleClient" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug"/>
+				<Option output="/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/ScrabbleClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -37,10 +37,10 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
-					<Add directory="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug"/>
-					<Add directory="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient"/>
-					<Add directory="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/include"/>
-					<Add directory="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/."/>
+					<Add directory="/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug"/>
+					<Add directory="/home/david/Documents/Scrabble-client/ScrabbleClient"/>
+					<Add directory="/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/include"/>
+					<Add directory="/home/david/Documents/Scrabble-client/ScrabbleClient/."/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
@@ -56,15 +56,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 ScrabbleClient"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 ScrabbleClient"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ScrabbleClient/fast">
-				<Option output="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/ScrabbleClient" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug"/>
+				<Option output="/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/ScrabbleClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -72,10 +72,10 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
-					<Add directory="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug"/>
-					<Add directory="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient"/>
-					<Add directory="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/include"/>
-					<Add directory="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/."/>
+					<Add directory="/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug"/>
+					<Add directory="/home/david/Documents/Scrabble-client/ScrabbleClient"/>
+					<Add directory="/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/include"/>
+					<Add directory="/home/david/Documents/Scrabble-client/ScrabbleClient/."/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
@@ -91,202 +91,202 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 ScrabbleClient/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 ScrabbleClient/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug"/>
+				<Option working_dir="/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ScrabbleClient_autogen">
-				<Option working_dir="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug"/>
+				<Option working_dir="/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 ScrabbleClient_autogen"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 ScrabbleClient_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Client/Client.cpp">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Client/Client.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Client/Client.h">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Client/Client.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/Board_Logic/Bonus.h">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Bonus.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/Board_Logic/Box.cpp">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Box.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/Board_Logic/Box.h">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Box.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/Board_Logic/CasillaGrafica.cpp">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/CasillaGrafica.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/Board_Logic/CasillaGrafica.h">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/CasillaGrafica.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/Board_Logic/Chip.cpp">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Chip.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/Board_Logic/FichaGrafica.cpp">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/FichaGrafica.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/Board_Logic/FichaGrafica.h">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/FichaGrafica.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.cpp">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.cpp">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.cpp">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.h">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/Logic_Windows/LogicWindow.cpp">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Logic_Windows/LogicWindow.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/Logic_Windows/LogicWindow.h">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Logic_Windows/LogicWindow.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/Logic_Windows/NewGame_LW.cpp">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Logic_Windows/NewGame_LW.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/Logic_Windows/NewGame_LW.h">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Logic_Windows/NewGame_LW.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/Manager/Manager.cpp">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Manager/Manager.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/Manager/Manager.h">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Manager/Manager.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/Player/Player.cpp">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Player/Player.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Interface_Logic/Player/Player.h">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Player/Player.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Structures/BoxList.cpp">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Structures/BoxList.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Structures/BoxList.h">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Structures/BoxList.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Structures/NodeP.cpp">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Structures/NodeP.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Structures/NodeP.h">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Structures/NodeP.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Structures/NodeW.cpp">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Structures/NodeW.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Structures/NodeW.h">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Structures/NodeW.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Structures/PlayerList.cpp">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Structures/PlayerList.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Structures/PlayerList.h">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Structures/PlayerList.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Structures/SearchList.cpp">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Structures/SearchList.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Structures/SearchList.h">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Structures/SearchList.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Structures/WordsList.cpp">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Structures/WordsList.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/Structures/WordsList.h">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Structures/WordsList.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/mocs_compilation.cpp">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/mocs_compilation.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/main.cpp">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/main.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/mainwindow.cpp">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/mainwindow.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/mainwindow.h">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/mainwindow.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/mainwindow.ui">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/mainwindow.ui">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/tilelabel.cpp">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/tilelabel.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/tilelabel.h">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/tilelabel.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/CMakeLists.txt">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
 	</Project>

@@ -1,4 +1,4 @@
-/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir
-/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient_autogen.dir
+/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir
+/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient_autogen.dir
