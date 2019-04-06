@@ -96,8 +96,8 @@ void MainWindow::on_pushButton_14_clicked()
         ui->label_16->setText(nomJugador.c_str());
         Wmanager->update();
 
-        QtConcurrent::run(this, &MainWindow::LobbyUpdater);
-        QtConcurrent::run(this, &MainWindow::isTriggered);
+        QtConcurrent::run(this, &MainWindow::play);
+        //QtConcurrent::run(this, &MainWindow::isTriggered);
 
     }
     else
@@ -132,8 +132,8 @@ void MainWindow::on_pushButton_clicked()
         ui->label_45->setText(Wmanager->getParty().c_str());
         ui->label_42->setText(Wmanager->getCode().c_str());
         Wmanager->update();
-        QtConcurrent::run(this, &MainWindow::LobbyUpdater);
-        QtConcurrent::run(this, &MainWindow::isTriggered);
+        QtConcurrent::run(this, &MainWindow::play);
+        //QtConcurrent::run(this, &MainWindow::isTriggered);
 
     }
 
@@ -217,7 +217,8 @@ void MainWindow::LobbyUpdater()
         }
         usleep(1500000);
     }
-
+    isTriggered();
+    usleep(1500000);
 }
 void MainWindow::isTriggered()
 {
@@ -225,4 +226,10 @@ void MainWindow::isTriggered()
     {
         ui->stackedWidget->setCurrentIndex(4);
     }
+
+}
+void MainWindow::play()
+{
+    LobbyUpdater();
+    isTriggered();
 }

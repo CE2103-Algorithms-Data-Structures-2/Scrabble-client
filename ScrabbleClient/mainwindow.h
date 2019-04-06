@@ -59,6 +59,8 @@ private:
     void LobbyUpdater();
 
     void isTriggered();
+
+    void play();
 };
 
 #endif // MAINWINDOW_H
