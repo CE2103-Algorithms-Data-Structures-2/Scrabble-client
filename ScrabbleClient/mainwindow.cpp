@@ -2,6 +2,8 @@
 #include "ui_mainwindow.h"
 #include <iostream>
 #include <string>
+#include <QtCore/QFuture>
+#include <QtConcurrent/QtConcurrent>
 
 #define LOG(x) std::cout << x << std::endl;
 using namespace std;
@@ -85,7 +87,7 @@ void MainWindow::on_pushButton_14_clicked()
         std::string nomLobby = ui->lineEdit_2->text().toStdString();
         std::string nomJugador = ui->lineEdit_3->text().toStdString();
         std::string numJugadores = ui->comboBox->currentText().toStdString();
-        // Wmanager->newGame(nomJugador,nomLobby,numJugadores);
+        Wmanager->newGame(nomJugador,nomLobby,numJugadores);
 
         LOG(nomLobby);
         LOG(nomJugador);
@@ -113,16 +115,18 @@ void MainWindow::on_pushButton_13_clicked()
 
 void MainWindow::on_pushButton_clicked()
 {
-    if (ui->lineEdit->text().toStdString() != "") {
+    if (ui->lineEdit->text().toStdString() != "")
+    {
         std::string codigo = ui->lineEdit->text().toStdString();
         std::string nomJugador = ui->lineEdit_4->text().toStdString();
 
-        // Wmanager->newJoin(nomJugador,codigo);
-
-        LOG(codigo);
-        LOG(nomJugador);
+        Wmanager->newJoin(nomJugador,codigo);
 
         ui->stackedWidget->setCurrentIndex(3);
+
+        Wmanager->update();
+
+        QtConcurrent::run(this, &MainWindow::LobbyUpdater);
     }
 
     else {
@@ -169,5 +173,41 @@ void MainWindow::on_pushButton_12_clicked()
 
 void MainWindow::on_pushButton_14_pressed()
 {
+
+}
+void MainWindow::LobbyUpdater()
+{
+    int counter = 0;
+    while (counter <= Wmanager->players->getLimit() - 1)
+    {
+        if(Wmanager->players->getLength()>counter)
+        {
+            Player* p= Wmanager->players->getLast();
+            switch (stoi(p->getID())) {
+                case 0:
+                    ui->label_16->setText(p->getName().c_str());
+                    ui->label_14->setText("Conectado");
+                    ui->label_14->setStyleSheet("{color:#00C851}");
+                    break;
+                case 1:
+                    ui->label_26->setText(p->getName().c_str());
+                    ui->label_24->setText("Conectado");
+                    ui->label_24->setStyleSheet("{color:#00C851}");
+                    break;
+                case 2:
+                    ui->label_36->setText(p->getName().c_str());
+                    ui->label_34->setText("Conectado");
+                    ui->label_34->setStyleSheet("{color:#00C851}");
+                    break;
+                case 3:
+                    ui->label_31->setText(p->getName().c_str());
+                    ui->label_29->setText("Conectado");
+                    ui->label_29->setStyleSheet("{color:#00C851}");
+                    break;
+            }
+            counter++;
+        }
+        usleep(1500000);
+    }
 
 }

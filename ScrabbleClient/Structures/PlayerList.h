@@ -62,6 +62,9 @@ public:
      */
     void purge();
 
+    Player* getLast();
+
+
 
 
 };

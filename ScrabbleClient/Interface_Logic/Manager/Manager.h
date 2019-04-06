@@ -52,14 +52,16 @@ public:
     /**
      * Metodo para unirse a una nueva partida.
      */
-    void newJoin(string name,string code);
+    int newJoin(string name,string code);
     /**
      * Metodo para verificar si una palabra se puede escribir en la matriz y escribirla
      */
     void writeToMatrix();
+    void setJoin();
     static Player* localP;
     static PlayerList* players;
 
+    void update();
 };
 
 
