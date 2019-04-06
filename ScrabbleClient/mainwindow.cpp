@@ -94,6 +94,7 @@ void MainWindow::on_pushButton_14_clicked()
         LOG(numJugadores);
 
         ui->stackedWidget->setCurrentIndex(3);
+
     }
     else
     {
