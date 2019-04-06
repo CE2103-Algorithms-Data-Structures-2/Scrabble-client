@@ -7,9 +7,14 @@
 
 WordsList::WordsList()
 {
+    this->word="";
     this->head=nullptr;
     this->length=0;
     this->next= nullptr;
+    Finicial=new int(0);
+    Ffinal=new int(0);
+    Cinicial=new int (0);
+    Cfinal=new int(0);
 }
 int WordsList::getLength()
 {
@@ -32,6 +37,7 @@ void WordsList::add(Chip* c)
         temp = nullptr;
         delete (temp);
     }
+    length++;
 }
 void WordsList::del(string s)
 {
@@ -101,32 +107,35 @@ NodeW *WordsList::getHead()
     return this->head;
 }
 
-bool WordsList::writeAble(WordsList *w)
+bool WordsList::writeAble(WordsList w)
 {
     bool writeable=true;
-    NodeW* temp=w->getHead();
+    NodeW* temp=w.getHead();
     if(temp!= nullptr)
     {
         while(temp!= nullptr)
         {
             int local=times(temp->getChip()->getLetter(),w);
-            int localp=times(temp->getChip()->getLetter(),this);
+            int localp=times(temp->getChip()->getLetter(),*this);
             if(localp<local)
             {
                 cout<<"No es posible armar la palabra indicada!"<<endl;
+                delete(temp);
                 return false;
             }
             temp=temp->getNext();
+            cout<<"ciclo writeable"<<endl;
         }
         cout<<"Es posible armar la palabra!"<<endl;
+        delete(temp);
         return true;
 
     }
 }
 
-int WordsList::times(string l,WordsList* w) {
+int WordsList::times(string l,WordsList w) {
     int i=0;
-    NodeW* temp=w->getHead();
+    NodeW* temp=w.getHead();
     if(temp!= nullptr)
     {
         while(temp!= nullptr)
@@ -136,7 +145,81 @@ int WordsList::times(string l,WordsList* w) {
                 i++;
             }
             temp=temp->getNext();
+            cout<<"ciclo times"<<endl;
         }
+    }
+    delete(temp);
+    return i;
+}
+string WordsList::getWord()
+{
+    NodeW* temp= this->getHead();
+    string out="";
+    while(temp!= nullptr)
+    {
+        out+=temp->getChip()->getLetter();
+        temp=temp->getNext();
+    }
+    delete(temp);
+    return out;
+}
+void WordsList::removeSetOfLetters(WordsList w)
+{
+    NodeW* temp=w.getHead();
+    while(temp!= nullptr)
+    {
+        this->del(temp->getChip()->getLetter());
+        temp=temp->getNext();
+    }
+}
+void WordsList::setInicio(int f,int c)
+{
+    *Finicial=f;
+    *Cinicial=c;
+}
+void WordsList::setFinal(int f,int c)
+{
+    *Ffinal=f;
+    *Cfinal=c;
+}
+
+int WordsList::getFinicial() {
+    return *Finicial;
+}
+
+int WordsList::getFfinal() {
+    return *Ffinal;
+}
+
+int WordsList::getCinicial() {
+    return *Cinicial;
+}
+
+int WordsList::getCfinal() {
+    return *Cfinal;
+}
+
+void WordsList::setWord(string w)
+{
+    this->word=w;
+}
+
+void WordsList::multiplyBy(int i)
+{
+    NodeW* temp=head;
+    while(temp!= nullptr)
+    {
+        temp->getChip()->setPoints(temp->getChip()->getPoints()*i);
+        temp=temp->getNext();
+    }
+}
+int WordsList::getPoints() {
+    int i=0;
+    NodeW* temp=this->head;
+    while(temp!= nullptr)
+    {
+        i+=temp->getChip()->getPoints();
+        temp=temp->getNext();
     }
     return i;
 }

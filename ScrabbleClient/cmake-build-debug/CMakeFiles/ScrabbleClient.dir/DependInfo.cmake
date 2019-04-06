@@ -21,6 +21,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/david/Documents/Scrabble-client/ScrabbleClient/Structures/NodeP.cpp" "/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Structures/NodeP.cpp.o"
   "/home/david/Documents/Scrabble-client/ScrabbleClient/Structures/NodeW.cpp" "/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Structures/NodeW.cpp.o"
   "/home/david/Documents/Scrabble-client/ScrabbleClient/Structures/PlayerList.cpp" "/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Structures/PlayerList.cpp.o"
+  "/home/david/Documents/Scrabble-client/ScrabbleClient/Structures/SearchList.cpp" "/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Structures/SearchList.cpp.o"
   "/home/david/Documents/Scrabble-client/ScrabbleClient/Structures/WordsList.cpp" "/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o"
   "/home/david/Documents/Scrabble-client/ScrabbleClient/main.cpp" "/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/main.cpp.o"
   "/home/david/Documents/Scrabble-client/ScrabbleClient/mainwindow.cpp" "/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o"

@@ -9,57 +9,80 @@
 #include "../Interface_Logic/Board_Logic/Box.h"
 
 class BoxList {
-    private:
-        Box* head;
-        int length;
-        BoxList* next;
-    public:
-        /**
-        * Constructor de la clase BoxList.
-        */
-        BoxList();
-        /**
-         * Metodo para obtener la longitud de la lista.
-         * @return Longtud de tipo entero.
-         */
-        int getLength();
-        /**
-         * Metodo para obtener la siguiente lista de casillas.
-         * @return Puntero de tipo BoxList.
-         */
-        BoxList* getNext();
-        /**
-         * Metodo para establecer la siguiente lista de casillas.
-         * @param b Puntero de tipo BoxList.
-         */
-        void setNext(BoxList* b);
-        /**
-         * Metodo para suprimir una casilla de la lista.
-         * @param f Fila de tipo entero.
-         * @param c Columna de tipo entero.
-         */
-        void del(int f,int c);
-        /**
-         * Metodo para añadir una ficha en la posicion indicada.
-         * @param f Fila de tipo entero.
-         * @param col Columna de tipo entero.
-         * @param c Puntero de tipo Chip.
-         */
-        void add(int f,int col,Chip* c);
-        /**
-         * Metodo para imprimir la lista en consola.
-         */
-        void print();
-        /**
-         * Metodo para llenar la lista con 15 casillas vacias.
-         */
-        void fill15(int f);
-        /**
-         * Metodo para obtener la cabeza de la lista.
-         * @return Puntero de tipo Box.
-         */
-        Box* getHead();
-
+private:
+    Box* head;
+    int length;
+    BoxList* next;
+    BoxList* prev;
+public:
+    /**
+    * Constructor de la clase BoxList.
+    */
+    BoxList();
+    /**
+     * Metodo para obtener la longitud de la lista.
+     * @return Longtud de tipo entero.
+     */
+    int getLength();
+    /**
+     * Metodo para obtener la siguiente lista de casillas.
+     * @return Puntero de tipo BoxList.
+     */
+    BoxList* getNext();
+    /**
+     * Metodo para obtener la lista anterior a la actual.
+     * @return Puntero de tipo BoxList.
+     */
+    BoxList*getPrev();
+    /**
+     * Metodo para establecer la siguiente lista de casillas.
+     * @param b Puntero de tipo BoxList.
+     */
+    void setNext(BoxList* b);
+    /**
+     * Metodo para establecer la lista de casillas previa a la actual
+     * @param b Puntero de tipo BoxList.
+     */
+    void setPrev(BoxList*b);
+    /**
+     * Metodo para añadir una ficha en la posicion indicada.
+     * @param f Fila de tipo entero.
+     * @param col Columna de tipo entero.
+     * @param c Puntero de tipo Chip.
+     */
+    void add(int f,int col,Chip* c);
+    /**
+     * Metodo para imprimir la lista en consola.
+     */
+    void print();
+    /**
+     * Metodo para llenar la lista con 15 casillas vacias.
+     */
+    void fill15(int f);
+    /**
+     * Metodo para obtener la cabeza de la lista.
+     * @return Puntero de tipo Box.
+     */
+    Box* getHead();
+    /**
+     * Metodo para anadir una casilla a la lista.
+     * @param b
+     */
+    void add_Box(Box b);
+    /**
+     * Metodo para saber si una casilla esta en la lista.
+     * @param f Fila de tipo entero.
+     * @param c Columna de tipo entero.
+     * @return Coondicion de tipo booleano
+     */
+    bool in(int f,int c);
+    /**
+     * Metodo para obtener una casilla en una posicion especifica.
+     * @param f Fila de tipo entero.
+     * @param c Columna de tipo entero.
+     * @return Puntero de tipo Box.
+     */
+    Box* get(int f,int c);
 };
 
 

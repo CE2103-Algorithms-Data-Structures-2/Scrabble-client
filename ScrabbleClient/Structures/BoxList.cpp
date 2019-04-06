@@ -7,6 +7,8 @@
 BoxList::BoxList()
 {
     this->head= nullptr;
+    this->next= nullptr;
+    this->prev= nullptr;
     this->length=0;
 }
 void BoxList::fill15(int f)
@@ -19,6 +21,7 @@ void BoxList::fill15(int f)
             break;
         }
         Chip* c= new Chip();
+        c->setLetter(" ");
         this->add(col,f,c);
         length++;
         col++;
@@ -40,7 +43,7 @@ void BoxList::setNext(BoxList *b) {
 
 void BoxList::add(int col, int f,Chip* c)
 {
-    Box* b= new Box(col,f,"",c);
+    Box* b= new Box(col,f," ",c);
     if(this->head== nullptr)
     {
         this->head=b;
@@ -52,42 +55,32 @@ void BoxList::add(int col, int f,Chip* c)
             temp = temp->getNext();
         }
         temp->setNext(b);
+        b->setPrev(temp);
         temp = nullptr;
         delete (temp);
     }
 }
-
-void BoxList::del(int f, int c)
+void BoxList::add_Box(Box v)
 {
+    Box* b= new Box();
+    *b=v;
+    if(this->head== nullptr)
     {
-        if(length!=0) {
-            if ((head->getColumn()==c)&&(head->getLine()==f)) {
-                Box *temp = head;
-                head = temp->getNext();
-                temp= nullptr;
-                delete temp;
-
-            }
-            else {
-                Box *temp = this->head;
-                while (((temp->getLine()!=f)&&temp->getColumn()!=c)&& temp->getNext() != nullptr) {
-                    temp = temp->getNext();
-                }
-                if (temp->getNext() != nullptr) {
-                    Box*temp2 = temp->getNext();
-                    temp->setNext(temp->getNext()->getNext());
-                    temp2->setNext(nullptr);
-                    temp= nullptr;
-                    temp2=nullptr;
-                    delete(temp);
-                    delete temp2;
-                }
-            }
-            length--;
-        }
+        this->head=b;
     }
+    else
+    {
+        Box* temp= this->head;
+        while (temp->getNext() != nullptr) {
+            temp = temp->getNext();
+        }
+        temp->setNext(b);
+        b->setPrev(temp);
+        temp = nullptr;
+        delete (temp);
+    }
+    length++;
 }
-
 void BoxList::print()
 {
     Box* temp=this->head;
@@ -117,5 +110,41 @@ void BoxList::print()
 Box *BoxList::getHead()
 {
     return this->head;
+}
+
+BoxList *BoxList::getPrev()
+{
+    return this->prev;
+}
+
+void BoxList::setPrev(BoxList *b)
+{
+    this->prev=b;
+}
+
+bool BoxList::in(int f, int c) {
+    Box*temp=this->getHead();
+    while(temp!= nullptr)
+    {
+        if(temp->getLine()==f&&temp->getColumn()==c)
+        {
+            return true;
+        }
+        temp=temp->getNext();
+    }
+    return false;
+}
+
+Box *BoxList::get(int f, int c) {
+    Box*temp=this->getHead();
+    while(temp!= nullptr)
+    {
+        if(temp->getLine()==f&&temp->getColumn()==c)
+        {
+            return temp;
+        }
+        temp=temp->getNext();
+    }
+    return nullptr;
 }
 

@@ -8,8 +8,9 @@ class TileLabel : public QLabel
 {
     Q_OBJECT
 public:
-    TileLabel(QWidget* parent = Q_NULLPTR) : QLabel(parent);
-    void mouseMoveEvent(QMouseEvent *event);
+    /*TileLabel(QWidget *parent = Q_NULLPTR) : QLabel(parent)
+        void mouseMoveEvent(QMouseEvent *event);
+    */
 };
 
 #endif // TILELABEL_H

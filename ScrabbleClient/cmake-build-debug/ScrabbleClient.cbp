@@ -217,6 +217,12 @@
 		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Structures/PlayerList.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Structures/SearchList.cpp">
+			<Option target="ScrabbleClient"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Structures/SearchList.h">
+			<Option target="ScrabbleClient"/>
+		</Unit>
 		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/Structures/WordsList.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>

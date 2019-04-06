@@ -4,14 +4,14 @@
 
 #include "PlayerList.h"
 
-PlayerList::PlayerList() 
+PlayerList::PlayerList()
 {
-    
+
     length=0;
     this->head= nullptr;
     this->limit=new int(1);
-        
-    
+
+
 }
 int PlayerList::getLength()
 {
@@ -92,18 +92,18 @@ Player* PlayerList::get(int i)
     }
     return temp->getValue();
 }
- NodeP* PlayerList::getHead()
- {
+NodeP* PlayerList::getHead()
+{
     return this->head;
- }
- void PlayerList::setLimit(int i)
- {
+}
+void PlayerList::setLimit(int i)
+{
     if(i>4)
-    *limit=4;
+        *limit=4;
 
     else
-    *limit=i;
- }
+        *limit=i;
+}
 
 void PlayerList::print()
 {

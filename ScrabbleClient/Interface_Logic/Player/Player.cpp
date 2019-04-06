@@ -71,3 +71,7 @@ void Player::setRnd(Chip *c)
 Chip *Player::getRnd() {
     return this->rndChip;
 }
+void Player::addPoints(int p)
+{
+    this->points+=p;
+}
