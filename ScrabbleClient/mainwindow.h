@@ -57,6 +57,8 @@ private:
     Ui::MainWindow *ui;
 
     void LobbyUpdater();
+
+    void isTriggered();
 };
 
 #endif // MAINWINDOW_H
