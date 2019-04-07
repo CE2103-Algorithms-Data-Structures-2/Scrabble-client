@@ -142,6 +142,8 @@ protected:
     void mousePressEvent(QMouseEvent *event);
     void dropEvent(QDropEvent *event);
     void dragEnterEvent(QDragEnterEvent *event);
+
+    void gameSetter();
 };
 
 #endif // MAINWINDOW_H

@@ -94,7 +94,7 @@ void MainWindow::on_pushButton_14_clicked()
         std::string numJugadores = ui->comboBox->currentText().toStdString();
         Wmanager->newGame(nomJugador,nomLobby,numJugadores);
 
-        Wmanager->localP->setHost();
+        Wmanager->setHost();
         ui->stackedWidget->setCurrentIndex(3);
         ui->label_45->setText(Wmanager->getParty().c_str());
         ui->label_42->setText(Wmanager->getCode().c_str());
@@ -163,7 +163,7 @@ void MainWindow::on_pushButton_2_clicked()
     if((Wmanager->localP->isHost())&&(Wmanager->players->getLength()==Wmanager->players->getLimit()))
     {
         Wmanager->setTrigger();
-        //ui->stackedWidget->setCurrentIndex(4);
+        ui->stackedWidget->setCurrentIndex(4);
     } else
     {
         ui->label_43->setText("Solo el anfitrion puede empezar la partida!");
@@ -219,8 +219,9 @@ void MainWindow::LobbyUpdater()
         }
         usleep(1500000);
     }
-    isTriggered();
+
     usleep(1500000);
+
 }
 void MainWindow::isTriggered()
 {
@@ -233,7 +234,9 @@ void MainWindow::isTriggered()
 void MainWindow::play()
 {
     LobbyUpdater();
+    gameSetter();
     isTriggered();
+    ui->stackedWidget->setCurrentIndex(4);
 }
 
 void MainWindow::mousePressEvent(QMouseEvent *event) {
@@ -289,4 +292,47 @@ void MainWindow::dropEvent(QDropEvent *event) {
         // TODO aqui logica para cambiar letra en casilla
         tableroLayout->replaceWidget(current_label, new_label);
     }
+}
+void MainWindow::gameSetter()
+{
+    this->Wmanager->ask("getRandom");
+    this->Wmanager->ask("getSequence");
+    int i=0;
+    NodeP* temp=Wmanager->players->getHead();
+    ui->label_17->setText("");
+    ui->label_18->setText("");
+    ui->label_19->setText("");
+    ui->label_20->setText("");
+    ui->label_21->setText("");
+    ui->label_40->setText("");
+    ui->label_38->setText("");
+    ui->label_37->setText("");
+
+    while(temp!=nullptr)
+    {
+        if(i==0)
+        {
+            ui->label_17->setText(temp->getValue()->getName().c_str());
+            ui->label_18->setText(to_string(*temp->getValue()->getPoints()).c_str());
+        }
+        else if(i==1)
+        {
+            ui->label_19->setText(temp->getValue()->getName().c_str());
+            ui->label_20->setText(to_string(*temp->getValue()->getPoints()).c_str());
+        }
+        else if(i==2)
+        {
+            ui->label_21->setText(temp->getValue()->getName().c_str());
+            ui->label_40->setText(to_string(*temp->getValue()->getPoints()).c_str());
+        }
+        else if(i==3)
+        {
+            ui->label_38->setText(temp->getValue()->getName().c_str());
+            ui->label_37->setText(to_string(*temp->getValue()->getPoints()).c_str());
+        }
+        i++;
+        temp=temp->getNext();
+    }
+    Wmanager->ask("remaining");
+    ui->label_47->setText(Wmanager->getRemaining().c_str());
 }

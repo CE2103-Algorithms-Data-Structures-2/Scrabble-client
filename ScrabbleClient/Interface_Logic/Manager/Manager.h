@@ -22,6 +22,8 @@ private:
     JoinGame_LW* JoinG_LW;
     bool* running;
     bool* playing;
+    bool* thisHost;
+    int* remaining;
 public:
     static JSONManager* Jmanager;
     /**
@@ -71,6 +73,12 @@ public:
     bool triggered();
 
     void setTrigger();
+
+    void setHost();
+
+    bool isHost();
+
+    string getRemaining();
 };
 
 

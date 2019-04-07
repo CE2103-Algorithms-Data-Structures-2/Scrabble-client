@@ -119,6 +119,8 @@ public:
     QLabel *label_40;
     QLabel *label_38;
     QLabel *label_39;
+    QLabel *label_46;
+    QLabel *label_47;
     QWidget *WinMenu;
     QWidget *layoutWidget;
     QVBoxLayout *verticalLayout_5;
@@ -822,6 +824,16 @@ public:
         label_39->setGeometry(QRect(970, 510, 181, 61));
         label_39->setFont(font7);
         label_39->setStyleSheet(QStringLiteral("color: rgb(0, 200, 81);"));
+        label_46 = new QLabel(GameBoard);
+        label_46->setObjectName(QStringLiteral("label_46"));
+        label_46->setGeometry(QRect(990, 390, 181, 31));
+        label_46->setFont(font8);
+        label_46->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+        label_47 = new QLabel(GameBoard);
+        label_47->setObjectName(QStringLiteral("label_47"));
+        label_47->setGeometry(QRect(1040, 430, 81, 31));
+        label_47->setFont(font8);
+        label_47->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
         stackedWidget->addWidget(GameBoard);
         WinMenu = new QWidget();
         WinMenu->setObjectName(QStringLiteral("WinMenu"));
@@ -978,6 +990,8 @@ public:
         label_40->setText(QApplication::translate("MainWindow", "Puntaje", Q_NULLPTR));
         label_38->setText(QApplication::translate("MainWindow", "Jugador 4", Q_NULLPTR));
         label_39->setText(QApplication::translate("MainWindow", "Est\303\241 en su turno", Q_NULLPTR));
+        label_46->setText(QApplication::translate("MainWindow", "Fichas restantes:", Q_NULLPTR));
+        label_47->setText(QApplication::translate("MainWindow", "FICHAS", Q_NULLPTR));
         label_6->setText(QApplication::translate("MainWindow", "\302\241Has Ganado!", Q_NULLPTR));
         pushButton_11->setText(QApplication::translate("MainWindow", "Volver al menu principal", Q_NULLPTR));
         label_8->setText(QApplication::translate("MainWindow", "\302\241Has Perdido!", Q_NULLPTR));

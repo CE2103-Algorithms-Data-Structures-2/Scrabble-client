@@ -19,7 +19,9 @@ Manager::Manager()
     code=new string("");
     matrix=new Matrix();
     assigned=false;
+    remaining= new int(0);
     playing=new bool(true);
+    thisHost= new bool(false);
     cliente=new Client();
     running=new bool(true);
     Jmanager=new JSONManager();
@@ -278,8 +280,8 @@ void Manager::ask(string p) {
             cout<<"-------------------------------------"<<endl;
             cout<<"Nombre del jugador: "+temp->getValue()->getName()<<endl;
             cout<<"ID del jugador: "+temp->getValue()->getID()<<endl;
-            cout<<"Ficha rnd: "+temp->getValue()->getRnd()->getLetter();
-            cout<<"-------------------------------------"<<endl;
+            cout<<"Ficha rnd: "+temp->getValue()->getRnd()->getLetter()+"\n"<<endl;
+            cout<<"-------------------------------------\n"<<endl;
             cout<<" "<<endl;
             temp=temp->getNext();
         }
@@ -288,6 +290,10 @@ void Manager::ask(string p) {
         cliente->sendMessage("getLocal");
         incomming=cliente->receiveMessage();
         localP= players->get(stoi(incomming));
+        if(isHost())
+        {
+            localP->setHost();
+        }
         localP->print();
 
     }
@@ -304,6 +310,12 @@ void Manager::ask(string p) {
         cout << "------------------------------------" << endl;
         cout << "Todos los jugadores están listos!" << endl;
         cout << "------------------------------------" << endl;
+    }
+    else if(p.compare("remaining")==0)
+    {
+        cliente->sendMessage("remaining");
+        string incoming=cliente->receiveMessage();
+        *remaining=stoi(incoming);
     }
 }
 
@@ -383,4 +395,17 @@ bool Manager::triggered()
 void Manager::setTrigger()
 {
     cliente->sendMessage("setTrigger");
+
+}
+void Manager::setHost()
+{
+    *thisHost=true;
+}
+bool Manager::isHost()
+{
+    return *thisHost;
+}
+string Manager::getRemaining()
+{
+    return to_string(*remaining);
 }
