@@ -100,7 +100,7 @@ void MainWindow::on_pushButton_14_clicked()
         ui->label_42->setText(Wmanager->getCode().c_str());
         ui->label_16->setText(nomJugador.c_str());
         Wmanager->update();
-        ui->label_43->setText("Preparando el juego, por favor espere...");
+        ui->label_43->setText("Esperando al resto de jugadores...");
         QtConcurrent::run(this, &MainWindow::play);
         //QtConcurrent::run(this, &MainWindow::isTriggered);
 
@@ -160,10 +160,28 @@ void MainWindow::on_lineEdit_returnPressed()
 void MainWindow::on_pushButton_2_clicked()
 {
 
-    if((Wmanager->localP->isHost())&&(Wmanager->players->getLength()==Wmanager->players->getLimit())&&(Wmanager->isReady()))
+    if((Wmanager->localP->isHost()))
     {
-        Wmanager->setTrigger();
-        ui->stackedWidget->setCurrentIndex(4);
+        if(Wmanager->players->getLength()==Wmanager->players->getLimit())
+        {
+            if(Wmanager->isReady())
+            {
+                Wmanager->setTrigger();
+                ui->stackedWidget->setCurrentIndex(4);
+            }
+            else
+            {
+                ui->label_43->setText("Por favor, espere mientras preeparamos la partida");
+            }
+        }
+        else
+        {
+            ui->label_43->setText("Por favor, espere al resto de juagdores");
+        }
+    }
+    else
+    {
+        ui->label_43->setText("Solo el Host puede iniciar la partida!");
     }
 
 }
@@ -217,6 +235,7 @@ void MainWindow::LobbyUpdater()
         }
         usleep(1500000);
     }
+    ui->label_43->setText("Preparando el juego, por favor espere...");
     Wmanager->ask("getRandom");
     Wmanager->ask("ready");
 }
