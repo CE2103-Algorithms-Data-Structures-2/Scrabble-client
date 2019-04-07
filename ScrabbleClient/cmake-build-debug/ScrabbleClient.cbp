@@ -244,12 +244,6 @@
 		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/mainwindow.ui">
 			<Option target="ScrabbleClient"/>
 		</Unit>
-		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/tilelabel.cpp">
-			<Option target="ScrabbleClient"/>
-		</Unit>
-		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/tilelabel.h">
-			<Option target="ScrabbleClient"/>
-		</Unit>
 		<Unit filename="/home/david/Documents/Scrabble-client/ScrabbleClient/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

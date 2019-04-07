@@ -11,6 +11,7 @@ using namespace std;
 
 class Client{
 private:
+    const std::string ipAdress = "192.168.100.95";
     int sock;
     char buff[4096];
     bool connected;

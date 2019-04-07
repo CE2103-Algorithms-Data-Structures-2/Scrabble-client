@@ -5,7 +5,7 @@
 #include <Interface_Logic/Manager/Manager.h>
 #include <QtWidgets/QLabel>
 #include "../Interface_Logic/Board_Logic/CasillaGrafica.h"
-#include "tilelabel.h"
+#include <string>
 
 namespace Ui {
 class MainWindow;
@@ -15,7 +15,8 @@ class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
-    QPoint offset;
+    const int tileSize = 45;
+    std::string ChipsPath = "../AssetsScrabble/LetrasScrabble/";
 
     /**
      * Array de casillas graficas. Componen el tablero que se presenta en GameBoard.
@@ -25,7 +26,7 @@ class MainWindow : public QMainWindow
     /**
      * Array de tile labels. Almacena labels que representan las fichas que le pertenecen al jugador.
      */
-    TileLabel* fichas_array[7];
+    QLabel* fichas_array[7];
 
 public:
     explicit MainWindow(QWidget *parent = 0);
@@ -132,6 +133,13 @@ private:
      * Ejecuta LobbyUpdater() y isTriggered()
      */
     void play();
+
+    void createDrag(const QPoint &pos, QWidget *widget);
+
+protected:
+    void mousePressEvent(QMouseEvent *event);
+    void dropEvent(QDropEvent *event);
+    void dragEnterEvent(QDragEnterEvent *event);
 };
 
 #endif // MAINWINDOW_H

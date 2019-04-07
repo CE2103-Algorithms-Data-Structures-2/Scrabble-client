@@ -18,7 +18,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/ScrabbleClient.dir/Structures/PlayerList.cpp.o"
   "CMakeFiles/ScrabbleClient.dir/Structures/WordsList.cpp.o"
   "CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o"
-  "CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.o"
   "CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/CasillaGrafica.cpp.o"
   "CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/FichaGrafica.cpp.o"
   "CMakeFiles/ScrabbleClient.dir/Structures/SearchList.cpp.o"

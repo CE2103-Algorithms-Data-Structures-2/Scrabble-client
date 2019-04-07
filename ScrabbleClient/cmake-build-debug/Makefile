@@ -703,33 +703,6 @@ mainwindow.cpp.s:
 	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
-tilelabel.o: tilelabel.cpp.o
-
-.PHONY : tilelabel.o
-
-# target to build an object file
-tilelabel.cpp.o:
-	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.o
-.PHONY : tilelabel.cpp.o
-
-tilelabel.i: tilelabel.cpp.i
-
-.PHONY : tilelabel.i
-
-# target to preprocess a source file
-tilelabel.cpp.i:
-	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.i
-.PHONY : tilelabel.cpp.i
-
-tilelabel.s: tilelabel.cpp.s
-
-.PHONY : tilelabel.s
-
-# target to generate assembly for a file
-tilelabel.cpp.s:
-	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.s
-.PHONY : tilelabel.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -803,9 +776,6 @@ help:
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
-	@echo "... tilelabel.o"
-	@echo "... tilelabel.i"
-	@echo "... tilelabel.s"
 .PHONY : help
 
 

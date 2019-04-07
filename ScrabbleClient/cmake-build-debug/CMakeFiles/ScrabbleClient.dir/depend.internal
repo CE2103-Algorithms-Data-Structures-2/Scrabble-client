@@ -289,7 +289,6 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o
  ../Interface_Logic/Board_Logic/CasillaGrafica.h
  ../Interface_Logic/Board_Logic/Chip.h
  ../Structures/WordsList.h
- ../tilelabel.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Client/Client.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
@@ -307,7 +306,6 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/PlayerList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/SearchList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/WordsList.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/Qt
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -377,7 +375,6 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/QMouseEvent
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -407,7 +404,6 @@ CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
@@ -449,11 +445,8 @@ CMakeFiles/ScrabbleClient.dir/ScrabbleClient_autogen/mocs_compilation.cpp.o
  ../Structures/SearchList.h
  ../Structures/WordsList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/EWIEGA46WW/moc_mainwindow.cpp
- /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/EWIEGA46WW/moc_tilelabel.cpp
  /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/mocs_compilation.cpp
  /home/david/Documents/Scrabble-client/ScrabbleClient/mainwindow.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/tilelabel.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/Qt
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -523,7 +516,6 @@ CMakeFiles/ScrabbleClient.dir/ScrabbleClient_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/QMouseEvent
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -553,7 +545,6 @@ CMakeFiles/ScrabbleClient.dir/ScrabbleClient_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
@@ -652,8 +643,6 @@ CMakeFiles/ScrabbleClient.dir/main.cpp.o
  /home/david/Documents/Scrabble-client/ScrabbleClient/Structures/WordsList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/main.cpp
  /home/david/Documents/Scrabble-client/ScrabbleClient/mainwindow.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/tilelabel.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/Qt
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -725,7 +714,6 @@ CMakeFiles/ScrabbleClient.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/QMouseEvent
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -758,7 +746,6 @@ CMakeFiles/ScrabbleClient.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
@@ -791,7 +778,6 @@ CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o
  ../Structures/WordsList.h
  /home/david/Documents/Scrabble-client/ScrabbleClient/mainwindow.cpp
  /home/david/Documents/Scrabble-client/ScrabbleClient/mainwindow.h
- /home/david/Documents/Scrabble-client/ScrabbleClient/tilelabel.h
  /usr/include/x86_64-linux-gnu/qt5/QtConcurrent/QtConcurrent
  /usr/include/x86_64-linux-gnu/qt5/QtConcurrent/QtConcurrentDepends
  /usr/include/x86_64-linux-gnu/qt5/QtConcurrent/qtconcurrent_global.h
@@ -815,7 +801,6 @@ CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QScopedPointer
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
- /usr/include/x86_64-linux-gnu/qt5/QtCore/Qt
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCoreDepends
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h
@@ -996,10 +981,12 @@ CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qwaitcondition.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qwineventnotifier.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qxmlstream.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QDrag
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QMouseEvent
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qdrag.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h
@@ -1082,114 +1069,3 @@ CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
  ScrabbleClient_autogen/include/ui_mainwindow.h
-CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.o
- /home/david/Documents/Scrabble-client/ScrabbleClient/tilelabel.cpp
- /home/david/Documents/Scrabble-client/ScrabbleClient/tilelabel.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QTextStream
- /usr/include/x86_64-linux-gnu/qt5/QtCore/Qt
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_bootstrap.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_msvc.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig-bootstrapped.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qmutex.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringbuilder.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qurlquery.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/QDrag
- /usr/include/x86_64-linux-gnu/qt5/QtGui/QMouseEvent
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qdrag.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h

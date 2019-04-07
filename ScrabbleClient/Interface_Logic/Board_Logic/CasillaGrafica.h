@@ -24,6 +24,7 @@ public:
 private:
     std::string boardTilePath = "../AssetsScrabble/TilesBoard/board_";
     std::string ChipsPath = "../AssetsScrabble/LetrasScrabble/";
+    const int tileSize = 80;
 
     Box casilla;
     QLabel* img;

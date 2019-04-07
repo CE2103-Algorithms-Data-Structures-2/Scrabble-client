@@ -31,8 +31,8 @@ QtWidgets/QLabel
 -
 ../Interface_Logic/Board_Logic/CasillaGrafica.h
 Interface_Logic/Board_Logic/CasillaGrafica.h
-tilelabel.h
-../tilelabel.h
+string
+-
 
 ../Client/Client.h
 iostream
@@ -149,16 +149,6 @@ NodeW.h
 ../Structures/NodeW.h
 ../Interface_Logic/Board_Logic/Matrix.h
 ../Interface_Logic/Board_Logic/Matrix.h
-
-../tilelabel.h
-QWidget
--
-QMouseEvent
--
-Qt
--
-QLabel
--
 
 /home/david/Documents/Scrabble-client/ScrabbleClient/Client/Client.h
 iostream
@@ -304,19 +294,9 @@ QtCore/qbytearray.h
 QtCore/qmetatype.h
 -
 
-/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/EWIEGA46WW/moc_tilelabel.cpp
-../../../tilelabel.h
-/home/david/Documents/Scrabble-client/ScrabbleClient/tilelabel.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
 /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/mocs_compilation.cpp
 EWIEGA46WW/moc_mainwindow.cpp
 /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/EWIEGA46WW/moc_mainwindow.cpp
-EWIEGA46WW/moc_tilelabel.cpp
-/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/EWIEGA46WW/moc_tilelabel.cpp
 
 /home/david/Documents/Scrabble-client/ScrabbleClient/main.cpp
 mainwindow.h
@@ -345,6 +325,10 @@ string
 -
 QtCore/QFuture
 -
+QDrag
+-
+QMouseEvent
+-
 QtConcurrent/QtConcurrent
 -
 
@@ -357,17 +341,7 @@ QtWidgets/QLabel
 -
 ../Interface_Logic/Board_Logic/CasillaGrafica.h
 /home/david/Documents/Scrabble-client/Interface_Logic/Board_Logic/CasillaGrafica.h
-tilelabel.h
-/home/david/Documents/Scrabble-client/ScrabbleClient/tilelabel.h
-
-/home/david/Documents/Scrabble-client/ScrabbleClient/tilelabel.h
-QWidget
--
-QMouseEvent
--
-Qt
--
-QLabel
+string
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtConcurrent/QtConcurrent
@@ -567,10 +541,6 @@ qstringlist.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 qvariant.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/Qt
-qnamespace.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore
 QtCore/QtCoreDepends
@@ -2292,6 +2262,10 @@ QtCore/qvector.h
 QtCore/qscopedpointer.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QDrag
+qdrag.h
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qdrag.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/QMouseEvent
 qevent.h
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h
@@ -2336,6 +2310,12 @@ QtGui/qtguiglobal.h
 QtCore/qpoint.h
 -
 QtGui/qwindowdefs.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qdrag.h
+QtGui/qtguiglobal.h
+-
+QtCore/qobject.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h
