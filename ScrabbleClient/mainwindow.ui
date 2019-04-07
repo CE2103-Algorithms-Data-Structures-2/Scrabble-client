@@ -1465,32 +1465,16 @@ background-color: rgb(38, 50, 56);
      <widget class="QWidget" name="verticalLayoutWidget_2">
       <property name="geometry">
        <rect>
-        <x>470</x>
+        <x>410</x>
         <y>30</y>
-        <width>261</width>
+        <width>381</width>
         <height>651</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_2">
        <property name="spacing">
-        <number>0</number>
+        <number>40</number>
        </property>
-       <item alignment="Qt::AlignHCenter">
-        <widget class="QLabel" name="label_44">
-         <property name="font">
-          <font>
-           <family>Open Sans</family>
-           <pointsize>20</pointsize>
-          </font>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">color: rgb(255, 255, 255);</string>
-         </property>
-         <property name="text">
-          <string>Lobby</string>
-         </property>
-        </widget>
-       </item>
        <item alignment="Qt::AlignHCenter">
         <widget class="QLabel" name="label_45">
          <property name="font">
@@ -1508,6 +1492,13 @@ background-color: rgb(38, 50, 56);
         </widget>
        </item>
        <item>
+        <widget class="QLabel" name="label_44">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter">
         <widget class="QPushButton" name="pushButton_2">
          <property name="font">
           <font>
@@ -1522,14 +1513,15 @@ border-radius: 10px;
 border-width : 1.5px;
 border-style:inset;
 border-color: rgb(105, 240, 174);
-</string>
+padding-right: 30px;
+padding-left: 30px</string>
          </property>
          <property name="text">
-          <string>Empezar</string>
+          <string>Comenzar</string>
          </property>
         </widget>
        </item>
-       <item>
+       <item alignment="Qt::AlignHCenter">
         <widget class="QLabel" name="label_43">
          <property name="font">
           <font>

@@ -142,7 +142,7 @@ protected:
     void mousePressEvent(QMouseEvent *event);
     void dropEvent(QDropEvent *event);
     void dragEnterEvent(QDragEnterEvent *event);
-
+    void displayFichaDesenbolzada(char letra, QLabel* label);
     void gameSetter();
 };
 

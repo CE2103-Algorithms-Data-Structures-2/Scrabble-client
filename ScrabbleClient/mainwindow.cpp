@@ -336,3 +336,15 @@ void MainWindow::gameSetter()
     Wmanager->ask("remaining");
     ui->label_47->setText(Wmanager->getRemaining().c_str());
 }
+
+void MainWindow::displayFichaDesenbolzada(char letra, QLabel* label) {
+    label->setText("");
+
+    std::string file = this->ChipsPath;
+    std::stringstream sstm;
+    sstm << file << letra << ".gif";
+    file = sstm.str();
+    std::cout <<file << std::endl;
+    QPixmap pix(file.c_str());
+    label->setPixmap(pix.scaled(this->tileSize, this->tileSize, Qt::KeepAspectRatio));
+}

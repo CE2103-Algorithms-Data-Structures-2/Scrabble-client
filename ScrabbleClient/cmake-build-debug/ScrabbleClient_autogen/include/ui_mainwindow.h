@@ -112,8 +112,8 @@ public:
     QLabel *label_29;
     QWidget *verticalLayoutWidget_2;
     QVBoxLayout *verticalLayout_2;
-    QLabel *label_44;
     QLabel *label_45;
+    QLabel *label_44;
     QPushButton *pushButton_2;
     QLabel *label_43;
     QLabel *label_41;
@@ -808,23 +808,21 @@ public:
         verticalLayoutWidget_2->setObjectName(QStringLiteral("verticalLayoutWidget_2"));
         verticalLayoutWidget_2->setGeometry(QRect(470, 30, 261, 651));
         verticalLayout_2 = new QVBoxLayout(verticalLayoutWidget_2);
-        verticalLayout_2->setSpacing(0);
+        verticalLayout_2->setSpacing(40);
         verticalLayout_2->setContentsMargins(11, 11, 11, 11);
         verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
         verticalLayout_2->setContentsMargins(0, 0, 0, 0);
-        label_44 = new QLabel(verticalLayoutWidget_2);
-        label_44->setObjectName(QStringLiteral("label_44"));
-        label_44->setFont(font10);
-        label_44->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
-
-        verticalLayout_2->addWidget(label_44, 0, Qt::AlignHCenter);
-
         label_45 = new QLabel(verticalLayoutWidget_2);
         label_45->setObjectName(QStringLiteral("label_45"));
         label_45->setFont(font10);
         label_45->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
 
         verticalLayout_2->addWidget(label_45, 0, Qt::AlignHCenter);
+
+        label_44 = new QLabel(verticalLayoutWidget_2);
+        label_44->setObjectName(QStringLiteral("label_44"));
+
+        verticalLayout_2->addWidget(label_44);
 
         pushButton_2 = new QPushButton(verticalLayoutWidget_2);
         pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
@@ -1116,8 +1114,8 @@ public:
         label_54->setText(QApplication::translate("MainWindow", "Ficha desenvolsada:", Q_NULLPTR));
         label_30->setText(QApplication::translate("MainWindow", "Estado:", Q_NULLPTR));
         label_29->setText(QApplication::translate("MainWindow", "Desconectado", Q_NULLPTR));
-        label_44->setText(QApplication::translate("MainWindow", "Lobby", Q_NULLPTR));
         label_45->setText(QApplication::translate("MainWindow", "NOMBRE", Q_NULLPTR));
+        label_44->setText(QString());
         pushButton_2->setText(QApplication::translate("MainWindow", "Empezar", Q_NULLPTR));
         label_43->setText(QString());
         label_41->setText(QApplication::translate("MainWindow", "Codigo lobby", Q_NULLPTR));
