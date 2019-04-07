@@ -6,6 +6,9 @@
 #include <QDrag>
 #include <QMouseEvent>
 #include <QtConcurrent/QtConcurrent>
+#include <boost/algorithm/string.hpp>
+#include <string>
+#include <algorithm>
 
 #define LOG(x) std::cout << x << std::endl;
 using namespace std;
@@ -313,9 +316,8 @@ void MainWindow::dropEvent(QDropEvent *event) {
 void MainWindow::gameSetter()
 {
     this->Wmanager->ask("getSequence");
-    int i=0;
     NodeP* temp=Wmanager->players->getHead();
-    ui->label_17->setText("");
+    int i=0;
     ui->label_18->setText("");
     ui->label_19->setText("");
     ui->label_20->setText("");
@@ -326,25 +328,32 @@ void MainWindow::gameSetter()
 
     while(temp!=nullptr)
     {
+        string letter=Wmanager->localP->getRnd()->getLetter();
+        std::string newstr = boost::to_upper_copy<std::string>(letter);
+
         if(i==0)
         {
             ui->label_17->setText(temp->getValue()->getName().c_str());
             ui->label_18->setText(to_string(*temp->getValue()->getPoints()).c_str());
+            displayFichaDesenbolzada(newstr.c_str()[0], ui->label_49);
         }
         else if(i==1)
         {
             ui->label_19->setText(temp->getValue()->getName().c_str());
             ui->label_20->setText(to_string(*temp->getValue()->getPoints()).c_str());
+            displayFichaDesenbolzada(newstr.c_str()[0], ui->label_53);
         }
         else if(i==2)
         {
             ui->label_21->setText(temp->getValue()->getName().c_str());
             ui->label_40->setText(to_string(*temp->getValue()->getPoints()).c_str());
+            displayFichaDesenbolzada(newstr.c_str()[0], ui->label_51);
         }
         else if(i==3)
         {
             ui->label_38->setText(temp->getValue()->getName().c_str());
             ui->label_37->setText(to_string(*temp->getValue()->getPoints()).c_str());
+            displayFichaDesenbolzada(newstr.c_str()[0], ui->label_55);
         }
         i++;
         temp=temp->getNext();
