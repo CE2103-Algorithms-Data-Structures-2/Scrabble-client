@@ -20,6 +20,7 @@ Manager::Manager()
     matrix=new Matrix();
     assigned=false;
     playing=new bool(true);
+    thisHost= new bool(false);
     cliente=new Client();
     running=new bool(true);
     Jmanager=new JSONManager();
@@ -154,6 +155,7 @@ bool Manager::verifyPlayers()
         return true;
     }
 }
+
 void Manager::ask(string p) {
     if (p.compare("numP") == 0) {
         int counter = 0;
@@ -287,6 +289,10 @@ void Manager::ask(string p) {
         cliente->sendMessage("getLocal");
         incomming=cliente->receiveMessage();
         localP= players->get(stoi(incomming));
+        if(isHost())
+        {
+            localP->setHost();
+        }
         localP->print();
 
     }
@@ -382,4 +388,13 @@ bool Manager::triggered()
 void Manager::setTrigger()
 {
     cliente->sendMessage("setTrigger");
+
+}
+void Manager::setHost()
+{
+    *thisHost=true;
+}
+bool Manager::isHost()
+{
+    return *thisHost;
 }

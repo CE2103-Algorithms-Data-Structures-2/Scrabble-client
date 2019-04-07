@@ -19,8 +19,6 @@ int main(int argc, char *argv[]) {
     QApplication a(argc, argv);
     MainWindow w;
 
-    w.setUp();
-
     w.show();
     /*Matrix *m = new Matrix();
      m->init();

@@ -3,6 +3,8 @@
 #include <iostream>
 #include <string>
 #include <QtCore/QFuture>
+#include <QDrag>
+#include <QMouseEvent>
 #include <QtConcurrent/QtConcurrent>
 
 #define LOG(x) std::cout << x << std::endl;
@@ -14,6 +16,9 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     setWindowTitle("Scrabble");
+    this->setUp();
+    setAcceptDrops(true);
+    qsrand((uint) QTime::currentTime().msec());
 }
 
 MainWindow::~MainWindow()
@@ -24,30 +29,30 @@ MainWindow::~MainWindow()
 
 void MainWindow::setUp() {
 
-    QGridLayout *LabelLayout = ui->stackedWidget->widget(4)->findChild<QGridLayout *>("gridLayout_3");
-    LabelLayout->setSpacing(0);
-    LabelLayout->setMargin(0);
+    QGridLayout *tableroLayout = ui->stackedWidget->widget(4)->findChild<QGridLayout *>("gridLayout_3");
+    tableroLayout->setSpacing(0);
+    tableroLayout->setMargin(0);
 
     int num_board = 1;
-    for (int i = 0; i < 15; i++) {
-        for (int j = 0; j < 15; j++) {
+    for (int i = 0; i < this->boardSquareDimension; i++) {
+        for (int j = 0; j < this->boardSquareDimension; j++) {
             Box casilla = Box(j, i);
             Perks nada = nada;
             CasillaGrafica* casillaGrafica = new CasillaGrafica(casilla, num_board, nada);
-            board_array[i][j] = casillaGrafica;
+            board_matrix[i][j] = casillaGrafica;
 
-            LabelLayout->addWidget(casillaGrafica->getLabel(), i, j, 1, 1);
+            tableroLayout->addWidget(casillaGrafica->getLabel(), i, j, 1, 1);
 
             num_board++;
         }
     }
 
     QLayout *fichasLayout = ui->stackedWidget->widget(4)->findChild<QLayout *>("horizontalLayout_2");
-    LabelLayout->setSpacing(0);
-    LabelLayout->setMargin(0);
+    tableroLayout->setSpacing(0);
+    tableroLayout->setMargin(0);
 
-    for (int i = 0; i < 7; i++) {
-        QLabel *label = new QLabel("");
+    for (int i = 0; i < this->numFichasPorJugador; i++) {
+        QLabel* label = new QLabel("");
         fichas_array[i] = label;
 
         fichasLayout->addWidget(label);
@@ -55,13 +60,13 @@ void MainWindow::setUp() {
         // TODO generar fichas según las dadas por el servidor
         
         char letra = 'A';
-        std::string file = "../AssetsScrabble/LetrasScrabble/";
+        std::string file = this->ChipsPath;
         std::stringstream sstm;
         sstm << file << letra << ".gif";
         file = sstm.str();
         std::cout <<file << std::endl;
         QPixmap pix(file.c_str());
-        fichas_array[i]->setPixmap(pix.scaled(80, 80, Qt::KeepAspectRatio));
+        fichas_array[i]->setPixmap(pix.scaled(this->tileSize, this->tileSize, Qt::KeepAspectRatio));
     }
 }
 
@@ -89,7 +94,7 @@ void MainWindow::on_pushButton_14_clicked()
         std::string numJugadores = ui->comboBox->currentText().toStdString();
         Wmanager->newGame(nomJugador,nomLobby,numJugadores);
 
-        Wmanager->localP->setHost();
+        Wmanager->setHost();
         ui->stackedWidget->setCurrentIndex(3);
         ui->label_45->setText(Wmanager->getParty().c_str());
         ui->label_42->setText(Wmanager->getCode().c_str());
@@ -154,10 +159,11 @@ void MainWindow::on_lineEdit_returnPressed()
 
 void MainWindow::on_pushButton_2_clicked()
 {
+
     if((Wmanager->localP->isHost())&&(Wmanager->players->getLength()==Wmanager->players->getLimit()))
     {
         Wmanager->setTrigger();
-        //ui->stackedWidget->setCurrentIndex(4);
+        ui->stackedWidget->setCurrentIndex(4);
     } else
     {
         ui->label_43->setText("Solo el anfitrion puede empezar la partida!");
@@ -179,10 +185,6 @@ void MainWindow::on_pushButton_12_clicked()
     ui->stackedWidget->setCurrentIndex(0);
 }
 
-void MainWindow::on_pushButton_14_pressed()
-{
-
-}
 void MainWindow::LobbyUpdater()
 {
     int counter = 0;
@@ -217,8 +219,10 @@ void MainWindow::LobbyUpdater()
         }
         usleep(1500000);
     }
+    gameSetter();
     isTriggered();
     usleep(1500000);
+
 }
 void MainWindow::isTriggered()
 {
@@ -232,4 +236,100 @@ void MainWindow::play()
 {
     LobbyUpdater();
     isTriggered();
+    ui->stackedWidget->setCurrentIndex(4);
+}
+
+void MainWindow::mousePressEvent(QMouseEvent *event) {
+    if (ui->stackedWidget->currentIndex() == 4) {
+        QWidget *child = childAt(event->pos());
+        if (child->parentWidget()->layout() == ui->stackedWidget->widget(4)->findChild<QLayout *>("horizontalLayout_2")) {
+            if(qobject_cast<QLabel *>(child))
+                createDrag(event->pos(), child);
+        }
+
+    }
+}
+
+void MainWindow::createDrag(const QPoint &pos, QWidget *widget) {
+    if(widget == Q_NULLPTR)
+        return;
+    QByteArray byteArray(reinterpret_cast<char*>(&widget),sizeof(QWidget*));
+    QDrag *drag = new QDrag(this);
+    QMimeData * mimeData = new QMimeData;
+    mimeData->setData("Label",byteArray);
+    drag->setMimeData(mimeData);
+    QPoint globalPos = mapToGlobal(pos);
+    QPoint p = widget->mapFromGlobal(globalPos);
+    drag->setHotSpot(p);
+    drag->setPixmap(widget->grab());
+    drag->exec(Qt::CopyAction | Qt::MoveAction);
+}
+
+void MainWindow::dragEnterEvent(QDragEnterEvent *event) {
+    if(event->mimeData()->hasFormat("Label"))
+        event->acceptProposedAction();
+}
+
+void MainWindow::dropEvent(QDropEvent *event) {
+    QGridLayout *tableroLayout = ui->stackedWidget->widget(4)->findChild<QGridLayout *>("gridLayout_3");
+    QLayout *fichasLayout = ui->stackedWidget->widget(4)->findChild<QLayout *>("horizontalLayout_2");
+
+    QByteArray byteArray = event->mimeData()->data("Label");
+    QWidget * widget = *reinterpret_cast<QWidget**>(byteArray.data());
+    QLabel * new_label =  qobject_cast<QLabel *>(widget);
+
+    QWidget *current_children = childAt(event->pos());
+    QLabel * current_label = qobject_cast<QLabel*>(current_children);
+    int index = 0;
+    if(new_label){
+        this->fichas_array[fichasLayout->indexOf(new_label)];
+        // TODO hacer que ficha_array contenga objetos FichaGrafica
+
+        int rowTraversalTablero = tableroLayout->indexOf(current_label);
+        int i = rowTraversalTablero / this->boardSquareDimension;
+        int j = rowTraversalTablero % this->boardSquareDimension;
+        this->board_matrix[i][j]->setLabel(new_label);
+        // TODO aqui logica para cambiar letra en casilla
+        tableroLayout->replaceWidget(current_label, new_label);
+    }
+}
+void MainWindow::gameSetter()
+{
+    this->Wmanager->ask("getSequence");
+    int i=0;
+    NodeP* temp=Wmanager->players->getHead();
+    ui->label_17->setText("");
+    ui->label_18->setText("");
+    ui->label_19->setText("");
+    ui->label_20->setText("");
+    ui->label_21->setText("");
+    ui->label_40->setText("");
+    ui->label_38->setText("");
+    ui->label_37->setText("");
+
+    while(temp!=nullptr)
+    {
+        if(i==0)
+        {
+            ui->label_17->setText(temp->getValue()->getName().c_str());
+            ui->label_18->setText(to_string(*temp->getValue()->getPoints()).c_str());
+        }
+        else if(i==1)
+        {
+            ui->label_19->setText(temp->getValue()->getName().c_str());
+            ui->label_20->setText(to_string(*temp->getValue()->getPoints()).c_str());
+        }
+        else if(i==2)
+        {
+            ui->label_21->setText(temp->getValue()->getName().c_str());
+            ui->label_40->setText(to_string(*temp->getValue()->getPoints()).c_str());
+        }
+        else if(i==3)
+        {
+            ui->label_38->setText(temp->getValue()->getName().c_str());
+            ui->label_37->setText(to_string(*temp->getValue()->getPoints()).c_str());
+        }
+        i++;
+        temp=temp->getNext();
+    }
 }

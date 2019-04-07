@@ -22,6 +22,7 @@ private:
     JoinGame_LW* JoinG_LW;
     bool* running;
     bool* playing;
+    bool* thisHost;
 public:
     static JSONManager* Jmanager;
     /**
@@ -71,6 +72,10 @@ public:
     bool triggered();
 
     void setTrigger();
+
+    void setHost();
+
+    bool isHost();
 };
 
 

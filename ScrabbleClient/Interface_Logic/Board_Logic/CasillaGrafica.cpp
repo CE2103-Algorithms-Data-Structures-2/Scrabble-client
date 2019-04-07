@@ -23,7 +23,7 @@ void CasillaGrafica::setLetra(char letra) {
     std::stringstream sstm;
     sstm << this->ChipsPath << letra << ".gif";
     QPixmap pix(sstm.str().c_str());
-    this->img->setPixmap(pix.scaled(80, 80, Qt::KeepAspectRatio));
+    this->img->setPixmap(pix.scaled(this->tileSize, this->tileSize, Qt::KeepAspectRatio));
 }
 
 Perks CasillaGrafica::getBonus() {
@@ -40,5 +40,9 @@ void CasillaGrafica::setCasilla(Box casilla) {
 
 QLabel* CasillaGrafica::getLabel() {
     return this->img;
+}
+
+void CasillaGrafica::setLabel(QLabel* img) {
+    this->img = img;
 }
 
