@@ -131,6 +131,8 @@ public:
         void addLine(BoxList b);
 
     bool isCentered();
+
+    bool adjacencyAnalisys(int fi, int ci, int ff , int cf);
 };
 
 

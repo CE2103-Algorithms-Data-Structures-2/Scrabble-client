@@ -576,4 +576,14 @@ bool Matrix::isCentered()
     }
     return false;
 }
+bool Matrix::adjacencyAnalisys(int fi, int ci,int ff,int cf)
+{
+    SearchList* s= search(fi,ci,ff,cf);
+    if(s->getlength()>1)
+    {
+        return true;
+    }
+    return false;
+
+}
 

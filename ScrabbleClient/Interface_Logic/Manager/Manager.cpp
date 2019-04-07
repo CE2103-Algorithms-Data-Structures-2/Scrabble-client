@@ -342,20 +342,17 @@ WordsList Manager::writeToMatrix()
             getline(cin, columna);
             cout << "Direccion: " << endl;
             getline(cin, dir);
-            if(*first)
-            {
-                Matrix *temp = new Matrix();
-                *temp = matrix->copy();
+            Matrix *temp = new Matrix();
+            *temp = matrix->copy();
+            if (*first) {
+
                 matrix->addWord(stoi(fila), stoi(columna), dir, w);
-                if(!matrix->isCentered())
-                {
-                    cout<<"Debe poner al menos una letra sobre el centro del tablero!\n";
-                    *matrix=*temp;
+                if (!matrix->isCentered()) {
+                    cout << "Debe poner al menos una letra sobre el centro del tablero!\n";
+                    *matrix = *temp;
                     matrix->print();
                     localP->getChips()->print();
-                }
-                else
-                {
+                } else {
                     matrix->addWord(stoi(fila), stoi(columna), dir, w);
                     string JSON = Jmanager->matrixtoJSON(matrix);
                     cliente->sendMessage("newMatrix");
@@ -371,33 +368,44 @@ WordsList Manager::writeToMatrix()
                             string JSON = Jmanager->toJSON(entry);
                             cliente->sendMessage(JSON);
                         }
-                        *first=false;
+                        *first = false;
                         return w;
                     }
                 }
             }
             else
             {
+
                 matrix->addWord(stoi(fila), stoi(columna), dir, w);
-                string JSON = Jmanager->matrixtoJSON(matrix);
-                cliente->sendMessage("newMatrix");
-                string incoming = cliente->receiveMessage();
-                if (incoming.compare("send") == 0) {
-                    cliente->sendMessage(JSON);
-                    string incomming = cliente->receiveMessage();
-                    if (incomming.compare("send") == 0) {
-                        string entry =
-                                "Fini@" + to_string(w.getFinicial()) + "$" + "Cini@" + to_string(w.getCinicial()) +
-                                "$" +
-                                "Ffin@" + to_string(w.getFfinal()) + "$" + "Cfin@" + to_string(w.getCfinal());
-                        string JSON = Jmanager->toJSON(entry);
+                if (matrix->adjacencyAnalisys(stoi(fila), stoi(columna), w.getFfinal(), w.getCfinal()))
+                {
+                    string JSON = Jmanager->matrixtoJSON(matrix);
+                    cliente->sendMessage("newMatrix");
+                    string incoming = cliente->receiveMessage();
+                    if (incoming.compare("send") == 0)
+                    {
                         cliente->sendMessage(JSON);
+                        string incomming = cliente->receiveMessage();
+                        if (incomming.compare("send") == 0)
+                        {
+                            string entry =
+                                    "Fini@" + to_string(w.getFinicial()) + "$" + "Cini@" + to_string(w.getCinicial()) +
+                                    "$" +
+                                    "Ffin@" + to_string(w.getFfinal()) + "$" + "Cfin@" + to_string(w.getCfinal());
+                            string JSON = Jmanager->toJSON(entry);
+                            cliente->sendMessage(JSON);
+                        }
+                        return w;
                     }
-                    return w;
+                }
+                else
+                {
+                    cout<<"La palabra ingresada no puede estar separada de las demas palabras ya ingresadas!"<<endl;
+                    *matrix=*temp;
+                    matrix->print();
                 }
             }
-        }
-    }
+        }   }
 }
 
 
