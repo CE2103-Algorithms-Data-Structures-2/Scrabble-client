@@ -15,18 +15,20 @@ class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
-    const int tileSize = 45;
+    static const int boardSquareDimension = 15;
+    static const int numFichasPorJugador = 7;
+    const int tileSize = 47;
     std::string ChipsPath = "../AssetsScrabble/LetrasScrabble/";
 
     /**
      * Array de casillas graficas. Componen el tablero que se presenta en GameBoard.
      */
-    CasillaGrafica* board_matrix[15][15];
+    CasillaGrafica* board_matrix[boardSquareDimension][boardSquareDimension];
 
     /**
      * Array de tile labels. Almacena labels que representan las fichas que le pertenecen al jugador.
      */
-    QLabel* fichas_array[7];
+    QLabel* fichas_array[numFichasPorJugador];
 
 public:
     explicit MainWindow(QWidget *parent = 0);

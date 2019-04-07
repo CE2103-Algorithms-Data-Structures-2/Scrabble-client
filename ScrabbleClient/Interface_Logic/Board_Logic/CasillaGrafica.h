@@ -20,6 +20,7 @@ public:
     void setLetra(char letra);
     char getLetra();
     QLabel* getLabel();
+    void setLabel(QLabel* img);
 
 private:
     std::string boardTilePath = "../AssetsScrabble/TilesBoard/board_";

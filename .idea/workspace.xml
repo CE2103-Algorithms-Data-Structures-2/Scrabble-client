@@ -14,38 +14,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0272841a-1a8c-4121-855d-13281d51bdf2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/Client/Client.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/Client/Client.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/Client/Client.h" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/Client/Client.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Board_Logic/CasillaGrafica.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Board_Logic/CasillaGrafica.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Board_Logic/CasillaGrafica.h" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Board_Logic/CasillaGrafica.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/ScrabbleClient.pro.user" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/ScrabbleClient.pro.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Client/Client.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Client/Client.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/JoinGame_LW.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/LogicWindow.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Logic_Windows/NewGame_LW.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient_autogen.dir/AutogenInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient_autogen.dir/AutogenInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient_autogen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient_autogen.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/ScrabbleClient.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/ScrabbleClient.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/mocs_compilation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/ScrabbleClient_autogen/mocs_compilation.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ScrabbleClient/mainwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/mainwindow.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ScrabbleClient/mainwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/mainwindow.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/tilelabel.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/tilelabel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScrabbleClient/mainwindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/mainwindow.ui" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/" />
@@ -64,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScrabbleClient/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="165">
               <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -76,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ScrabbleClient/mainwindow.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="283" column="63" selection-start-line="283" selection-start-column="63" selection-end-line="283" selection-end-column="63" />
+            <state relative-caret-position="4230">
+              <caret line="282" column="67" lean-forward="true" selection-start-line="282" selection-start-column="67" selection-end-line="282" selection-end-column="67" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -86,10 +59,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Board_Logic/CasillaGrafica.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Board_Logic/CasillaGrafica.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScrabbleClient/mainwindow.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1339">
-              <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+            <state relative-caret-position="160">
+              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+              <folding>
+                <element signature="e#43#65#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,8 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Interface_Logic/Logic_Windows/JoinGame_LW.cpp" />
-        <option value="$PROJECT_DIR$/Interface_Logic/Logic_Windows/LogicWindow.cpp" />
         <option value="$PROJECT_DIR$/Interface_Logic/Logic_Windows/NewGame_LW.cpp" />
         <option value="$PROJECT_DIR$/Structures/Node.h" />
         <option value="$PROJECT_DIR$/Structures/Node.cpp" />
@@ -159,6 +151,8 @@
         <option value="$PROJECT_DIR$/ScrabbleClient/Client/Client.h" />
         <option value="$PROJECT_DIR$/ScrabbleClient/Client/Client.cpp" />
         <option value="$PROJECT_DIR$/ScrabbleClient/tilelabel.cpp" />
+        <option value="$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Board_Logic/CasillaGrafica.cpp" />
+        <option value="$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Board_Logic/CasillaGrafica.h" />
         <option value="$PROJECT_DIR$/ScrabbleClient/mainwindow.h" />
         <option value="$PROJECT_DIR$/ScrabbleClient/mainwindow.cpp" />
       </list>
@@ -194,6 +188,12 @@
               <item name="ScrabbleClient" type="b2602c69:ProjectViewProjectNode" />
               <item name="ScrabbleClient" type="462c0819:PsiDirectoryNode" />
               <item name="Interface_Logic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScrabbleClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScrabbleClient" type="462c0819:PsiDirectoryNode" />
+              <item name="Interface_Logic" type="462c0819:PsiDirectoryNode" />
+              <item name="Board_Logic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ScrabbleClient" type="b2602c69:ProjectViewProjectNode" />
@@ -307,11 +307,12 @@
       <workItem from="1554606478361" duration="961000" />
       <workItem from="1554608719307" duration="2683000" />
       <workItem from="1554619444346" duration="6063000" />
+      <workItem from="1554629747653" duration="3953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171265000" />
+    <option name="totallyTimeSpent" value="175218000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -326,7 +327,7 @@
     <frame x="0" y="27" width="1366" height="700" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21363637" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21666667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Statistic" order="0" weight="0.62703586" />
@@ -392,8 +393,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Interface_Logic/Board_Logic/Box.cpp" />
-    <entry file="file://$PROJECT_DIR$/Interface_Logic/Board_Logic/Matrix.cpp" />
     <entry file="file://$PROJECT_DIR$/Interface_Logic/Board_Logic/Chip.h" />
     <entry file="file://$PROJECT_DIR$/Interface_Logic/Board_Logic/Box.h" />
     <entry file="file://$PROJECT_DIR$/Interface_Logic/Logic_Windows/JoinGame_LW.cpp" />
@@ -549,19 +548,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ScrabbleClient/tilelabel.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrabbleClient/tilelabel.cpp" />
     <entry file="file://$PROJECT_DIR$/ScrabbleClient/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="165">
           <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
@@ -569,17 +559,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Board_Logic/CasillaGrafica.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Board_Logic/CasillaGrafica.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ScrabbleClient/mainwindow.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1339">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        <state relative-caret-position="160">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+          <folding>
+            <element signature="e#43#65#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ScrabbleClient/mainwindow.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="283" column="63" selection-start-line="283" selection-start-column="63" selection-end-line="283" selection-end-column="63" />
+        <state relative-caret-position="4230">
+          <caret line="282" column="67" lean-forward="true" selection-start-line="282" selection-start-column="67" selection-end-line="282" selection-end-column="67" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>

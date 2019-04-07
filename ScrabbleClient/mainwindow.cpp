@@ -34,8 +34,8 @@ void MainWindow::setUp() {
     tableroLayout->setMargin(0);
 
     int num_board = 1;
-    for (int i = 0; i < 15; i++) {
-        for (int j = 0; j < 15; j++) {
+    for (int i = 0; i < this->boardSquareDimension; i++) {
+        for (int j = 0; j < this->boardSquareDimension; j++) {
             Box casilla = Box(j, i);
             Perks nada = nada;
             CasillaGrafica* casillaGrafica = new CasillaGrafica(casilla, num_board, nada);
@@ -51,7 +51,7 @@ void MainWindow::setUp() {
     tableroLayout->setSpacing(0);
     tableroLayout->setMargin(0);
 
-    for (int i = 0; i < 7; i++) {
+    for (int i = 0; i < this->numFichasPorJugador; i++) {
         QLabel* label = new QLabel("");
         fichas_array[i] = label;
 
@@ -269,6 +269,7 @@ void MainWindow::dragEnterEvent(QDragEnterEvent *event) {
 
 void MainWindow::dropEvent(QDropEvent *event) {
     QGridLayout *tableroLayout = ui->stackedWidget->widget(4)->findChild<QGridLayout *>("gridLayout_3");
+    QLayout *fichasLayout = ui->stackedWidget->widget(4)->findChild<QLayout *>("horizontalLayout_2");
 
     QByteArray byteArray = event->mimeData()->data("Label");
     QWidget * widget = *reinterpret_cast<QWidget**>(byteArray.data());
@@ -278,9 +279,14 @@ void MainWindow::dropEvent(QDropEvent *event) {
     QLabel * current_label = qobject_cast<QLabel*>(current_children);
     int index = 0;
     if(new_label){
-        int x = current_label->x();
-        int y = current_label->y();
-        std::cout << "X: " << x << " Y: " << y << std::endl;
+        this->fichas_array[fichasLayout->indexOf(new_label)];
+        // TODO hacer que ficha_array contenga objetos FichaGrafica
+
+        int rowTraversalTablero = tableroLayout->indexOf(current_label);
+        int i = rowTraversalTablero / this->boardSquareDimension;
+        int j = rowTraversalTablero % this->boardSquareDimension;
+        this->board_matrix[i][j]->setLabel(new_label);
+        // TODO aqui logica para cambiar letra en casilla
         tableroLayout->replaceWidget(current_label, new_label);
     }
 }

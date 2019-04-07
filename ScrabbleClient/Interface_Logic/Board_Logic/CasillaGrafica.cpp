@@ -42,3 +42,7 @@ QLabel* CasillaGrafica::getLabel() {
     return this->img;
 }
 
+void CasillaGrafica::setLabel(QLabel* img) {
+    this->img = img;
+}
+
