@@ -23,6 +23,7 @@ private:
     bool* running;
     bool* playing;
     bool* thisHost;
+    int* remaining;
 public:
     static JSONManager* Jmanager;
     /**
@@ -76,6 +77,8 @@ public:
     void setHost();
 
     bool isHost();
+
+    string getRemaining();
 };
 
 

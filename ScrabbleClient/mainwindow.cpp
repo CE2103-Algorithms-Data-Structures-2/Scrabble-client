@@ -219,8 +219,7 @@ void MainWindow::LobbyUpdater()
         }
         usleep(1500000);
     }
-    gameSetter();
-    isTriggered();
+
     usleep(1500000);
 
 }
@@ -235,6 +234,7 @@ void MainWindow::isTriggered()
 void MainWindow::play()
 {
     LobbyUpdater();
+    gameSetter();
     isTriggered();
     ui->stackedWidget->setCurrentIndex(4);
 }
@@ -295,6 +295,7 @@ void MainWindow::dropEvent(QDropEvent *event) {
 }
 void MainWindow::gameSetter()
 {
+    this->Wmanager->ask("getRandom");
     this->Wmanager->ask("getSequence");
     int i=0;
     NodeP* temp=Wmanager->players->getHead();
@@ -332,4 +333,6 @@ void MainWindow::gameSetter()
         i++;
         temp=temp->getNext();
     }
+    Wmanager->ask("remaining");
+    ui->label_47->setText(Wmanager->getRemaining().c_str());
 }
