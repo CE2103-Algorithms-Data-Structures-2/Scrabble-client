@@ -252,10 +252,8 @@ void MainWindow::play()
 {
     LobbyUpdater();
     gameSetter();
-
     isTriggered();
     ui->stackedWidget->setCurrentIndex(4);
-
 }
 
 void MainWindow::mousePressEvent(QMouseEvent *event) {
@@ -359,6 +357,19 @@ void MainWindow::gameSetter()
     Wmanager->ask("coordinate");
     Wmanager->setReady();
     ui->label_43->setText("Presione el boton para empezar!");
+
+}
+
+void MainWindow::displayFichaDesenbolzada(char letra, QLabel* label) {
+    label->setText("");
+
+    std::string file = this->ChipsPath;
+    std::stringstream sstm;
+    sstm << file << letra << ".gif";
+    file = sstm.str();
+    std::cout <<file << std::endl;
+    QPixmap pix(file.c_str());
+    label->setPixmap(pix.scaled(this->tileSize, this->tileSize, Qt::KeepAspectRatio));
 }
 void MainWindow::chipSetter()
 {

@@ -36,7 +36,7 @@ DISTNAME      = Scrabble1.0.0
 DISTDIR = /home/kugelblitz/Documents/Scrabble-client/build-Scrabble-Desktop-Debug/.tmp/Scrabble1.0.0
 LINK          = g++
 LFLAGS        = -m64
-LIBS          = $(SUBLIBS) -L/usr/X11R6/lib64 -lQt5Widgets -lQt5Gui -lQt5Core -lGL -lpthread 
+LIBS          = $(SUBLIBS) -L/usr/X11R6/lib64 -lQt5Widgets -lQt5Gui -lQt5Core -lGL -lpthread
 AR            = ar cqs
 RANLIB        =
 
@@ -261,7 +261,7 @@ first: all
 
 ####### Build rules
 
-$(TARGET): ui_gameboard.h ui_waitforgamestartmenu.h ui_joinlobbymenu.h ui_winmenu.h ui_losemenu.h ui_mainmenu.h ui_configlobbymenu.h ui_mainwindow.h $(OBJECTS)  
+$(TARGET): ui_gameboard.h ui_waitforgamestartmenu.h ui_joinlobbymenu.h ui_winmenu.h ui_losemenu.h ui_mainmenu.h ui_configlobbymenu.h ui_mainwindow.h $(OBJECTS)
 	$(LINK) $(LFLAGS) -o $(TARGET) $(OBJECTS) $(OBJCOMP) $(LIBS)
 
 Makefile: ../Scrabble/Scrabble.pro /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64/qmake.conf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
@@ -406,13 +406,13 @@ distdir: FORCE
 	$(COPY_FILE) --parents ../Scrabble/gameboard.ui ../Scrabble/waitforgamestartmenu.ui ../Scrabble/joinlobbymenu.ui ../Scrabble/winmenu.ui ../Scrabble/losemenu.ui ../Scrabble/mainmenu.ui ../Scrabble/configlobbymenu.ui ../Scrabble/mainwindow.ui $(DISTDIR)/
 
 
-clean: compiler_clean 
+clean: compiler_clean
 	-$(DEL_FILE) $(OBJECTS)
 	-$(DEL_FILE) *~ core *.core
 
 
-distclean: clean 
-	-$(DEL_FILE) $(TARGET) 
+distclean: clean
+	-$(DEL_FILE) $(TARGET)
 	-$(DEL_FILE) Makefile
 
 
@@ -491,7 +491,7 @@ compiler_yacc_impl_make_all:
 compiler_yacc_impl_clean:
 compiler_lex_make_all:
 compiler_lex_clean:
-compiler_clean: compiler_moc_header_clean compiler_uic_clean 
+compiler_clean: compiler_moc_header_clean compiler_uic_clean
 
 ####### Compile
 
@@ -623,31 +623,31 @@ mainwindow.o: ../Scrabble/mainwindow.cpp ../Scrabble/mainwindow.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o ../Scrabble/mainwindow.cpp
 
-moc_configlobbymenu.o: moc_configlobbymenu.cpp 
+moc_configlobbymenu.o: moc_configlobbymenu.cpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_configlobbymenu.o moc_configlobbymenu.cpp
 
-moc_createlobbymenu.o: moc_createlobbymenu.cpp 
+moc_createlobbymenu.o: moc_createlobbymenu.cpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_createlobbymenu.o moc_createlobbymenu.cpp
 
-moc_joinlobbymenu.o: moc_joinlobbymenu.cpp 
+moc_joinlobbymenu.o: moc_joinlobbymenu.cpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_joinlobbymenu.o moc_joinlobbymenu.cpp
 
-moc_losemenu.o: moc_losemenu.cpp 
+moc_losemenu.o: moc_losemenu.cpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_losemenu.o moc_losemenu.cpp
 
-moc_mainmenu.o: moc_mainmenu.cpp 
+moc_mainmenu.o: moc_mainmenu.cpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_mainmenu.o moc_mainmenu.cpp
 
-moc_waitforgamestartmenu.o: moc_waitforgamestartmenu.cpp 
+moc_waitforgamestartmenu.o: moc_waitforgamestartmenu.cpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_waitforgamestartmenu.o moc_waitforgamestartmenu.cpp
 
-moc_winmenu.o: moc_winmenu.cpp 
+moc_winmenu.o: moc_winmenu.cpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_winmenu.o moc_winmenu.cpp
 
-moc_gameboard.o: moc_gameboard.cpp 
+moc_gameboard.o: moc_gameboard.cpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_gameboard.o moc_gameboard.cpp
 
-moc_mainwindow.o: moc_mainwindow.cpp 
+moc_mainwindow.o: moc_mainwindow.cpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_mainwindow.o moc_mainwindow.cpp
 
 ####### Install
