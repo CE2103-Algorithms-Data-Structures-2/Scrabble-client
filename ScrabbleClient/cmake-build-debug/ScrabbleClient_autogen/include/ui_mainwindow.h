@@ -71,29 +71,45 @@ public:
     QLabel *label_3;
     QWidget *WaitMenu;
     QGroupBox *groupBox;
-    QLabel *label_4;
     QLabel *label_7;
-    QLabel *label_14;
-    QLabel *label_15;
+    QWidget *gridLayoutWidget_2;
+    QGridLayout *gridLayout_2;
+    QLabel *label_4;
+    QLabel *label_49;
+    QLabel *label_48;
     QLabel *label_16;
+    QLabel *label_15;
+    QLabel *label_14;
     QGroupBox *groupBox_2;
-    QLabel *label_22;
     QLabel *label_23;
-    QLabel *label_24;
-    QLabel *label_25;
+    QWidget *gridLayoutWidget_5;
+    QGridLayout *gridLayout_6;
+    QLabel *label_53;
     QLabel *label_26;
+    QLabel *label_22;
+    QLabel *label_52;
+    QLabel *label_25;
+    QLabel *label_24;
     QGroupBox *groupBox_4;
-    QLabel *label_32;
     QLabel *label_33;
-    QLabel *label_34;
-    QLabel *label_35;
+    QWidget *gridLayoutWidget_3;
+    QGridLayout *gridLayout_4;
+    QLabel *label_51;
     QLabel *label_36;
+    QLabel *label_35;
+    QLabel *label_50;
+    QLabel *label_32;
+    QLabel *label_34;
     QGroupBox *groupBox_3;
-    QLabel *label_27;
     QLabel *label_28;
-    QLabel *label_29;
-    QLabel *label_30;
+    QWidget *gridLayoutWidget_4;
+    QGridLayout *gridLayout_5;
     QLabel *label_31;
+    QLabel *label_55;
+    QLabel *label_27;
+    QLabel *label_54;
+    QLabel *label_30;
+    QLabel *label_29;
     QWidget *verticalLayoutWidget_2;
     QVBoxLayout *verticalLayout_2;
     QLabel *label_44;
@@ -552,10 +568,22 @@ public:
 "}"));
         groupBox = new QGroupBox(WaitMenu);
         groupBox->setObjectName(QStringLiteral("groupBox"));
-        groupBox->setGeometry(QRect(90, 30, 301, 181));
-        label_4 = new QLabel(groupBox);
+        groupBox->setGeometry(QRect(60, 30, 331, 181));
+        label_7 = new QLabel(groupBox);
+        label_7->setObjectName(QStringLiteral("label_7"));
+        label_7->setGeometry(QRect(100, 0, 101, 31));
+        label_7->setFont(font8);
+        label_7->setStyleSheet(QStringLiteral("color: rgb(0, 200, 81);"));
+        gridLayoutWidget_2 = new QWidget(groupBox);
+        gridLayoutWidget_2->setObjectName(QStringLiteral("gridLayoutWidget_2"));
+        gridLayoutWidget_2->setGeometry(QRect(0, 30, 331, 151));
+        gridLayout_2 = new QGridLayout(gridLayoutWidget_2);
+        gridLayout_2->setSpacing(6);
+        gridLayout_2->setContentsMargins(11, 11, 11, 11);
+        gridLayout_2->setObjectName(QStringLiteral("gridLayout_2"));
+        gridLayout_2->setContentsMargins(0, 0, 0, 0);
+        label_4 = new QLabel(gridLayoutWidget_2);
         label_4->setObjectName(QStringLiteral("label_4"));
-        label_4->setGeometry(QRect(30, 60, 101, 21));
         QFont font11;
         font11.setFamily(QStringLiteral("Open Sans"));
         font11.setPointSize(14);
@@ -564,115 +592,223 @@ public:
         font11.setWeight(50);
         label_4->setFont(font11);
         label_4->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
-        label_7 = new QLabel(groupBox);
-        label_7->setObjectName(QStringLiteral("label_7"));
-        label_7->setGeometry(QRect(100, 0, 101, 31));
-        label_7->setFont(font8);
-        label_7->setStyleSheet(QStringLiteral("color: rgb(0, 200, 81);"));
-        label_14 = new QLabel(groupBox);
-        label_14->setObjectName(QStringLiteral("label_14"));
-        label_14->setGeometry(QRect(140, 110, 131, 21));
-        label_14->setFont(font11);
-        label_14->setStyleSheet(QStringLiteral("color: rgb(255, 68, 68);"));
-        label_15 = new QLabel(groupBox);
-        label_15->setObjectName(QStringLiteral("label_15"));
-        label_15->setGeometry(QRect(30, 110, 101, 21));
-        label_15->setFont(font11);
-        label_15->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
-        label_16 = new QLabel(groupBox);
+
+        gridLayout_2->addWidget(label_4, 0, 0, 1, 1);
+
+        label_49 = new QLabel(gridLayoutWidget_2);
+        label_49->setObjectName(QStringLiteral("label_49"));
+        label_49->setFont(font6);
+        label_49->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+
+        gridLayout_2->addWidget(label_49, 1, 1, 1, 1);
+
+        label_48 = new QLabel(gridLayoutWidget_2);
+        label_48->setObjectName(QStringLiteral("label_48"));
+        label_48->setFont(font6);
+        label_48->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+
+        gridLayout_2->addWidget(label_48, 1, 0, 1, 1);
+
+        label_16 = new QLabel(gridLayoutWidget_2);
         label_16->setObjectName(QStringLiteral("label_16"));
-        label_16->setGeometry(QRect(140, 60, 101, 21));
         label_16->setFont(font11);
         label_16->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+
+        gridLayout_2->addWidget(label_16, 0, 1, 1, 1);
+
+        label_15 = new QLabel(gridLayoutWidget_2);
+        label_15->setObjectName(QStringLiteral("label_15"));
+        label_15->setFont(font11);
+        label_15->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+
+        gridLayout_2->addWidget(label_15, 2, 0, 1, 1);
+
+        label_14 = new QLabel(gridLayoutWidget_2);
+        label_14->setObjectName(QStringLiteral("label_14"));
+        label_14->setFont(font11);
+        label_14->setStyleSheet(QStringLiteral("color: rgb(255, 68, 68);"));
+
+        gridLayout_2->addWidget(label_14, 2, 1, 1, 1);
+
         groupBox_2 = new QGroupBox(WaitMenu);
         groupBox_2->setObjectName(QStringLiteral("groupBox_2"));
-        groupBox_2->setGeometry(QRect(90, 490, 301, 181));
-        label_22 = new QLabel(groupBox_2);
-        label_22->setObjectName(QStringLiteral("label_22"));
-        label_22->setGeometry(QRect(30, 60, 101, 21));
-        label_22->setFont(font11);
-        label_22->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+        groupBox_2->setGeometry(QRect(60, 490, 331, 181));
         label_23 = new QLabel(groupBox_2);
         label_23->setObjectName(QStringLiteral("label_23"));
         label_23->setGeometry(QRect(100, 0, 101, 31));
         label_23->setFont(font8);
         label_23->setStyleSheet(QStringLiteral("color: rgb(0, 200, 81);"));
-        label_24 = new QLabel(groupBox_2);
-        label_24->setObjectName(QStringLiteral("label_24"));
-        label_24->setGeometry(QRect(140, 110, 131, 21));
-        label_24->setFont(font11);
-        label_24->setStyleSheet(QStringLiteral("color: rgb(255, 68, 68);"));
-        label_25 = new QLabel(groupBox_2);
-        label_25->setObjectName(QStringLiteral("label_25"));
-        label_25->setGeometry(QRect(30, 110, 101, 21));
-        label_25->setFont(font11);
-        label_25->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
-        label_26 = new QLabel(groupBox_2);
+        gridLayoutWidget_5 = new QWidget(groupBox_2);
+        gridLayoutWidget_5->setObjectName(QStringLiteral("gridLayoutWidget_5"));
+        gridLayoutWidget_5->setGeometry(QRect(0, 30, 331, 151));
+        gridLayout_6 = new QGridLayout(gridLayoutWidget_5);
+        gridLayout_6->setSpacing(6);
+        gridLayout_6->setContentsMargins(11, 11, 11, 11);
+        gridLayout_6->setObjectName(QStringLiteral("gridLayout_6"));
+        gridLayout_6->setContentsMargins(0, 0, 0, 0);
+        label_53 = new QLabel(gridLayoutWidget_5);
+        label_53->setObjectName(QStringLiteral("label_53"));
+        label_53->setFont(font6);
+        label_53->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+
+        gridLayout_6->addWidget(label_53, 1, 1, 1, 1);
+
+        label_26 = new QLabel(gridLayoutWidget_5);
         label_26->setObjectName(QStringLiteral("label_26"));
-        label_26->setGeometry(QRect(140, 60, 101, 21));
         label_26->setFont(font11);
         label_26->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+
+        gridLayout_6->addWidget(label_26, 0, 1, 1, 1);
+
+        label_22 = new QLabel(gridLayoutWidget_5);
+        label_22->setObjectName(QStringLiteral("label_22"));
+        label_22->setFont(font11);
+        label_22->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+
+        gridLayout_6->addWidget(label_22, 0, 0, 1, 1);
+
+        label_52 = new QLabel(gridLayoutWidget_5);
+        label_52->setObjectName(QStringLiteral("label_52"));
+        label_52->setFont(font6);
+        label_52->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+
+        gridLayout_6->addWidget(label_52, 1, 0, 1, 1);
+
+        label_25 = new QLabel(gridLayoutWidget_5);
+        label_25->setObjectName(QStringLiteral("label_25"));
+        label_25->setFont(font11);
+        label_25->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+
+        gridLayout_6->addWidget(label_25, 2, 0, 1, 1);
+
+        label_24 = new QLabel(gridLayoutWidget_5);
+        label_24->setObjectName(QStringLiteral("label_24"));
+        label_24->setFont(font11);
+        label_24->setStyleSheet(QStringLiteral("color: rgb(255, 68, 68);"));
+
+        gridLayout_6->addWidget(label_24, 2, 1, 1, 1);
+
         groupBox_4 = new QGroupBox(WaitMenu);
         groupBox_4->setObjectName(QStringLiteral("groupBox_4"));
-        groupBox_4->setGeometry(QRect(840, 30, 301, 181));
-        label_32 = new QLabel(groupBox_4);
-        label_32->setObjectName(QStringLiteral("label_32"));
-        label_32->setGeometry(QRect(30, 60, 101, 21));
-        label_32->setFont(font11);
-        label_32->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+        groupBox_4->setGeometry(QRect(810, 30, 331, 181));
         label_33 = new QLabel(groupBox_4);
         label_33->setObjectName(QStringLiteral("label_33"));
         label_33->setGeometry(QRect(100, 0, 101, 31));
         label_33->setFont(font8);
         label_33->setStyleSheet(QStringLiteral("color: rgb(0, 200, 81);"));
-        label_34 = new QLabel(groupBox_4);
-        label_34->setObjectName(QStringLiteral("label_34"));
-        label_34->setGeometry(QRect(140, 110, 131, 21));
-        label_34->setFont(font11);
-        label_34->setStyleSheet(QStringLiteral("color: rgb(255, 68, 68);"));
-        label_35 = new QLabel(groupBox_4);
-        label_35->setObjectName(QStringLiteral("label_35"));
-        label_35->setGeometry(QRect(30, 110, 101, 21));
-        label_35->setFont(font11);
-        label_35->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
-        label_36 = new QLabel(groupBox_4);
+        gridLayoutWidget_3 = new QWidget(groupBox_4);
+        gridLayoutWidget_3->setObjectName(QStringLiteral("gridLayoutWidget_3"));
+        gridLayoutWidget_3->setGeometry(QRect(0, 30, 331, 151));
+        gridLayout_4 = new QGridLayout(gridLayoutWidget_3);
+        gridLayout_4->setSpacing(6);
+        gridLayout_4->setContentsMargins(11, 11, 11, 11);
+        gridLayout_4->setObjectName(QStringLiteral("gridLayout_4"));
+        gridLayout_4->setContentsMargins(0, 0, 0, 0);
+        label_51 = new QLabel(gridLayoutWidget_3);
+        label_51->setObjectName(QStringLiteral("label_51"));
+        label_51->setFont(font6);
+        label_51->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+
+        gridLayout_4->addWidget(label_51, 1, 1, 1, 1);
+
+        label_36 = new QLabel(gridLayoutWidget_3);
         label_36->setObjectName(QStringLiteral("label_36"));
-        label_36->setGeometry(QRect(140, 60, 101, 21));
         label_36->setFont(font11);
         label_36->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+
+        gridLayout_4->addWidget(label_36, 0, 1, 1, 1);
+
+        label_35 = new QLabel(gridLayoutWidget_3);
+        label_35->setObjectName(QStringLiteral("label_35"));
+        label_35->setFont(font11);
+        label_35->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+
+        gridLayout_4->addWidget(label_35, 3, 0, 1, 1);
+
+        label_50 = new QLabel(gridLayoutWidget_3);
+        label_50->setObjectName(QStringLiteral("label_50"));
+        label_50->setFont(font6);
+        label_50->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+
+        gridLayout_4->addWidget(label_50, 1, 0, 1, 1);
+
+        label_32 = new QLabel(gridLayoutWidget_3);
+        label_32->setObjectName(QStringLiteral("label_32"));
+        label_32->setFont(font11);
+        label_32->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+
+        gridLayout_4->addWidget(label_32, 0, 0, 1, 1);
+
+        label_34 = new QLabel(gridLayoutWidget_3);
+        label_34->setObjectName(QStringLiteral("label_34"));
+        label_34->setFont(font11);
+        label_34->setStyleSheet(QStringLiteral("color: rgb(255, 68, 68);"));
+
+        gridLayout_4->addWidget(label_34, 3, 1, 1, 1);
+
         groupBox_3 = new QGroupBox(WaitMenu);
         groupBox_3->setObjectName(QStringLiteral("groupBox_3"));
-        groupBox_3->setGeometry(QRect(840, 490, 301, 181));
-        label_27 = new QLabel(groupBox_3);
-        label_27->setObjectName(QStringLiteral("label_27"));
-        label_27->setGeometry(QRect(30, 60, 101, 21));
-        label_27->setFont(font11);
-        label_27->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+        groupBox_3->setGeometry(QRect(810, 490, 331, 181));
         label_28 = new QLabel(groupBox_3);
         label_28->setObjectName(QStringLiteral("label_28"));
         label_28->setGeometry(QRect(100, 0, 101, 31));
         label_28->setFont(font8);
         label_28->setStyleSheet(QStringLiteral("color: rgb(0, 200, 81);"));
-        label_29 = new QLabel(groupBox_3);
-        label_29->setObjectName(QStringLiteral("label_29"));
-        label_29->setGeometry(QRect(140, 110, 131, 21));
-        label_29->setFont(font11);
-        label_29->setStyleSheet(QStringLiteral("color: rgb(255, 68, 68);"));
-        label_30 = new QLabel(groupBox_3);
-        label_30->setObjectName(QStringLiteral("label_30"));
-        label_30->setGeometry(QRect(30, 110, 101, 21));
-        label_30->setFont(font11);
-        label_30->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
-        label_31 = new QLabel(groupBox_3);
+        gridLayoutWidget_4 = new QWidget(groupBox_3);
+        gridLayoutWidget_4->setObjectName(QStringLiteral("gridLayoutWidget_4"));
+        gridLayoutWidget_4->setGeometry(QRect(0, 30, 331, 151));
+        gridLayout_5 = new QGridLayout(gridLayoutWidget_4);
+        gridLayout_5->setSpacing(6);
+        gridLayout_5->setContentsMargins(11, 11, 11, 11);
+        gridLayout_5->setObjectName(QStringLiteral("gridLayout_5"));
+        gridLayout_5->setContentsMargins(0, 0, 0, 0);
+        label_31 = new QLabel(gridLayoutWidget_4);
         label_31->setObjectName(QStringLiteral("label_31"));
-        label_31->setGeometry(QRect(140, 60, 101, 21));
         label_31->setFont(font11);
         label_31->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+
+        gridLayout_5->addWidget(label_31, 0, 1, 1, 1);
+
+        label_55 = new QLabel(gridLayoutWidget_4);
+        label_55->setObjectName(QStringLiteral("label_55"));
+        label_55->setFont(font6);
+        label_55->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+
+        gridLayout_5->addWidget(label_55, 1, 1, 1, 1);
+
+        label_27 = new QLabel(gridLayoutWidget_4);
+        label_27->setObjectName(QStringLiteral("label_27"));
+        label_27->setFont(font11);
+        label_27->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+
+        gridLayout_5->addWidget(label_27, 0, 0, 1, 1);
+
+        label_54 = new QLabel(gridLayoutWidget_4);
+        label_54->setObjectName(QStringLiteral("label_54"));
+        label_54->setFont(font6);
+        label_54->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+
+        gridLayout_5->addWidget(label_54, 1, 0, 1, 1);
+
+        label_30 = new QLabel(gridLayoutWidget_4);
+        label_30->setObjectName(QStringLiteral("label_30"));
+        label_30->setFont(font11);
+        label_30->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+
+        gridLayout_5->addWidget(label_30, 2, 0, 1, 1);
+
+        label_29 = new QLabel(gridLayoutWidget_4);
+        label_29->setObjectName(QStringLiteral("label_29"));
+        label_29->setFont(font11);
+        label_29->setStyleSheet(QStringLiteral("color: rgb(255, 68, 68);"));
+
+        gridLayout_5->addWidget(label_29, 2, 1, 1, 1);
+
         verticalLayoutWidget_2 = new QWidget(WaitMenu);
         verticalLayoutWidget_2->setObjectName(QStringLiteral("verticalLayoutWidget_2"));
         verticalLayoutWidget_2->setGeometry(QRect(470, 30, 261, 651));
         verticalLayout_2 = new QVBoxLayout(verticalLayoutWidget_2);
-        verticalLayout_2->setSpacing(6);
+        verticalLayout_2->setSpacing(0);
         verticalLayout_2->setContentsMargins(11, 11, 11, 11);
         verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
         verticalLayout_2->setContentsMargins(0, 0, 0, 0);
@@ -681,14 +817,14 @@ public:
         label_44->setFont(font10);
         label_44->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
 
-        verticalLayout_2->addWidget(label_44);
+        verticalLayout_2->addWidget(label_44, 0, Qt::AlignHCenter);
 
         label_45 = new QLabel(verticalLayoutWidget_2);
         label_45->setObjectName(QStringLiteral("label_45"));
         label_45->setFont(font10);
         label_45->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
 
-        verticalLayout_2->addWidget(label_45);
+        verticalLayout_2->addWidget(label_45, 0, Qt::AlignHCenter);
 
         pushButton_2 = new QPushButton(verticalLayoutWidget_2);
         pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
@@ -715,14 +851,14 @@ public:
         label_41->setFont(font7);
         label_41->setStyleSheet(QStringLiteral("color: rgb(243, 243, 243);"));
 
-        verticalLayout_2->addWidget(label_41);
+        verticalLayout_2->addWidget(label_41, 0, Qt::AlignHCenter);
 
         label_42 = new QLabel(verticalLayoutWidget_2);
         label_42->setObjectName(QStringLiteral("label_42"));
         label_42->setFont(font8);
         label_42->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
 
-        verticalLayout_2->addWidget(label_42);
+        verticalLayout_2->addWidget(label_42, 0, Qt::AlignHCenter);
 
         pushButton_12 = new QPushButton(verticalLayoutWidget_2);
         pushButton_12->setObjectName(QStringLiteral("pushButton_12"));
@@ -949,29 +1085,37 @@ public:
         pushButton->setText(QApplication::translate("MainWindow", "Enviar", Q_NULLPTR));
         label_3->setText(QString());
         groupBox->setTitle(QString());
-        label_4->setText(QApplication::translate("MainWindow", "Nombre:", Q_NULLPTR));
         label_7->setText(QApplication::translate("MainWindow", "Jugador 1", Q_NULLPTR));
-        label_14->setText(QApplication::translate("MainWindow", "Desconectado", Q_NULLPTR));
-        label_15->setText(QApplication::translate("MainWindow", "Estado:", Q_NULLPTR));
+        label_4->setText(QApplication::translate("MainWindow", "Nombre:", Q_NULLPTR));
+        label_49->setText(QApplication::translate("MainWindow", "LETRA", Q_NULLPTR));
+        label_48->setText(QApplication::translate("MainWindow", "Ficha desenvolsada:", Q_NULLPTR));
         label_16->setText(QApplication::translate("MainWindow", "N/A", Q_NULLPTR));
+        label_15->setText(QApplication::translate("MainWindow", "Estado:", Q_NULLPTR));
+        label_14->setText(QApplication::translate("MainWindow", "Desconectado", Q_NULLPTR));
         groupBox_2->setTitle(QString());
-        label_22->setText(QApplication::translate("MainWindow", "Nombre:", Q_NULLPTR));
         label_23->setText(QApplication::translate("MainWindow", "Jugador 2", Q_NULLPTR));
-        label_24->setText(QApplication::translate("MainWindow", "Desconectado", Q_NULLPTR));
-        label_25->setText(QApplication::translate("MainWindow", "Estado:", Q_NULLPTR));
+        label_53->setText(QApplication::translate("MainWindow", "LETRA", Q_NULLPTR));
         label_26->setText(QApplication::translate("MainWindow", "N/A", Q_NULLPTR));
+        label_22->setText(QApplication::translate("MainWindow", "Nombre:", Q_NULLPTR));
+        label_52->setText(QApplication::translate("MainWindow", "Ficha desenvolsada:", Q_NULLPTR));
+        label_25->setText(QApplication::translate("MainWindow", "Estado:", Q_NULLPTR));
+        label_24->setText(QApplication::translate("MainWindow", "Desconectado", Q_NULLPTR));
         groupBox_4->setTitle(QString());
-        label_32->setText(QApplication::translate("MainWindow", "Nombre:", Q_NULLPTR));
         label_33->setText(QApplication::translate("MainWindow", "Jugador 3", Q_NULLPTR));
-        label_34->setText(QApplication::translate("MainWindow", "Desconectado", Q_NULLPTR));
-        label_35->setText(QApplication::translate("MainWindow", "Estado:", Q_NULLPTR));
+        label_51->setText(QApplication::translate("MainWindow", "LETRA", Q_NULLPTR));
         label_36->setText(QApplication::translate("MainWindow", "N/A", Q_NULLPTR));
+        label_35->setText(QApplication::translate("MainWindow", "Estado:", Q_NULLPTR));
+        label_50->setText(QApplication::translate("MainWindow", "Ficha desenvolsada:", Q_NULLPTR));
+        label_32->setText(QApplication::translate("MainWindow", "Nombre:", Q_NULLPTR));
+        label_34->setText(QApplication::translate("MainWindow", "Desconectado", Q_NULLPTR));
         groupBox_3->setTitle(QString());
-        label_27->setText(QApplication::translate("MainWindow", "Nombre:", Q_NULLPTR));
         label_28->setText(QApplication::translate("MainWindow", "Jugador 4", Q_NULLPTR));
-        label_29->setText(QApplication::translate("MainWindow", "Desconectado", Q_NULLPTR));
-        label_30->setText(QApplication::translate("MainWindow", "Estado:", Q_NULLPTR));
         label_31->setText(QApplication::translate("MainWindow", "N/A", Q_NULLPTR));
+        label_55->setText(QApplication::translate("MainWindow", "LETRA", Q_NULLPTR));
+        label_27->setText(QApplication::translate("MainWindow", "Nombre:", Q_NULLPTR));
+        label_54->setText(QApplication::translate("MainWindow", "Ficha desenvolsada:", Q_NULLPTR));
+        label_30->setText(QApplication::translate("MainWindow", "Estado:", Q_NULLPTR));
+        label_29->setText(QApplication::translate("MainWindow", "Desconectado", Q_NULLPTR));
         label_44->setText(QApplication::translate("MainWindow", "Lobby", Q_NULLPTR));
         label_45->setText(QApplication::translate("MainWindow", "NOMBRE", Q_NULLPTR));
         pushButton_2->setText(QApplication::translate("MainWindow", "Empezar", Q_NULLPTR));
