@@ -640,11 +640,11 @@ border-color: rgb(105, 240, 174);
          </property>
          <property name="styleSheet">
           <string notr="true">background-color: rgb(38, 50, 56);
+border-color: rgb(38, 50, 56);
 color: rgb(255, 68, 68);
 border-radius: 10px;
-border-width : 1.5px;
+border-width : 0px;
 border-style:inset;
-border-color: rgb(230, 81, 0);
   padding-top: 0px;
   padding-right: 35px;
   padding-bottom: 0px;
@@ -696,11 +696,11 @@ border-style: solid;
          </property>
          <property name="styleSheet">
           <string notr="true">background-color: rgb(38, 50, 56);
+border-color: rgb(38, 50, 56);
 color: rgb(255, 68, 68);
 border-radius: 10px;
-border-width : 1.5px;
+border-width : 0px;
 border-style:inset;
-border-color: rgb(230, 81, 0);
   padding-top: 0px;
   padding-right: 35px;
   padding-bottom: 0px;
@@ -1413,9 +1413,9 @@ border-color: rgb(105, 240, 174);
      <widget class="QPushButton" name="pushButton_12">
       <property name="geometry">
        <rect>
-        <x>530</x>
+        <x>520</x>
         <y>640</y>
-        <width>161</width>
+        <width>171</width>
         <height>34</height>
        </rect>
       </property>
@@ -1439,6 +1439,116 @@ border-color: rgb(230, 81, 0);
       </property>
       <property name="text">
        <string>Regresar</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_41">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>480</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Open Sans</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(243, 243, 243);</string>
+      </property>
+      <property name="text">
+       <string>Codigo lobby</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_42">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>530</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Open Sans</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>CODIGO</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_43">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>410</y>
+        <width>371</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Open Sans</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 136, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_44">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>40</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Open Sans</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Lobby</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_45">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>80</y>
+        <width>221</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Open Sans</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>NOMBRE</string>
       </property>
      </widget>
     </widget>
@@ -1622,7 +1732,7 @@ border-color: rgb(255, 136, 0);
      <widget class="QLabel" name="label_37">
       <property name="geometry">
        <rect>
-        <x>1040</x>
+        <x>1030</x>
         <y>290</y>
         <width>101</width>
         <height>31</height>
@@ -1666,7 +1776,7 @@ border-color: rgb(255, 136, 0);
      <widget class="QLabel" name="label_38">
       <property name="geometry">
        <rect>
-        <x>1030</x>
+        <x>1020</x>
         <y>240</y>
         <width>111</width>
         <height>31</height>
@@ -1683,6 +1793,28 @@ border-color: rgb(255, 136, 0);
       </property>
       <property name="text">
        <string>Jugador 4</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_39">
+      <property name="geometry">
+       <rect>
+        <x>970</x>
+        <y>510</y>
+        <width>181</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Open Sans</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 200, 81);</string>
+      </property>
+      <property name="text">
+       <string>Está en su turno</string>
       </property>
      </widget>
     </widget>

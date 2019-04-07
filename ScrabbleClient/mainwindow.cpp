@@ -2,6 +2,8 @@
 #include "ui_mainwindow.h"
 #include <iostream>
 #include <string>
+#include <QtCore/QFuture>
+#include <QtConcurrent/QtConcurrent>
 
 #define LOG(x) std::cout << x << std::endl;
 using namespace std;
@@ -45,7 +47,7 @@ void MainWindow::setUp() {
     LabelLayout->setMargin(0);
 
     for (int i = 0; i < 7; i++) {
-        QLabel *label = new QLabel("");
+        TileLabel* label = new TileLabel();
         fichas_array[i] = label;
 
         fichasLayout->addWidget(label);
@@ -85,13 +87,18 @@ void MainWindow::on_pushButton_14_clicked()
         std::string nomLobby = ui->lineEdit_2->text().toStdString();
         std::string nomJugador = ui->lineEdit_3->text().toStdString();
         std::string numJugadores = ui->comboBox->currentText().toStdString();
-        // Wmanager->newGame(nomJugador,nomLobby,numJugadores);
+        Wmanager->newGame(nomJugador,nomLobby,numJugadores);
 
-        LOG(nomLobby);
-        LOG(nomJugador);
-        LOG(numJugadores);
-
+        Wmanager->localP->setHost();
         ui->stackedWidget->setCurrentIndex(3);
+        ui->label_45->setText(Wmanager->getParty().c_str());
+        ui->label_42->setText(Wmanager->getCode().c_str());
+        ui->label_16->setText(nomJugador.c_str());
+        Wmanager->update();
+
+        QtConcurrent::run(this, &MainWindow::play);
+        //QtConcurrent::run(this, &MainWindow::isTriggered);
+
     }
     else
     {
@@ -113,16 +120,21 @@ void MainWindow::on_pushButton_13_clicked()
 
 void MainWindow::on_pushButton_clicked()
 {
-    if (ui->lineEdit->text().toStdString() != "") {
+    if (ui->lineEdit->text().toStdString() != "")
+    {
         std::string codigo = ui->lineEdit->text().toStdString();
         std::string nomJugador = ui->lineEdit_4->text().toStdString();
+        Wmanager->setCode(codigo);
+        Wmanager->newJoin(nomJugador,codigo);
 
-        // Wmanager->newJoin(nomJugador,codigo);
-
-        LOG(codigo);
-        LOG(nomJugador);
 
         ui->stackedWidget->setCurrentIndex(3);
+        ui->label_45->setText(Wmanager->getParty().c_str());
+        ui->label_42->setText(Wmanager->getCode().c_str());
+        Wmanager->update();
+        QtConcurrent::run(this, &MainWindow::play);
+        //QtConcurrent::run(this, &MainWindow::isTriggered);
+
     }
 
     else {
@@ -142,15 +154,15 @@ void MainWindow::on_lineEdit_returnPressed()
 
 void MainWindow::on_pushButton_2_clicked()
 {
-    // Verificar si host es el que esta iniciando
-        // Si es verificar si todos están listos
-            // Comenzar Partida
-        // Si no poner label de error
-    // Si no
-        // Poner label de error
 
-        ui->stackedWidget->setCurrentIndex(4);
-        // comentario random
+    if((Wmanager->localP->isHost())&&(Wmanager->players->getLength()==Wmanager->players->getLimit()))
+    {
+        Wmanager->setTrigger();
+        //ui->stackedWidget->setCurrentIndex(4);
+    } else
+    {
+        ui->label_43->setText("Solo el anfitrion puede empezar la partida!");
+    }
 }
 
 void MainWindow::on_pushButton_5_clicked()
@@ -167,3 +179,59 @@ void MainWindow::on_pushButton_12_clicked()
 {
     ui->stackedWidget->setCurrentIndex(0);
 }
+
+void MainWindow::on_pushButton_14_pressed()
+{
+
+}
+void MainWindow::LobbyUpdater()
+{
+    int counter = 0;
+    while (counter <= Wmanager->players->getLimit() - 1)
+    {
+        if(Wmanager->players->getLength()>counter)
+        {
+            Player* p= Wmanager->players->getLast();
+            switch (stoi(p->getID())) {
+                case 0:
+                    ui->label_16->setText(p->getName().c_str());
+                    ui->label_14->setText("Conectado");
+                    ui->label_14->setStyleSheet("color:#00C851");
+                    break;
+                case 1:
+                    ui->label_26->setText(p->getName().c_str());
+                    ui->label_24->setText("Conectado");
+                    ui->label_24->setStyleSheet("color:#00C851");
+                    break;
+                case 2:
+                    ui->label_36->setText(p->getName().c_str());
+                    ui->label_34->setText("Conectado");
+                    ui->label_34->setStyleSheet("color:#00C851");
+                    break;
+                case 3:
+                    ui->label_31->setText(p->getName().c_str());
+                    ui->label_29->setText("Conectado");
+                    ui->label_29->setStyleSheet("color:#00C851");
+                    break;
+            }
+            counter++;
+        }
+        usleep(1500000);
+    }
+    isTriggered();
+    usleep(1500000);
+}
+void MainWindow::isTriggered()
+{
+    if(Wmanager->triggered())
+    {
+        ui->stackedWidget->setCurrentIndex(4);
+    }
+
+}
+void MainWindow::play()
+{
+    LobbyUpdater();
+    isTriggered();
+}
+

@@ -30,8 +30,7 @@ void Client::start()
             }
 
             int port = 54000;
-            string ipAdress = "192.168.100.12";
-
+            string ipAdress = "192.168.100.5";
 
             sockaddr_in hint;
             hint.sin_family = AF_INET;
@@ -85,7 +84,7 @@ void Client::sendMessage(string message)
     {
         cout<<"Couldn't send the message: "<<message<<endl;
     }
-    cout<<"Mensaje enviado: "<<sendMes<<endl;
+    cout<<"Mensaje enviado: "<<message<<endl;
 }
 void Client::run()
 {

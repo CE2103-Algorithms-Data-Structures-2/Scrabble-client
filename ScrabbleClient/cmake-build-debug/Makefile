@@ -595,6 +595,33 @@ Structures/PlayerList.cpp.s:
 	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Structures/PlayerList.cpp.s
 .PHONY : Structures/PlayerList.cpp.s
 
+Structures/SearchList.o: Structures/SearchList.cpp.o
+
+.PHONY : Structures/SearchList.o
+
+# target to build an object file
+Structures/SearchList.cpp.o:
+	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Structures/SearchList.cpp.o
+.PHONY : Structures/SearchList.cpp.o
+
+Structures/SearchList.i: Structures/SearchList.cpp.i
+
+.PHONY : Structures/SearchList.i
+
+# target to preprocess a source file
+Structures/SearchList.cpp.i:
+	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Structures/SearchList.cpp.i
+.PHONY : Structures/SearchList.cpp.i
+
+Structures/SearchList.s: Structures/SearchList.cpp.s
+
+.PHONY : Structures/SearchList.s
+
+# target to generate assembly for a file
+Structures/SearchList.cpp.s:
+	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/Structures/SearchList.cpp.s
+.PHONY : Structures/SearchList.cpp.s
+
 Structures/WordsList.o: Structures/WordsList.cpp.o
 
 .PHONY : Structures/WordsList.o
@@ -676,6 +703,33 @@ mainwindow.cpp.s:
 	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+tilelabel.o: tilelabel.cpp.o
+
+.PHONY : tilelabel.o
+
+# target to build an object file
+tilelabel.cpp.o:
+	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.o
+.PHONY : tilelabel.cpp.o
+
+tilelabel.i: tilelabel.cpp.i
+
+.PHONY : tilelabel.i
+
+# target to preprocess a source file
+tilelabel.cpp.i:
+	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.i
+.PHONY : tilelabel.cpp.i
+
+tilelabel.s: tilelabel.cpp.s
+
+.PHONY : tilelabel.s
+
+# target to generate assembly for a file
+tilelabel.cpp.s:
+	$(MAKE) -f CMakeFiles/ScrabbleClient.dir/build.make CMakeFiles/ScrabbleClient.dir/tilelabel.cpp.s
+.PHONY : tilelabel.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -737,6 +791,9 @@ help:
 	@echo "... Structures/PlayerList.o"
 	@echo "... Structures/PlayerList.i"
 	@echo "... Structures/PlayerList.s"
+	@echo "... Structures/SearchList.o"
+	@echo "... Structures/SearchList.i"
+	@echo "... Structures/SearchList.s"
 	@echo "... Structures/WordsList.o"
 	@echo "... Structures/WordsList.i"
 	@echo "... Structures/WordsList.s"
@@ -746,6 +803,9 @@ help:
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
+	@echo "... tilelabel.o"
+	@echo "... tilelabel.i"
+	@echo "... tilelabel.s"
 .PHONY : help
 
 

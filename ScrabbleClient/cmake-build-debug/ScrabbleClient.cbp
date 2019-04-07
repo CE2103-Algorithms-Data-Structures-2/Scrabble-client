@@ -217,6 +217,12 @@
 		<Unit filename="/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Structures/PlayerList.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
+		<Unit filename="/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Structures/SearchList.cpp">
+			<Option target="ScrabbleClient"/>
+		</Unit>
+		<Unit filename="/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Structures/SearchList.h">
+			<Option target="ScrabbleClient"/>
+		</Unit>
 		<Unit filename="/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/Structures/WordsList.cpp">
 			<Option target="ScrabbleClient"/>
 		</Unit>
@@ -236,6 +242,12 @@
 			<Option target="ScrabbleClient"/>
 		</Unit>
 		<Unit filename="/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/mainwindow.ui">
+			<Option target="ScrabbleClient"/>
+		</Unit>
+		<Unit filename="/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/tilelabel.cpp">
+			<Option target="ScrabbleClient"/>
+		</Unit>
+		<Unit filename="/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/tilelabel.h">
 			<Option target="ScrabbleClient"/>
 		</Unit>
 		<Unit filename="/home/kugelblitz/Documents/Scrabble-client/ScrabbleClient/CMakeLists.txt">

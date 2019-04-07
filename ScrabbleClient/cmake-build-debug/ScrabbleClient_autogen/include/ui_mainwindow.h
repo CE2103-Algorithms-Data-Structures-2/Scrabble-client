@@ -96,6 +96,11 @@ public:
     QLabel *label_31;
     QPushButton *pushButton_2;
     QPushButton *pushButton_12;
+    QLabel *label_41;
+    QLabel *label_42;
+    QLabel *label_43;
+    QLabel *label_44;
+    QLabel *label_45;
     QWidget *GameBoard;
     QWidget *gridLayoutWidget;
     QGridLayout *gridLayout_3;
@@ -111,6 +116,7 @@ public:
     QLabel *label_37;
     QLabel *label_40;
     QLabel *label_38;
+    QLabel *label_39;
     QWidget *WinMenu;
     QWidget *layoutWidget;
     QVBoxLayout *verticalLayout_5;
@@ -409,11 +415,11 @@ public:
         font8.setPointSize(16);
         pushButton_5->setFont(font8);
         pushButton_5->setStyleSheet(QLatin1String("background-color: rgb(38, 50, 56);\n"
+"border-color: rgb(38, 50, 56);\n"
 "color: rgb(255, 68, 68);\n"
 "border-radius: 10px;\n"
-"border-width : 1.5px;\n"
+"border-width : 0px;\n"
 "border-style:inset;\n"
-"border-color: rgb(230, 81, 0);\n"
 "  padding-top: 0px;\n"
 "  padding-right: 35px;\n"
 "  padding-bottom: 0px;\n"
@@ -442,11 +448,11 @@ public:
         pushButton_8->setObjectName(QStringLiteral("pushButton_8"));
         pushButton_8->setFont(font8);
         pushButton_8->setStyleSheet(QLatin1String("background-color: rgb(38, 50, 56);\n"
+"border-color: rgb(38, 50, 56);\n"
 "color: rgb(255, 68, 68);\n"
 "border-radius: 10px;\n"
-"border-width : 1.5px;\n"
+"border-width : 0px;\n"
 "border-style:inset;\n"
-"border-color: rgb(230, 81, 0);\n"
 "  padding-top: 0px;\n"
 "  padding-right: 35px;\n"
 "  padding-bottom: 0px;\n"
@@ -671,7 +677,7 @@ public:
 ""));
         pushButton_12 = new QPushButton(WaitMenu);
         pushButton_12->setObjectName(QStringLiteral("pushButton_12"));
-        pushButton_12->setGeometry(QRect(530, 640, 161, 34));
+        pushButton_12->setGeometry(QRect(520, 640, 171, 34));
         pushButton_12->setFont(font8);
         pushButton_12->setStyleSheet(QLatin1String("background-color: rgb(38, 50, 56);\n"
 "color: rgb(255, 68, 68);\n"
@@ -683,6 +689,31 @@ public:
 "  padding-right: 35px;\n"
 "  padding-bottom: 0px;\n"
 "  padding-left: 35px;"));
+        label_41 = new QLabel(WaitMenu);
+        label_41->setObjectName(QStringLiteral("label_41"));
+        label_41->setGeometry(QRect(540, 480, 161, 51));
+        label_41->setFont(font7);
+        label_41->setStyleSheet(QStringLiteral("color: rgb(243, 243, 243);"));
+        label_42 = new QLabel(WaitMenu);
+        label_42->setObjectName(QStringLiteral("label_42"));
+        label_42->setGeometry(QRect(570, 530, 101, 31));
+        label_42->setFont(font8);
+        label_42->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+        label_43 = new QLabel(WaitMenu);
+        label_43->setObjectName(QStringLiteral("label_43"));
+        label_43->setGeometry(QRect(430, 410, 371, 31));
+        label_43->setFont(font6);
+        label_43->setStyleSheet(QStringLiteral("color: rgb(255, 136, 0);"));
+        label_44 = new QLabel(WaitMenu);
+        label_44->setObjectName(QStringLiteral("label_44"));
+        label_44->setGeometry(QRect(570, 40, 81, 31));
+        label_44->setFont(font10);
+        label_44->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+        label_45 = new QLabel(WaitMenu);
+        label_45->setObjectName(QStringLiteral("label_45"));
+        label_45->setGeometry(QRect(500, 80, 221, 51));
+        label_45->setFont(font10);
+        label_45->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
         stackedWidget->addWidget(WaitMenu);
         GameBoard = new QWidget();
         GameBoard->setObjectName(QStringLiteral("GameBoard"));
@@ -749,7 +780,7 @@ public:
         label_21->setStyleSheet(QStringLiteral("color: rgb(41, 198, 224);"));
         label_37 = new QLabel(GameBoard);
         label_37->setObjectName(QStringLiteral("label_37"));
-        label_37->setGeometry(QRect(1040, 290, 101, 31));
+        label_37->setGeometry(QRect(1030, 290, 101, 31));
         label_37->setFont(font7);
         label_37->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
         label_40 = new QLabel(GameBoard);
@@ -759,9 +790,14 @@ public:
         label_40->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
         label_38 = new QLabel(GameBoard);
         label_38->setObjectName(QStringLiteral("label_38"));
-        label_38->setGeometry(QRect(1030, 240, 111, 31));
+        label_38->setGeometry(QRect(1020, 240, 111, 31));
         label_38->setFont(font7);
         label_38->setStyleSheet(QStringLiteral("color: rgb(215, 25, 207);"));
+        label_39 = new QLabel(GameBoard);
+        label_39->setObjectName(QStringLiteral("label_39"));
+        label_39->setGeometry(QRect(970, 510, 181, 61));
+        label_39->setFont(font7);
+        label_39->setStyleSheet(QStringLiteral("color: rgb(0, 200, 81);"));
         stackedWidget->addWidget(GameBoard);
         WinMenu = new QWidget();
         WinMenu->setObjectName(QStringLiteral("WinMenu"));
@@ -902,6 +938,11 @@ public:
         label_31->setText(QApplication::translate("MainWindow", "N/A", 0));
         pushButton_2->setText(QApplication::translate("MainWindow", "Empezar", 0));
         pushButton_12->setText(QApplication::translate("MainWindow", "Regresar", 0));
+        label_41->setText(QApplication::translate("MainWindow", "Codigo lobby", 0));
+        label_42->setText(QApplication::translate("MainWindow", "CODIGO", 0));
+        label_43->setText(QString());
+        label_44->setText(QApplication::translate("MainWindow", "Lobby", 0));
+        label_45->setText(QApplication::translate("MainWindow", "NOMBRE", 0));
         pushButton_3->setText(QApplication::translate("MainWindow", "Llamar a experto en palabras", 0));
         pushButton_4->setText(QApplication::translate("MainWindow", "Scrabble!", 0));
         label_17->setText(QApplication::translate("MainWindow", "Jugador 1", 0));
@@ -912,6 +953,7 @@ public:
         label_37->setText(QApplication::translate("MainWindow", "Puntaje", 0));
         label_40->setText(QApplication::translate("MainWindow", "Puntaje", 0));
         label_38->setText(QApplication::translate("MainWindow", "Jugador 4", 0));
+        label_39->setText(QApplication::translate("MainWindow", "Est\303\241 en su turno", 0));
         label_6->setText(QApplication::translate("MainWindow", "\302\241Has Ganado!", 0));
         pushButton_11->setText(QApplication::translate("MainWindow", "Volver al menu principal", 0));
         label_8->setText(QApplication::translate("MainWindow", "\302\241Has Perdido!", 0));

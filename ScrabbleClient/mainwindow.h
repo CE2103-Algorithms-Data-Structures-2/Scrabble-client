@@ -5,6 +5,7 @@
 #include <Interface_Logic/Manager/Manager.h>
 #include <QtWidgets/QLabel>
 #include "../Interface_Logic/Board_Logic/CasillaGrafica.h"
+#include "tilelabel.h"
 
 namespace Ui {
 class MainWindow;
@@ -14,8 +15,10 @@ class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
+    QPoint offset;
+
     CasillaGrafica* board_array[15][15];
-    QLabel* fichas_array[7];
+    TileLabel* fichas_array[7];
 
 public:
     explicit MainWindow(QWidget *parent = 0);
@@ -49,8 +52,16 @@ private slots:
 
     void on_pushButton_12_clicked();
 
+    void on_pushButton_14_pressed();
+
 private:
     Ui::MainWindow *ui;
+
+    void LobbyUpdater();
+
+    void isTriggered();
+
+    void play();
 };
 
 #endif // MAINWINDOW_H

@@ -15,7 +15,12 @@ using namespace std;
 class WordsList {
 private:
     NodeW* head;
+    string word;
     int length;
+    int *Finicial;
+    int *Ffinal;
+    int *Cinicial;
+    int *Cfinal;
     WordsList* next;
 public:
     /**
@@ -60,14 +65,70 @@ public:
      * Metodo para saber si una palabra se puede escribir en la matriz.
      * @param w Puntero de tipo WordsList.
      */
-    bool writeAble(WordsList* w);
+    bool writeAble(WordsList w);
     /**
      * Metodo para saber la cantidad de veces que está una letra en la lista.
      * @param l Letra de tipo string.
      * @return Cantidad de tipo entero.
      */
-    int times(string l,WordsList* w);
-
+    int times(string l,WordsList w);
+    /**
+     * Metodo para obtener la palabraa que desccribe la lista de letras.
+     * @return Palabra de tipo string.
+     */
+    string getWord();
+    /**
+     * Metodo para eliminar un juego de letras de la lista de letras.
+     * @param w Lista de letras.
+     */
+    void removeSetOfLetters(WordsList w);
+    /**
+     * Metodo para establecer el inicio de la lista en la matriz
+     * @param f Fila inicial.
+     * @param c Columna inicial.
+     */
+    void setInicio(int f,int c);
+    /**
+     * Metodo para establecer el final de la lista en la matriz
+     * @param f Fila final.
+     * @param c Columna final.
+     */
+    void setFinal(int f,int c);
+    /**
+     * Metodo para estableecer cual es la palabra que forma la lista de fichas.
+     * @param w Palabra de tipo string.
+     */
+    void setWord(string w);
+    /**
+     * Metodo para obtener la fila donde inicia la lista en la matriz.
+     * @return Fila de tipo entero
+     */
+    int getFinicial();
+    /**
+     * Metodo para obtener la fila donde termina la lista en la matriz.
+     * @return Fila de tipo entero.
+     */
+    int getFfinal();
+    /**
+     * Metodo para obtener la columna donde inicia la lista en la matriz.
+     * @return Columna de tipo entero.
+     */
+    int getCinicial();
+    /**
+     * Metodo para obtener la columna donde termina la lista en la matriz.
+     * @return Columna de tipo entero.
+     */
+    int getCfinal();
+    /**
+     * Metodo para multiplicar el puntaje de cada letra en la lista, de acuerdo a las casillas del tablero.
+     * @param mult Multiplicador de tipo entero.
+     */
+    void multiplyBy(int mult);
+    /**
+     * Metodo para obtener el total de puntos de la lista
+     * @return
+     */
+    int getPoints();
 };
 
 

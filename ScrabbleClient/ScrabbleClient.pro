@@ -42,7 +42,8 @@ SOURCES += \
     Structures/NodeW.cpp \
     Structures/PlayerList.cpp \
     Structures/WordsList.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    tilelabel.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -61,7 +62,8 @@ HEADERS += \
     Structures/NodeW.h \
     Structures/PlayerList.h \
     Structures/WordsList.h \
-    mainwindow.h
+    mainwindow.h \
+    tilelabel.h
 
 FORMS += \
         mainwindow.ui
