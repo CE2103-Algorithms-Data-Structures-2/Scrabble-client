@@ -109,7 +109,6 @@ NodeW *WordsList::getHead()
 
 bool WordsList::writeAble(WordsList w)
 {
-    bool writeable=true;
     NodeW* temp=w.getHead();
     if(temp!= nullptr)
     {

@@ -36,62 +36,73 @@ void Manager::Init()
     matrix->init();
 
 }
-void Manager::play()
-{
+void Manager::play() {
     ask("getRandom");
     ask("ready");
     ask("getSequence");
     ask("seven");
     cliente->sendMessage("done");
     ask("coordinate");
-    while(playing)
-    {
+    while (playing) {
 
         cliente->sendMessage("myTurn");
-        string incoming=cliente->receiveMessage();
-        if(incoming.compare("true")==0)
-        {
-            while(true)
-            {
-                Matrix *temp=new Matrix();
-                *temp=matrix->copy();
-                writeToMatrix();
+        string incoming = cliente->receiveMessage();
+        if (incoming.compare("true") == 0) {
+            while (true) {
+                Matrix *temp = new Matrix();
+                *temp = matrix->copy();
+                WordsList w = writeToMatrix();
                 incoming = cliente->receiveMessage();
                 if (incoming.compare("false") == 0) {
                     *matrix = *temp;
                     cliente->sendMessage("send");
-                    incoming=cliente->receiveMessage();
-                    cout<<"ERROR: La palabra "+incoming+" no es valida!Vuelva a intentar\n";
+                    incoming = cliente->receiveMessage();
+                    cout << "ERROR: La palabra " + incoming + " no es valida!Vuelva a intentar\n";
                     cliente->sendMessage("myTurn");
-                    incoming=cliente->receiveMessage();
+                    incoming = cliente->receiveMessage();
 
-                }
-                else if(incoming.compare("true") == 0)
-                {
+                } else if (incoming.compare("true") == 0) {
                     cliente->sendMessage("send");
-                    incoming=cliente->receiveMessage();
-                    cout<<"Puntos obtenidos: "+incoming<<endl;
+                    incoming = cliente->receiveMessage();
+                    cout << "Puntos obtenidos: " + incoming << endl;
                     this->localP->addPoints(stoi(incoming));
+                    this->localP->getChips()->removeSetOfLetters(w);
+                    cliente->sendMessage("refill");
+                    incoming = cliente->receiveMessage();
+                    if (incoming.compare("send") == 0) {
+                        cout << "Fichas faltantes: " + to_string(7 - localP->getChips()->getLength()) + "\n" << endl;
+                        cliente->sendMessage(to_string(7 - localP->getChips()->getLength()));
+                        incoming = cliente->receiveMessage();
+                        int faltantes = 7 - localP->getChips()->getLength();
+                        for (int i = 0; i < faltantes; i++) {
+                            Chip *c = new Chip();
+                            string JSON = Manager::Jmanager->askFor(incoming, to_string(i));
+                            c->setPoints(stoi(Manager::Jmanager->askFor(JSON, "points")));
+                            c->setLetter(Manager::Jmanager->askFor(JSON, "letter"));
+                            if (Manager::Jmanager->askFor(JSON, "wildcard").compare("true") == 0) {
+                                c->setSpecial(true);
+                            } else if (Manager::Jmanager->askFor(JSON, "wildcard").compare("false") == 0) {
+                                c->setSpecial(false);
+                            }
+                            localP->getChips()->add(c);
+                        }
+                        localP->getChips()->print();
+                    }
                     break;
                 }
                 matrix->print();
             }
         }
-        /*cliente->sendMessage("update");
-        incoming=cliente->receiveMessage();
-        if(incoming.compare("true")==0)
-        {
-            cliente->sendMessage("newMat");
-            incoming=cliente->receiveMessage();
-            Matrix m=Jmanager->JSONtomatrix(incoming);
-            *matrix=m;
-            cout<<"Matriz recibida del servidor: \n"<<endl;
-            matrix->print();
-        }*/
+        cliente->sendMessage("update");
+        incoming = cliente->receiveMessage();
+        Matrix m = Jmanager->JSONtomatrix(incoming);
+        *matrix = m;
+        cout << "Matriz recibida del servidor: \n" << endl;
+        matrix->print();
         usleep(2000000);
     }
-
 }
+
 void Manager::setCode(string s) {
     if(!assigned)
     {
@@ -302,7 +313,7 @@ void Manager::ask(string p) {
     }
 }
 
-void Manager::writeToMatrix()
+WordsList Manager::writeToMatrix()
 {
     cout<<"Mano del jugador: "<<endl;
     localP->getChips()->print();
@@ -332,15 +343,21 @@ void Manager::writeToMatrix()
             getline(cin, dir);
             matrix->addWord(stoi(fila), stoi(columna), dir, w);
             string JSON = Jmanager->matrixtoJSON(matrix);
-            cliente->sendMessage(JSON);
-            string incomming=cliente->receiveMessage();
-            if(incomming.compare("send")==0)
+            cliente->sendMessage("newMatrix");
+            string incoming=cliente->receiveMessage();
+            if(incoming.compare("send")==0)
             {
-                string entry="Fini@"+ to_string(w.getFinicial())+"$"+"Cini@"+to_string(w.getCinicial())+"$"+"Ffin@"+to_string(w.getFfinal())+"$"+"Cfin@"+to_string(w.getCfinal());
-                string JSON=Jmanager->toJSON(entry);
                 cliente->sendMessage(JSON);
+                string incomming = cliente->receiveMessage();
+                if (incomming.compare("send") == 0) {
+                    string entry =
+                            "Fini@" + to_string(w.getFinicial()) + "$" + "Cini@" + to_string(w.getCinicial()) + "$" +
+                            "Ffin@" + to_string(w.getFfinal()) + "$" + "Cfin@" + to_string(w.getCfinal());
+                    string JSON = Jmanager->toJSON(entry);
+                    cliente->sendMessage(JSON);
+                }
+                return w;
             }
-            break;
         }
     }
 }

@@ -56,7 +56,7 @@ public:
     /**
      * Metodo para verificar si una palabra se puede escribir en la matriz y escribirla
      */
-    void writeToMatrix();
+    WordsList writeToMatrix();
     static Player* localP;
     static PlayerList* players;
 

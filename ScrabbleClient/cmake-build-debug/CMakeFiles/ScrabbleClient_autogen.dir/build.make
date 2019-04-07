@@ -43,10 +43,10 @@ RM = /snap/clion/67/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dcamachog1501/Desktop/CL/ScrabbleClient
+CMAKE_SOURCE_DIR = /home/dcamachog1501/Desktop/Cliente1/ScrabbleClient
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/cmake-build-debug
 
 # Utility rule file for ScrabbleClient_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-deb
 include CMakeFiles/ScrabbleClient_autogen.dir/progress.make
 
 CMakeFiles/ScrabbleClient_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ScrabbleClient"
-	/snap/clion/67/bin/cmake/linux/bin/cmake -E cmake_autogen /home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient_autogen.dir/AutogenInfo.cmake Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ScrabbleClient"
+	/snap/clion/67/bin/cmake/linux/bin/cmake -E cmake_autogen /home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient_autogen.dir/AutogenInfo.cmake Debug
 
 ScrabbleClient_autogen: CMakeFiles/ScrabbleClient_autogen
 ScrabbleClient_autogen: CMakeFiles/ScrabbleClient_autogen.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/ScrabbleClient_autogen.dir/clean:
 .PHONY : CMakeFiles/ScrabbleClient_autogen.dir/clean
 
 CMakeFiles/ScrabbleClient_autogen.dir/depend:
-	cd /home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dcamachog1501/Desktop/CL/ScrabbleClient /home/dcamachog1501/Desktop/CL/ScrabbleClient /home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug /home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug /home/dcamachog1501/Desktop/CL/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dcamachog1501/Desktop/Cliente1/ScrabbleClient /home/dcamachog1501/Desktop/Cliente1/ScrabbleClient /home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/cmake-build-debug /home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/cmake-build-debug /home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ScrabbleClient_autogen.dir/depend
 

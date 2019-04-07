@@ -38,33 +38,33 @@ NodeW.h
 ../Interface_Logic/Board_Logic/Matrix.h
 ../Interface_Logic/Board_Logic/Matrix.h
 
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Client/Client.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Client/Client.h
 iostream
 -
 thread
 -
 
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
 string
 -
 Chip.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
 
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
 string
 -
 
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
 Structures/SearchList.h
 -
 ../../Structures/WordsList.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Structures/WordsList.h
 ../../Structures/BoxList.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/BoxList.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Structures/BoxList.h
 ../../Structures/SearchList.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/SearchList.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Structures/SearchList.h
 
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
 algorithm
 -
 boost/property_tree/json_parser.hpp
@@ -80,37 +80,37 @@ boost/property_tree/ptree.hpp
 iostream
 -
 ../Board_Logic/Matrix.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
 
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.h
 ../../Client/Client.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Client/Client.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Client/Client.h
 ../JSON_Logic/JSONManager.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
 LogicWindow.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Logic_Windows/LogicWindow.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/Logic_Windows/LogicWindow.h
 
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Logic_Windows/LogicWindow.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/Logic_Windows/LogicWindow.h
 ../JSON_Logic/JSONManager.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
 ../../Client/Client.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Client/Client.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Client/Client.h
 
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Logic_Windows/NewGame_LW.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/Logic_Windows/NewGame_LW.h
 ../../Client/Client.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Client/Client.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Client/Client.h
 ../JSON_Logic/JSONManager.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
 LogicWindow.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Logic_Windows/LogicWindow.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/Logic_Windows/LogicWindow.h
 
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Manager/Manager.cpp
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/Manager/Manager.cpp
 ../../Client/Client.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Client/Client.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Client/Client.h
 Manager.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Manager/Manager.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/Manager/Manager.h
 ../JSON_Logic/JSONManager.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
 boost/property_tree/ptree.hpp
 -
 boost/property_tree/json_parser.hpp
@@ -122,57 +122,57 @@ algorithm
 thread
 -
 mainwindow.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Manager/mainwindow.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/Manager/mainwindow.h
 
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Manager/Manager.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/Manager/Manager.h
 ../../Client/Client.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Client/Client.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Client/Client.h
 ../JSON_Logic/JSONManager.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/JSON_Logic/JSONManager.h
 ../Logic_Windows/NewGame_LW.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Logic_Windows/NewGame_LW.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/Logic_Windows/NewGame_LW.h
 ../Logic_Windows/JoinGame_LW.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/Logic_Windows/JoinGame_LW.h
 ../../Structures/PlayerList.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/PlayerList.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Structures/PlayerList.h
 
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Player/Player.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/Player/Player.h
 ../../Structures/WordsList.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Structures/WordsList.h
 string
 -
 
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/BoxList.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Structures/BoxList.h
 ../Interface_Logic/Board_Logic/Box.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/Board_Logic/Box.h
 
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeP.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Structures/NodeP.h
 ../Interface_Logic/Player/Player.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Player/Player.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/Player/Player.h
 
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeW.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Structures/NodeW.h
 string
 -
 ../Interface_Logic/Board_Logic/Chip.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/Board_Logic/Chip.h
 
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/PlayerList.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Structures/PlayerList.h
 NodeP.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeP.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Structures/NodeP.h
 
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/SearchList.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Structures/SearchList.h
 WordsList.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Structures/WordsList.h
 
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/WordsList.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Structures/WordsList.h
 string.h
 -
 iostream
 -
 NodeW.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Structures/NodeW.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Structures/NodeW.h
 ../Interface_Logic/Board_Logic/Matrix.h
-/home/dcamachog1501/Desktop/CL/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
+/home/dcamachog1501/Desktop/Cliente1/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 QtCore/qglobal.h
