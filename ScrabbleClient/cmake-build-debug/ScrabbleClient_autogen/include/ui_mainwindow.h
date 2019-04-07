@@ -724,6 +724,10 @@ public:
 
         pushButton_12 = new QPushButton(verticalLayoutWidget_2);
         pushButton_12->setObjectName(QStringLiteral("pushButton_12"));
+<<<<<<< HEAD
+=======
+        pushButton_12->setGeometry(QRect(520, 640, 171, 34));
+>>>>>>> 9d34c55060118b281a09d95af8caaf0a1ea14d3f
         pushButton_12->setFont(font8);
         pushButton_12->setStyleSheet(QLatin1String("background-color: rgb(38, 50, 56);\n"
 "color: rgb(255, 68, 68);\n"
@@ -735,9 +739,37 @@ public:
 "  padding-right: 35px;\n"
 "  padding-bottom: 0px;\n"
 "  padding-left: 35px;"));
+<<<<<<< HEAD
 
         verticalLayout_2->addWidget(pushButton_12);
 
+=======
+        label_41 = new QLabel(WaitMenu);
+        label_41->setObjectName(QStringLiteral("label_41"));
+        label_41->setGeometry(QRect(540, 480, 161, 51));
+        label_41->setFont(font7);
+        label_41->setStyleSheet(QStringLiteral("color: rgb(243, 243, 243);"));
+        label_42 = new QLabel(WaitMenu);
+        label_42->setObjectName(QStringLiteral("label_42"));
+        label_42->setGeometry(QRect(570, 530, 101, 31));
+        label_42->setFont(font8);
+        label_42->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+        label_43 = new QLabel(WaitMenu);
+        label_43->setObjectName(QStringLiteral("label_43"));
+        label_43->setGeometry(QRect(430, 410, 371, 31));
+        label_43->setFont(font6);
+        label_43->setStyleSheet(QStringLiteral("color: rgb(255, 136, 0);"));
+        label_44 = new QLabel(WaitMenu);
+        label_44->setObjectName(QStringLiteral("label_44"));
+        label_44->setGeometry(QRect(570, 40, 81, 31));
+        label_44->setFont(font10);
+        label_44->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+        label_45 = new QLabel(WaitMenu);
+        label_45->setObjectName(QStringLiteral("label_45"));
+        label_45->setGeometry(QRect(500, 80, 221, 51));
+        label_45->setFont(font10);
+        label_45->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+>>>>>>> 9d34c55060118b281a09d95af8caaf0a1ea14d3f
         stackedWidget->addWidget(WaitMenu);
         GameBoard = new QWidget();
         GameBoard->setObjectName(QStringLiteral("GameBoard"));

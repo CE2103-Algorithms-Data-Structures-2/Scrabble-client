@@ -22,11 +22,16 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
-    void setUp();
     void actualizarFichas();
     static Manager* Wmanager;
 
 private slots:
+    /**
+     * Rellena el tablero con las casillas necesarias (CasillaGrafica)
+     *
+     */
+    void setUp();
+
     void on_pushButton_9_clicked();
 
     void on_pushButton_10_clicked();
