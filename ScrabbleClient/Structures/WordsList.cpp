@@ -147,6 +147,7 @@ int WordsList::times(string l,WordsList w) {
             cout<<"ciclo times"<<endl;
         }
     }
+    temp= nullptr;
     delete(temp);
     return i;
 }
@@ -170,6 +171,8 @@ void WordsList::removeSetOfLetters(WordsList w)
         this->del(temp->getChip()->getLetter());
         temp=temp->getNext();
     }
+    temp=nullptr;
+    delete(temp);
 }
 void WordsList::setInicio(int f,int c)
 {

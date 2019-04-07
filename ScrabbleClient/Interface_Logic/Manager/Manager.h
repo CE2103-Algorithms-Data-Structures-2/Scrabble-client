@@ -22,6 +22,7 @@ private:
     JoinGame_LW* JoinG_LW;
     bool* running;
     bool* playing;
+    bool* first;
 public:
     static JSONManager* Jmanager;
     /**

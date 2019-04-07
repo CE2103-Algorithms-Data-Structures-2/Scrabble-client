@@ -130,6 +130,7 @@ public:
         Matrix copy();
         void addLine(BoxList b);
 
+    bool isCentered();
 };
 
 

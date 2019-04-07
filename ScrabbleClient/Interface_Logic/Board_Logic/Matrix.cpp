@@ -567,4 +567,13 @@ Matrix Matrix::copy()
    }
    return m;
 }
+bool Matrix::isCentered()
+{
+    Box* b= get(7,7);
+    if(b->getChip()->getLetter()!=" ")
+    {
+        return true;
+    }
+    return false;
+}
 

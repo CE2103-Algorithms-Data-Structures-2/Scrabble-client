@@ -22,6 +22,7 @@ Manager::Manager()
     playing=new bool(true);
     cliente=new Client();
     running=new bool(true);
+    first= new bool(true);
     Jmanager=new JSONManager();
     NewG_LW=new NewGame_LW(cliente,Jmanager);
     JoinG_LW=new JoinGame_LW(cliente,Jmanager);
@@ -317,13 +318,13 @@ WordsList Manager::writeToMatrix()
 {
     cout<<"Mano del jugador: "<<endl;
     localP->getChips()->print();
-    WordsList w = WordsList();
     string storage = "";
     string fila = "";
     string columna = "";
     string dir="";
     while(true)
     {
+        WordsList w = WordsList();
         cout << "Ingrese una palabra: ";
         getline(cin, storage);
         for (int i = 0; i < storage.size(); i++) {
@@ -341,22 +342,59 @@ WordsList Manager::writeToMatrix()
             getline(cin, columna);
             cout << "Direccion: " << endl;
             getline(cin, dir);
-            matrix->addWord(stoi(fila), stoi(columna), dir, w);
-            string JSON = Jmanager->matrixtoJSON(matrix);
-            cliente->sendMessage("newMatrix");
-            string incoming=cliente->receiveMessage();
-            if(incoming.compare("send")==0)
+            if(*first)
             {
-                cliente->sendMessage(JSON);
-                string incomming = cliente->receiveMessage();
-                if (incomming.compare("send") == 0) {
-                    string entry =
-                            "Fini@" + to_string(w.getFinicial()) + "$" + "Cini@" + to_string(w.getCinicial()) + "$" +
-                            "Ffin@" + to_string(w.getFfinal()) + "$" + "Cfin@" + to_string(w.getCfinal());
-                    string JSON = Jmanager->toJSON(entry);
-                    cliente->sendMessage(JSON);
+                Matrix *temp = new Matrix();
+                *temp = matrix->copy();
+                matrix->addWord(stoi(fila), stoi(columna), dir, w);
+                if(!matrix->isCentered())
+                {
+                    cout<<"Debe poner al menos una letra sobre el centro del tablero!\n";
+                    *matrix=*temp;
+                    matrix->print();
+                    localP->getChips()->print();
                 }
-                return w;
+                else
+                {
+                    matrix->addWord(stoi(fila), stoi(columna), dir, w);
+                    string JSON = Jmanager->matrixtoJSON(matrix);
+                    cliente->sendMessage("newMatrix");
+                    string incoming = cliente->receiveMessage();
+                    if (incoming.compare("send") == 0) {
+                        cliente->sendMessage(JSON);
+                        string incomming = cliente->receiveMessage();
+                        if (incomming.compare("send") == 0) {
+                            string entry =
+                                    "Fini@" + to_string(w.getFinicial()) + "$" + "Cini@" + to_string(w.getCinicial()) +
+                                    "$" +
+                                    "Ffin@" + to_string(w.getFfinal()) + "$" + "Cfin@" + to_string(w.getCfinal());
+                            string JSON = Jmanager->toJSON(entry);
+                            cliente->sendMessage(JSON);
+                        }
+                        *first=false;
+                        return w;
+                    }
+                }
+            }
+            else
+            {
+                matrix->addWord(stoi(fila), stoi(columna), dir, w);
+                string JSON = Jmanager->matrixtoJSON(matrix);
+                cliente->sendMessage("newMatrix");
+                string incoming = cliente->receiveMessage();
+                if (incoming.compare("send") == 0) {
+                    cliente->sendMessage(JSON);
+                    string incomming = cliente->receiveMessage();
+                    if (incomming.compare("send") == 0) {
+                        string entry =
+                                "Fini@" + to_string(w.getFinicial()) + "$" + "Cini@" + to_string(w.getCinicial()) +
+                                "$" +
+                                "Ffin@" + to_string(w.getFfinal()) + "$" + "Cfin@" + to_string(w.getCfinal());
+                        string JSON = Jmanager->toJSON(entry);
+                        cliente->sendMessage(JSON);
+                    }
+                    return w;
+                }
             }
         }
     }
