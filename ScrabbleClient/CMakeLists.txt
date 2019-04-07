@@ -57,7 +57,6 @@ add_executable(ScrabbleClient
         mainwindow.h
         mainwindow.cpp
         tilelabel.cpp
-
         tilelabel.h
         mainwindow.ui Interface_Logic/Board_Logic/CasillaGrafica.cpp Interface_Logic/Board_Logic/CasillaGrafica.h Interface_Logic/Board_Logic/FichaGrafica.cpp Interface_Logic/Board_Logic/FichaGrafica.h Interface_Logic/Board_Logic/Bonus.h Structures/SearchList.cpp Structures/SearchList.h)
 

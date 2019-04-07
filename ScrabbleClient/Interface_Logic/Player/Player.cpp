@@ -83,5 +83,5 @@ void Player::setHost() {
 }
 
 bool Player::isHost() {
-    return host;
+    return *host;
 }
