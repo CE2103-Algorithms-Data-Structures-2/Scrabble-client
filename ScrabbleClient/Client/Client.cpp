@@ -30,7 +30,7 @@ void Client::start()
             }
 
             int port = 54000;
-            string ipAdress = "172.18.146.155";
+            string ipAdress = "192.168.100.85";
 
             sockaddr_in hint;
             hint.sin_family = AF_INET;
