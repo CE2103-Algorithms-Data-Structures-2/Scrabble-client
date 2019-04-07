@@ -414,7 +414,11 @@ string Manager::getRemaining()
 bool Manager::isReady() {
     return *ReadyToplay;
 }
-void::Manager::setReady()
+void Manager::setReady()
 {
     *ReadyToplay=true;
+}
+void Manager::sendMessage(string m)
+{
+    cliente->sendMessage(m);
 }

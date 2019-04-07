@@ -144,6 +144,8 @@ protected:
     void dragEnterEvent(QDragEnterEvent *event);
 
     void gameSetter();
+
+    void chipSetter();
 };
 
 #endif // MAINWINDOW_H

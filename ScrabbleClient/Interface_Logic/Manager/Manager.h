@@ -83,6 +83,8 @@ public:
     bool isReady();
 
     void setReady();
+
+    void sendMessage(string m);
 };
 
 

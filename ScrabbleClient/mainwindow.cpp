@@ -95,6 +95,7 @@ void MainWindow::on_pushButton_14_clicked()
         Wmanager->newGame(nomJugador,nomLobby,numJugadores);
 
         Wmanager->setHost();
+        Wmanager->localP->setHost();
         ui->stackedWidget->setCurrentIndex(3);
         ui->label_45->setText(Wmanager->getParty().c_str());
         ui->label_42->setText(Wmanager->getCode().c_str());
@@ -251,8 +252,10 @@ void MainWindow::play()
 {
     LobbyUpdater();
     gameSetter();
+
     isTriggered();
     ui->stackedWidget->setCurrentIndex(4);
+
 }
 
 void MainWindow::mousePressEvent(QMouseEvent *event) {
@@ -350,6 +353,14 @@ void MainWindow::gameSetter()
     }
     Wmanager->ask("remaining");
     ui->label_47->setText(Wmanager->getRemaining().c_str());
+    Wmanager->ask("seven");
+    chipSetter();
+    Wmanager->sendMessage("done");
+    Wmanager->ask("coordinate");
     Wmanager->setReady();
     ui->label_43->setText("Presione el boton para empezar!");
+}
+void MainWindow::chipSetter()
+{
+
 }
