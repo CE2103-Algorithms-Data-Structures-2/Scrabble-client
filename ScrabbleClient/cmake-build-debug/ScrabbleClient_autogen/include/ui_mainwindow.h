@@ -806,7 +806,7 @@ public:
 
         verticalLayoutWidget_2 = new QWidget(WaitMenu);
         verticalLayoutWidget_2->setObjectName(QStringLiteral("verticalLayoutWidget_2"));
-        verticalLayoutWidget_2->setGeometry(QRect(470, 30, 261, 651));
+        verticalLayoutWidget_2->setGeometry(QRect(410, 30, 381, 651));
         verticalLayout_2 = new QVBoxLayout(verticalLayoutWidget_2);
         verticalLayout_2->setSpacing(40);
         verticalLayout_2->setContentsMargins(11, 11, 11, 11);
@@ -833,16 +833,17 @@ public:
 "border-width : 1.5px;\n"
 "border-style:inset;\n"
 "border-color: rgb(105, 240, 174);\n"
-""));
+"padding-right: 30px;\n"
+"padding-left: 30px"));
 
-        verticalLayout_2->addWidget(pushButton_2);
+        verticalLayout_2->addWidget(pushButton_2, 0, Qt::AlignHCenter);
 
         label_43 = new QLabel(verticalLayoutWidget_2);
         label_43->setObjectName(QStringLiteral("label_43"));
         label_43->setFont(font6);
         label_43->setStyleSheet(QStringLiteral("color: rgb(255, 136, 0);"));
 
-        verticalLayout_2->addWidget(label_43);
+        verticalLayout_2->addWidget(label_43, 0, Qt::AlignHCenter);
 
         label_41 = new QLabel(verticalLayoutWidget_2);
         label_41->setObjectName(QStringLiteral("label_41"));
@@ -1116,7 +1117,7 @@ public:
         label_29->setText(QApplication::translate("MainWindow", "Desconectado", Q_NULLPTR));
         label_45->setText(QApplication::translate("MainWindow", "NOMBRE", Q_NULLPTR));
         label_44->setText(QString());
-        pushButton_2->setText(QApplication::translate("MainWindow", "Empezar", Q_NULLPTR));
+        pushButton_2->setText(QApplication::translate("MainWindow", "Comenzar", Q_NULLPTR));
         label_43->setText(QString());
         label_41->setText(QApplication::translate("MainWindow", "Codigo lobby", Q_NULLPTR));
         label_42->setText(QApplication::translate("MainWindow", "CODIGO", Q_NULLPTR));

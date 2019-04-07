@@ -22,6 +22,7 @@ Manager::Manager()
     remaining= new int(0);
     playing=new bool(true);
     thisHost= new bool(false);
+    ReadyToplay= new bool(false);
     cliente=new Client();
     running=new bool(true);
     Jmanager=new JSONManager();
@@ -408,4 +409,12 @@ bool Manager::isHost()
 string Manager::getRemaining()
 {
     return to_string(*remaining);
+}
+
+bool Manager::isReady() {
+    return *ReadyToplay;
+}
+void::Manager::setReady()
+{
+    *ReadyToplay=true;
 }

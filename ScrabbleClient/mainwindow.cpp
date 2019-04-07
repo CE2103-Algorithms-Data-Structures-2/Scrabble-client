@@ -100,7 +100,7 @@ void MainWindow::on_pushButton_14_clicked()
         ui->label_42->setText(Wmanager->getCode().c_str());
         ui->label_16->setText(nomJugador.c_str());
         Wmanager->update();
-
+        ui->label_43->setText("Esperando al resto de jugadores...");
         QtConcurrent::run(this, &MainWindow::play);
         //QtConcurrent::run(this, &MainWindow::isTriggered);
 
@@ -160,14 +160,30 @@ void MainWindow::on_lineEdit_returnPressed()
 void MainWindow::on_pushButton_2_clicked()
 {
 
-    if((Wmanager->localP->isHost())&&(Wmanager->players->getLength()==Wmanager->players->getLimit()))
+    if((Wmanager->localP->isHost()))
     {
-        Wmanager->setTrigger();
-        ui->stackedWidget->setCurrentIndex(4);
-    } else
-    {
-        ui->label_43->setText("Solo el anfitrion puede empezar la partida!");
+        if(Wmanager->players->getLength()==Wmanager->players->getLimit())
+        {
+            if(Wmanager->isReady())
+            {
+                Wmanager->setTrigger();
+                ui->stackedWidget->setCurrentIndex(4);
+            }
+            else
+            {
+                ui->label_43->setText("Por favor, espere mientras preeparamos la partida");
+            }
+        }
+        else
+        {
+            ui->label_43->setText("Por favor, espere al resto de juagdores");
+        }
     }
+    else
+    {
+        ui->label_43->setText("Solo el Host puede iniciar la partida!");
+    }
+
 }
 
 void MainWindow::on_pushButton_5_clicked()
@@ -219,9 +235,9 @@ void MainWindow::LobbyUpdater()
         }
         usleep(1500000);
     }
-
-    usleep(1500000);
-
+    ui->label_43->setText("Preparando el juego, por favor espere...");
+    Wmanager->ask("getRandom");
+    Wmanager->ask("ready");
 }
 void MainWindow::isTriggered()
 {
@@ -295,7 +311,6 @@ void MainWindow::dropEvent(QDropEvent *event) {
 }
 void MainWindow::gameSetter()
 {
-    this->Wmanager->ask("getRandom");
     this->Wmanager->ask("getSequence");
     int i=0;
     NodeP* temp=Wmanager->players->getHead();
@@ -335,6 +350,9 @@ void MainWindow::gameSetter()
     }
     Wmanager->ask("remaining");
     ui->label_47->setText(Wmanager->getRemaining().c_str());
+    Wmanager->setReady();
+    ui->label_43->setText("Presione el boton para empezar!");
+
 }
 
 void MainWindow::displayFichaDesenbolzada(char letra, QLabel* label) {
