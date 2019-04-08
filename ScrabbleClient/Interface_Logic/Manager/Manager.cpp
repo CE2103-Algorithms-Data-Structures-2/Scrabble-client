@@ -67,8 +67,8 @@ void Manager::play() {
                     cliente->sendMessage("send");
                     incoming = cliente->receiveMessage();
                     cout << "Puntos obtenidos: " + incoming +"\n"<< endl;
-                    cout<<"Puntos totales del jugador: "+to_string(*localP->getPoints())+"\n"<<endl;
                     this->localP->addPoints(stoi(incoming));
+                    cout<<"Puntos totales del jugador: "+to_string(*localP->getPoints())+"\n"<<endl;
                     this->localP->getChips()->removeSetOfLetters(w);
                     cliente->sendMessage("refill");
                     incoming = cliente->receiveMessage();

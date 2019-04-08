@@ -12,6 +12,9 @@ using namespace std;
 class Client{
     private:
        int sock;
+       string ipAd;
+       int port;
+       int phone;
        char buff[4096];
        bool connected;
        bool running;

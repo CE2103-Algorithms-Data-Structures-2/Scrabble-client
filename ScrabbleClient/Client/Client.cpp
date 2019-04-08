@@ -22,6 +22,7 @@ Client::Client()
 }
 void Client::start()
 {
+    setData();
     int attempts=1;
     cout << "Trying to connect to server,please standby..." << endl;
     while(running)
@@ -31,15 +32,10 @@ void Client::start()
             if (sock == -1) {
                 cout << "Failed to connect to server, sock=-1" << endl;
             }
-
-            int port = 54000;
-            string ipAdress = "192.168.43.157";
-
-
             sockaddr_in hint;
             hint.sin_family = AF_INET;
             hint.sin_port = htons(port);
-            inet_pton(AF_INET, ipAdress.c_str(), &hint.sin_addr);
+            inet_pton(AF_INET, ipAd.c_str(), &hint.sin_addr);
             int connectRes = connect(sock, (sockaddr *) &hint, sizeof(hint));
             if (connectRes == -1) {
                 cout << "Failed to connect to server, connectRes= -1" << endl;
@@ -125,7 +121,7 @@ void Client::setData()
     string element;
     string ip;
     string port;
-    string phone;
+    string phoneT;
 
     bool flag = true;
     vector<string> vector;
@@ -142,11 +138,14 @@ void Client::setData()
         file.close();
         ip = vector[0];
         port = vector[1];
-        phone = vector[2];
+        phoneT = vector[2];
 
         cout<<"IP    "<<ip<<endl;
+        this->ipAd=ip;
         cout<<"PORT  "<<port<<endl;
+        this->port=stoi(port);
         cout<<"PHONE "<<phone<<endl;
+        this->phone=stoi(phoneT);
 
     }else{
         cout<<"cant open the file..."<<endl;
