@@ -95,6 +95,7 @@ void Manager::play() {
                 matrix->print();
             }
         }
+        *first=false;
         cliente->sendMessage("update");
         incoming = cliente->receiveMessage();
         Matrix m = Jmanager->JSONtomatrix(incoming);
@@ -391,7 +392,15 @@ WordsList Manager::writeToMatrix()
             }
             else
             {
-
+                w.setInicio(stoi(fila),stoi(columna));
+                if(dir.compare("R")==0)
+                {
+                    w.setFinal(w.getFinicial(),w.getCinicial()+w.getLength()-1);
+                }
+                else
+                {
+                    w.setFinal(w.getFinicial()+w.getLength()-1,w.getCinicial());
+                }
                 matrix->addWord(stoi(fila), stoi(columna), dir, w);
                 if (matrix->adjacencyAnalisys(stoi(fila), stoi(columna), w.getFfinal(), w.getCfinal()))
                 {

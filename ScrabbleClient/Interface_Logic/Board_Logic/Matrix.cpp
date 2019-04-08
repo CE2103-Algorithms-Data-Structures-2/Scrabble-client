@@ -62,7 +62,10 @@ void Matrix::addWord(int f, int c, string dir,WordsList l)
            {
                l.setFinal(f,c);
            }
-           temp->getChip()->setLetter(templ->getChip()->getLetter());
+           if(!(temp->getChip()->getLetter().compare(" ")==0))
+           {
+               temp->getChip()->setLetter(templ->getChip()->getLetter());
+           }
            f++;
            temp=get(f,c);
            templ=templ->getNext();
