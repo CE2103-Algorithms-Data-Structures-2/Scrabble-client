@@ -328,7 +328,7 @@ void MainWindow::gameSetter()
 
     while(temp!=nullptr)
     {
-        string letter=Wmanager->localP->getRnd()->getLetter();
+        string letter=temp->getValue()->getRnd()->getLetter();
         std::string newstr = boost::to_upper_copy<std::string>(letter);
 
         if(i==0)
@@ -358,12 +358,13 @@ void MainWindow::gameSetter()
         i++;
         temp=temp->getNext();
     }
-    Wmanager->ask("remaining");
-    ui->label_47->setText(Wmanager->getRemaining().c_str());
     Wmanager->ask("seven");
-    chipSetter();
+    //chipSetter();
     Wmanager->sendMessage("done");
     Wmanager->ask("coordinate");
+    usleep(1000000);
+    Wmanager->ask("remaining");
+    ui->label_47->setText(Wmanager->getRemaining().c_str());
     Wmanager->setReady();
     ui->label_43->setText("Presione el boton para empezar!");
 
