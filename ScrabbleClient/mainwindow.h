@@ -145,8 +145,8 @@ protected:
     void dragEnterEvent(QDragEnterEvent *event);
     void displayFichaDesenbolzada(char letra, QLabel* label);
     void gameSetter();
-
     void chipSetter();
+    void refillChips();
 };
 
 #endif // MAINWINDOW_H

@@ -14,7 +14,7 @@ void FichaGrafica::setPos(int i, int j) {
     this->j = j;
 }
 
-Chip FichaGrafica::getChip() {
+Chip* FichaGrafica::getChip() {
     return this->chip;
 }
 

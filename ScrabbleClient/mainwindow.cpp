@@ -307,14 +307,11 @@ void MainWindow::dropEvent(QDropEvent *event) {
     int index = 0;
     if(new_label){
         if (current_label) {
-            this->fichas_array[fichasLayout->indexOf(new_label)];
-            // TODO hacer que ficha_array contenga objetos FichaGrafica
-
             int rowTraversalTablero = tableroLayout->indexOf(current_label);
             int i = rowTraversalTablero / this->boardSquareDimension;
             int j = rowTraversalTablero % this->boardSquareDimension;
             this->board_matrix[i][j]->setLabel(new_label);
-            // TODO aqui logica para cambiar letra en casilla
+            this->board_matrix[i][j]->getCasilla().setChip((this->fichas_array[fichasLayout->indexOf(new_label)])->getChip());
             tableroLayout->replaceWidget(current_label, new_label);
         }
     }
@@ -387,7 +384,12 @@ void MainWindow::displayFichaDesenbolzada(char letra, QLabel* label) {
     QPixmap pix(file.c_str());
     label->setPixmap(pix.scaled(this->tileSize, this->tileSize, Qt::KeepAspectRatio));
 }
+
 void MainWindow::chipSetter()
 {
+
+}
+
+void MainWindow::refillChips() {
 
 }
