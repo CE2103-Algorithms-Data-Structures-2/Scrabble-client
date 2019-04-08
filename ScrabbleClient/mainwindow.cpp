@@ -29,7 +29,6 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-
 void MainWindow::setUp() {
 
     QGridLayout *tableroLayout = ui->stackedWidget->widget(4)->findChild<QGridLayout *>("gridLayout_3");
@@ -56,12 +55,8 @@ void MainWindow::setUp() {
 
     for (int i = 0; i < this->numFichasPorJugador; i++) {
         QLabel* label = new QLabel("");
-        fichas_array[i] = label;
-
         fichasLayout->addWidget(label);
 
-        // TODO generar fichas según las dadas por el servidor
-        
         char letra = 'A';
         std::string file = this->ChipsPath;
         std::stringstream sstm;
@@ -69,7 +64,12 @@ void MainWindow::setUp() {
         file = sstm.str();
         std::cout <<file << std::endl;
         QPixmap pix(file.c_str());
-        fichas_array[i]->setPixmap(pix.scaled(this->tileSize, this->tileSize, Qt::KeepAspectRatio));
+        label->setPixmap(pix.scaled(this->tileSize, this->tileSize, Qt::KeepAspectRatio));
+
+        std::string letter = "A";
+        Chip chip = Chip(0, letter, false);
+        FichaGrafica* fichaGrafica = new FichaGrafica(chip, label);
+        fichas_array[i] = fichaGrafica;
     }
 }
 

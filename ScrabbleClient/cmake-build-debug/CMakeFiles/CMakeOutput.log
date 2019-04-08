@@ -1,4 +1,4 @@
-The system is: Linux - 4.15.0-47-generic - x86_64
+The system is: Linux - 4.15.0-46-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_df177/fast"
-/usr/bin/make -f CMakeFiles/cmTC_df177.dir/build.make CMakeFiles/cmTC_df177.dir/build
-make[1]: Entering directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_df177.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_df177.dir/testCCompiler.c.o   -c /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_df177
-/snap/clion/67/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df177.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_df177.dir/testCCompiler.c.o  -o cmTC_df177 
-make[1]: Leaving directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_58b91/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58b91.dir/build.make CMakeFiles/cmTC_58b91.dir/build
+make[1]: Entering directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58b91.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_58b91.dir/testCCompiler.c.o   -c /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_58b91
+/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58b91.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_58b91.dir/testCCompiler.c.o  -o cmTC_58b91 
+make[1]: Leaving directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_831e8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_831e8.dir/build.make CMakeFiles/cmTC_831e8.dir/build
-make[1]: Entering directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_831e8.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_831e8.dir/CMakeCCompilerABI.c.o   -c /snap/clion/67/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_831e8
-/snap/clion/67/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_831e8.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_831e8.dir/CMakeCCompilerABI.c.o  -o cmTC_831e8 
+Run Build Command:"/usr/bin/make" "cmTC_14882/fast"
+/usr/bin/make -f CMakeFiles/cmTC_14882.dir/build.make CMakeFiles/cmTC_14882.dir/build
+make[1]: Entering directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14882.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_14882.dir/CMakeCCompilerABI.c.o   -c /home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_14882
+/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14882.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_14882.dir/CMakeCCompilerABI.c.o  -o cmTC_14882 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_831e8' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cccvlILn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_831e8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_831e8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_831e8' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_14882' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9xpyCv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_14882 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_14882.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_14882' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_831e8/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_831e8.dir/build.make CMakeFiles/cmTC_831e8.dir/build]
-  ignore line: [make[1]: Entering directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_831e8.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_831e8.dir/CMakeCCompilerABI.c.o   -c /snap/clion/67/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_831e8]
-  ignore line: [/snap/clion/67/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_831e8.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_831e8.dir/CMakeCCompilerABI.c.o  -o cmTC_831e8 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_14882/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_14882.dir/build.make CMakeFiles/cmTC_14882.dir/build]
+  ignore line: [make[1]: Entering directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_14882.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_14882.dir/CMakeCCompilerABI.c.o   -c /home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_14882]
+  ignore line: [/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14882.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_14882.dir/CMakeCCompilerABI.c.o  -o cmTC_14882 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_831e8' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cccvlILn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_831e8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_831e8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_14882' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9xpyCv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_14882 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_14882.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cccvlILn.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc9xpyCv.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_831e8] ==> ignore
+    arg [cmTC_14882] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_831e8.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_14882.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -157,17 +157,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c6caa/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c6caa.dir/build.make CMakeFiles/cmTC_c6caa.dir/build
-make[1]: Entering directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c6caa.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_c6caa.dir/feature_tests.c.o   -c /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_c6caa
-/snap/clion/67/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6caa.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_c6caa.dir/feature_tests.c.o  -o cmTC_c6caa 
-make[1]: Leaving directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_22bf9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22bf9.dir/build.make CMakeFiles/cmTC_22bf9.dir/build
+make[1]: Entering directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22bf9.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_22bf9.dir/feature_tests.c.o   -c /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_22bf9
+/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22bf9.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_22bf9.dir/feature_tests.c.o  -o cmTC_22bf9 
+make[1]: Leaving directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -177,17 +177,17 @@ make[1]: Leaving directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cma
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_382ff/fast"
-/usr/bin/make -f CMakeFiles/cmTC_382ff.dir/build.make CMakeFiles/cmTC_382ff.dir/build
-make[1]: Entering directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_382ff.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_382ff.dir/feature_tests.c.o   -c /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_382ff
-/snap/clion/67/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_382ff.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_382ff.dir/feature_tests.c.o  -o cmTC_382ff 
-make[1]: Leaving directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_9fa69/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9fa69.dir/build.make CMakeFiles/cmTC_9fa69.dir/build
+make[1]: Entering directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9fa69.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_9fa69.dir/feature_tests.c.o   -c /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9fa69
+/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fa69.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_9fa69.dir/feature_tests.c.o  -o cmTC_9fa69 
+make[1]: Leaving directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -197,17 +197,17 @@ make[1]: Leaving directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cma
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_71d9c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_71d9c.dir/build.make CMakeFiles/cmTC_71d9c.dir/build
-make[1]: Entering directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_71d9c.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_71d9c.dir/feature_tests.c.o   -c /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_71d9c
-/snap/clion/67/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71d9c.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_71d9c.dir/feature_tests.c.o  -o cmTC_71d9c 
-make[1]: Leaving directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5e1cc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e1cc.dir/build.make CMakeFiles/cmTC_5e1cc.dir/build
+make[1]: Entering directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e1cc.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_5e1cc.dir/feature_tests.c.o   -c /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5e1cc
+/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e1cc.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_5e1cc.dir/feature_tests.c.o  -o cmTC_5e1cc 
+make[1]: Leaving directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -215,30 +215,30 @@ make[1]: Leaving directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cma
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2e85f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2e85f.dir/build.make CMakeFiles/cmTC_2e85f.dir/build
-make[1]: Entering directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2e85f.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_2e85f.dir/testCXXCompiler.cxx.o -c /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_2e85f
-/snap/clion/67/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e85f.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_2e85f.dir/testCXXCompiler.cxx.o  -o cmTC_2e85f 
-make[1]: Leaving directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_cd09b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cd09b.dir/build.make CMakeFiles/cmTC_cd09b.dir/build
+make[1]: Entering directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cd09b.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_cd09b.dir/testCXXCompiler.cxx.o -c /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_cd09b
+/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd09b.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_cd09b.dir/testCXXCompiler.cxx.o  -o cmTC_cd09b 
+make[1]: Leaving directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1729d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1729d.dir/build.make CMakeFiles/cmTC_1729d.dir/build
-make[1]: Entering directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1729d.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_1729d.dir/CMakeCXXCompilerABI.cpp.o -c /snap/clion/67/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_1729d
-/snap/clion/67/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1729d.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_1729d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1729d 
+Run Build Command:"/usr/bin/make" "cmTC_1f3b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1f3b6.dir/build.make CMakeFiles/cmTC_1f3b6.dir/build
+make[1]: Entering directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1f3b6.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_1f3b6.dir/CMakeCXXCompilerABI.cpp.o -c /home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_1f3b6
+/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f3b6.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_1f3b6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1f3b6 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -250,24 +250,24 @@ Thread model: posix
 gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1729d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6YuoLY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1729d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_1729d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1729d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1f3b6' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTqgDSS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1f3b6 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_1f3b6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1f3b6' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_1729d/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_1729d.dir/build.make CMakeFiles/cmTC_1729d.dir/build]
-  ignore line: [make[1]: Entering directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_1729d.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_1729d.dir/CMakeCXXCompilerABI.cpp.o -c /snap/clion/67/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_1729d]
-  ignore line: [/snap/clion/67/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1729d.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_1729d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1729d ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_1f3b6/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_1f3b6.dir/build.make CMakeFiles/cmTC_1f3b6.dir/build]
+  ignore line: [make[1]: Entering directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_1f3b6.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_1f3b6.dir/CMakeCXXCompilerABI.cpp.o -c /home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_1f3b6]
+  ignore line: [/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f3b6.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_1f3b6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1f3b6 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1729d' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6YuoLY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1729d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_1729d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1f3b6' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTqgDSS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1f3b6 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_1f3b6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc6YuoLY.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccTqgDSS.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_1729d] ==> ignore
+    arg [cmTC_1f3b6] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_1729d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_1f3b6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -342,17 +342,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d7568/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d7568.dir/build.make CMakeFiles/cmTC_d7568.dir/build
-make[1]: Entering directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d7568.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_d7568.dir/feature_tests.cxx.o -c /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d7568
-/snap/clion/67/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7568.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_d7568.dir/feature_tests.cxx.o  -o cmTC_d7568 
-make[1]: Leaving directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_89537/fast"
+/usr/bin/make -f CMakeFiles/cmTC_89537.dir/build.make CMakeFiles/cmTC_89537.dir/build
+make[1]: Entering directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_89537.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_89537.dir/feature_tests.cxx.o -c /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_89537
+/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89537.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_89537.dir/feature_tests.cxx.o  -o cmTC_89537 
+make[1]: Leaving directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -415,17 +415,17 @@ make[1]: Leaving directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cma
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8584c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8584c.dir/build.make CMakeFiles/cmTC_8584c.dir/build
-make[1]: Entering directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8584c.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_8584c.dir/feature_tests.cxx.o -c /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8584c
-/snap/clion/67/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8584c.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_8584c.dir/feature_tests.cxx.o  -o cmTC_8584c 
-make[1]: Leaving directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_8552d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8552d.dir/build.make CMakeFiles/cmTC_8552d.dir/build
+make[1]: Entering directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8552d.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_8552d.dir/feature_tests.cxx.o -c /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8552d
+/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8552d.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_8552d.dir/feature_tests.cxx.o  -o cmTC_8552d 
+make[1]: Leaving directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -488,17 +488,17 @@ make[1]: Leaving directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cma
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c0ebd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c0ebd.dir/build.make CMakeFiles/cmTC_c0ebd.dir/build
-make[1]: Entering directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c0ebd.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_c0ebd.dir/feature_tests.cxx.o -c /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c0ebd
-/snap/clion/67/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0ebd.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_c0ebd.dir/feature_tests.cxx.o  -o cmTC_c0ebd 
-make[1]: Leaving directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f23b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f23b0.dir/build.make CMakeFiles/cmTC_f23b0.dir/build
+make[1]: Entering directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f23b0.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_f23b0.dir/feature_tests.cxx.o -c /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f23b0
+/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f23b0.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_f23b0.dir/feature_tests.cxx.o  -o cmTC_f23b0 
+make[1]: Leaving directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -561,17 +561,17 @@ make[1]: Leaving directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cma
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8ec9e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8ec9e.dir/build.make CMakeFiles/cmTC_8ec9e.dir/build
-make[1]: Entering directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8ec9e.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_8ec9e.dir/feature_tests.cxx.o -c /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8ec9e
-/snap/clion/67/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ec9e.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_8ec9e.dir/feature_tests.cxx.o  -o cmTC_8ec9e 
-make[1]: Leaving directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e0c15/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0c15.dir/build.make CMakeFiles/cmTC_e0c15.dir/build
+make[1]: Entering directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0c15.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_e0c15.dir/feature_tests.cxx.o -c /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e0c15
+/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0c15.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_e0c15.dir/feature_tests.cxx.o  -o cmTC_e0c15 
+make[1]: Leaving directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -632,33 +632,33 @@ make[1]: Leaving directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cma
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1f4e7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1f4e7.dir/build.make CMakeFiles/cmTC_1f4e7.dir/build
-make[1]: Entering directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1f4e7.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_1f4e7.dir/CheckIncludeFile.c.o   -c /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_1f4e7
-/snap/clion/67/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f4e7.dir/link.txt --verbose=1
-/usr/bin/cc     -pthread  CMakeFiles/cmTC_1f4e7.dir/CheckIncludeFile.c.o  -o cmTC_1f4e7 
-make[1]: Leaving directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_05381/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05381.dir/build.make CMakeFiles/cmTC_05381.dir/build
+make[1]: Entering directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05381.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_05381.dir/CheckIncludeFile.c.o   -c /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_05381
+/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05381.dir/link.txt --verbose=1
+/usr/bin/cc     -pthread  CMakeFiles/cmTC_05381.dir/CheckIncludeFile.c.o  -o cmTC_05381 
+make[1]: Leaving directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the pthread_create exist passed with the following output:
-Change Dir: /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c5c81/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c5c81.dir/build.make CMakeFiles/cmTC_c5c81.dir/build
-make[1]: Entering directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c5c81.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_c5c81.dir/CheckSymbolExists.c.o   -c /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_c5c81
-/snap/clion/67/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5c81.dir/link.txt --verbose=1
-/usr/bin/cc     -pthread  CMakeFiles/cmTC_c5c81.dir/CheckSymbolExists.c.o  -o cmTC_c5c81 
-make[1]: Leaving directory '/home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_cebaa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cebaa.dir/build.make CMakeFiles/cmTC_cebaa.dir/build
+make[1]: Entering directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cebaa.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cebaa.dir/CheckSymbolExists.c.o   -c /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cebaa
+/home/david/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cebaa.dir/link.txt --verbose=1
+/usr/bin/cc     -pthread  CMakeFiles/cmTC_cebaa.dir/CheckSymbolExists.c.o  -o cmTC_cebaa 
+make[1]: Leaving directory '/home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp'
 
-File /home/dcamachog1501/Desktop/Kugel/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/david/Documents/Scrabble-client/ScrabbleClient/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
