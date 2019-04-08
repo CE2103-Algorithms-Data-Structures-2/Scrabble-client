@@ -56,7 +56,6 @@ void MainWindow::setUp() {
 
     for (int i = 0; i < this->numFichasPorJugador; i++) {
         QLabel* label = new QLabel("");
-        fichas_array[i] = label;
 
         fichasLayout->addWidget(label);
 
@@ -69,7 +68,12 @@ void MainWindow::setUp() {
         file = sstm.str();
         std::cout <<file << std::endl;
         QPixmap pix(file.c_str());
-        fichas_array[i]->setPixmap(pix.scaled(this->tileSize, this->tileSize, Qt::KeepAspectRatio));
+        label->setPixmap(pix.scaled(this->tileSize, this->tileSize, Qt::KeepAspectRatio));
+
+        std::string letter = "A";
+        Chip* chip = new Chip(0, letter, false);
+        FichaGrafica* fichaGrafica = new FichaGrafica(chip, label);
+        fichas_array[i] = fichaGrafica;
     }
 }
 
@@ -303,15 +307,14 @@ void MainWindow::dropEvent(QDropEvent *event) {
     QLabel * current_label = qobject_cast<QLabel*>(current_children);
     int index = 0;
     if(new_label){
-        this->fichas_array[fichasLayout->indexOf(new_label)];
-        // TODO hacer que ficha_array contenga objetos FichaGrafica
-
-        int rowTraversalTablero = tableroLayout->indexOf(current_label);
-        int i = rowTraversalTablero / this->boardSquareDimension;
-        int j = rowTraversalTablero % this->boardSquareDimension;
-        this->board_matrix[i][j]->setLabel(new_label);
-        // TODO aqui logica para cambiar letra en casilla
-        tableroLayout->replaceWidget(current_label, new_label);
+        if (current_label) {
+            int rowTraversalTablero = tableroLayout->indexOf(current_label);
+            int i = rowTraversalTablero / this->boardSquareDimension;
+            int j = rowTraversalTablero % this->boardSquareDimension;
+            this->board_matrix[i][j]->setLabel(new_label);
+            this->board_matrix[i][j]->getCasilla().setChip((this->fichas_array[fichasLayout->indexOf(new_label)])->getChip());
+            tableroLayout->replaceWidget(current_label, new_label);
+        }
     }
 }
 void MainWindow::gameSetter()
@@ -382,7 +385,12 @@ void MainWindow::displayFichaDesenbolzada(char letra, QLabel* label) {
     QPixmap pix(file.c_str());
     label->setPixmap(pix.scaled(this->tileSize, this->tileSize, Qt::KeepAspectRatio));
 }
+
 void MainWindow::chipSetter()
 {
+
+}
+
+void MainWindow::refillChips() {
 
 }

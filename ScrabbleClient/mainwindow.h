@@ -5,6 +5,7 @@
 #include <Interface_Logic/Manager/Manager.h>
 #include <QtWidgets/QLabel>
 #include "../Interface_Logic/Board_Logic/CasillaGrafica.h"
+#include "../Interface_Logic/Board_Logic/FichaGrafica.h"
 #include <string>
 
 namespace Ui {
@@ -28,7 +29,7 @@ class MainWindow : public QMainWindow
     /**
      * Array de tile labels. Almacena labels que representan las fichas que le pertenecen al jugador.
      */
-    QLabel* fichas_array[numFichasPorJugador];
+    FichaGrafica* fichas_array[numFichasPorJugador];
 
 public:
     explicit MainWindow(QWidget *parent = 0);
@@ -144,8 +145,8 @@ protected:
     void dragEnterEvent(QDragEnterEvent *event);
     void displayFichaDesenbolzada(char letra, QLabel* label);
     void gameSetter();
-
     void chipSetter();
+    void refillChips();
 };
 
 #endif // MAINWINDOW_H
