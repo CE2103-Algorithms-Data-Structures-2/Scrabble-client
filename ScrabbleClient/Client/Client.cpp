@@ -33,7 +33,7 @@ void Client::start()
             }
 
             int port = 54000;
-            string ipAdress = "192.168.43.199";
+            string ipAdress = "192.168.43.157";
 
 
             sockaddr_in hint;
@@ -77,7 +77,7 @@ string Client::receiveMessage()
         cout<<"No hay mensajes entrantes"<<endl;
     }
     receivedMessage=receivedMessage.substr(0,receivedMessage.size()-1);
-    cout<<"Mensaje recibido: "<<receivedMessage<<endl;
+    /*cout<<"Mensaje recibido: "<<receivedMessage<<endl;*/
     return receivedMessage;
 }
 void Client::sendMessage(string message)
@@ -88,7 +88,7 @@ void Client::sendMessage(string message)
     {
         cout<<"Couldn't send the message: "<<message<<endl;
     }
-    cout<<"Mensaje enviado: "<<message<<endl;
+    /*cout<<"Mensaje enviado: "<<message<<endl;*/
 }
 void Client::run()
 {

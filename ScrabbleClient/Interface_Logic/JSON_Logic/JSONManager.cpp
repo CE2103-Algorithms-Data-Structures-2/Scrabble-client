@@ -109,7 +109,6 @@ Matrix JSONManager::JSONtomatrix(string JSON)
             m.get(f,c)->getChip()->setLetter(elementos[c]);
         }
     }
-    m.print();
     return m;
 }
 

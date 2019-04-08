@@ -31,7 +31,6 @@ void Matrix::init()
                 temp->setNext(bl);
             }
         }
-        print();
     }
 
 void Matrix::print()
@@ -62,7 +61,7 @@ void Matrix::addWord(int f, int c, string dir,WordsList l)
            {
                l.setFinal(f,c);
            }
-           if(!(temp->getChip()->getLetter().compare(" ")==0))
+           if((temp->getChip()->getLetter().compare(" ")==0))
            {
                temp->getChip()->setLetter(templ->getChip()->getLetter());
            }
@@ -91,7 +90,6 @@ void Matrix::addWord(int f, int c, string dir,WordsList l)
             templ=templ->getNext();
         }
     }
-    print();
 }
 
 Box *Matrix::get(int f, int c)

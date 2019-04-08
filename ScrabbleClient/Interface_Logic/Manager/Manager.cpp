@@ -49,6 +49,7 @@ void Manager::play() {
         cliente->sendMessage("myTurn");
         string incoming = cliente->receiveMessage();
         if (incoming.compare("true") == 0) {
+            matrix->print();
             while (true) {
                 Matrix *temp = new Matrix();
                 *temp = matrix->copy();
@@ -88,11 +89,15 @@ void Manager::play() {
                             }
                             localP->getChips()->add(c);
                         }
+                        cout<<"----Mano del jugador----\n"<<endl;
                         localP->getChips()->print();
+                        cliente->sendMessage("remaining");
+                        incoming=cliente->receiveMessage();
+                        cout<<"Fichas restantes en el servidor: "<<"["+incoming+"]\n"<<endl;
+                        cout<<"Turno del siguiente jugador!\n"<<endl;
                     }
                     break;
                 }
-                matrix->print();
             }
         }
         *first=false;
@@ -100,8 +105,6 @@ void Manager::play() {
         incoming = cliente->receiveMessage();
         Matrix m = Jmanager->JSONtomatrix(incoming);
         *matrix = m;
-        cout << "Matriz recibida del servidor: \n" << endl;
-        matrix->print();
         usleep(2000000);
     }
 }
@@ -312,7 +315,9 @@ void Manager::ask(string p) {
         cout << " " << endl;
         cout << "------------------------------------" << endl;
         cout << "Todos los jugadores están listos!" << endl;
-        cout << "------------------------------------" << endl;
+        cout << "------------------------------------\n" << endl;
+
+
     }
 }
 
