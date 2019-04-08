@@ -57,6 +57,7 @@ class Client{
          * Metodo para saber si el servidor aceptó al cliente.
          */
         void isAccepted();
+        void setData();
 };
 
 

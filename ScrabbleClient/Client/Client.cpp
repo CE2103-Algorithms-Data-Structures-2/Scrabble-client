@@ -11,6 +11,9 @@
 #include <string>
 #include <thread>
 #include <pthread.h>
+#include <fstream>
+#include <vector>
+
 using namespace std;
 Client::Client()
 {
@@ -113,6 +116,41 @@ void Client::isAccepted()
     {
         this->disconnect();
     };
+}
+
+void Client::setData()
+{
+    ifstream file;
+    file.open("../configFile.txt");
+    string element;
+    string ip;
+    string port;
+    string phone;
+
+    bool flag = true;
+    vector<string> vector;
+
+    if(file.is_open()){
+        while(file >> element){
+            if(!flag){
+                vector.push_back(element);
+                cout<<"Element: "<<element<<endl;
+            }
+            flag = !flag;
+
+        }
+        file.close();
+        ip = vector[0];
+        port = vector[1];
+        phone = vector[2];
+
+        cout<<"IP    "<<ip<<endl;
+        cout<<"PORT  "<<port<<endl;
+        cout<<"PHONE "<<phone<<endl;
+
+    }else{
+        cout<<"cant open the file..."<<endl;
+    }
 }
 
 
