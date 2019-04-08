@@ -21,6 +21,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/CasillaGrafica.cpp.o"
   "CMakeFiles/ScrabbleClient.dir/Interface_Logic/Board_Logic/FichaGrafica.cpp.o"
   "CMakeFiles/ScrabbleClient.dir/Structures/SearchList.cpp.o"
+  "CMakeFiles/ScrabbleClient.dir/MyJob.cpp.o"
   "CMakeFiles/ScrabbleClient.dir/ScrabbleClient_autogen/mocs_compilation.cpp.o"
   "ScrabbleClient.pdb"
   "ScrabbleClient"

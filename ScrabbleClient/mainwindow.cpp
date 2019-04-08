@@ -5,7 +5,6 @@
 #include <QtCore/QFuture>
 #include <QDrag>
 #include <QMouseEvent>
-#include <QtConcurrent/QtConcurrent>
 #include <boost/algorithm/string.hpp>
 #include <string>
 #include <algorithm>
@@ -22,6 +21,10 @@ MainWindow::MainWindow(QWidget *parent) :
     this->setUp();
     setAcceptDrops(true);
     qsrand((uint) QTime::currentTime().msec());
+
+    connect(&myJob, &MyJob::on_number, this, &MainWindow::newNumber);
+
+    QFuture<void> test = QtConcurrent::run(&myJob, &MyJob::start, QString("helo"));
 }
 
 MainWindow::~MainWindow()
@@ -393,4 +396,8 @@ void MainWindow::chipSetter()
 
 void MainWindow::refillChips() {
 
+}
+
+void MainWindow::newNumber(QString name, int number) {
+    cout << number << endl;
 }

@@ -7,6 +7,9 @@
 #include "../Interface_Logic/Board_Logic/CasillaGrafica.h"
 #include "../Interface_Logic/Board_Logic/FichaGrafica.h"
 #include <string>
+#include <QtConcurrent/QtConcurrent>
+#include <QFuture>
+#include "MyJob.h"
 
 namespace Ui {
 class MainWindow;
@@ -116,9 +119,16 @@ private slots:
      */
     void on_pushButton_12_clicked();
 
+    signals:
+    void on_stop();
+
+    public slots:
+    void newNumber(QString name, int number);
 
 private:
     Ui::MainWindow *ui;
+
+    MyJob myJob;
 
     /**
      * Crea un thread que se encarga de esperar la llegada de jugadores al lobbyy. Cada vez que uno se
