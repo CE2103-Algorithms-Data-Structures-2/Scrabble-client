@@ -10,17 +10,16 @@
 
 class FichaGrafica {
 public:
-    FichaGrafica(Chip chip, QLabel* img);
-    Chip chip;
-    QLabel* img;
-    int i, j;
-private:
-    Chip getChip();
+    FichaGrafica(Chip* chip, QLabel* img);
+    Chip* getChip();
     void setImage(QLabel* img);
-    QPixmap getImage();
     void setPos(int i, int j);
     int getRow();
     int getColum();
+private:
+    Chip* chip;
+    QLabel* img;
+    int i, j;
 };
 
 

@@ -4,10 +4,9 @@
 
 #include "FichaGrafica.h"
 
-FichaGrafica::FichaGrafica(Chip chip, QLabel* img) {
+FichaGrafica::FichaGrafica(Chip* chip, QLabel* img) {
     this->chip = chip;
-    this->img = new QLabel("");
-    this->img->setPixmap(*img->pixmap());
+    this->img = img;
 }
 
 void FichaGrafica::setPos(int i, int j) {
@@ -15,16 +14,12 @@ void FichaGrafica::setPos(int i, int j) {
     this->j = j;
 }
 
-Chip FichaGrafica::getChip() {
+Chip* FichaGrafica::getChip() {
     return this->chip;
 }
 
-void FichaGrafica::setImage(QLabel* label) {
-    this->img->setPixmap(*label->pixmap());
-}
-
-QPixmap FichaGrafica::getImage() {
-    return *this->img->pixmap();
+void FichaGrafica::setImage(QLabel* img) {
+    this->img->setPixmap(*img->pixmap());
 }
 
 int FichaGrafica::getRow() {

@@ -6,7 +6,6 @@
 #include <QtWidgets/QLabel>
 #include "../Interface_Logic/Board_Logic/CasillaGrafica.h"
 #include "../Interface_Logic/Board_Logic/FichaGrafica.h"
-
 #include <string>
 
 namespace Ui {
@@ -146,8 +145,8 @@ protected:
     void dragEnterEvent(QDragEnterEvent *event);
     void displayFichaDesenbolzada(char letra, QLabel* label);
     void gameSetter();
-
     void chipSetter();
+    void refillChips();
 };
 
 #endif // MAINWINDOW_H
