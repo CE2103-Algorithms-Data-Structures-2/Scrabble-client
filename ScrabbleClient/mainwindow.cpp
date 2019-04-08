@@ -257,6 +257,7 @@ void MainWindow::play()
     gameSetter();
     isTriggered();
     ui->stackedWidget->setCurrentIndex(4);
+    usleep(5000000);
 }
 
 void MainWindow::mousePressEvent(QMouseEvent *event) {

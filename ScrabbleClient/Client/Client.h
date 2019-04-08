@@ -11,7 +11,9 @@ using namespace std;
 
 class Client{
 private:
-    const std::string ipAdress = "192.168.43.157";
+    string ipAdress = " ";
+    int port=0;
+    int phone=0;
     int sock;
     char buff[4096];
     bool connected;
@@ -58,6 +60,7 @@ public:
      * Metodo para saber si el servidor aceptó al cliente.
      */
     void isAccepted();
+    void setData();
 };
 
 

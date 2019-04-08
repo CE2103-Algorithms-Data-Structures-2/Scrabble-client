@@ -11,6 +11,9 @@
 #include <string>
 #include <thread>
 #include <pthread.h>
+#include <fstream>
+#include <vector>
+
 using namespace std;
 Client::Client()
 {
@@ -19,6 +22,7 @@ Client::Client()
 }
 void Client::start()
 {
+    setData();
     int attempts=1;
     cout << "Trying to connect to server,please standby..." << endl;
     while(running)
@@ -29,7 +33,7 @@ void Client::start()
                 cout << "Failed to connect to server, sock=-1" << endl;
             }
 
-            int port = 54000;
+            //int port = 54000;
             sockaddr_in hint;
             hint.sin_family = AF_INET;
             hint.sin_port = htons(port);
@@ -110,6 +114,43 @@ void Client::isAccepted()
     {
         this->disconnect();
     };
+}
+
+void Client::setData()
+{
+    ifstream file;
+    file.open("../configFile.txt");
+    string element;
+    string ip;
+    string portT;
+    string phoneT;
+
+    bool flag = true;
+    vector<string> vector;
+
+    if(file.is_open()){
+        while(file >> element){
+            if(!flag){
+                vector.push_back(element);
+            }
+            flag = !flag;
+
+        }
+        file.close();
+        ip = vector[0];
+        portT = vector[1];
+        phoneT = vector[2];
+        this->ipAdress=ip;
+        this->port=stoi(portT);
+        this->phone=stoi(phoneT);
+
+        cout<<"IP    "<<ip+"\n"<<endl;
+        cout<<"PORT  "<<portT+"\n"<<endl;
+        cout<<"PHONE "<<phoneT+"\n"<<endl;
+
+    }else{
+        cout<<"cant open the file..."<<endl;
+    }
 }
 
 
