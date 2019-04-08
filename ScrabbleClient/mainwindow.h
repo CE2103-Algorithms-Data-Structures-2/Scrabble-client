@@ -15,6 +15,7 @@ class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
+
     static const int boardSquareDimension = 15;
     static const int numFichasPorJugador = 7;
     const int tileSize = 47;
@@ -136,13 +137,38 @@ private:
      */
     void play();
 
+    /**
+     * Genera la animacion al arrastrar una ficha por la pantalla
+     */
     void createDrag(const QPoint &pos, QWidget *widget);
 
 protected:
+    /**
+     * Al presionar el mouse, genera las condiciones necesarias para arrastrar la ficha
+     */
+
     void mousePressEvent(QMouseEvent *event);
+
+    /**
+     * Al soltar una ficha, le comunica la informacion sobre ella a la casilla donde se encuentre y la acepta
+     */
     void dropEvent(QDropEvent *event);
+
+    /**
+     * Genera cambios en la ficha al ser arrastrada
+     * @param event
+     */
     void dragEnterEvent(QDragEnterEvent *event);
+
+    /**
+     * Muestra graficamente una ficha que representa la ficha inicial del jugador para
+     * determinar el orden en que jgara
+     */
     void displayFichaDesenbolzada(char letra, QLabel* label);
+
+    /**
+     * Muestra graficamente las fichas dadas de cada jugador
+     */
     void gameSetter();
 
     void chipSetter();
