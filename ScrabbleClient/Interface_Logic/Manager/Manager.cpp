@@ -65,7 +65,8 @@ void Manager::play() {
                 } else if (incoming.compare("true") == 0) {
                     cliente->sendMessage("send");
                     incoming = cliente->receiveMessage();
-                    cout << "Puntos obtenidos: " + incoming << endl;
+                    cout << "Puntos obtenidos: " + incoming +"\n"<< endl;
+                    cout<<"Puntos totales del jugador: "+to_string(*localP->getPoints())+"\n"<<endl;
                     this->localP->addPoints(stoi(incoming));
                     this->localP->getChips()->removeSetOfLetters(w);
                     cliente->sendMessage("refill");
@@ -355,21 +356,36 @@ WordsList Manager::writeToMatrix()
                 } else {
                     matrix->addWord(stoi(fila), stoi(columna), dir, w);
                     string JSON = Jmanager->matrixtoJSON(matrix);
-                    cliente->sendMessage("newMatrix");
-                    string incoming = cliente->receiveMessage();
-                    if (incoming.compare("send") == 0) {
-                        cliente->sendMessage(JSON);
-                        string incomming = cliente->receiveMessage();
-                        if (incomming.compare("send") == 0) {
-                            string entry =
-                                    "Fini@" + to_string(w.getFinicial()) + "$" + "Cini@" + to_string(w.getCinicial()) +
-                                    "$" +
-                                    "Ffin@" + to_string(w.getFfinal()) + "$" + "Cfin@" + to_string(w.getCfinal());
-                            string JSON = Jmanager->toJSON(entry);
+                    if((dir=="R"&&stoi(columna)<15)||(dir=="D"&&stoi(fila)<15))
+                    {
+                        cliente->sendMessage("newMatrix");
+                        string incoming = cliente->receiveMessage();
+                        if (incoming.compare("send") == 0) {
                             cliente->sendMessage(JSON);
+                            string incomming = cliente->receiveMessage();
+                            if (incomming.compare("send") == 0) {
+                                string entry =
+                                        "Fini@" + to_string(w.getFinicial()) + "$" + "Cini@" +
+                                        to_string(w.getCinicial()) +
+                                        "$" +
+                                        "Ffin@" + to_string(w.getFfinal()) + "$" + "Cfin@" + to_string(w.getCfinal());
+
+                                cout << "Inicio de la palabra: " << "(" << to_string(w.getFinicial()) << ","
+                                     << to_string(w.getCinicial()) << ")\n" << endl;
+                                cout << "Final de la palabra: " << "(" << to_string(w.getFfinal()) << ","
+                                     << to_string(w.getCfinal()) << ")\n" << endl;
+                                string JSON = Jmanager->toJSON(entry);
+                                cliente->sendMessage(JSON);
+                            }
+                            *first = false;
+                            return w;
                         }
-                        *first = false;
-                        return w;
+                    }
+                    else
+                    {
+                        cout << "La palabra se sale del tablero!\n";
+                        *matrix = *temp;
+                        matrix->print();
                     }
                 }
             }
@@ -392,6 +408,8 @@ WordsList Manager::writeToMatrix()
                                     "Fini@" + to_string(w.getFinicial()) + "$" + "Cini@" + to_string(w.getCinicial()) +
                                     "$" +
                                     "Ffin@" + to_string(w.getFfinal()) + "$" + "Cfin@" + to_string(w.getCfinal());
+                            cout<<"Inicio de la palabra: "<<"("<<to_string(w.getFinicial())<<","<<to_string(w.getCinicial())<<")\n"<<endl;
+                            cout<<"Final de la palabra: "<<"("<<to_string(w.getFfinal())<<","<<to_string(w.getCfinal())<<")\n"<<endl;
                             string JSON = Jmanager->toJSON(entry);
                             cliente->sendMessage(JSON);
                         }

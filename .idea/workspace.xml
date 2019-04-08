@@ -16,10 +16,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0272841a-1a8c-4121-855d-13281d51bdf2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ScrabbleClient/Client/Client.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/Client/Client.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/Client/Client.h" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/Client/Client.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/CMakeFiles/ScrabbleClient.dir/Interface_Logic/Manager/Manager.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Manager/Manager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Manager/Manager.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/ScrabbleClient/cmake-build-debug/" />
@@ -38,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Manager/Manager.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="22" selection-start-line="43" selection-start-column="4" selection-end-line="45" selection-end-column="22" />
+            <state relative-caret-position="264">
+              <caret line="395" column="40" selection-start-line="395" selection-start-column="40" selection-end-line="395" selection-end-column="40" />
               <folding>
                 <element signature="e#47#78#0" expanded="true" />
               </folding>
@@ -50,7 +48,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScrabbleClient/Client/Client.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
+            <state relative-caret-position="870">
               <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
             </state>
           </provider>
@@ -59,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScrabbleClient/Client/Client.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="-273">
+              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
               <folding>
                 <element signature="e#48#67#0" expanded="true" />
               </folding>
@@ -68,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScrabbleClient/mainwindow.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="514">
@@ -101,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8235">
-              <caret line="549" column="34" selection-start-line="549" selection-start-column="34" selection-end-line="549" selection-end-column="34" />
+            <state relative-caret-position="399">
+              <caret line="578" column="13" selection-start-line="578" selection-start-column="13" selection-end-line="578" selection-end-column="13" />
               <folding>
                 <element signature="e#48#92#0" expanded="true" />
               </folding>
@@ -214,18 +212,18 @@
         <option value="$PROJECT_DIR$/ScrabbleClient/Structures/WordsList.cpp" />
         <option value="$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.h" />
         <option value="$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.cpp" />
-        <option value="$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Manager/Manager.cpp" />
         <option value="$PROJECT_DIR$/ScrabbleClient/Client/Client.h" />
         <option value="$PROJECT_DIR$/ScrabbleClient/Client/Client.cpp" />
+        <option value="$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Manager/Manager.cpp" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="67" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="716" />
     <option name="y" value="25" />
-    <option name="width" value="927" />
-    <option name="height" value="1055" />
+    <option name="width" value="650" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -282,7 +280,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Cliente2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -378,11 +376,12 @@
       <workItem from="1554624818050" duration="11315000" />
       <workItem from="1554661251690" duration="7424000" />
       <workItem from="1554711000976" duration="59000" />
+      <workItem from="1554715428564" duration="2121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260172000" />
+    <option name="totallyTimeSpent" value="262293000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,14 +394,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2080797" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21029331" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Statistic" order="0" weight="0.62703586" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.41792658" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.237581" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.47192225" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -464,9 +464,9 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Manager/Manager.cpp</url>
-          <line>379</line>
-          <option name="timeStamp" value="17" />
+          <url>file://$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.cpp</url>
+          <line>579</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -703,33 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Manager/Manager.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="22" selection-start-line="43" selection-start-column="4" selection-end-line="45" selection-end-column="22" />
-          <folding>
-            <element signature="e#47#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScrabbleClient/Client/Client.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScrabbleClient/Client/Client.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#48#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Player/Player.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -746,16 +719,6 @@
           <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#127#146#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8235">
-          <caret line="549" column="34" selection-start-line="549" selection-start-column="34" selection-end-line="549" selection-end-column="34" />
-          <folding>
-            <element signature="e#48#92#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -788,6 +751,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
           <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrabbleClient/Client/Client.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrabbleClient/Client/Client.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+          <folding>
+            <element signature="e#48#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Manager/Manager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="395" column="40" selection-start-line="395" selection-start-column="40" selection-end-line="395" selection-end-column="40" />
+          <folding>
+            <element signature="e#47#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrabbleClient/Interface_Logic/Board_Logic/Matrix.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="578" column="13" selection-start-line="578" selection-start-column="13" selection-end-line="578" selection-end-column="13" />
+          <folding>
+            <element signature="e#48#92#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
